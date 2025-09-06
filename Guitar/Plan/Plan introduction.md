@@ -1,0 +1,1 @@
+This is the planification folder which is including all the plannificiations I have for the next days 

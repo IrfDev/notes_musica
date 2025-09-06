@@ -1,0 +1,25 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+## Description
+
+When you want to add or modify a note
+
+Take into consideration the following directory structure (inside Teoría Musical):
+
+- AI: Will have all of your notes on markdown format, also it'll have directories
+- Diagramas: Notes that are only diagrams
+- Notas: This are the notes I'm taking during my music classes
+- Progresiones: Music progressions that I'm doing in order to do some voicing exercises
+- Tema: These are the expanded notes from `Notas`, in here we have the full topic covered, with research and more
+
+## Rules
+
+- Just modify or add files that are included inside the `Teoría Músical/AI` folder
+- Always check the directories inside AI folder to see if you can add the note into an existing one
+- Always add new notes with an index notation. Using the index of the note as prefix of the name of the note. EG `Teoria Músical/AI/0.Repaso dominantes en progresiones` `Teoria Musical/AI/1. Repaso progresiones`
+- Avoid using 0.01 notations unless it's really necessary. Always prefer to go for integer notation
+- When necessary add a new directory inside AI folder, probably you can start relating directories names with the topic we're talking about

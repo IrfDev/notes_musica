@@ -1,0 +1,344 @@
+{
+  "main": {
+    "id": "a320a5d9d08202f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "b2e33aa05c6a8da8",
+        "type": "tabs",
+        "dimension": 31.615925058548008,
+        "children": [
+          {
+            "id": "c56ec2bc07e4df29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/Tema/Repaso 4.1 Armonización tonalidades menores.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Repaso 4.1 Armonización tonalidades menores"
+            }
+          },
+          {
+            "id": "e9beb569d3932507",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/Tema/Repaso 3.2 Armonización tonalidades mayores.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Repaso 3.2 Armonización tonalidades mayores"
+            }
+          },
+          {
+            "id": "2b1d5da00d514a93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/Tema/Repaso 3. Tonalidades.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Repaso 3. Tonalidades"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "0720fe8d71962fd5",
+        "type": "tabs",
+        "dimension": 39.63700234192037,
+        "children": [
+          {
+            "id": "1e179e6830cd063b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sesiones con Fabs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sesiones con Fabs"
+            }
+          },
+          {
+            "id": "81d67e92ee373b9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/Tema/Repaso 9. Tensiones.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Repaso 9. Tensiones"
+            }
+          },
+          {
+            "id": "5bfb602cddb5b707",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/AI/3. AI Progresiones e intuición/7. Arpegio guía.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7. Arpegio guía"
+            }
+          },
+          {
+            "id": "ba0a0cca414e42dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/Notas/Notas 20. Ritmos 1.0.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Notas 20. Ritmos 1.0"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "d8be46c65f37dfda",
+        "type": "tabs",
+        "dimension": 28.747072599531613,
+        "children": [
+          {
+            "id": "020df694c76ab7fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/Tema/Repaso 19. Contrapunto 5ta especie.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Repaso 19. Contrapunto 5ta especie"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "49bc80a62708c0cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "904ab46d465793ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c69536483eee793",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6562d0b43c3e3351",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "aee8c752414290ff",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 432.5110321044922,
+    "collapsed": true
+  },
+  "right": {
+    "id": "f3e38787b513ef66",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a52071f4c9d3dac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "127852cc0b2fafa3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "a0a8df52b48b50a4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "4f0e9b7827147af1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d0398d2dae0fe94e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Teoría musical/Notas/Notas 13. Contrapunto.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Notas 13. Contrapunto"
+            }
+          },
+          {
+            "id": "46fbc752810a9661",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-livesync:Show Log": false,
+      "obsidian-livesync:Replicate": false,
+      "obsidian-livesync:P2P Replicator": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-livesync:Show Customization sync": false
+    }
+  },
+  "active": "e9beb569d3932507",
+  "lastOpenFiles": [
+    "Teoría musical/Tema/Repaso 4.1 Armonización tonalidades menores.md",
+    "Teoría musical/Tema/Repaso 3.2 Armonización tonalidades mayores.md",
+    "Teoría musical/AI/8. Recursos de composición/0. Guía completa - Recursos de composición.md",
+    "Teoría musical/AI/8. Recursos de composición/1. Tabla de referencia - Recursos de composición.md",
+    "Teoría musical/Tema/Repaso 19. Contrapunto 5ta especie.md",
+    "Teoría musical/AI/8. Recursos de composición",
+    "Teoría musical/AI/7. Nomenclatura y terminologia/1. Diccionario completo de terminología musical.md",
+    "Teoría musical/AI/7. Nomenclatura y terminologia/0. Nom Guía completa de nomenclatura de acordes.md",
+    "Teoría musical/AI/7. Nomenclatura y terminologia",
+    "Teoría musical/AI/7. Recursos de composición",
+    "Teoría musical/Tema/Repaso 9. Tensiones.md",
+    "Teoría musical/Notas/Notas 20. Ritmos 1.0.md",
+    "Teoría musical/AI/3. AI Progresiones e intuición/7. Arpegio guía.md",
+    "Teoría musical/AI/3. AI Progresiones e intuición/4. Arpegio.md",
+    "Teoría musical/Tema/Repaso 3. Tonalidades.md",
+    "Teoría musical/AI/6. Nomenclatura y terminologia/1. Diccionario completo de terminología musical.md",
+    "Sesiones con Fabs.md",
+    "Teoría musical/AI/6. Nomenclatura y terminologia/0. Nom Guía completa de nomenclatura de acordes.md",
+    "Teoría musical/Tema/Repaso 3.1 tonalidades mayores.md",
+    "Teoría musical/Tema/Repaso 15.  Contrapunto segunda especie.md",
+    "Teoría musical/Tema/Repaso 16. Tercera especie.md",
+    "Teoría musical/Notas/Notas 19. Contrapunto 5ta especie.md",
+    "Teoría musical/Tema/Repaso 4.3 Armonización tonalidades menores melódicas.md",
+    "Teoría musical/Tema/Repaso 4.2 Armonización tonalidades menores armónicas.md",
+    "Teoría musical/AI/6. AI Contrapunto/7. Guía rápida - Reglas esenciales Contrapunto quinta especie.md",
+    "Teoría musical/AI/6. AI Contrapunto/5. Finales en Tercera Especie.md",
+    "Teoría musical/Tema/Repaso 4. Tonalidades menores.md",
+    "Teoría musical/Tema/Repaso 13. Contrapunto.md",
+    "Teoría musical/AI/6. AI Contrapunto/0.1 Guía práctica - Construcción de Cantus Firmus.md",
+    "Pasted image 20250819195543.png",
+    "Pasted image 20250819192221.png",
+    "Pasted image 20250812193230.png",
+    "Teoría musical/AI/6. AI Contrapunto",
+    "Teoría musical/AI/7. AI Contrapunto ",
+    "Teoría musical/AI/6. Nomenclatura y terminologia",
+    "Teoría musical/AI/15. Preguntas nomenclatura y terminología - Quiz completo.csv",
+    "Teoría musical/AI/11. Terminología musical - Preguntas y respuestas.csv",
+    "Teoría musical/AI/9. Repaso reglas de voicing coral - Preguntas y respuestas.csv",
+    "Teoría musical/AI/5. AI Sustitutos de tritono"
+  ]
+}
