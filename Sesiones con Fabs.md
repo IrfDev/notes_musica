@@ -189,5 +189,12 @@ Hicimos el florido y ya
 
 
 ---
+
 Página 79
 Ligaduras y puntillos 
+## 25 Temas tonos guías
+Vimos que son los tonos guías
+
+
+
+- 

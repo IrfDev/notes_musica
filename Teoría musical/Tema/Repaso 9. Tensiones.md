@@ -23,7 +23,7 @@ Para determinar si una tensión está disponible para un acorde:
 1. Identificar la tensión deseada (9, 11 o 13)
 2. Colocar esta nota mentalmente dentro del acorde
 	1. Prácticamente es revisar si la nota inferior tiene o no un semitono
-3. Verificar que no forme intervalos de semitono con la nota inferior
+3. Verificar que no forme intervalos de semitono con la nota inferior9119
 
 ## Tensiones disponibles por tipo de acorde
 

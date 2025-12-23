@@ -23,6 +23,8 @@
 | D      | F#      | 4      | A      | 7      | D mayor (D)           | C       | 10     | D dominante 7 (D7)           |
 | E      | G       | 3      | B      | 7      | E menor (Em)          | D       | 10     | E menor 7 (Em7)              |
 | F#     | A       | 3      | C      | 6      | F# disminuido (F#dim) | E       | 10     | F# semidisminuido 7 (F#m7b5) |
+|        |         |        |        |        |                       |         |        |                              |
+|        |         |        |        |        |                       |         |        |                              |
 
 ### D mayor (Re mayor)
 
@@ -35,6 +37,7 @@
 | A      | C#      | 4      | E      | 7      | A mayor (A)           | G       | 10     | A7 (A7)                      |
 | B      | D       | 3      | F#     | 7      | B menor (Bm)          | A       | 10     | B menor 7 (Bm7)              |
 | C#     | E       | 3      | G      | 6      | C# disminuido (C#dim) | B       | 10     | C# semidisminuido 7 (C#m7b5) |
+|        |         |        |        |        |                       |         |        |                              |
 
 ### A mayor (La mayor)
 
@@ -159,3 +162,4 @@
 | Db     | F       | 4      | Ab     | 7      | Db mayor (Db)       | Cb      | 10     | Db dominante 7 (Db7)       |
 | Eb     | Gb      | 3      | Bb     | 7      | Eb menor (Ebm)      | Db      | 10     | Eb menor 7 (Ebm7)          |
 | F      | Ab      | 3      | Cb     | 6      | F disminuido (Fdim) | Eb      | 10     | F semidisminuido 7 (Fm7b5) |
+|        |         |        |        |        |                     |         |        |                            |

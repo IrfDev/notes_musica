@@ -62,6 +62,7 @@
 | V     | D      | F       | 3      | A      | 7      | D menor (Dm)        | C       | 10     | D menor 7 (Dm7)            |
 | VI    | Eb     | G       | 4      | Bb     | 7      | Eb mayor (Eb)       | D       | 11     | Eb mayor 7 (Ebmaj7)        |
 | VII   | F      | A       | 4      | C      | 7      | F mayor (F)         | Eb      | 10     | F dominante 7 (F7)         |
+|       |        |         |        |        |        |                     |         |        |                            |
 
 ## Re menor (Dm) - Escala: D E F G A Bb C
 
@@ -110,6 +111,7 @@
 | V     | F#     | A       | 3      | C#     | 7      | F# menor (F#m)        | E       | 10     | F# menor 7 (F#m7)            |
 | VI    | G      | B       | 4      | D      | 7      | G mayor (G)           | F#      | 11     | G mayor 7 (Gmaj7)            |
 | VII   | A      | C#      | 4      | E      | 7      | A mayor (A)           | G       | 10     | A dominante 7 (A7)           |
+|       |        |         |        |        |        |                       |         |        |                              |
 
 ## Fa# menor (F#m) - Escala: F# G# A B C# D E
 

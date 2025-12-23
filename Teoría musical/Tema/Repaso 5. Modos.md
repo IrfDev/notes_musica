@@ -1,4 +1,4 @@
-Los modos son escalas que se forman a partir de una escala mayor, comenzando desde diferentes grados de la misma mientras se mantiene la misma armadura
+FriLos modos son escalas que se forman a partir de una escala mayor, comenzando desde diferentes grados de la misma mientras se mantiene la misma armadura
 
 ## Características de los modos
 
@@ -26,6 +26,7 @@ Cada modo se caracteriza por:
 | Mixolidio | T-T-S-T-T-S-T        | 7ma menor, 5ta mayor                |
 | Eólico    | T-S-T-T-S-T-T        | 6ta menor y 3 alteraciones          |
 | Locrio    | S-T-T-S-T-T-T        | 5ta disminuida. 5 bemoles;2,3,5,6,7 |
+|           |                      |                                     |
 
 ## Tabla completa de los modos en diferentes tonalidades
 

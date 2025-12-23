@@ -13,6 +13,7 @@ Esta guía proporciona una armonización completa de todas las tonalidades menor
 | V     | G      | B       | 4      | D      | 7      | G mayor (G)          | F       | 10     | G dominante 7 (G7)               |
 | VI    | A      | C       | 3      | Eb     | 6      | A disminuido (Adim)  | G       | 10     | A semidisminuido 7 (Am7b5)       |
 | VII   | B      | D       | 3      | F      | 6      | B disminuido (Bdim)  | A       | 10     | B semidisminuido 7 (Bm7b5)       |
+|       |        |         |        |        |        |                      |         |        |                                  |
 
 ## Sol menor Melódica (Gm) - Escala: G A Bb C D E F#
 
@@ -97,6 +98,7 @@ Esta guía proporciona una armonización completa de todas las tonalidades menor
 | V     | C      | E       | 4      | G      | 7      | C mayor (C)          | Bb      | 10     | C dominante 7 (C7)               |
 | VI    | D      | F       | 3      | Ab     | 6      | D disminuido (Ddim)  | C       | 10     | D semidisminuido 7 (Dm7b5)       |
 | VII   | E      | G       | 3      | Bb     | 6      | E disminuido (Edim)  | D       | 10     | E semidisminuido 7 (Em7b5)       |
+|       |        |         |        |        |        |                      |         |        |                                  |
 
 ## Sib menor Melódica (Bbm) - Escala: Bb C Db Eb F G A
 

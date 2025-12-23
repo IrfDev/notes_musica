@@ -49,6 +49,7 @@ Esta guía proporciona una armonización completa de todas las tonalidades menor
 | V     | E      | G#      | 4      | B      | 7      | E mayor (E)           | D       | 10     | E dominante 7 (E7)             |
 | VI    | F      | A       | 4      | C      | 7      | F mayor (F)           | E       | 11     | F mayor 7 (Fmaj7)              |
 | VII   | G#     | B       | 3      | D      | 5      | G# disminuido (G#dim) | F       | 8      | G# disminuido 7 (G#dim7)       |
+|       |        |         |        |        |        |                       |         |        |                                |
 
 ## Mi menor Armónica (Em) - Escala: E F# G A B C D#
 
@@ -106,7 +107,7 @@ Esta guía proporciona una armonización completa de todas las tonalidades menor
 | II    | C      | Eb      | 3      | Gb     | 6      | C disminuido (Cdim)  | Bb      | 10     | C semidisminuido 7 (Cm7b5)       |
 | III   | Db     | F       | 4      | A      | 8      | Db aumentado (Dbaug) | C       | 11     | Db aumentado mayor 7 (Dbaugmaj7) |
 | IV    | Eb     | Gb      | 3      | Bb     | 7      | Eb menor (Ebm)       | Db      | 10     | Eb menor 7 (Ebm7)                |
-| V     | F      | A       | 4      | C      | 7      | F mayor (F)          | Eb      | 10     | F dominante 7 (F7)               |
+| V     | F      | A       | 4      | <br>C  | 7      | F mayor (F)          | Eb      | 10     | F dominante 7 (F7)               |
 | VI    | Gb     | Bb      | 4      | Db     | 7      | Gb mayor (Gb)        | F       | 11     | Gb mayor 7 (Gbmaj7)              |
 | VII   | A      | C       | 3      | Eb     | 5      | A disminuido (Adim)  | Gb      | 8      | A disminuido 7 (Adim7)           |
 
