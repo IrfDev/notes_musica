@@ -4,74 +4,103 @@
     "type": "split",
     "children": [
       {
-        "id": "b2e33aa05c6a8da8",
+        "id": "48220d137cf1e939",
         "type": "tabs",
+        "dimension": 42.65652428320655,
         "children": [
           {
-            "id": "94b7261bbebbb1ea",
+            "id": "553c58009f22f37f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teoría musical/Arpegios/0. Dawn Chorus.md",
+                "file": "Teoría musical/0. Ejercicios/0. Repaso inicial/3. Día 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. Dawn Chorus"
+              "title": "3. Día 4"
             }
           },
           {
-            "id": "d7820fdec44aa504",
+            "id": "56e10dfa54d43b28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teoría musical/AI/12. Repaso/0. Repaso super guía.md",
+                "file": "Teoría musical/0. Ejercicios/0. Repaso inicial/1. Día 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. Repaso super guía"
+              "title": "1. Día 2"
             }
           },
           {
-            "id": "c9afc3e74ccefb0f",
+            "id": "e5a5ae6bfe1161ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Ejercicios repaso.md",
+                "file": "Teoría musical/0. Ejercicios/0. Repaso inicial/3. Día 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Ejercicios repaso"
+              "title": "3. Día 4"
+            }
+          },
+          {
+            "id": "236a41e274df8afd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/AI/7. Nomenclatura y terminologia/0. Nom Guía completa de nomenclatura de acordes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0. Nom Guía completa de nomenclatura de acordes"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
-        "id": "ec565970cb13bb30",
+        "id": "6e2b2534645f2d1e",
         "type": "tabs",
+        "dimension": 32.76770040959626,
         "children": [
           {
-            "id": "d97fa8318ab9c64f",
+            "id": "a9fc48d8035594a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teoría musical/Tema/Repaso 4.1 Armonización tonalidades menores.md",
+                "file": "Teoría musical/Tema/Repaso 3. Tonalidades.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Repaso 4.1 Armonización tonalidades menores"
+              "title": "Repaso 3. Tonalidades"
             }
           },
           {
-            "id": "968e398b22f0afdd",
+            "id": "6543e9f645096b1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/Tema/Repaso 3.1 tonalidades mayores.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Repaso 3.1 tonalidades mayores"
+            }
+          },
+          {
+            "id": "85d601e47fbe7d42",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -85,112 +114,42 @@
             }
           },
           {
-            "id": "2dd07271355269be",
+            "id": "6383adf2a58dfc00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teoría musical/Tema/Repaso 5. Modos.md",
+                "file": "Teoría musical/AI/12. Repaso/0. Repaso super guía.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Repaso 5. Modos"
-            }
-          },
-          {
-            "id": "72f1223e9a7a58e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/Tema/Repaso 8. Intercambios modales.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Repaso 8. Intercambios modales"
-            }
-          },
-          {
-            "id": "4af608ad4d704fc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/Tema/Repaso 23. Enlaces 2.0 y motivos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Repaso 23. Enlaces 2.0 y motivos"
+              "title": "0. Repaso super guía"
             }
           }
         ],
         "currentTab": 2
       },
       {
-        "id": "2304eb0b5c21bcac",
+        "id": "af4a0c089d8b29a2",
         "type": "tabs",
+        "dimension": 24.575775307197194,
         "children": [
           {
-            "id": "754baca2349ccc1f",
+            "id": "6215af1b52e92fb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teoría musical/Tema/Repaso 9. Tensiones.md",
+                "file": "Teoría musical/0. Ejercicios/1. Ejercicios repaso.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Repaso 9. Tensiones"
-            }
-          },
-          {
-            "id": "e22dee6e19e52ce7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Comparación.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Comparación"
-            }
-          },
-          {
-            "id": "e92d5e05965fc76e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/Notas/Notas 22 Enlaces 1.0.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Notas 22 Enlaces 1.0"
-            }
-          },
-          {
-            "id": "363e51f629a49649",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/Tema/Repaso 8. Intercambios modales.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Repaso 8. Intercambios modales"
+              "title": "1. Ejercicios repaso"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -353,44 +312,44 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "c9afc3e74ccefb0f",
+  "active": "85d601e47fbe7d42",
   "lastOpenFiles": [
+    "Teoría musical/0. Ejercicios/0. Repaso inicial/3. Día 4.md",
+    "Teoría musical/Tema/Repaso 3.2 Armonización tonalidades mayores.md",
+    "Teoría musical/Tema/Repaso 3. Tonalidades.md",
+    "Teoría musical/0. Ejercicios/1. Ejercicios repaso.md",
+    "Teoría musical/0. Ejercicios/0. Repaso inicial/1. Día 2.md",
+    "Teoría musical/0. Ejercicios/0. Repaso inicial/2. Día 3.md",
+    "Teoría musical/0. Ejercicios/0. Repaso inicial/0. Día 1.md",
+    "Teoría musical/Tema/Repaso 3.1 tonalidades mayores.md",
+    "Teoría musical/AI/7. Nomenclatura y terminologia/0. Nom Guía completa de nomenclatura de acordes.md",
+    "Teoría musical/AI/7. Nomenclatura y terminologia/1. Diccionario completo de terminología musical.md",
+    "Teoría musical/AI/12. Repaso/0. Repaso super guía.md",
+    "Teoría musical/Notas/Notas 3o4 Repaso tonalidades.md",
+    "Teoría musical/Notas/Notas 3. Tonalidades.md",
+    "Teoría musical/Notas/Notas 2. 7mas.md",
+    "Teoría musical/Notas/Notas 1. Intro escalas.md",
     "Teoría musical/Arpegios/0. Dawn Chorus.md",
-    "1. Ejercicios repaso.md",
+    "Teoría musical/Tema/Repaso 9. Tensiones.md",
+    "Teoría musical/Tema/Repaso 8. Intercambios modales.md",
+    "Teoría musical/Notas/Notas 22 Enlaces 1.0.md",
+    "Comparación.md",
+    "Teoría musical/Tema/Repaso 4.1 Armonización tonalidades menores.md",
+    "Teoría musical/Tema/Repaso 23. Enlaces 2.0 y motivos.md",
     "Teoría musical/Tema/Repaso 5. Modos.md",
+    "Teoría musical/0. Ejercicios/0. Repaso inicial",
+    "Teoría musical/0. Ejercicios",
     "Canada.md",
     "Australia.md",
-    "Comparación.md",
-    "Teoría musical/AI/12. Repaso/0. Repaso super guía.md",
-    "Teoría musical/Tema/Repaso 3.2 Armonización tonalidades mayores.md",
     "Teoría musical/AI/12. Repaso",
-    "Teoría musical/Tema/Repaso 23. Enlaces 2.0 y motivos.md",
-    "Teoría musical/Tema/Repaso 9. Tensiones.md",
-    "Teoría musical/Notas/Notas 22 Enlaces 1.0.md",
-    "Teoría musical/Tema/Repaso 8. Intercambios modales.md",
-    "Teoría musical/Tema/Repaso 4.1 Armonización tonalidades menores.md",
     "Teoría musical/Arpegios",
     "Teoría musical/Muse Ejercicios/17. Arpegios Down Chorus .pdf",
     "Teoría musical/Muse Ejercicios",
     "Teoría musical/Tema/Repaso 22. Enlaces 1.0.md",
-    "Teoría musical/AI/7. Nomenclatura y terminologia/0. Nom Guía completa de nomenclatura de acordes.md",
-    "Teoría musical/Tema/Repaso 4.2 Armonización tonalidades menores armónicas.md",
-    "Teoría musical/Tema/Repaso 3. Tonalidades.md",
-    "Teoría musical/Tema/Repaso 4.3 Armonización tonalidades menores melódicas.md",
-    "Teoría musical/Tema/Repaso 3.1 tonalidades mayores.md",
-    "Teoría musical/Tema/Repaso 7. Sustitutos de tritono.md",
-    "Teoría musical/Tema/Repaso 21. Tonos guías.md",
-    "Teoría musical/AI/11. AI Ritmos/0. Guía integral - Ritmos y diseño de motivos.md",
     "Teoría musical/AI/11. AI Ritmos",
-    "Teoría musical/Tema/Repaso 6. Acordes Dominantes.md",
-    "Teoría musical/AI/10. AI Motivos/0. Guía integral - Motivos melódicos aplicados.md",
-    "Teoría musical/Tema/Repaso 8.1 Armonízación Intercambios modales.md",
-    "Teoría musical/Notas/Notas 23. Motivos.md",
     "Teoría musical/AI/10. AI Motivos",
     "Teoría musical/AI/9. AI Enlaces",
     "Untitled.base",
-    "Teoría musical/AI/8. Recursos de composición",
-    "Teoría musical/AI/7. Nomenclatura y terminologia",
     "Pasted image 20250819195543.png",
     "Pasted image 20250819192221.png",
     "Pasted image 20250812193230.png"
