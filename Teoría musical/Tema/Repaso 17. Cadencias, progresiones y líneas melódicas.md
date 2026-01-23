@@ -44,6 +44,7 @@ Cada cadencia puede aplicarse desde cualquier grado de la escala, creando difere
 | **V (G)**   | Am        | D        | G        | T→SD→D        | Hacia dominante  | Elevación, brillo       |
 | **vi (A)**  | Bm7b5     | E        | Am       | SD→D→T        | Menor natural    | Melancolía profunda     |
 |             |           |          |          |               |                  |                         |
+|             |           |          |          |               |                  |                         |
 
 #### **Ejemplo Práctico: Cadencia V-vi desde diferentes grados**
 

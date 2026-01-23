@@ -639,6 +639,16 @@ Cambiata descendente:    F  E  C  D  (patrón característico)
 Cambiata ascendente:     C  D  F  E  (menos común)
 ```
 
+```abc
+X:1
+T:Cambiata simple (idea melódica)
+M:4/4
+L:1/4
+K:C
+F E C D |
+
+```
+
 **Importancia estilística:**
 
 - La cambiata es fundamental en el estilo del siglo XVI

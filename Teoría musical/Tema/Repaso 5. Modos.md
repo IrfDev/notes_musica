@@ -1,4 +1,4 @@
-FriLos modos son escalas que se forman a partir de una escala mayor, comenzando desde diferentes grados de la misma mientras se mantiene la misma armadura
+Los modos son escalas que se forman a partir de una escala mayor, comenzando desde diferentes grados de la misma mientras se mantiene la misma armadura
 
 ## Características de los modos
 
@@ -9,24 +9,19 @@ Cada modo se caracteriza por:
 3. **Una relación directa** con la escala tónica mayor
 
 ## Los 7 modos
-| Modo       | Intervalo característico | Color emocional                |
-| ---------- | ------------------------ | ------------------------------ |
-| **Dórico** | **6ª mayor** (B en D)    | Esperanza nostálgica, flotante |
-| Frigio     | 2ª menor                 | Misterioso, exótico            |
-| Lidio      | 4ª aumentada             | Brillante, flotante, celeste   |
-| Mixolidio  | 7ª menor                 | Alegre con sabor blues/jazzy   |
-|            |                          |                                |
+Para generarla solo tienes que tomar la armadura de la escala tonal. 
+Aplicar la formula para convertirla en modo 
 
-| Modo      | Patrón de intervalos | Nota característica                 |
-| --------- | -------------------- | ----------------------------------- |
-| Jónico    | T-T-S-T-T-T-S        | 4ta justa, 7ma mayor                |
-| Dórico    | T-S-T-T-T-S-T        | 6ta mayor en escala menor           |
-| Frigio    | S-T-T-T-S-T-T        | 2da menor (semitono inicial)        |
-| Lidio     | T-T-T-S-T-T-S        | 4ta aumentada                       |
-| Mixolidio | T-T-S-T-T-S-T        | 7ma menor, 5ta mayor                |
-| Eólico    | T-S-T-T-S-T-T        | 6ta menor y 3 alteraciones          |
-| Locrio    | S-T-T-S-T-T-T        | 5ta disminuida. 5 bemoles;2,3,5,6,7 |
-|           |                      |                                     |
+| Modo      | Patrón de grados   | Patrón de intervalos | Nota característica / Definición |
+| --------- | ------------------ | -------------------- | -------------------------------- |
+| Jónico    | 1 2 3 4 5 6 7      | T-T-S-T-T-T-S        | Mayor puro                       |
+| Dórico    | 1 2 ♭3 4 5 6 ♭7    | T-S-T-T-T-S-T        | Menor con **6 mayor**            |
+| Frigio    | 1 ♭2 ♭3 4 5 ♭6 ♭7  | S-T-T-T-S-T-T        | **2ª menor**                     |
+| Lidio     | 1 2 3 ♯4 5 6 7     | T-T-T-S-T-T-S        | **4ª aumentada**                 |
+| Mixolidio | 1 2 3 4 5 6 ♭7     | T-T-S-T-T-S-T        | **7ª menor**, dominante modal    |
+| Eólico    | 1 2 ♭3 4 5 ♭6 ♭7   | T-S-T-T-S-T-T        | Menor natural modal              |
+| Locrio    | 1 ♭2 ♭3 4 ♭5 ♭6 ♭7 | S-T-T-S-T-T-T        | **5ª disminuida**, inestable     |
+
 
 ## Tabla completa de los modos en diferentes tonalidades
 

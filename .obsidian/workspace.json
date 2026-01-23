@@ -6,150 +6,95 @@
       {
         "id": "48220d137cf1e939",
         "type": "tabs",
-        "dimension": 42.65652428320655,
+        "dimension": 40.257460503218255,
         "children": [
           {
-            "id": "553c58009f22f37f",
+            "id": "6439be84ec204f17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teoría musical/0. Ejercicios/0. Repaso inicial/3. Día 4.md",
+                "file": "Teoría musical/Tema/Repaso 16.1 Guía super remaster.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Día 4"
+              "title": "Repaso 16.1 Guía super remaster"
             }
           },
           {
-            "id": "56e10dfa54d43b28",
+            "id": "a12bd238b86b7dd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teoría musical/0. Ejercicios/0. Repaso inicial/1. Día 2.md",
+                "file": "Teoría musical/Tema/Repaso 16.1 Guía super remaster.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Día 2"
-            }
-          },
-          {
-            "id": "e5a5ae6bfe1161ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/0. Ejercicios/0. Repaso inicial/3. Día 4.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3. Día 4"
-            }
-          },
-          {
-            "id": "236a41e274df8afd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/AI/7. Nomenclatura y terminologia/0. Nom Guía completa de nomenclatura de acordes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0. Nom Guía completa de nomenclatura de acordes"
-            }
-          }
-        ]
-      },
-      {
-        "id": "6e2b2534645f2d1e",
-        "type": "tabs",
-        "dimension": 32.76770040959626,
-        "children": [
-          {
-            "id": "a9fc48d8035594a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/Tema/Repaso 3. Tonalidades.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Repaso 3. Tonalidades"
-            }
-          },
-          {
-            "id": "6543e9f645096b1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/Tema/Repaso 3.1 tonalidades mayores.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Repaso 3.1 tonalidades mayores"
-            }
-          },
-          {
-            "id": "85d601e47fbe7d42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/Tema/Repaso 3.2 Armonización tonalidades mayores.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Repaso 3.2 Armonización tonalidades mayores"
-            }
-          },
-          {
-            "id": "6383adf2a58dfc00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/AI/12. Repaso/0. Repaso super guía.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0. Repaso super guía"
+              "title": "Repaso 16.1 Guía super remaster"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
+      },
+      {
+        "id": "029d1d05aa94c42b",
+        "type": "tabs",
+        "dimension": 45.465184318314805,
+        "children": [
+          {
+            "id": "09fdfbd85031e9cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/Tema/Repaso 16. Tercera especie.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Repaso 16. Tercera especie"
+            }
+          }
+        ]
       },
       {
         "id": "af4a0c089d8b29a2",
         "type": "tabs",
-        "dimension": 24.575775307197194,
+        "dimension": 14.277355178466939,
         "children": [
           {
-            "id": "6215af1b52e92fb5",
+            "id": "e99b751d1b28788a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teoría musical/0. Ejercicios/1. Ejercicios repaso.md",
+                "file": "Teoría musical/Progresiones/4. Progresiones largas repaso.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Ejercicios repaso"
+              "title": "4. Progresiones largas repaso"
+            }
+          },
+          {
+            "id": "b8401b64757a05af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/AI/11. AI Ritmos/0. Guía integral - Ritmos y diseño de motivos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0. Guía integral - Ritmos y diseño de motivos"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -312,44 +257,44 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "85d601e47fbe7d42",
+  "active": "a12bd238b86b7dd4",
   "lastOpenFiles": [
-    "Teoría musical/0. Ejercicios/0. Repaso inicial/3. Día 4.md",
+    "Teoría musical/Tema/Repaso 16. Tercera especie.md",
+    "Teoría musical/Tema/Repaso 16.1 Guía super remaster.md",
+    "Teoría musical/AI/11. AI Ritmos/0. Guía integral - Ritmos y diseño de motivos.md",
+    "Teoría musical/Progresiones/4. Progresiones largas repaso.md",
+    "Teoría musical/AI/11. AI Ritmos/1. Guía ritmos.md",
+    "Teoría musical/Tema/Repaso 15.  Contrapunto segunda especie.md",
+    "Teoría musical/Progresiones/5. Progresiones cadenciales.md",
+    "Teoría musical/Tema/Repaso 14.1 Repaso dominantes en progresiones.md",
+    "Teoría musical/Tema/Repaso 13. Contrapunto.md",
+    "Teoría musical/Tema/Repaso 21. Tonos guías.md",
+    "Teoría musical/Tema/Repaso 22. Enlaces 1.0.md",
+    "Teoría musical/Tema/Repaso 17. Cadencias, progresiones y líneas melódicas.md",
+    "Teoría musical/0. Ejercicios/0. Repaso inicial/5. Día 6.md",
+    "Teoría musical/Tema/Repaso 7. Sustitutos de tritono.md",
     "Teoría musical/Tema/Repaso 3.2 Armonización tonalidades mayores.md",
-    "Teoría musical/Tema/Repaso 3. Tonalidades.md",
-    "Teoría musical/0. Ejercicios/1. Ejercicios repaso.md",
-    "Teoría musical/0. Ejercicios/0. Repaso inicial/1. Día 2.md",
-    "Teoría musical/0. Ejercicios/0. Repaso inicial/2. Día 3.md",
-    "Teoría musical/0. Ejercicios/0. Repaso inicial/0. Día 1.md",
-    "Teoría musical/Tema/Repaso 3.1 tonalidades mayores.md",
-    "Teoría musical/AI/7. Nomenclatura y terminologia/0. Nom Guía completa de nomenclatura de acordes.md",
-    "Teoría musical/AI/7. Nomenclatura y terminologia/1. Diccionario completo de terminología musical.md",
-    "Teoría musical/AI/12. Repaso/0. Repaso super guía.md",
-    "Teoría musical/Notas/Notas 3o4 Repaso tonalidades.md",
-    "Teoría musical/Notas/Notas 3. Tonalidades.md",
-    "Teoría musical/Notas/Notas 2. 7mas.md",
-    "Teoría musical/Notas/Notas 1. Intro escalas.md",
-    "Teoría musical/Arpegios/0. Dawn Chorus.md",
-    "Teoría musical/Tema/Repaso 9. Tensiones.md",
-    "Teoría musical/Tema/Repaso 8. Intercambios modales.md",
-    "Teoría musical/Notas/Notas 22 Enlaces 1.0.md",
-    "Comparación.md",
+    "Teoría musical/Notas/Notas 14.2 Contrapunto 1.md",
+    "Teoría musical/Notas/Notas 13. Contrapunto.md",
+    "Teoría musical/0. Ejercicios/0. Repaso inicial/13. Día 14 - Contrapunto primera especie.md",
+    "Teoría musical/Tema/Repaso 4.2 Armonización tonalidades menores armónicas.md",
+    "Teoría musical/Tema/Repaso 4.3 Armonización tonalidades menores melódicas.md",
+    "Teoría musical/Tema/Repaso 4. Tonalidades menores.md",
     "Teoría musical/Tema/Repaso 4.1 Armonización tonalidades menores.md",
-    "Teoría musical/Tema/Repaso 23. Enlaces 2.0 y motivos.md",
-    "Teoría musical/Tema/Repaso 5. Modos.md",
+    "Teoría musical/Tema/Repaso 12. Voicing 3 guía paso a paso y composiciones.md",
+    "Teoría musical/Tema/Repaso 12.1 Guia identificar reglas.md",
+    "Teoría musical/Tema/Repaso 11.4 Voicing Coral paso a paso.md",
+    "Teoría musical/Tema/Repaso 12.2 Voicing Acordeón.md",
+    "Teoría musical/0. Ejercicios/2. Repaso guía grande",
     "Teoría musical/0. Ejercicios/0. Repaso inicial",
     "Teoría musical/0. Ejercicios",
-    "Canada.md",
-    "Australia.md",
     "Teoría musical/AI/12. Repaso",
     "Teoría musical/Arpegios",
     "Teoría musical/Muse Ejercicios/17. Arpegios Down Chorus .pdf",
     "Teoría musical/Muse Ejercicios",
-    "Teoría musical/Tema/Repaso 22. Enlaces 1.0.md",
     "Teoría musical/AI/11. AI Ritmos",
     "Teoría musical/AI/10. AI Motivos",
     "Teoría musical/AI/9. AI Enlaces",
-    "Untitled.base",
     "Pasted image 20250819195543.png",
     "Pasted image 20250819192221.png",
     "Pasted image 20250812193230.png"
