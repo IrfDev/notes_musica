@@ -4,97 +4,139 @@
     "type": "split",
     "children": [
       {
-        "id": "48220d137cf1e939",
+        "id": "4467fd479de2645d",
         "type": "tabs",
-        "dimension": 40.257460503218255,
+        "dimension": 33.33333333333333,
         "children": [
           {
-            "id": "6439be84ec204f17",
+            "id": "61ce305ef12e4fa9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teoría musical/Tema/Repaso 16.1 Guía super remaster.md",
+                "file": "Teoría musical/Tema/Repaso 25. Composición binaria — Contraste, Intro y Puente.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Repaso 16.1 Guía super remaster"
+              "title": "Repaso 25. Composición binaria — Contraste, Intro y Puente"
             }
           },
           {
-            "id": "a12bd238b86b7dd4",
+            "id": "f77d427766c5dc68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teoría musical/Tema/Repaso 16.1 Guía super remaster.md",
+                "file": "Teoría musical/Tema/Repaso 7. Sustitutos de tritono.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Repaso 16.1 Guía super remaster"
+              "title": "Repaso 7. Sustitutos de tritono"
+            }
+          },
+          {
+            "id": "31b40e7dca17bead",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/Tema/Repaso 3.2 Armonización tonalidades mayores.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Repaso 3.2 Armonización tonalidades mayores"
+            }
+          },
+          {
+            "id": "8c243f86894b639e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/Tema/Repaso 4.2 Armonización tonalidades menores armónicas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Repaso 4.2 Armonización tonalidades menores armónicas"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "3e041b0a08439033",
+        "type": "tabs",
+        "dimension": 33.45029239766082,
+        "children": [
+          {
+            "id": "a428d86d856466c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/Composiciones/0. Segunda composición.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0. Segunda composición"
+            }
+          },
+          {
+            "id": "12fde0b2dfda450a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/Extra/Ideas letras.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ideas letras"
             }
           }
         ],
         "currentTab": 1
       },
       {
-        "id": "029d1d05aa94c42b",
+        "id": "edd45aadef760598",
         "type": "tabs",
-        "dimension": 45.465184318314805,
+        "dimension": 33.21637426900585,
         "children": [
           {
-            "id": "09fdfbd85031e9cf",
+            "id": "8f04f6a5944afafa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teoría musical/Tema/Repaso 16. Tercera especie.md",
+                "file": "Teoría musical/Tema/Repaso 7. Sustitutos de tritono.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Repaso 16. Tercera especie"
+              "title": "Repaso 7. Sustitutos de tritono"
+            }
+          },
+          {
+            "id": "5a228b30d095f7f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/Tema/Repaso 4.3 Armonización tonalidades menores melódicas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Repaso 4.3 Armonización tonalidades menores melódicas"
             }
           }
         ]
-      },
-      {
-        "id": "af4a0c089d8b29a2",
-        "type": "tabs",
-        "dimension": 14.277355178466939,
-        "children": [
-          {
-            "id": "e99b751d1b28788a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/Progresiones/4. Progresiones largas repaso.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4. Progresiones largas repaso"
-            }
-          },
-          {
-            "id": "b8401b64757a05af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/AI/11. AI Ritmos/0. Guía integral - Ritmos y diseño de motivos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0. Guía integral - Ritmos y diseño de motivos"
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -151,8 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.51103591918945,
-    "collapsed": true
+    "width": 276.51103591918945
   },
   "right": {
     "id": "f3e38787b513ef66",
@@ -257,46 +298,53 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "a12bd238b86b7dd4",
+  "active": "12fde0b2dfda450a",
   "lastOpenFiles": [
-    "Teoría musical/Tema/Repaso 16. Tercera especie.md",
-    "Teoría musical/Tema/Repaso 16.1 Guía super remaster.md",
-    "Teoría musical/AI/11. AI Ritmos/0. Guía integral - Ritmos y diseño de motivos.md",
-    "Teoría musical/Progresiones/4. Progresiones largas repaso.md",
-    "Teoría musical/AI/11. AI Ritmos/1. Guía ritmos.md",
-    "Teoría musical/Tema/Repaso 15.  Contrapunto segunda especie.md",
-    "Teoría musical/Progresiones/5. Progresiones cadenciales.md",
-    "Teoría musical/Tema/Repaso 14.1 Repaso dominantes en progresiones.md",
-    "Teoría musical/Tema/Repaso 13. Contrapunto.md",
-    "Teoría musical/Tema/Repaso 21. Tonos guías.md",
-    "Teoría musical/Tema/Repaso 22. Enlaces 1.0.md",
-    "Teoría musical/Tema/Repaso 17. Cadencias, progresiones y líneas melódicas.md",
-    "Teoría musical/0. Ejercicios/0. Repaso inicial/5. Día 6.md",
-    "Teoría musical/Tema/Repaso 7. Sustitutos de tritono.md",
     "Teoría musical/Tema/Repaso 3.2 Armonización tonalidades mayores.md",
-    "Teoría musical/Notas/Notas 14.2 Contrapunto 1.md",
-    "Teoría musical/Notas/Notas 13. Contrapunto.md",
-    "Teoría musical/0. Ejercicios/0. Repaso inicial/13. Día 14 - Contrapunto primera especie.md",
+    "Teoría musical/Extra/Ideas letras.md",
+    "Teoría musical/Composiciones/0. Segunda composición.md",
+    "Teoría musical/Extra",
+    "Teoría musical/Tema/Repaso 8. Intercambios modales.md",
+    "Teoría musical/Tema/Repaso 3. Tonalidades.md",
+    "Teoría musical/Notas/Notas 26.md",
+    "Teoría musical/Tema/Repaso 9. Tensiones.md",
     "Teoría musical/Tema/Repaso 4.2 Armonización tonalidades menores armónicas.md",
-    "Teoría musical/Tema/Repaso 4.3 Armonización tonalidades menores melódicas.md",
     "Teoría musical/Tema/Repaso 4. Tonalidades menores.md",
+    "Teoría musical/Tema/Repaso 7. Sustitutos de tritono.md",
+    "Teoría musical/Tema/Repaso 4.3 Armonización tonalidades menores melódicas.md",
     "Teoría musical/Tema/Repaso 4.1 Armonización tonalidades menores.md",
-    "Teoría musical/Tema/Repaso 12. Voicing 3 guía paso a paso y composiciones.md",
-    "Teoría musical/Tema/Repaso 12.1 Guia identificar reglas.md",
-    "Teoría musical/Tema/Repaso 11.4 Voicing Coral paso a paso.md",
-    "Teoría musical/Tema/Repaso 12.2 Voicing Acordeón.md",
-    "Teoría musical/0. Ejercicios/2. Repaso guía grande",
-    "Teoría musical/0. Ejercicios/0. Repaso inicial",
-    "Teoría musical/0. Ejercicios",
-    "Teoría musical/AI/12. Repaso",
-    "Teoría musical/Arpegios",
-    "Teoría musical/Muse Ejercicios/17. Arpegios Down Chorus .pdf",
-    "Teoría musical/Muse Ejercicios",
-    "Teoría musical/AI/11. AI Ritmos",
-    "Teoría musical/AI/10. AI Motivos",
-    "Teoría musical/AI/9. AI Enlaces",
-    "Pasted image 20250819195543.png",
-    "Pasted image 20250819192221.png",
-    "Pasted image 20250812193230.png"
+    "Teoría musical/Tema/Repaso 6. Acordes Dominantes.md",
+    "Teoría musical/Tema/Repaso 25. Composición binaria — Contraste, Intro y Puente.md",
+    "Pasted image 20260224111018.png",
+    "Pasted image 20260223192252.png",
+    "Teoría musical/Tema/Repaso 24. Composición binaria.md",
+    "Teoría musical/Composiciones",
+    "Teoría musical/Notas/Notas 25. Composición binaria.md",
+    "Teoría musical/Ritmos/0. Basic/0. Udemy. Reading training/7. Ties.md",
+    "Teoría musical/Ritmos/0. Basic/0. Udemy. Reading training/6. Triplets.md",
+    "Pasted image 20260217144221.png",
+    "Pasted image 20260217144154.png",
+    "Pasted image 20260217144128.png",
+    "Pasted image 20260217144052.png",
+    "Pasted image 20260217144030.png",
+    "Pasted image 20260217143842.png",
+    "Pasted image 20260217143832.png",
+    "Pasted image 20260217143813.png",
+    "Teoría musical/Tema/Repaso 8.3 Familias tonales.md",
+    "Teoría musical/Ritmos/0. Basic/0. Udemy. Reading training/5. Rests.md",
+    "Teoría musical/Tema/Repaso 24. Composición binaria",
+    "Teoría musical/Notas/Notas 24. Composicion.md",
+    "Teoría musical/Ritmos/0. Basic/0. Udemy. Reading training/4. Dotted notes.md",
+    "Teoría musical/Tema/Repaso 3.1 tonalidades mayores.md",
+    "Teoría musical/Notas/Notas 23. Motivos.md",
+    "Teoría musical/Notas/Notas 24. New.md",
+    "Teoría musical/Tema/Repaso 23. Enlaces 2.0 y motivos.md",
+    "Inspiraciónn/Canciones/Melancólicas/Space Song",
+    "Inspiraciónn/Canciones/Melancólicas/True Love Waits",
+    "Inspiraciónn/Canciones/Melancólicas",
+    "Inspiraciónn/Canciones",
+    "Inspiraciónn/Libros/1. Música Solo música - Murakami",
+    "Inspiraciónn/Libros/0. Wagner",
+    "Inspiraciónn/Libros"
   ]
 }

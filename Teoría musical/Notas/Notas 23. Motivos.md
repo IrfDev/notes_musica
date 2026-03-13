@@ -4,8 +4,6 @@ Resolución engañosa. Caer al grado que tienes que caer
 
 Modos y tensiones 
 
-
-
 Saltos grandes. 
 
 Motivos en espejo.
@@ -25,5 +23,7 @@ Podrías armonizar directamente
 Contrapunto 
 
 Cada 8 compaces es la final de una parte 
+
+
 
 

@@ -124,6 +124,7 @@
 | V     | C#     | E       | 3      | G#     | 7      | C# menor (C#m)        | B       | 10     | C# menor 7 (C#m7)            |
 | VI    | D      | F#      | 4      | A      | 7      | D mayor (D)           | C#      | 11     | D mayor 7 (Dmaj7)            |
 | VII   | E      | G#      | 4      | B      | 7      | E mayor (E)           | D       | 10     | E dominante 7 (E7)           |
+|       |        |         |        |        |        |                       |         |        |                              |
 
 ## Fa menor (Fm) - Escala: F G Ab Bb C Db Eb
 

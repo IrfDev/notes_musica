@@ -6,7 +6,7 @@
 	3. Aumentada: 1.5 tonos
 3. Tercera: 
 	1. Menor: 1.5 tonos
-	2. Mayor: 2 tonos
+	2. Mayor: 2 tonos 
 4. Cuarta: 
 	1. Justa: 2.5 tonos
 	2. Aumentada: 3 tonos

@@ -50,7 +50,6 @@ Las tensiones se indican en la cifra del acorde de varias maneras:
    - Ejemplo: `Fmaj7#11` = la 11 está aumentada
    - Ejemplo: `Bm7b5b13` = la 13 está disminuida
 
-
 ## Mapa conceptual de tensiones
 
 ```mermaid
