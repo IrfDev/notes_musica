@@ -150,6 +150,7 @@
 | V     | F      | Ab      | 3      | C      | 7      | F menor (Fm)        | Eb      | 10     | F menor 7 (Fm7)            |
 | VI    | Gb     | Bb      | 4      | Db     | 7      | Gb mayor (Gb)       | F       | 11     | Gb mayor 7 (Gbmaj7)        |
 | VII   | Ab     | C       | 4      | Eb     | 7      | Ab mayor (Ab)       | Gb      | 10     | Ab dominante 7 (Ab7)       |
+| -     |        |         |        |        |        |                     |         |        |                            |
 
 
 ## Mib menor (Ebm) - Escala: Eb F Gb Ab Bb Cb Db
