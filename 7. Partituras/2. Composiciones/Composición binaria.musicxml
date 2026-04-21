@@ -72,11 +72,11 @@
     </defaults>
   <credit page="1">
     <credit-type>title</credit-type>
-    <credit-words default-x="616.93" default-y="1511.05" justify="center" valign="top" font-size="22">19.2 Composición binaria 2</credit-words>
+    <credit-words default-x="616.93" default-y="1511.05" justify="center" valign="top" font-size="22">19.21 Composición binaria 2</credit-words>
     </credit>
   <credit page="1">
     <credit-type>subtitle</credit-type>
-    <credit-words default-x="616.93" default-y="1453.9" justify="center" valign="top" font-size="14">1era iteración</credit-words>
+    <credit-words default-x="616.93" default-y="1453.9" justify="center" valign="top" font-size="14">segunda iteración</credit-words>
     </credit>
   <credit page="1">
     <credit-type>composer</credit-type>
