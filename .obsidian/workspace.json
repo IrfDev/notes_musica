@@ -6,137 +6,165 @@
       {
         "id": "4467fd479de2645d",
         "type": "tabs",
-        "dimension": 39.122807017543856,
+        "dimension": 27.735517846693973,
         "children": [
-          {
-            "id": "61ce305ef12e4fa9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/Tema/Repaso 25. Composición binaria — Contraste, Intro y Puente.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Repaso 25. Composición binaria — Contraste, Intro y Puente"
-            }
-          },
-          {
-            "id": "31b40e7dca17bead",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/Tema/Repaso 3.2 Armonización tonalidades mayores.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Repaso 3.2 Armonización tonalidades mayores"
-            }
-          },
           {
             "id": "8c243f86894b639e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teoría musical/Tema/Repaso 4.2 Armonización tonalidades menores armónicas.md",
+                "file": "Teoría musical/Tema/Repaso 26. Composición melódica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Repaso 4.2 Armonización tonalidades menores armónicas"
+              "title": "Repaso 26. Composición melódica"
+            }
+          },
+          {
+            "id": "eaf1cdfd19dc1326",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/Tema/Repaso 3. Tonalidades.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Repaso 3. Tonalidades"
+            }
+          },
+          {
+            "id": "30f68a76276c790d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/Tema/Repaso 4.1 Armonización tonalidades menores.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Repaso 4.1 Armonización tonalidades menores"
+            }
+          },
+          {
+            "id": "26b83de151736932",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Composiciones/3. Segunda composición melódica/0. Desarrollo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0. Desarrollo"
             }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "3e041b0a08439033",
-        "type": "tabs",
-        "dimension": 27.66081871345029,
-        "children": [
-          {
-            "id": "f2b19eb97f70e578",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/Composiciones/0. Segunda composición.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0. Segunda composición"
-            }
-          },
-          {
-            "id": "a428d86d856466c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/Tema/Repaso 25. Composición binaria — Contraste, Intro y Puente.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Repaso 25. Composición binaria — Contraste, Intro y Puente"
-            }
-          },
-          {
-            "id": "12fde0b2dfda450a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/Composiciones/1. Nocturne primer intento.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. Nocturne primer intento"
-            }
-          }
-        ]
       },
       {
         "id": "edd45aadef760598",
         "type": "tabs",
-        "dimension": 33.21637426900585,
+        "dimension": 40.84259801053248,
         "children": [
           {
-            "id": "5a228b30d095f7f0",
+            "id": "d00cd069b232725c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teoría musical/Tema/Repaso 4.3 Armonización tonalidades menores melódicas.md",
+                "file": "Composiciones/2. Composición melódica/0. AI/1. AI Análisis de melodías.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Repaso 4.3 Armonización tonalidades menores melódicas"
+              "title": "1. AI Análisis de melodías"
             }
           },
           {
-            "id": "df47ef9dff3ced3f",
+            "id": "afe1e6000f144056",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teoría musical/Tema/Repaso 4.2 Armonización tonalidades menores armónicas.md",
+                "file": "Teoría musical/1. Curso cresciente/0. Fundamento de oficio/1. Ornamentando una melodía/1. Ornamentando una melodía.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Repaso 4.2 Armonización tonalidades menores armónicas"
+              "title": "1. Ornamentando una melodía"
+            }
+          },
+          {
+            "id": "faf0b22f0bda391d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Composiciones/2. Composición melódica/0. AI/3. Decisiones estructurales --AI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3. Decisiones estructurales --AI"
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "6083a29fe2ccece7",
+        "type": "tabs",
+        "dimension": 31.421884142773553,
+        "children": [
+          {
+            "id": "f9fa3e0b6a1438f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/Ritmos/0. Basic/0. Udemy. Reading training/4. Dotted notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Dotted notes"
+            }
+          },
+          {
+            "id": "3380e6b71d615e36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/Tema/Repaso 3. Tonalidades.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Repaso 3. Tonalidades"
+            }
+          },
+          {
+            "id": "455ec783fe89faf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría musical/Tema/Repaso 9. Tensiones.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Repaso 9. Tensiones"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -298,53 +326,52 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "31b40e7dca17bead",
+  "active": "afe1e6000f144056",
   "lastOpenFiles": [
-    "Teoría musical/Tema/Repaso 4.1 Armonización tonalidades menores.md",
-    "Teoría musical/Tema/Repaso 7. Sustitutos de tritono.md",
-    "Teoría musical/Tema/Repaso 25. Composición binaria — Contraste, Intro y Puente.md",
-    "Teoría musical/Composiciones/0. Segunda composición.md",
-    "Teoría musical/Tema/Repaso 4.2 Armonización tonalidades menores armónicas.md",
-    "Teoría musical/Composiciones/1. Nocturne primer intento.md",
-    "Teoría musical/Tema/Repaso 3.2 Armonización tonalidades mayores.md",
-    "Teoría musical/Extra/Ideas letras.md",
-    "Teoría musical/Extra",
-    "Teoría musical/Tema/Repaso 8. Intercambios modales.md",
     "Teoría musical/Tema/Repaso 3. Tonalidades.md",
-    "Teoría musical/Notas/Notas 26.md",
-    "Teoría musical/Tema/Repaso 9. Tensiones.md",
-    "Teoría musical/Tema/Repaso 4. Tonalidades menores.md",
-    "Teoría musical/Tema/Repaso 4.3 Armonización tonalidades menores melódicas.md",
-    "Teoría musical/Tema/Repaso 6. Acordes Dominantes.md",
-    "Pasted image 20260224111018.png",
-    "Pasted image 20260223192252.png",
-    "Teoría musical/Tema/Repaso 24. Composición binaria.md",
-    "Teoría musical/Composiciones",
-    "Teoría musical/Notas/Notas 25. Composición binaria.md",
-    "Teoría musical/Ritmos/0. Basic/0. Udemy. Reading training/7. Ties.md",
-    "Teoría musical/Ritmos/0. Basic/0. Udemy. Reading training/6. Triplets.md",
-    "Pasted image 20260217144221.png",
-    "Pasted image 20260217144154.png",
-    "Pasted image 20260217144128.png",
-    "Pasted image 20260217144052.png",
-    "Pasted image 20260217144030.png",
-    "Pasted image 20260217143842.png",
-    "Pasted image 20260217143832.png",
-    "Pasted image 20260217143813.png",
-    "Teoría musical/Tema/Repaso 8.3 Familias tonales.md",
-    "Teoría musical/Ritmos/0. Basic/0. Udemy. Reading training/5. Rests.md",
-    "Teoría musical/Tema/Repaso 24. Composición binaria",
-    "Teoría musical/Notas/Notas 24. Composicion.md",
+    "Teoría musical/1. Curso cresciente/0. Fundamento de oficio/1. Ornamentando una melodía/1. Ornamentando una melodía.md",
+    "Pasted image 20260516152343.png",
+    "Pasted image 20260516152054.png",
+    "Pasted image 20260516150948.png",
+    "Pasted image 20260516150924.png",
+    "Pasted image 20260516150132.png",
+    "Pasted image 20260516145026.png",
+    "Pasted image 20260516144653.png",
+    "Pasted image 20260516102619.png",
+    "Pasted image 20260516100529.png",
+    "Pasted image 20260516100425.png",
     "Teoría musical/Ritmos/0. Basic/0. Udemy. Reading training/4. Dotted notes.md",
-    "Teoría musical/Tema/Repaso 3.1 tonalidades mayores.md",
-    "Teoría musical/Notas/Notas 23. Motivos.md",
-    "Teoría musical/Notas/Notas 24. New.md",
-    "Inspiraciónn/Canciones/Melancólicas/Space Song",
-    "Inspiraciónn/Canciones/Melancólicas/True Love Waits",
-    "Inspiraciónn/Canciones/Melancólicas",
-    "Inspiraciónn/Canciones",
-    "Inspiraciónn/Libros/1. Música Solo música - Murakami",
-    "Inspiraciónn/Libros/0. Wagner",
-    "Inspiraciónn/Libros"
+    "Teoría musical/Ritmos/0. Basic/0. Udemy. Reading training/6. Triplets.md",
+    "Teoría musical/Ritmos/1. Full motif guide.md",
+    "Teoría musical/Tema/Repaso 9. Tensiones.md",
+    "Teoría musical/1. Curso cresciente/0. Fundamento de oficio/Untitled.md",
+    "Teoría musical/1. Curso cresciente/0. Fundamento de oficio/1. Ornamentando una melodía",
+    "Teoría musical/Tema/Repaso 3.2 Armonización tonalidades mayores.md",
+    "Teoría musical/1. Curso cresciente/0. Fundamento de oficio",
+    "Teoría musical/1. Curso cresciente",
+    "Composiciones/3. Segunda composición melódica/0. Desarrollo.md",
+    "Analisis/Radiohead/True love waits.md",
+    "Composiciones/2. Composición melódica/1. Desarrollo/0. Desarrollo.md",
+    "Teoría musical/Tema/Repaso 4.1 Armonización tonalidades menores.md",
+    "Composiciones/0. Segunda composición.md",
+    "Composiciones/3. Segunda composición melódica",
+    "Teoría musical/Tema/Repaso 26. Composición melódica.md",
+    "Teoría musical/Tema/Repaso 4. Tonalidades menores.md",
+    "Teoría musical/Tema/Repaso 15.  Contrapunto segunda especie.md",
+    "Teoría musical/Tema/Repaso 16. Tercera especie.md",
+    "Teoría musical/Tema/Repaso 19. Contrapunto 5ta especie.md",
+    "Teoría musical/Tema/Repaso 13. Contrapunto.md",
+    "Teoría musical/Tema/Repaso 21. Tonos guías.md",
+    "Teoría musical/0. Ejercicios/0. Repaso inicial/5. Día 6.md",
+    "Teoría musical/0. Ejercicios/0. Repaso inicial/4. Día 5.md",
+    "Teoría musical/0. Ejercicios/0. Repaso inicial/3. Día 4.md",
+    "Teoría musical/0. Ejercicios/0. Repaso inicial/6. Día 7.md",
+    "Teoría musical/Tema/Repaso 5. Modos.md",
+    "Analisis/Radiohead",
+    "Analisis",
+    "Composiciones/2. Composición melódica/1. Desarrollo",
+    "Composiciones/2. Composición melódica/0. AI",
+    "Composiciones/2. Composición melódica",
+    "Untitled.base"
   ]
 }

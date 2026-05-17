@@ -11,6 +11,8 @@
 | V     | G      | B       | 4      | D      | 7      | G (G)               | F       | 10     | G7 (G7)                    | V     |
 | VI    | A      | C       | 3      | E      | 7      | A menor (Am)        | G       | 10     | A menor 7 (Am7)            | VI    |
 | VII   | B      | D       | 3      | F      | 6      | B disminuido (Bdim) | A       | 10     | B semidisminuido 7 (Bm7b5) | VII   |
+|       |        |         |        |        |        |                     |         |        |                            |       |
+|       |        |         |        |        |        |                     |         |        |                            |       |
 
 ### G mayor (Sol mayor)
 
@@ -23,6 +25,7 @@
 | D      | F#      | 4      | A      | 7      | D mayor (D)           | C       | 10     | D dominante 7 (D7)           |
 | E      | G       | 3      | B      | 7      | E menor (Em)          | D       | 10     | E menor 7 (Em7)              |
 | F#     | A       | 3      | C      | 6      | F# disminuido (F#dim) | E       | 10     | F# semidisminuido 7 (F#m7b5) |
+|        |         |        |        |        |                       |         |        |                              |
 |        |         |        |        |        |                       |         |        |                              |
 |        |         |        |        |        |                       |         |        |                              |
 
@@ -112,6 +115,7 @@
 | F      | A       | 4      | C      | 7      | F mayor (F)         | Eb      | 10     | F dominante 7 (F7)         |
 | G      | Bb      | 3      | D      | 7      | G menor (Gm)        | F       | 10     | G menor 7 (Gm7)            |
 | A      | C       | 3      | Eb     | 6      | A disminuido (Adim) | G       | 10     | A semidisminuido 7 (Am7b5) |
+
 
 ### Eb mayor (Mib mayor)
 
