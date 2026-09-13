@@ -24,17 +24,18 @@
 	3. Mayor: 5.5 tonos
 	4. Menor: 1 tono respecto a la 8va
 	5. Mayor: 1/2 tono respecto a la 8va
+8. Octava: 
 
 ### Intervalos per sé
 
 ```music-abc
 X:1
-T: Chord progression
+T:Escala de Do y distancias
 M:4/4
-C:Trad.
-K:G
-|:"(C)DO"C2 "(D)RE"D2 "(E)MI"E2 "(F)FA"F2 "(G)SOL"G2 "(A)LA"A2 "(B)SI"B2"
-w: +1 +1 +0.5 +1 +1 +1 +0.5
+L:1/4
+K:C
+"(C)DO"C "(D)RE"D "(E)MI"E "(F)FA"F | "(G)SOL"G "(A)LA"A "(B)SI"B "(C)DO"c |]
+w: +1 +1 +0.5 +1 +1 +1 +0.5 llegada
 ```
 
 

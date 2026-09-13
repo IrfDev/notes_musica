@@ -1,6 +1,6 @@
 # Guía Paso a Paso para Composición Coral a 4 Voces
 
-Esta guía te llevará sistemáticamente por el proceso de crear una composición coral a cuatro voces desde cero, siguiendo todas las reglas clásic```mermaid
+Esta guía te llevará sistemáticamente por el proceso de crear una composición coral a cuatro voces desde cero, siguiendo convenciones clásicas de conducción de voces.
 
 
 ## Fase 1: Preparación

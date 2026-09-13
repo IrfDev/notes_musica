@@ -216,7 +216,7 @@ V:Mel
 "C" E D C B | "A7" C^C D E F | "Am7" C B A G | "D7" F^F G A B |
 "G7" B A G F | "Cmaj7" E D C B |
 V:Gui
-"C" E B z2 z2 | "A7" C# G z2 z2 | "Am7" C G z2 z2 | "D7" F# C z2 z2 |
+"C" E B z2 z2 | "A7" ^C G z2 z2 | "Am7" C G z2 z2 | "D7" ^F C z2 z2 |
 "G7" B F z2 z2 | "Cmaj7" E B z2 z2 |
 ```
 
@@ -245,9 +245,9 @@ L:1/8
 K:G
 %% score (Mel|Gui)
 V:Mel
-"G" B A G F# | "D" F# E D C# | "Em" G F# E D | "C" E D C B |
+"G" B A G ^F | "D" ^F E D ^C | "Em" G ^F E D | "C" E D C B |
 V:Gui
-"G" B F# z2 z2 | "D" F# C z2 z2 | "Em" G D z2 z2 | "C" E B z2 z2 |
+"G" B ^F z2 z2 | "D" ^F C z2 z2 | "Em" G D z2 z2 | "C" E B z2 z2 |
 ```
 
 ---

@@ -442,10 +442,10 @@ M:4/4
 L:1/2
 K:C
 V:1 clef=treble
-E2 F-F E-E D2 |
+[V:1] E2 | F-F | E-E | D2 |
 w:Suspensión-suave Resolución-melancólica
 V:2 clef=bass
-C1 Am1 |
+[V:2] "C"C2 | "Am"A2 | "F"F2 | "G"G2 |
 ```
 
 **Folk Melancólico (estilo Bon Iver)**:
@@ -644,10 +644,10 @@ M:4/4
 L:1/2
 K:C
 V:1 clef=treble
-G2 A-A G-G F2 |
+[V:1] G2 | A-A | G-G | F2 |
 w:Sus4→3 Sus2→1 Sus4→3
 V:2 clef=bass
-Am1 F1 C1 G1 |
+[V:2] "Am"A2 | "F"F2 | "C"C2 | "G"G2 |
 ```
 
 ### 10.2 Líneas de Bajo Sincopadas

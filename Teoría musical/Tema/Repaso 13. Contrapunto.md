@@ -323,7 +323,7 @@ El contrapunto es una disciplina que requiere práctica constante y atención al
 3. **Movimiento preferentemente contrario** entre voces
 4. **Equilibrio** entre libertad expresiva y reglas estructurales
 
-```mermaid.js
+```mermaid
 graph TD
     A["Contrapunto"] --> B["Especies"]
     A --> C["Reglas Fundamentales"]

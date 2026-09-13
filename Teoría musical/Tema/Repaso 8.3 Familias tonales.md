@@ -60,14 +60,14 @@ Como explican tus apuntes sobre voicings e inversiones, puedes mejorar estas pro
 
    - Como se muestra en tu ejemplo de conducción de voces II-V-I:
 
-   ```music-abc
-   X:1
-   T:Conducción de Voces II-V-I
-   M:4/4
-   L:1/1
-   K:C
-   "Dm7" [D F A c] | "G7" [D F G B] | "Cmaj7" [E G C e] |
-   ```
+```music-abc
+X:1
+T:Conducción de Voces II-V-I
+M:4/4
+L:1/1
+K:C
+"Dm7" [D F A c] | "G7" [D F G B] | "Cmaj7" [E G C e] |
+```
 
 ## Enriquecimiento con Intercambios Modales
 

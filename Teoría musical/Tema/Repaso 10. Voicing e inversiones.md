@@ -240,7 +240,7 @@ T:Voicings en Jazz
 M:4/4
 L:1/1
 K:C
-"Cmaj9" [CEGBD] | "Dm11" [DFACg] | "G13b9" [GBDFAb] | "Cmaj7#11" [CEGBf#] |
+"Cmaj9" [CEGBD] | "Dm11" [DFACg] | "G13b9" [GBDFAb] | "Cmaj7#11" [CEGB^f] |
 ```
 
 #### Pop/Rock

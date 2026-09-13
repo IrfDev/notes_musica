@@ -991,7 +991,7 @@ Si te falta uno, casi siempre el análisis queda incompleto.
 
 ## **Mermaid: plantilla universal de análisis melódico**
 
-```mermaid.js
+```mermaid
 flowchart TD
     A[Escuchar o leer la melodia] --> B[Detectar celula ritmica]
     B --> C[Detectar intervalos recurrentes]

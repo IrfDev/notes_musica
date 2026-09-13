@@ -539,7 +539,7 @@ Aunque tu guía de 2ª especie ya resume “saltos compensados” y “rango má
 
 ### 8.1 Plantilla vacía (2:1 sobre CF)
 
-```music-abc
+```text
 X:10
 T:Plantilla 2:1 (rellena tú)
 M:4/4
@@ -644,7 +644,7 @@ K:C
 %%score (CP CF)
 V:CP clef=treble name="Contrapunto"
 V:CF clef=bass  name="CF (raíces)"
-%% CF = C  G  A  F  G  C
+% CF = C  G  A  F  G  C
 [V:CF] C,1 | G,1 | A,1 | F,1 | G,1 | C,1 |]
 [V:CP] z2  G2 | E2 D2 | F2 E2 | D2 C2 | E2 D2 | C2 z2 |]
 ```

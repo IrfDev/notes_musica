@@ -10,12 +10,12 @@ The graphic representation of tones and semitones, goes as follow:
 
 ```music-abc
 X:1
-T: Chord progression
+T:Escala de Do y distancias
 M:4/4
-C:Trad.
-K:G
-|:"(C)DO"C2 "(D)RE"D2 "(E)MI"E2 "(F)FA"F2 "(G)SOL"G2 "(A)LA"A2 "(B)SI"B2"
-w: +1 +1 +0.5 +1 +1 +1 +0.5
+L:1/4
+K:C
+"(C)DO"C "(D)RE"D "(E)MI"E "(F)FA"F | "(G)SOL"G "(A)LA"A "(B)SI"B "(C)DO"c |]
+w: +1 +1 +0.5 +1 +1 +1 +0.5 llegada
 ```
 
 
@@ -127,5 +127,4 @@ Poder tocar de principio a fin:
 	- Poder tocar la escala de C mayor en todas las posiciones
 	- Poder tocar la escala de 7mas en todas las posiciones 
 - Poder usar al menos dos modos (compas) del metrónomo
-
 
