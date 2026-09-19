@@ -4,22 +4,80 @@ globs:
 alwaysApply: true
 ---
 
-## Description
+## Descripción
 
-When you want to add or modify a note
+Cómo se crean y modifican notas en esta bóveda. La documentación completa está en
+`6. Práctica/1. Estructura.md` y `6. Práctica/0. Flujos.md`.
 
-Take into consideration the following directory structure (inside Teoría Musical):
+## El principio
 
-- AI: Will have all of your notes on markdown format, also it'll have directories
-- Diagramas: Notes that are only diagrams
-- Notas: This are the notes I'm taking during my music classes
-- Progresiones: Music progressions that I'm doing in order to do some voicing exercises
-- Tema: These are the expanded notes from `Notas`, in here we have the full topic covered, with research and more
+Las carpetas se ordenan por **lo que la nota es**, nunca por el tema del que habla.
+El tema vive en enlaces y propiedades, que son muchos-a-muchos.
 
-## Rules
+## Dónde va cada nota
 
-- Just modify or add files that are included inside the `Teoría Músical/AI` folder
-- Always check the directories inside AI folder to see if you can add the note into an existing one
-- Always add new notes with an index notation. Using the index of the note as prefix of the name of the note. EG `Teoria Músical/AI/0.Repaso dominantes en progresiones` `Teoria Musical/AI/1. Repaso progresiones`
-- Avoid using 0.01 notations unless it's really necessary. Always prefer to go for integer notation
-- When necessary add a new directory inside AI folder, probably you can start relating directories names with the topic we're talking about
+Baja hasta el primer sí y detente. El tema nunca entra en la decisión.
+
+| | ¿Es…? | Va a |
+|---|---|---|
+| 1 | Apunte tomado durante una clase, sin editar | `2. Cursos/<fuente>/` |
+| 2 | Algo que el usuario escribió o tocó a raíz de una clase | `2. Cursos/<fuente>/<lección>/Estudios/` |
+| 3 | Explicación consolidada de un concepto | `1. Teoría/<área>/` |
+| 4 | Material generado por IA como apoyo | `1. Teoría/<área>/AI/` |
+| 5 | Ejercicio o rutina con respuesta correcta | `2. Cursos/0. Profesor/1. Rutinas/` |
+| 6 | Trabajo sobre una pieza del usuario | `3. Composiciones/<obra>/` |
+| 7 | Registro fechado de lo que hizo | `6. Práctica/4. Bitácora/` |
+| 8 | Sobre música de otros | `5. Referencias/` |
+| 9 | Sobre técnica de guitarra o piano | `4. Instrumento/` |
+| 10 | Ninguna de las anteriores | `0. Entrada/` |
+
+Las ocho áreas de `1. Teoría/` son: `0. Fundamentos`, `1. Armonía`, `2. Conducción`,
+`3. Contrapunto`, `4. Melodía`, `5. Forma`, `6. Ritmo`, `7. Solfeo`.
+
+## Reglas
+
+- **Escribe solo dentro de `1. Teoría/<área>/AI/`.** Las notas de concepto
+  (`1. Teoría/<área>/*.md`) las escribe el usuario: ahí ocurre la síntesis, y si la
+  escribe una IA desaparece la presión de sintetizar. Puedes *proponer* ediciones a una
+  nota de concepto, pero no las apliques sin que él lo pida explícitamente.
+- **Antes de crear una nota, comprueba si ya existe una que cubra ese concepto.**
+  Si existe, se amplía. Un archivo hermano nuevo es el fallo que produjo 143 notas
+  sobre 26 lecciones.
+- **Numeración entera** como prefijo, secuencial dentro de la carpeta: `0.`, `1.`, `2.`
+  Rellena con cero si el grupo pasa de 10 (`00.`, `01.`). **Nunca decimales** (`8.1`,
+  `11.3`): fue el síntoma del colapso anterior.
+- **Nunca borres nada.** Lo superado se mueve a `_legacy/`.
+- **No renumeres un curso** para encajarlo con otro. Cresciente conserva `1A/1B/2`,
+  el profesor conserva `1–26`. El concepto es lo que los une, vía enlaces.
+- Sin guiones largos (`—`) en nombres de carpeta.
+- Archivos fechados: `AAAA-MM-DD` delante.
+
+## Frontmatter obligatorio
+
+```yaml
+tipo:   # captura | concepto | guia-ai | ejercicio | estudio
+        # composicion | sesion | semana | mapa | referencia
+estado: # vigente | borrador | superseded | archivado
+```
+
+Para material en `AI/`, añade el enlace al concepto al que sirve:
+
+```yaml
+tipo: guia-ai
+estado: vigente
+area: 1. Armonía
+concepto: "[[0. Séptimas]]"
+```
+
+Los tipos de propiedad son globales en la bóveda: si `leccion` es número en un sitio,
+lo es en todos.
+
+## Al escribir contenido
+
+- Correlaciona siempre con las notas de concepto que ya existen en `1. Teoría/` y
+  enlázalas explícitamente.
+- Incluye ejemplos, explicación larga y recursos visuales.
+- Para notación: bloques ```abc para fragmentos de 2–8 compases;
+  `![[archivo.mxl]]` para partituras completas (las renderiza Verovio).
+- Toda teoría debe terminar en una decisión musical aplicable. Si no se puede oír ni
+  aplicar, sobra.
