@@ -73,7 +73,7 @@ La flecha de vuelta es la importante: lo que descubres componiendo **sube** a la
 
 ---
 
-## Los cinco flujos
+## Los seis flujos
 
 Todo detallado en [[6. Práctica/0. Flujos]].
 
@@ -100,15 +100,15 @@ No hay calendario. No hay semanas numeradas. **Nada que recuperar si te atrasas*
 
 ## Accesos
 
-- [[6. Práctica/0. Flujos]] — los cinco bucles, paso a paso
+- [[6. Práctica/0. Flujos]] — los seis bucles, paso a paso
 - [[6. Práctica/1. Estructura]] — por qué está organizado así y dónde va cada cosa
 - [[6. Práctica/2. Plantillas/Clase]] · [[6. Práctica/2. Plantillas/Obra]] · [[6. Práctica/2. Plantillas/Semana]] · [[6. Práctica/2. Plantillas/Curso]]
-
-## Cursos
-
-- [[2. Cursos/0. Profesor/00. Curso]] — corrección · abierto · 3 huecos sin consolidar
-- [[2. Cursos/1. Cresciente/00. Curso]] — cobertura · módulo 1B en marcha
-- [[2. Cursos/2. Udemy - Lectura rítmica/00. Curso]] — lectura · 8 lecciones, finito
 - [[6. Práctica/2. Plantillas/Sesión deliberada]] · [[6. Práctica/2. Plantillas/Rúbrica - Composición]]
 - [[6. Práctica/3. Diagnóstico]] — de dónde parte todo esto
 - [[6. Práctica/4. Bitácora/00. Índice]]
+
+## Cursos
+
+- [[2. Cursos/0. Profesor/00. Curso]] — **corrección** · abierto · 3 lecciones sin consolidar
+- [[2. Cursos/1. Cresciente/00. Curso]] — **cobertura** · módulo 1B en marcha
+- [[2. Cursos/2. Udemy - Lectura rítmica/00. Curso]] — **lectura** · 8 lecciones, finito
