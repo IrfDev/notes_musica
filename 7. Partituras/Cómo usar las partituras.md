@@ -70,7 +70,10 @@ Sale byte por byte idéntica al original. Abre en MuseScore tal cual estaba.
 
 ## Incrustar una partitura en una nota
 
-Ruta relativa a la raíz de la bóveda, dentro de un bloque `verovio`:
+Ruta **relativa a la raíz de la bóveda**, dentro de un bloque `verovio`.
+No sirve una ruta absoluta (`/Users/...`) ni una relativa a la nota: Verovio
+busca en el índice de Obsidian, no en el disco, y devuelve
+*"file not found"*.
 
 ```verovio
 7. Partituras/2. Composiciones/Dawn Chorus - arpegios.musicxml
@@ -138,5 +141,6 @@ por clon:
 ./_scripts/historial.py [partitura]      # historial con cambios musicales
 ./_scripts/diff-musical.py a.xml b.xml   # comparar dos archivos
 ./_scripts/ordenar-downloads.py          # ordena .mscz sueltos en ~/Downloads
+./_scripts/verificar-bloques.py          # revisa que los bloques verovio resuelvan
 ./_scripts/configurar-git.sh             # activa el diff musical (una vez)
 ```

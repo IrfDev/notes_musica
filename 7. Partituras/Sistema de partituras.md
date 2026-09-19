@@ -200,6 +200,13 @@ El estilo incrustado pesa **616 KB, el 26% del peso total** de los `.mscz`.
 `.mxl` es un ZIP. Solo `.musicxml` sin comprimir. Los dos `.mxl` que había
 están en `_legacy/partituras-mxl/`.
 
+**Las rutas de los bloques `verovio` son relativas a la raíz de la bóveda.**
+El plugin resuelve con `getAbstractFileByPath`, que consulta el índice de
+Obsidian, no el sistema de archivos: una ruta absoluta (`/Users/…`) existe en
+disco pero el plugin no la encuentra y lanza *"file not found"*. Lo mismo al
+renombrar o mover una partitura sin actualizar las notas que la citan.
+`./_scripts/verificar-bloques.py` revisa los tres casos de golpe.
+
 **Normalización Unicode.** Los `.mscz` bajados del navegador traen los acentos
 en NFC y MuseScore escribe la salida en NFD. Para APFS son el mismo archivo,
 pero como cadena de texto no coinciden. Todo script que compare rutas normaliza

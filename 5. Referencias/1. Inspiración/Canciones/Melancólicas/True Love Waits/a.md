@@ -5,7 +5,8 @@ tags:
   - curso-musica/rubrica
 ---
 ```verovio
-true-love-waits-radiohead-Piano.mxl
+7. Partituras/3. Referencias/Radiohead - True Love Waits.musicxml
+scale: 40
 ```
 
 
