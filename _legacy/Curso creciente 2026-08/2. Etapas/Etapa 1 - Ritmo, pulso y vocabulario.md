@@ -20,10 +20,10 @@ Duración orientativa: 4 semanas.
 Leer solo la parte necesaria:
 
 1. [[1. Teoría/6. Ritmo/2. Path completo]] — etapas 0–3.
-2. [[2. Cursos/2. Udemy — Lectura rítmica/1. Subdivisions of the beat]].
-3. [[2. Cursos/2. Udemy — Lectura rítmica/2. Metric counting]].
-4. [[2. Cursos/2. Udemy — Lectura rítmica/5. Rests]].
-5. [[2. Cursos/2. Udemy — Lectura rítmica/7. Ties]].
+2. [[2. Cursos/2. Udemy - Lectura rítmica/1. Subdivisions of the beat]].
+3. [[2. Cursos/2. Udemy - Lectura rítmica/2. Metric counting]].
+4. [[2. Cursos/2. Udemy - Lectura rítmica/5. Rests]].
+5. [[2. Cursos/2. Udemy - Lectura rítmica/7. Ties]].
 
 Abrir [[1. Teoría/6. Ritmo/AI/11. AI Ritmos/0. Guía integral - Ritmos y diseño de motivos]] solo si falta una explicación.
 

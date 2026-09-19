@@ -11,44 +11,17 @@
             "id": "b806cb3e5c33a293",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          }
-        ]
-      },
-      {
-        "id": "255e0e5952af6570",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "faf0b22f0bda391d",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Composiciones/2. Composición melódica/0. AI/3. Decisiones estructurales --AI.md",
+                "file": "5. Referencias/1. Inspiración/Canciones/Melancólicas/True Love Waits/a.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Decisiones estructurales --AI"
-            }
-          },
-          {
-            "id": "11aca900f06a790f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "a"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,35 +185,36 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "4c69536483eee793",
+  "active": "b806cb3e5c33a293",
   "lastOpenFiles": [
-    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande/README.md",
-    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande/7. Día 8 - Familias tonales.md",
-    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande/6. Día 7 - Intercambio modal.md",
-    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande/5. Día 6 - 7 modos en C mayor.md",
-    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande/4. Día 5 - Tonalidades menores.md",
-    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande/3. Día 4 - Tonalidades mayores.md",
-    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande/2. Día 3 - Extensiones y add.md",
-    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande/1. Día 2 - Acordes con séptima.md",
-    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande/0. Día 1 - Acordes mayores y menores.md",
+    "5. Referencias/0. Análisis/Radiohead/True love waits.md",
+    "4. Instrumento/1. Piano/1 y2.md",
+    "4. Instrumento/0. Guitarra/Prompts.md",
+    "4. Instrumento/0. Guitarra/Plan introduction.md",
+    "4. Instrumento/0. Guitarra/Initial screen.md",
+    "4. Instrumento/0. Guitarra/First 2 months/Warm ups.md",
+    "4. Instrumento/0. Guitarra/First 2 months/Initial plan.md",
+    "4. Instrumento/0. Guitarra/First 2 months/First month.md",
+    "3. Composiciones/5. dawn-chorus/Arpegios Dawn Chorus.pdf",
+    "3. Composiciones/5. dawn-chorus/Dawn Chorus.md",
+    "3. Composiciones/4. melódica II/0. Desarrollo.md",
+    "3. Composiciones/3. melódica/1. Desarrollo/0. Desarrollo.md",
+    "3. Composiciones/2. nocturno/Nocturno.md",
+    "3. Composiciones/1. cyclone/Cyclone.md",
+    "2. Cursos/1. Cresciente/1B. Séptimas/1. Acordes de séptima.md",
+    "2. Cursos/1. Cresciente/1B. Séptimas/2. Especies básicas de 4 sonidos.md",
+    "1. Teoría/7. Solfeo/0. Introducción.md",
+    "1. Teoría/6. Ritmo/1. Motivos rítmicos.md",
+    "1. Teoría/6. Ritmo/0. Introducción.md",
+    "1. Teoría/5. Forma/2. Composición binaria — contraste, intro y puente.md",
+    "1. Teoría/5. Forma/1. Composición binaria.md",
+    "1. Teoría/5. Forma/0. Cadencias, progresiones y líneas melódicas.md",
+    "1. Teoría/4. Melodía/1. Composición melódica.md",
+    "1. Teoría/4. Melodía/0. Enlaces 2.0 y motivos.md",
+    "1. Teoría/2. Conducción/11. Guía de enlaces.md",
+    "1. Teoría/2. Conducción/10. Enlaces 1.0.md",
+    "1. Teoría/2. Conducción/09. Tonos guía.md",
     "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande",
-    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/9. Día 10 - Sustituto de tritono.md",
-    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/8. Día 9 - Dominantes secundarios.md",
-    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/7. Día 8 Familias tonales.md",
-    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/6. Día 7.md",
-    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/5. Día 6.md",
-    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/4. Día 5.md",
-    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/3. Día 4.md",
-    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/20. True Love Waits arpegios.md",
-    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/2. Día 3.md",
-    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/19. Día 20 - Aplicación Dawn Chorus.md",
-    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/18. Día 19 - Enlaces y motivo.md",
-    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/17. Día 18 - Cadencias y tonos guía.md",
-    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/16. Día 17 - Quinta especie libre.md",
-    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/15. Día 16 - Cuarta especie retardos.md",
-    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/14. Día 15 - Segunda y tercera especie.md",
-    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/13. Día 14 - Contrapunto primera especie.md",
-    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/12. Día 13 - Reglas de coral.md",
     "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial",
     "6. Práctica/Bitácora",
     "9. Assets/Pasted image 20260627114331.png",
@@ -259,7 +233,6 @@
     "_legacy/Curso creciente 2026-08/6. Atlas visual y laboratorios/Mapa maestro del curso.canvas",
     "_legacy/Curso creciente 2026-08/6. Atlas visual y laboratorios",
     "_legacy/Curso creciente 2026-08/4. Bitácora",
-    "_legacy/Curso creciente 2026-08/5. Investigación y roadmap",
-    "_legacy/Curso creciente 2026-08/3. Proyectos"
+    "_legacy/Curso creciente 2026-08/5. Investigación y roadmap"
   ]
 }
