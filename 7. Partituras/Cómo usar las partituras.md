@@ -1,5 +1,8 @@
 # Cómo usar las partituras
 
+Guía del día a día. Para la arquitectura, las decisiones y las trampas
+conocidas, ve a [[Sistema de partituras]].
+
 Las partituras viven aquí, dentro de la bóveda, versionadas en git junto a las
 notas que las comentan. Cada una son dos archivos hermanos:
 
@@ -107,14 +110,15 @@ K:G
 |: G2 B2 | d4 :|
 ```
 
-## Detalles que importan
+## Tres cosas que se olvidan
 
-- **Solo `.musicxml` sin comprimir.** El plugin lee los archivos como texto,
-  así que los `.mxl` (que son ZIP) no funcionan.
-- **MuseScore puede abrir `.musicxml`, pero no lo uses como formato de
-  trabajo.** La música sobrevive intacta, pero cada ida y vuelta borra el
-  mezclador (instrumentos, volúmenes, efectos) y reescribe el estilo.
+- **Solo `.musicxml` sin comprimir.** Los `.mxl` son ZIP y no funcionan.
+- **No uses MusicXML como formato de trabajo**, aunque MuseScore lo abra: cada
+  ida y vuelta borra el mezclador y reescribe el estilo.
 - **Sin `:` en los nombres**, rompe las rutas.
+
+El resto de las trampas —normalización de acentos, cómo git escapa las tildes—
+está en [[Sistema de partituras]].
 
 ## En otra máquina
 

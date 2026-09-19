@@ -1,6 +1,7 @@
 ---
 tipo: mapa
 estado: vigente
+aliases:
 ---
 
 # Inicio
@@ -30,7 +31,9 @@ Por eso el tema vive en **enlaces**, y la carpeta la decide **una sola pregunta*
 
 ## ¿Dónde va esto?
 
-Bájala hasta el primer sí y detente.
+Bájala hasta el primer sí y detente. *(Esto es para notas. Una partitura de
+MuseScore no es una nota: va siempre a `7. Partituras/` — ve
+[[7. Partituras/Sistema de partituras|Sistema de partituras]].)*
 
 | | ¿Es…? | Va a |
 |---:|---|---|
@@ -58,6 +61,7 @@ Detalle completo en [[6. Práctica/1. Estructura]].
 | `4. Instrumento/` | Guitarra y piano: técnica, no teoría. |
 | `5. Referencias/` | Música de otros: análisis, inspiración, partituras. |
 | `6. Práctica/` | Flujos, plantillas, bitácora y diagnóstico. |
+| `7. Partituras/` | **Lo que suena.** Las fuentes de MuseScore, versionadas. |
 | `9. Assets/` | Imágenes. |
 | `_legacy/` | Archivado. Nunca se borra nada, solo deja de estorbar. |
 
@@ -106,6 +110,7 @@ No hay calendario. No hay semanas numeradas. **Nada que recuperar si te atrasas*
 - [[6. Práctica/2. Plantillas/Sesión deliberada]] · [[6. Práctica/2. Plantillas/Rúbrica - Composición]]
 - [[6. Práctica/3. Diagnóstico]] — de dónde parte todo esto
 - [[6. Práctica/4. Bitácora/00. Índice]]
+- [[7. Partituras/Cómo usar las partituras]] — el ciclo diario · [[7. Partituras/Sistema de partituras]] — cómo está montado
 
 ## Cursos
 
