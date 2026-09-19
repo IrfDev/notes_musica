@@ -476,3 +476,12 @@ Lo que sigue no es “más teoría”, sino **refinar la intención**:
     
 
 Si quieres, en el siguiente paso podemos diseñar **un motivo específico** para compases 1–4 y escribir juntos una versión 2.0 de tu página 1 con esos cambios.
+
+
+
+```strudel
+stack(
+  s("bd*4, hh*8").bank("brown"),
+  notes("<cc>")
+)
+```

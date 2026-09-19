@@ -7,5 +7,14 @@
       ],
       "key": "C"
     }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "T"
+    }
   ]
 }
