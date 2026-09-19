@@ -4,8 +4,8 @@ Las partituras viven aquí, dentro de la bóveda, versionadas en git junto a las
 notas que las comentan. Cada una son dos archivos hermanos:
 
 ```
-7. Partituras/2. Composiciones/Nocturno.mscz      ← editas esto en MuseScore
-7. Partituras/2. Composiciones/Nocturno.musicxml  ← esto lo lee Obsidian
+7. Partituras/2. Composiciones/Nocturno primer intento.mscz      ← editas esto en MuseScore
+7. Partituras/2. Composiciones/Nocturno primer intento.musicxml  ← esto lo lee Obsidian
 ```
 
 El `.mscz` es la **única fuente de verdad**. El `.musicxml` es derivado: se
@@ -59,8 +59,8 @@ La etiqueta aparece luego en el historial junto al commit.
 ## Recuperar una versión vieja
 
 ```
-git log --oneline -- "7. Partituras/2. Composiciones/Nocturno.mscz"
-git show <hash>:"7. Partituras/2. Composiciones/Nocturno.mscz" > /tmp/vieja.mscz
+git log --oneline -- "7. Partituras/2. Composiciones/Nocturno primer intento.mscz"
+git show <hash>:"7. Partituras/2. Composiciones/Nocturno primer intento.mscz" > /tmp/vieja.mscz
 ```
 
 Sale byte por byte idéntica al original. Abre en MuseScore tal cual estaba.
@@ -70,7 +70,7 @@ Sale byte por byte idéntica al original. Abre en MuseScore tal cual estaba.
 Ruta relativa a la raíz de la bóveda, dentro de un bloque `verovio`:
 
 ```verovio
-7. Partituras/17. Arpegios Down Chorus.musicxml
+7. Partituras/2. Composiciones/Dawn Chorus - arpegios.musicxml
 scale: 40
 adjustPageHeight: true
 ```
@@ -90,7 +90,7 @@ lateral. El botón de play reproduce por MIDI resaltando las notas.
 ### Un solo compás
 
 ```verovio
-7. Partituras/20 Nocturno, primer intento.musicxml
+7. Partituras/2. Composiciones/Nocturno primer intento.musicxml
 measureRange: 3
 scale: 50
 ```
