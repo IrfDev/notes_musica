@@ -1,0 +1,41 @@
+{
+  "nodes": [
+    {"id":"a000000000000001","type":"file","file":"_legacy/Curso creciente 2026-08/00. EMPIEZA AQUÍ.md","x":-520,"y":0,"width":360,"height":240,"color":"4"},
+    {"id":"a000000000000002","type":"file","file":"_legacy/Curso creciente 2026-08/5. Investigación y roadmap/00. Roadmap maestro de 18 a 24 meses.md","x":-80,"y":-400,"width":400,"height":260,"color":"5"},
+    {"id":"a000000000000003","type":"file","file":"6. Práctica/Bitácora/2026-08-10 - Semana 01 - Calibración y ritmo.md","x":-80,"y":400,"width":400,"height":260,"color":"4"},
+    {"id":"a000000000000004","type":"file","file":"_legacy/Curso creciente 2026-08/6. Atlas visual y laboratorios/00. Índice visual e interactivo.md","x":-40,"y":0,"width":400,"height":280,"color":"4"},
+    {"id":"a000000000000005","type":"file","file":"_legacy/Curso creciente 2026-08/6. Atlas visual y laboratorios/01. Auditoría científica de segunda edición.md","x":480,"y":-600,"width":420,"height":280,"color":"5"},
+    {"id":"a000000000000006","type":"file","file":"_legacy/Curso creciente 2026-08/6. Atlas visual y laboratorios/02. Atlas Mermaid del aprendizaje musical.md","x":480,"y":-260,"width":420,"height":280,"color":"3"},
+    {"id":"a000000000000007","type":"file","file":"_legacy/Curso creciente 2026-08/6. Atlas visual y laboratorios/03. Laboratorio Music ABC - Ritmo y métrica.md","x":480,"y":100,"width":420,"height":280,"color":"2"},
+    {"id":"a000000000000008","type":"file","file":"_legacy/Curso creciente 2026-08/6. Atlas visual y laboratorios/04. Laboratorio Music ABC - Oído, grados y melodía.md","x":480,"y":460,"width":420,"height":280,"color":"2"},
+    {"id":"a000000000000009","type":"file","file":"_legacy/Curso creciente 2026-08/6. Atlas visual y laboratorios/05. Laboratorio Music ABC - Armonía y conducción.md","x":980,"y":420,"width":420,"height":280,"color":"2"},
+    {"id":"a00000000000000a","type":"file","file":"_legacy/Curso creciente 2026-08/6. Atlas visual y laboratorios/06. Laboratorio Music ABC - Forma, transición y desarrollo.md","x":1480,"y":300,"width":420,"height":280,"color":"2"},
+    {"id":"a00000000000000b","type":"file","file":"_legacy/Curso creciente 2026-08/6. Atlas visual y laboratorios/07. Experimentos personales N-of-1.md","x":980,"y":-600,"width":420,"height":280,"color":"5"},
+    {"id":"a00000000000000c","type":"file","file":"_legacy/Curso creciente 2026-08/6. Atlas visual y laboratorios/08. Diagnóstico interactivo y solución de bloqueos.md","x":1480,"y":-220,"width":420,"height":280,"color":"1"},
+    {"id":"a00000000000000d","type":"file","file":"_legacy/Curso creciente 2026-08/6. Atlas visual y laboratorios/09. Panel dinámico, propiedades y consultas.md","x":1980,"y":20,"width":420,"height":280,"color":"4"},
+    {"id":"a00000000000000e","type":"file","file":"_legacy/Curso creciente 2026-08/6. Atlas visual y laboratorios/10. Glosario visual y conexiones.md","x":1980,"y":400,"width":420,"height":280,"color":"3"},
+    {"id":"a00000000000000f","type":"file","file":"_legacy/Curso creciente 2026-08/05. Tablero de progreso.md","x":1980,"y":-380,"width":420,"height":260,"color":"4"},
+    {"id":"a000000000000010","type":"file","file":"_legacy/Curso creciente 2026-08/6. Atlas visual y laboratorios/11. Informe de validación técnica y mantenimiento.md","x":2480,"y":20,"width":420,"height":280,"color":"4"}
+  ],
+  "edges": [
+    {"id":"e000000000000001","fromNode":"a000000000000001","fromSide":"right","toNode":"a000000000000004","toSide":"left"},
+    {"id":"e000000000000002","fromNode":"a000000000000002","fromSide":"bottom","toNode":"a000000000000004","toSide":"top"},
+    {"id":"e000000000000003","fromNode":"a000000000000004","fromSide":"bottom","toNode":"a000000000000003","toSide":"top"},
+    {"id":"e000000000000004","fromNode":"a000000000000004","fromSide":"right","toNode":"a000000000000005","toSide":"left"},
+    {"id":"e000000000000005","fromNode":"a000000000000004","fromSide":"right","toNode":"a000000000000006","toSide":"left"},
+    {"id":"e000000000000006","fromNode":"a000000000000004","fromSide":"right","toNode":"a000000000000007","toSide":"left"},
+    {"id":"e000000000000007","fromNode":"a000000000000004","fromSide":"right","toNode":"a000000000000008","toSide":"left"},
+    {"id":"e000000000000008","fromNode":"a000000000000005","fromSide":"right","toNode":"a00000000000000b","toSide":"left","label":"probar afirmaciones"},
+    {"id":"e000000000000009","fromNode":"a000000000000008","fromSide":"right","toNode":"a000000000000009","toSide":"left"},
+    {"id":"e00000000000000a","fromNode":"a000000000000007","fromSide":"right","toNode":"a00000000000000a","toSide":"left","label":"desarrollo"},
+    {"id":"e00000000000000b","fromNode":"a000000000000009","fromSide":"right","toNode":"a00000000000000a","toSide":"left"},
+    {"id":"e00000000000000c","fromNode":"a000000000000006","fromSide":"right","toNode":"a00000000000000c","toSide":"left"},
+    {"id":"e00000000000000d","fromNode":"a00000000000000b","fromSide":"right","toNode":"a00000000000000c","toSide":"left"},
+    {"id":"e00000000000000e","fromNode":"a00000000000000a","fromSide":"top","toNode":"a00000000000000c","toSide":"bottom"},
+    {"id":"e00000000000000f","fromNode":"a00000000000000c","fromSide":"right","toNode":"a00000000000000d","toSide":"left"},
+    {"id":"e000000000000010","fromNode":"a00000000000000d","fromSide":"bottom","toNode":"a00000000000000e","toSide":"top"},
+    {"id":"e000000000000011","fromNode":"a00000000000000d","fromSide":"top","toNode":"a00000000000000f","toSide":"bottom"},
+    {"id":"e000000000000012","fromNode":"a000000000000003","fromSide":"right","toNode":"a00000000000000f","toSide":"left","label":"evidencia semanal"},
+    {"id":"e000000000000013","fromNode":"a00000000000000d","fromSide":"right","toNode":"a000000000000010","toSide":"left","label":"control de calidad"}
+  ]
+}

@@ -11,46 +11,13 @@
             "id": "b806cb3e5c33a293",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/1. Curso cresciente/0. Fundamento de oficio/1. Ornamentando una melodía/1. Ornamentando una melodía.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1. Ornamentando una melodía"
-            }
-          },
-          {
-            "id": "afe1e6000f144056",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Piano/Clases/1 y2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1 y2"
-            }
-          },
-          {
-            "id": "90fefb75c8141297",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/1. Curso cresciente/0. Fundamento de oficio/2. Septimas/1. Acordes de séptima.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. Acordes de séptima"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "255e0e5952af6570",
@@ -71,31 +38,13 @@
             }
           },
           {
-            "id": "4c5f4d0507dee72f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/Tema/Repaso 9. Tensiones.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Repaso 9. Tensiones"
-            }
-          },
-          {
             "id": "11aca900f06a790f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría musical/Tema/Repaso 3. Tonalidades.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Repaso 3. Tonalidades"
+              "title": "New tab"
             }
           }
         ],
@@ -263,53 +212,54 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "90fefb75c8141297",
+  "active": "4c69536483eee793",
   "lastOpenFiles": [
-    "Teoría musical/1. Curso cresciente/0. Fundamento de oficio/1. Ornamentando una melodía/1. Ornamentando una melodía.md",
-    "Teoría musical/1. Curso cresciente/0. Fundamento de oficio/2. Septimas/1. Acordes de séptima.md",
-    "Piano/Clases/1 y2.md",
-    "Teoría musical/1. Curso cresciente/0. Fundamento de oficio/2. Septimas/2. Especies básicas de 4 sonidos.md",
-    "Teoría musical/Arpegios/0. Dawn Chorus.md",
-    "Teoría musical/1. Curso cresciente/3. Proyectos/Proyecto 04 - Forma, contraste y puente.md",
-    "Teoría musical/1. Curso cresciente/3. Proyectos/Proyecto 03 - Una melodía, tres armonizaciones.md",
-    "Teoría musical/1. Curso cresciente/3. Proyectos/Proyecto 02 - Motivo y frase.md",
-    "Teoría musical/1. Curso cresciente/3. Proyectos/Proyecto 01 - Microcomposición rítmica.md",
-    "Teoría musical/Ritmos/2. Path completo.md",
-    "Teoría musical/1. Curso cresciente/2. Etapas/Etapa 1 - Ritmo, pulso y vocabulario.md",
-    "Teoría musical/1. Curso cresciente/1. Sistema y plantillas/Sistema operativo semanal.md",
-    "Teoría musical/1. Curso cresciente/1. Sistema y plantillas/Rúbrica - Composición.md",
-    "Teoría musical/1. Curso cresciente/1. Sistema y plantillas/Plantilla - Sesión deliberada.md",
-    "Teoría musical/1. Curso cresciente/1. Sistema y plantillas/Plantilla - Semana de estudio.md",
-    "Teoría musical/1. Curso cresciente/1. Sistema y plantillas/Plantilla - Proyecto de composición.md",
-    "Teoría musical/1. Curso cresciente/1. Sistema y plantillas/Plantilla - Análisis de referencia.md",
-    "Teoría musical/Tema/Repaso 9. Tensiones.md",
-    "Teoría musical/Tema/Repaso 3. Tonalidades.md",
-    "Composiciones/2. Composición melódica/0. AI/3. Decisiones estructurales --AI.md",
-    "Teoría musical/Tema/Repaso 4.1 Armonización tonalidades menores.md",
-    "Teoría musical/Progresiones/0. Progresiones melancólicas.md",
-    "Teoría musical/Progresiones/4. Progresiones largas repaso.md",
-    "Teoría musical/Tema/Repaso 26. Composición melódica.md",
-    "Composiciones/3. Segunda composición melódica/0. Desarrollo.md",
-    "Untitled.md",
-    "Pasted image 20260627114331.png",
-    "Teoría musical/1. Curso cresciente/0. Fundamento de oficio/2. Septimas",
-    "Piano/Clases",
-    "Piano",
-    "Pasted image 20260516152343.png",
-    "Pasted image 20260516152054.png",
-    "Pasted image 20260516150948.png",
-    "Pasted image 20260516150924.png",
-    "Pasted image 20260516150132.png",
-    "Pasted image 20260516145026.png",
-    "Pasted image 20260516144653.png",
-    "Pasted image 20260516102619.png",
-    "Pasted image 20260516100529.png",
-    "Teoría musical/1. Curso cresciente/0. Fundamento de oficio/1. Ornamentando una melodía",
-    "Teoría musical/1. Curso cresciente/0. Fundamento de oficio",
-    "Teoría musical/1. Curso cresciente",
-    "Composiciones/3. Segunda composición melódica",
-    "Analisis/Radiohead",
-    "Analisis",
-    "Composiciones/2. Composición melódica/1. Desarrollo"
+    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande/README.md",
+    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande/7. Día 8 - Familias tonales.md",
+    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande/6. Día 7 - Intercambio modal.md",
+    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande/5. Día 6 - 7 modos en C mayor.md",
+    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande/4. Día 5 - Tonalidades menores.md",
+    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande/3. Día 4 - Tonalidades mayores.md",
+    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande/2. Día 3 - Extensiones y add.md",
+    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande/1. Día 2 - Acordes con séptima.md",
+    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande/0. Día 1 - Acordes mayores y menores.md",
+    "2. Cursos/0. Profesor/1. Rutinas/2. Repaso guía grande",
+    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/9. Día 10 - Sustituto de tritono.md",
+    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/8. Día 9 - Dominantes secundarios.md",
+    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/7. Día 8 Familias tonales.md",
+    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/6. Día 7.md",
+    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/5. Día 6.md",
+    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/4. Día 5.md",
+    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/3. Día 4.md",
+    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/20. True Love Waits arpegios.md",
+    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/2. Día 3.md",
+    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/19. Día 20 - Aplicación Dawn Chorus.md",
+    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/18. Día 19 - Enlaces y motivo.md",
+    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/17. Día 18 - Cadencias y tonos guía.md",
+    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/16. Día 17 - Quinta especie libre.md",
+    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/15. Día 16 - Cuarta especie retardos.md",
+    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/14. Día 15 - Segunda y tercera especie.md",
+    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/13. Día 14 - Contrapunto primera especie.md",
+    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial/12. Día 13 - Reglas de coral.md",
+    "2. Cursos/0. Profesor/1. Rutinas/0. Repaso inicial",
+    "6. Práctica/Bitácora",
+    "9. Assets/Pasted image 20260627114331.png",
+    "9. Assets/Pasted image 20260516152343.png",
+    "9. Assets/Pasted image 20260516152054.png",
+    "9. Assets/Pasted image 20260516150948.png",
+    "9. Assets/Pasted image 20260516150924.png",
+    "9. Assets/Pasted image 20260516150132.png",
+    "9. Assets/Pasted image 20260516145026.png",
+    "9. Assets/Pasted image 20260516144653.png",
+    "9. Assets/Pasted image 20260516102619.png",
+    "9. Assets/Pasted image 20260516100529.png",
+    "9. Assets/Assets",
+    "_legacy/Fuera de tema/Untitled.base",
+    "_legacy/Curso creciente 2026-08/6. Atlas visual y laboratorios/Panel de aprendizaje musical.base",
+    "_legacy/Curso creciente 2026-08/6. Atlas visual y laboratorios/Mapa maestro del curso.canvas",
+    "_legacy/Curso creciente 2026-08/6. Atlas visual y laboratorios",
+    "_legacy/Curso creciente 2026-08/4. Bitácora",
+    "_legacy/Curso creciente 2026-08/5. Investigación y roadmap",
+    "_legacy/Curso creciente 2026-08/3. Proyectos"
   ]
 }
