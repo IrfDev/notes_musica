@@ -14,7 +14,7 @@ estado: vigente
 |---|---|
 | **Obra activa** | *(una a la vez)* |
 | **Concepto activo** | |
-| **Curso en marcha** | [[2. Cursos/1. Cresciente/1B. Séptimas/1. Acordes de séptima\|Cresciente 1B — Séptimas]] |
+| **Curso en marcha** | [[2. Cursos/1. Cresciente/00. Curso\|Cresciente]] — módulo 1B Séptimas |
 | **Día de revisión semanal** | *(elegir uno fijo)* |
 | **Último audio** | |
 
@@ -84,6 +84,7 @@ Todo detallado en [[6. Práctica/0. Flujos]].
 | ③ | **Referencia** | escuchas algo que te mueve | un concepto ganó un párrafo con esa evidencia |
 | ④ | **Sesión** | te sientas a trabajar | `evidencia_audio` no está vacío |
 | ⑤ | **Semana** | tu día fijo | hay al menos un audio nuevo |
+| ⑥ | **Curso** | empiezas uno, y al cerrar cada lección | cada lección tiene concepto y veredicto de posesión |
 
 No hay calendario. No hay semanas numeradas. **Nada que recuperar si te atrasas** — un bucle no se atrasa, solo no se dispara.
 
@@ -101,7 +102,13 @@ No hay calendario. No hay semanas numeradas. **Nada que recuperar si te atrasas*
 
 - [[6. Práctica/0. Flujos]] — los cinco bucles, paso a paso
 - [[6. Práctica/1. Estructura]] — por qué está organizado así y dónde va cada cosa
-- [[6. Práctica/2. Plantillas/Clase]] · [[6. Práctica/2. Plantillas/Obra]] · [[6. Práctica/2. Plantillas/Semana]]
+- [[6. Práctica/2. Plantillas/Clase]] · [[6. Práctica/2. Plantillas/Obra]] · [[6. Práctica/2. Plantillas/Semana]] · [[6. Práctica/2. Plantillas/Curso]]
+
+## Cursos
+
+- [[2. Cursos/0. Profesor/00. Curso]] — corrección · abierto · 3 huecos sin consolidar
+- [[2. Cursos/1. Cresciente/00. Curso]] — cobertura · módulo 1B en marcha
+- [[2. Cursos/2. Udemy - Lectura rítmica/00. Curso]] — lectura · 8 lecciones, finito
 - [[6. Práctica/2. Plantillas/Sesión deliberada]] · [[6. Práctica/2. Plantillas/Rúbrica - Composición]]
 - [[6. Práctica/3. Diagnóstico]] — de dónde parte todo esto
 - [[6. Práctica/4. Bitácora/00. Índice]]
