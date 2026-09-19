@@ -1,0 +1,11 @@
+# El .musicxml es texto: git puede comparar la música. El filtro "musicxml"
+# le quita las coordenadas de maquetación antes de comparar, para que el diff
+# muestre notas y no reacomodos de página.
+#
+# El filtro se activa por repositorio (no viaja en el commit). Córrelo una vez:
+#     ./_scripts/configurar-git.sh
+*.musicxml diff=musicxml text eol=lf
+
+# El .mscz es un ZIP. Git lo guarda y lo restaura íntegro, pero no lo compara.
+*.mscz binary
+*.mxl  binary

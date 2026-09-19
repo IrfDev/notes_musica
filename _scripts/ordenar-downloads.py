@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """
-Ordena los .mscz sueltos de ~/Downloads hacia la carpeta de MuseScore.
+Ordena los .mscz sueltos de ~/Downloads hacia "7. Partituras" en la bóveda.
 
 Clasifica cada archivo comparando el CONTENIDO MUSICAL real (el .mscx dentro
 del .mscz, ignorando miniatura y metadatos), no el nombre ni el tamaño:
 
-  NUEVO       no existe en Scores            -> se mueve a Scores/
-  MAS NUEVO   misma partitura, versión nueva -> se mueve a Scores/,
+  NUEVO       no existe todavía              -> se mueve a 7. Partituras/
+  MAS NUEVO   misma partitura, versión nueva -> se mueve a 7. Partituras/,
                                                 la vieja se archiva
   MAS VIEJO   misma partitura, versión vieja -> se archiva
-  DUPLICADO   idéntica a una de Scores       -> se archiva
+  DUPLICADO   idéntica a una ya presente     -> se archiva
 
-Nada se borra jamás: lo descartado va a ~/Documents/MuseScore4/_legacy/.
+Nada se borra jamás: lo descartado va a _legacy/partituras/ en la bóveda.
 
 Uso:
     ./_scripts/ordenar-downloads.py            # muestra el plan, no toca nada
@@ -27,9 +27,10 @@ import zipfile
 from datetime import datetime
 from pathlib import Path
 
+BOVEDA = Path(__file__).resolve().parent.parent
 DOWNLOADS = Path.home() / "Downloads"
-SCORES = Path.home() / "Documents" / "MuseScore4" / "Scores"
-LEGACY = Path.home() / "Documents" / "MuseScore4" / "_legacy"
+SCORES = BOVEDA / "7. Partituras"
+LEGACY = BOVEDA / "_legacy" / "partituras"
 
 EXCLUIR = {".mscbackup", "_legacy"}
 
@@ -95,10 +96,10 @@ def planificar():
                          (gemelo, LEGACY / "reemplazados")))
         elif gemelo:
             plan.append((src, "MAS VIEJO", LEGACY / "versiones-viejas" / src.name,
-                         f"Scores tiene una de {fecha(gemelo)}", None))
+                         f"ya hay una de {fecha(gemelo)}", None))
         else:
             plan.append((src, "NUEVO", libre(SCORES / src.name),
-                         "no existe en Scores", None))
+                         "no existe todavía", None))
     return plan
 
 
@@ -115,7 +116,7 @@ def main():
     ancho = max(len(p[0].name) for p in plan)
     print(f"{len(plan)} archivos en ~/Downloads\n")
     for src, veredicto, destino, motivo, archivar in plan:
-        flecha = "Scores/" if destino.is_relative_to(SCORES) else "_legacy/"
+        flecha = "7. Partituras/" if destino.is_relative_to(SCORES) else "_legacy/"
         print(f"  {veredicto:<10} {src.name:<{ancho}}  -> {flecha}  ({motivo})")
         if archivar:
             print(f"  {'':<10} {'':<{ancho}}     y archiva {archivar[0].name}")

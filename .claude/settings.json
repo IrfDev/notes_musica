@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(sed -i '' 's/^## Los cinco flujos$/## Los seis flujos/; s/— los cinco bucles, paso a paso/— los seis bucles, paso a paso/' Inicio.md)",
-      "Bash(sed -i '' 's/^Cinco bucles\\\\./Seis bucles./' \"6. Práctica/0. Flujos.md\")"
+      "Bash(sed -i '' 's/^Cinco bucles\\\\./Seis bucles./' \"6. Práctica/0. Flujos.md\")",
+      "Bash(git count-objects *)",
+      "Bash(awk '{print $1}')"
     ]
   }
 }
