@@ -5,5 +5,11 @@
     "landscape": true,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "9. Assets",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "0. Entrada",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false
 }

@@ -1,0 +1,46 @@
+# ── macOS ────────────────────────────────────────────────────
+.DS_Store
+
+# ── Obsidian ─────────────────────────────────────────────────
+# Se conserva la config pequeña (app.json, appearance, hotkeys,
+# core-plugins, community-plugins) para reinstalar igual en otra
+# máquina. Se ignoran los bundles, que son ~10 MB y crecen en cada
+# actualización de plugin.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+.obsidian/plugins/*/data.json
+.obsidian/plugins/*/node_modules/
+.trash/
+
+# ── Strudel ──────────────────────────────────────────────────
+# Caché de samples que descarga el plugin. Se regenera solo.
+.strudel-samples/
+**/strudel-samples/
+
+# ── MuseScore ────────────────────────────────────────────────
+# Respaldos y autosave que deja junto a la partitura.
+.mscbackup/
+*.mscz.autosave
+.*.mscz,
+
+# ── Derivados ────────────────────────────────────────────────
+# Audio y PDF se regeneran desde el .mscz. Versionarlos convierte
+# un repo de 15 MB en uno de 2 GB.
+# Las fuentes SÍ van a git: .mscz y .mxl pesan decenas de KB.
+**/render/
+*.wav
+*.aiff
+*.flac
+*.mp3
+*.m4a
+*.ogg
+*.mp4
+*.mov
+
+# Proyectos de DAW
+*.logicx/
+*.als
+*.flp
