@@ -99,7 +99,7 @@ Rasgo reconocible:
 
 - [ ] Escuchar la toma completa sin instrumento.
 - [ ] Anotar conservar/cambiar/probar.
-- [ ] Aplicar las dimensiones de ritmo, identidad, contraste y cierre de [[6. Práctica/2. Plantillas/Rúbrica - Composición]].
+- [ ] Aplicar las dimensiones de ritmo, identidad, contraste y cierre de [[Rúbrica - Composición]].
 - [ ] Realizar una sola revisión.
 - [ ] Exportar `Proyecto01_v0.1_2026-08-16`.
 - [ ] Actualizar [[_legacy/Curso creciente 2026-08/05. Tablero de progreso]].

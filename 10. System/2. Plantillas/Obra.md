@@ -70,7 +70,7 @@ tags:
 ## Cierre
 
 - [ ] Se cumple `definicion_terminado`
-- [ ] Rúbrica aplicada → [[6. Práctica/2. Plantillas/Rúbrica - Composición]]
+- [ ] Rúbrica aplicada → [[Rúbrica - Composición]]
 - [ ] Escuchada tras 24 h de descanso
 - [ ] Exportada con fecha
 - [ ] Retrospectiva de tres líneas

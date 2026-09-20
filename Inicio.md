@@ -48,6 +48,8 @@ MuseScore no es una nota: va siempre a `7. Partituras/` — ve
 | 9 | Sobre técnica de guitarra o piano | `4. Instrumento/` |
 | 10 | Ninguna de las anteriores | `0. Entrada/` |
 
+> **Todo lo que nace de una lección entra en `Estudios/`** — un estudio, una composición o un análisis, da igual. Mover algo a `3. Composiciones/` o a `5. Referencias/` es una **promoción posterior y explícita**, no el destino por defecto.
+
 Detalle completo en [[6. Práctica/1. Estructura]].
 
 ## El mapa
@@ -55,7 +57,7 @@ Detalle completo en [[6. Práctica/1. Estructura]].
 | Carpeta | Qué guarda |
 |---|---|
 | `0. Entrada/` | Lo que aún no sé dónde va. Se vacía cada semana. |
-| `1. Teoría/` | **Lo que sé**, por concepto. Ocho áreas. Se reescribe, no se clona. |
+| `1. Teoría/` | **Lo que sé**, por concepto. Nueve áreas. Se reescribe, no se clona. |
 | `2. Cursos/` | **De dónde vino.** Tres fuentes, cada una con su numeración. |
 | `3. Composiciones/` | **Lo que hago.** Una carpeta por obra. |
 | `4. Instrumento/` | Guitarra y piano: técnica, no teoría. |
@@ -106,8 +108,8 @@ No hay calendario. No hay semanas numeradas. **Nada que recuperar si te atrasas*
 
 - [[6. Práctica/0. Flujos]] — los seis bucles, paso a paso
 - [[6. Práctica/1. Estructura]] — por qué está organizado así y dónde va cada cosa
-- [[6. Práctica/2. Plantillas/Clase]] · [[6. Práctica/2. Plantillas/Obra]] · [[6. Práctica/2. Plantillas/Semana]] · [[6. Práctica/2. Plantillas/Curso]]
-- [[6. Práctica/2. Plantillas/Sesión deliberada]] · [[6. Práctica/2. Plantillas/Rúbrica - Composición]]
+- [[Clase]] · [[Obra]] · [[Semana]] · [[Curso]]
+- [[Sesión deliberada]] · [[Rúbrica - Composición]]
 - [[6. Práctica/3. Diagnóstico]] — de dónde parte todo esto
 - [[6. Práctica/4. Bitácora/00. Índice]]
 - [[7. Partituras/Cómo usar las partituras]] — el ciclo diario · [[7. Partituras/Sistema de partituras]] — cómo está montado
