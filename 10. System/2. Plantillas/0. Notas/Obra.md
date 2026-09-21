@@ -28,7 +28,7 @@ tags:
 ## Material
 
 <!-- Compases, capturas, partitura. -->
-<!-- ![[nombre.mxl]] para partitura completa, o un bloque ```abc para un fragmento. -->
+<!-- ![[nombre.musicxml]] para partitura completa, o un bloque ```abc para un fragmento. -->
 
 ## Decisiones
 

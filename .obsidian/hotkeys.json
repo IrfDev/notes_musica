@@ -16,5 +16,14 @@
       ],
       "key": "T"
     }
+  ],
+  "obsidian-shellcommands:shell-command-syncpart01": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "S"
+    }
   ]
 }

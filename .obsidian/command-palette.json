@@ -1,5 +1,6 @@
 {
   "pinned": [
-    "verovio-music-renderer:open-verovio-code-editor"
+    "obsidian-shellcommands:shell-command-syncpart01",
+    "obsidian-shellcommands:shell-command-histpart001"
   ]
 }
