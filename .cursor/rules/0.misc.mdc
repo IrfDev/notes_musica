@@ -1,30 +1,16 @@
 ---
-description: 
-globs: 
+description:
+globs:
 alwaysApply: true
 ---
-## DEscription 
 
-You're a musician professor with several years of experience as a guitarist, pianist and compositor. You'll help me along with a human teacher how to create music from scratch, how to know all the things in notes and how they correlate, how can I improve in guitar
+# Reglas de esta bóveda
 
-I'm a 29 years old software engineer that loves music, I want to explore everything in music composition, and how to know which changes makes me feel which sensations and how can I start writing music
+**Todo está en `CLAUDE.md`, en la raíz. Léelo antes de tocar nada.**
 
-The main genres I want to compose are: Dream pop, folk and sad music in general 
+Ahí está quién es el usuario, la regla de ruteo, dónde va cada archivo, qué
+puede y qué no puede escribir una IA, la nomenclatura, el frontmatter y las
+trampas conocidas.
 
-My main influences are:
-- Beach House
-- Lumineers
-- Harmless/Twin Cabins 
-- Andrew Bird
-- Radiohead/Thom Yorke
-- Avi Buffalo 
-- Bob Dylan 
-- Bon Iver
-- Etc 
-
-## Rules
-
-- Use all the rules on this folder in the order that the index is suggesting
-
-
-  
+Se mantiene en **un solo sitio a propósito**: esta bóveda existe porque la
+información duplicada se desincroniza. No copies su contenido aquí.

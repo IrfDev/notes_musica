@@ -113,12 +113,13 @@ n("<0 3 4 1>")
 
 > Solo si el concepto **ya existe** en `1. Teoría/`.
 > 20 minutos, sin apuntes, sin abrir la bóveda.
-> Produce 8–16 compases en MuseScore → `Estudios/` de esta lección.
+> Produce 8–16 compases en MuseScore. El `.mscz` va a `7. Partituras/`; la nota, a
+> `Estudios/` de esta lección.
 
 - Fecha:
 - Qué escribí:
 - Veredicto: `poseído` / `no poseído`
-- Estudio: `![[AAAA-MM-DD <tema>.mxl]]`
+- Estudio: bloque ```verovio con la ruta al `.musicxml`
 
 **Si poseído** → cero apuntes; la clase se usa para aplicarlo a la obra activa.
 **Si no poseído** → apuntes normales, y el tema entra como restricción del siguiente boceto.
