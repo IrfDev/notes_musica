@@ -84,7 +84,16 @@ Tu plan actual no incluye revisión de tareas. Si quieres que un profesor revise
 
 ```strudel
 setcpm(15)
-note("[a, c, e] [e g b] [d, f, a] [g b d f] [c, e, g] [f,a,c,e] [a5 c4 e4 f5]").sound("piano").slow(1.5).scale("C:major")
+note("[a, c, e] [e g b] [d, f, a] [g b d f] [c, e, g] [f,a,c,e] [a5 c4 e4 f5]").sound("piano").slow(1).scale("C:major")
+```
+
+```abc
+X:1
+T: 72
+M:4/4
+L:1/8
+K:C
+| [a, c, e] e g b [d, f, a] g b d f [c, e, g] [f,a,c,e] [a5 c4 e4 f5] |
 ```
 
 
