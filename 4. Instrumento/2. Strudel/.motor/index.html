@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Motor de Strudel</title>
+    <style>
+      :root {
+        --fondo: #f6f5f2;
+        --texto: #1d1c1a;
+        --tenue: #6b6862;
+        --borde: #d9d6cf;
+        --ok: #2f7a4a;
+        --falta: #b3412e;
+        --acento: #3a5bbf;
+        color-scheme: light dark;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --fondo: #17171a;
+          --texto: #e8e6e1;
+          --tenue: #9a968e;
+          --borde: #33333a;
+          --ok: #6cc38d;
+          --falta: #ef8a76;
+          --acento: #8ea6ff;
+        }
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        padding: 24px 16px;
+        background: var(--fondo);
+        color: var(--texto);
+        font: 15px/1.5 system-ui, sans-serif;
+      }
+      main { max-width: 720px; margin: 0 auto; display: grid; gap: 20px; }
+      h1 { margin: 0; font-size: 20px; }
+      .fila { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+      select, button {
+        font: inherit;
+        padding: 8px 12px;
+        border: 1px solid var(--borde);
+        border-radius: 6px;
+        background: transparent;
+        color: inherit;
+      }
+      select { flex: 1 1 240px; min-width: 0; }
+      button { cursor: pointer; }
+      #tocar { background: var(--acento); border-color: var(--acento); color: var(--fondo); }
+      #estado { font-variant-numeric: tabular-nums; color: var(--tenue); }
+      #estado[data-sonando='true'] { color: var(--ok); }
+      .ok { color: var(--ok); }
+      .falta { color: var(--falta); }
+      .tenue, #vocabulario { color: var(--tenue); font-size: 13px; }
+      #puertos p { margin: 0 0 4px; }
+      #registro {
+        font: 12px/1.6 ui-monospace, monospace;
+        border-top: 1px solid var(--borde);
+        padding-top: 12px;
+        max-height: 40vh;
+        overflow-y: auto;
+        overflow-wrap: anywhere;
+      }
+      #registro .error { color: var(--falta); }
+      kbd { font: 12px ui-monospace, monospace; border: 1px solid var(--borde); border-radius: 4px; padding: 0 4px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Motor de Strudel</h1>
+
+      <section class="fila">
+        <select id="patron" aria-label="Patrón"></select>
+        <button id="tocar">▶ Tocar</button>
+        <button id="parar">■ Parar</button>
+        <span id="estado"></span>
+      </section>
+
+      <p class="tenue">
+        Edita el patrón en VS Code y guarda: lo que suena se vuelve a evaluar solo.
+        Aquí: <kbd>Ctrl</kbd>+<kbd>Enter</kbd> toca, <kbd>Ctrl</kbd>+<kbd>.</kbd> para.
+      </p>
+      <p id="vocabulario"></p>
+
+      <section id="puertos"><p class="tenue">Buscando puertos MIDI…</p></section>
+
+      <section id="registro" aria-label="Registro"></section>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

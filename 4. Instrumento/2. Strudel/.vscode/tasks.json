@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      // Ctrl+Shift+B arranca el motor y abre la pestaña del navegador.
+      "label": "Strudel: arrancar motor",
+      "type": "npm",
+      "script": "dev",
+      "isBackground": true,
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": {
+        "pattern": { "regexp": "^x^" },
+        "background": {
+          "activesBegin": "VITE",
+          "beginsPattern": "VITE",
+          "endsPattern": "Local:"
+        }
+      }
+    },
+    {
+      "label": "Strudel: prueba MIDI",
+      "type": "npm",
+      "script": "prueba",
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": { "regexp": "^x^" },
+        "background": {
+          "activesBegin": "VITE",
+          "beginsPattern": "VITE",
+          "endsPattern": "Local:"
+        }
+      }
+    }
+  ]
+}

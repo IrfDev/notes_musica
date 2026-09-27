@@ -1,0 +1,12 @@
+{
+  // Sin formato automático: un formateador cambia comillas, y en Strudel las
+  // comillas dobles son mini-notación y las simples no.
+  "editor.formatOnSave": false,
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/package-lock.json": true
+  }
+}

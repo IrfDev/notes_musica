@@ -1,0 +1,15 @@
+{
+  // Se abren con: code "4. Instrumento/2. Strudel"
+  "recommendations": [
+    // Muestra los errores de sintaxis en la línea, antes de que el motor falle.
+    "usernamehw.errorlens"
+  ],
+  "unwantedRecommendations": [
+    // Tocan Strudel con su propio motor de audio y no mandan MIDI: nunca llegan
+    // a Sonar. Además, su Ctrl+Enter sonaría encima del motor local.
+    "cmillsdev.strudelvs",
+    "deep2universe.strudel-box",
+    // Cambia comillas al formatear, y en Strudel eso cambia el significado.
+    "esbenp.prettier-vscode"
+  ]
+}
