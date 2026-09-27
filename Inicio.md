@@ -46,7 +46,8 @@ MuseScore no es una nota: va siempre a `7. Partituras/` — ve
 | 7 | Un registro **fechado** de lo que hice | `6. Práctica/4. Bitácora/` |
 | 8 | Sobre música **de otros** | `5. Referencias/` |
 | 9 | Sobre técnica de guitarra o piano | `4. Instrumento/` |
-| 10 | Ninguna de las anteriores | `0. Entrada/` |
+| 10 | Instalación o configuración de **equipo o software** | `8. Setup/` |
+| 11 | Ninguna de las anteriores | `0. Entrada/` |
 
 > **Todo lo que nace de una lección entra en `Estudios/`** — un estudio, una composición o un análisis, da igual. Mover algo a `3. Composiciones/` o a `5. Referencias/` es una **promoción posterior y explícita**, no el destino por defecto.
 
@@ -64,6 +65,7 @@ Detalle completo en [[6. Práctica/1. Estructura]].
 | `5. Referencias/` | Música de otros: análisis, inspiración, partituras. |
 | `6. Práctica/` | Flujos, plantillas, bitácora y diagnóstico. |
 | `7. Partituras/` | **Lo que suena.** Las fuentes de MuseScore, versionadas. |
+| `8. Setup/` | **Cómo está montado el equipo.** Hardware y software, Windows y macOS. Ver [[8. Setup/0. Índice]]. |
 | `9. Assets/` | Imágenes. |
 | `_legacy/` | Archivado. Nunca se borra nada, solo deja de estorbar. |
 

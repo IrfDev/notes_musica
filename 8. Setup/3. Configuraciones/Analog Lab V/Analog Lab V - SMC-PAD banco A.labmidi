@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rootnode>
+	<midiconfig name="Generic" factory="0">
+		<assignment controller="15" paramid="328" channel="0"/>
+		<assignment controller="30" paramid="325" channel="0"/>
+		<assignment controller="31" paramid="326" channel="0"/>
+		<assignment controller="33" paramid="330" channel="0"/>
+		<assignment controller="34" paramid="329" channel="0"/>
+		<assignment controller="35" paramid="327" channel="0"/>
+		<assignment controller="36" paramid="332" channel="0"/>
+		<assignment controller="37" paramid="331" channel="0"/>
+		<assignment controller="44" paramid="324" channel="0"/>
+		<assignment controller="72" paramid="337" channel="0"/>
+		<assignment controller="73" paramid="334" channel="0"/>
+		<assignment controller="75" paramid="335" channel="0"/>
+		<assignment controller="79" paramid="336" channel="0"/>
+		<assignment controller="80" paramid="338" channel="0"/>
+		<assignment controller="81" paramid="339" channel="0"/>
+		<assignment controller="82" paramid="340" channel="0"/>
+		<assignment controller="83" paramid="341" channel="0"/>
+		<assignment controller="85" paramid="342" channel="0"/>
+		<assignment controller="112" paramid="362" channel="0"/>
+		<assignment controller="113" paramid="363" channel="0"/>
+		<assignment controller="114" paramid="360" channel="0"/>
+		<assignment controller="115" paramid="361" channel="0"/>
+		<assignment controller="117" paramid="366" channel="0"/>
+		<assignment controller="118" paramid="367" channel="0"/>
+	</midiconfig>
+</rootnode>
+

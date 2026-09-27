@@ -55,7 +55,8 @@ Baja hasta el primer sí y detente. **El tema nunca entra en la decisión.**
 | 7 | Registro **fechado** de lo que hizo | `6. Práctica/4. Bitácora/` |
 | 8 | Sobre música **de otros** | `5. Referencias/` |
 | 9 | Sobre técnica de guitarra o piano | `4. Instrumento/` |
-| 10 | Ninguna de las anteriores | `0. Entrada/` |
+| 10 | Instalación o configuración de **equipo o software** | `8. Setup/` |
+| 11 | Ninguna de las anteriores | `0. Entrada/` |
 
 El punto **2 gana al 6**: todo lo que nace de una lección entra en `Estudios/`,
 **aunque sea una obra**. Que algo sea obra cambia *cómo se trabaja*
@@ -75,6 +76,7 @@ usuario; no promover es el estado normal.
 | `5. Referencias/` | música de otros: análisis, inspiración, partituras |
 | `6. Práctica/` | el sistema mismo: flujos, estructura, bitácora, diagnóstico |
 | `7. Partituras/` | **todas** las partituras de MuseScore |
+| `8. Setup/` | cómo está montado el equipo: hardware y software, Windows y macOS |
 | `9. Assets/` | imágenes |
 | `10. System/` | plantillas y bloques reutilizables |
 | `_legacy/` | archivado. Nunca se borra nada |
@@ -157,6 +159,21 @@ git commit -am "qué cambió y por qué"          # 3. esto es lo que versiona
 Guardar en MuseScore **sobrescribe**. Solo el commit deja un punto al que volver.
 El `.musicxml` **nunca se edita a mano**: el próximo sync lo pisa.
 
+### Configuraciones de equipos
+
+Una carpeta por equipo o programa en `8. Setup/3. Configuraciones/<equipo>/`,
+con lo que exporta su editor (MidiSuite → `.spc`, MIDI Control Center → `.keystep2`,
+Analog Lab → `.labmidi`). Tres reglas:
+
+1. **Solo va lo que el programa exporta.** Nunca archivos copiados de `AppData`,
+   nunca licencias, números de serie ni claves.
+2. **Lo que no se puede exportar se escribe en la nota del equipo**, como tabla.
+3. **Nombre `<Equipo> - <para qué>.<ext>`**, con `P<n>` si el aparato tiene ranuras
+   de preset (`SMC-PAD - P2.spc`). Sin versiones en el nombre: se exporta encima y
+   el commit dice qué cambió.
+
+Detalle en [[8. Setup/0. Índice#Configuraciones]].
+
 ### Notación dentro de una nota
 
 | | Bloque ` ```abc ` | Bloque ` ```strudel ` | Bloque ` ```verovio ` |
@@ -196,7 +213,7 @@ Todas las notas:
 
 ```yaml
 tipo:   # captura | concepto | guia-ai | ejercicio | estudio
-        # composicion | sesion | semana | mapa | referencia | rubrica
+        # composicion | sesion | semana | mapa | referencia | rubrica | setup
 estado: # vigente | borrador | superseded | archivado
 ```
 
@@ -213,7 +230,7 @@ Los tipos de propiedad son **globales en la bóveda**: si `leccion` es número e
 un sitio, lo es en todos. Eso convierte un error de tecleo en un error visible.
 
 Plantillas listas en `10. System/2. Plantillas/`: notas (`Clase`, `Concepto`,
-`Obra`, `Estudio`, `Actividad de curso`, `Semana`, `Sesión deliberada`), bloques
+`Obra`, `Estudio`, `Actividad de curso`, `Semana`, `Sesión deliberada`, `Setup`), bloques
 reutilizables (`bloque — dónde va cada archivo`, `bloque — prueba de posesión`,
 `Rúbrica - Composición`) y snippets de notación.
 
