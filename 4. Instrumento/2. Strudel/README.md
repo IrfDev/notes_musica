@@ -26,6 +26,7 @@ VS Code  ──guardar──▶  motor (localhost:5173, Chrome)  ──Web MIDI�
 4. Instrumento/2. Strudel/
 ├── README.md                  ← esta nota
 ├── 0. Qué es y cómo se usa.md ← el concepto: qué es Strudel y cuándo usarlo
+├── 1. Beats desde cero.md     ← cómo se arma un beat, con bloques para tocar
 ├── package.json               ← dependencias y scripts (npm)
 ├── package-lock.json          ← versiones exactas            git: sí
 ├── .nvmrc                     ← Node: lts/*
