@@ -1,0 +1,15 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "strudel-motor",
+      "runtimeExecutable": "powershell",
+      "runtimeArgs": [
+        "-NoProfile",
+        "-Command",
+        "$env:BROWSER='none'; $env:Path=\"$env:LOCALAPPDATA\\Author Software\\nvm\\.nodejs;$env:Path\"; Set-Location '4. Instrumento/2. Strudel'; npm run dev"
+      ],
+      "port": 5173
+    }
+  ]
+}
