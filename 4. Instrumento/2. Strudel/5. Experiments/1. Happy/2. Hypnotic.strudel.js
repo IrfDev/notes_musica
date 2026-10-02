@@ -1,10 +1,10 @@
-setcpm(120 / 4);
+setcpm(130 / 4);
 // let PROG = "<Bb Dm Ebsus Gm [F@1.5 F7]>";
 // let PROG = "<Bb Dm Eb Gm F7>";
 let PROG = "<Bb Bb6 Dm Dm6 Gm Gm F F7>";
 
 let ARP_ORDER = `
-      1
+      0
       2@2
       3
       2
@@ -15,19 +15,19 @@ let ARP_ORDER = `
 `;
 
 // .struct(ARP_RYTHM)
-let synth = chord(PROG).voicing().arp(ARP_ORDER).sound("piano").hpf(400).hpq(6);
+let synth = chord(PROG).voicing().arp(ARP_ORDER).hpf(400).hpq(6).sound("piano");
 
 let pad = chord(PROG)
   .voicing()
   .swingBy(0.2, 10)
-  .sound("gm_synth_bass_2")
+  .sound("gm_synth_bass_1")
   .lpf(500)
-  .lpq(8)
-  .velocity(0.5);
+  .lpq(9)
+  .velocity(0.4);
 
-let violin = note(`<
-    
->`).sound("gm_violin");
+// let violin = note(`<
+
+// >`).sound("gm_violin");
 
 stack(
   // Arp synth

@@ -1,4 +1,4 @@
-setcpm(100 / 4);
+setcpm(120 / 4);
 // let PROG = "<Bb Dm Ebsus Gm [F@1.5 F7]>";
 // let PROG = "<Bb Dm Eb Gm F7>";
 let PROG = "<Bb Bb Dm Dm6 Gm Gm F F7>";
@@ -35,8 +35,8 @@ let bass = note(
   "<[B2,D2] [B2,F2] [D2, A1] [D2,Bb2] [G2,B2] [G2,D2] [F3, C2] [C2, E3]>",
 )
   .velocity(0.5)
-  .lpf(500)
-  .lpq(3)
+  .lpf(900)
+  .lpq(8)
   .room(0.8)
   .roomsize(5)
   .sound("gm_electric_bass_pick");
