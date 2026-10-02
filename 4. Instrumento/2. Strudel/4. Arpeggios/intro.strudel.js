@@ -52,4 +52,4 @@ const kick = sound("bd ~ [bd ~ bd ~] ~").bank("LinnDrum");
 const box = sound("~ sd ~ sd").velocity(0.2).bank("RolandD110");
 const high = sound("hh*16");
 
-stack(runs).scope();
+stack(runs)._scope();

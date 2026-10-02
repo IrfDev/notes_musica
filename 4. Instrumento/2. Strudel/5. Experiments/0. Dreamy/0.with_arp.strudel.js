@@ -49,8 +49,9 @@ let bass = note(`<
     [b2, f#3] 
 >`).sound("gm_acoustic_bass");
 
-let kick = sound("bd ~ [bd ~] ~")
+let kick = sound("bd ~ bd ~")
   .lastOf(4, (x) => x.mask("1 1 0 0"))
+  .velocity(0.7)
   .bank("RolandD110");
 
 let box = sound(
@@ -62,8 +63,8 @@ let box = sound(
   ),
 )
   .bank("RolandD110")
-  .swingBy(0.2, 8)
-  .velocity(rand.range(0.5, 0.6));
+  // .swingBy(0.2, 8)
+  .velocity(rand.range(0.4, 0.3));
 
 let hiHats = sound("hh*8").bank("RolandD110").velocity(rand.range(0.1, 0.4));
 
@@ -88,7 +89,7 @@ const strum = (base, gap = 0.012) =>
 
 let guitar = strum(guitarBase)
   .sound("gm_acoustic_guitar_steel")
-  .velocity(rand.range(0.1, 0.8))
+  .velocity(0.5)
   .room(0.3)
   .roomsize(1);
 
