@@ -285,5 +285,7 @@ Todas las herramientas:
 ./_scripts/diff-musical.py a.xml b.xml   # comparar dos archivos
 ./_scripts/ordenar-downloads.py          # ordena .mscz sueltos en ~/Downloads
 ./_scripts/verificar-bloques.py          # revisa que los bloques verovio resuelvan
+./_scripts/generar-presets.py            # presets de equipos, bancos de Analog Lab y sus notas (catálogo en _scripts/presets/)
+./_scripts/strudel-a-arp.py              # strudels de 2. Strudel/6. Arpegiadores/ → .ARP (arpegiador de Sonar) y .mid al lado
 ./_scripts/configurar-git.sh             # activa el diff musical (una vez por clon)
 ```

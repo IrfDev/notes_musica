@@ -46,6 +46,10 @@ VS Code  ──guardar──▶  motor (localhost:5173, Chrome)  ──Web MIDI�
 │   ├── README.md                 cómo se usa
 │   └── <n>. <estilo>/            cada strudel con sus frase/ritmo .ARP y .mid al lado
 │
+├── 7. House/                  ← el género entero, capa por capa
+│   ├── 0. House desde cero.md    la guía, con bloques para tocar
+│   └── _lessons/                 una sesión por bloque de la guía (0–8)
+│
 ├── .motor/                    ← el motor; no se toca para tocar
 │   ├── index.html · main.js      la página que evalúa y toca
 │   ├── exportar.js               las notas de un patrón, para el arpegiador de Sonar
