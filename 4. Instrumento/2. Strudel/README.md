@@ -42,8 +42,13 @@ VS Code  ──guardar──▶  motor (localhost:5173, Chrome)  ──Web MIDI�
 ├── 2. Vocabulario/            ← solo lo que pasó las 4 pruebas
 │   └── …                         cada archivo nace con su primera entrada
 │
+├── 6. Arpegiadores/           ← lo que se convierte en .ARP (Sonar) y .mid
+│   ├── README.md                 cómo se usa
+│   └── <n>. <estilo>/            cada strudel con sus frase/ritmo .ARP y .mid al lado
+│
 ├── .motor/                    ← el motor; no se toca para tocar
 │   ├── index.html · main.js      la página que evalúa y toca
+│   ├── exportar.js               las notas de un patrón, para el arpegiador de Sonar
 │   ├── patrones.js               vigila las carpetas y avisa al guardar
 │   ├── puertos.js                nombre del puerto MIDI (OUT)
 │   └── prueba-midi.js            la prueba de la Fase 2
@@ -123,6 +128,21 @@ Detalle del proyecto en [[0. Cakewalk Sonar]]. Para cada pista de Strudel:
 2. Pista **de instrumento** (no de audio) con Analog Lab.
 3. Entrada `Improviser - Strudel Out`, canal según la tabla, **Input Echo** encendido.
 4. En Analog Lab, *MIDI Channel* en **All**: Sonar ya filtra por canal.
+
+### Sin el motor: tus arpegios como presets de Sonar y MIDI
+
+Lo que pongas en **`6. Arpegiadores/`** se convierte en un preset del **arpegiador de Sonar**
+(`.ARP`) y en un **MIDI** (`.mid`), al lado del strudel, para tocarlo desde el KeyStep sin el
+motor corriendo. Cómo se organiza: [[6. Arpegiadores/README|Arpegiadores]].
+
+```bash
+./_scripts/strudel-a-arp.py --instalar    # desde la raíz de la bóveda
+```
+
+Los `.js` de fuera de esa carpeta que usan `.arp(` también se convierten, pero solo en `.ARP`,
+en `8. Setup/3. Configuraciones/Cakewalk Sonar/`. Evalúa cada archivo con este mismo Strudel
+(`.motor/exportar.js`), así que las notas son las que suenan aquí, con `voicing()`, swing y
+velocidades incluidos. Qué sale y cómo se usa en Sonar: [[0. Cakewalk Sonar#Arpegiador]].
 
 ## VS Code
 

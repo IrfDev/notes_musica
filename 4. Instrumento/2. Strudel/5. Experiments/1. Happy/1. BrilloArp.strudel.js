@@ -32,9 +32,9 @@ let ghostFolk = s("<[[sh ~ ~ sh] ~ [~ sh] ~]!3 [oh oh ~ [cb,rd,cr]]>")
   .velocity(0.1);
 
 let bass = note(
-  "<[B2,D2] [B2,F2] [D2, A1] [D2,Bb2] [G2,B2] [G2,D2] [F3, C2] [C2, E3]>",
+  "<[B2,D2] [B2,F2] [D2, A1] [D2,Bb2] [G2,B2] [G2,D2] [F3, C2] [f2, E3]>",
 )
-  .velocity(0.5)
+  .velocity(0.3)
   .lpf(900)
   .lpq(8)
   .room(0.8)
