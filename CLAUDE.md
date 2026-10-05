@@ -203,6 +203,12 @@ malo fuera de su terreno.
 - **Nunca decimales** (`8.1`, `11.3`): fue el síntoma del colapso anterior
 - Sin guiones largos (`—`) en nombres de **carpeta**
 - Sin `:` en ningún nombre — rompe las rutas de Obsidian
+- **Todo nombre tiene que valer en Windows.** La bóveda también se clona ahí, y
+  si un nombre no vale, git falla con `invalid path`. Sin espacio ni punto al
+  final (`1. Happy ` ya falló así), sin `< > : " \ | ? *`, sin nombres
+  reservados (`CON`, `NUL`, `COM1`…), sin dos nombres que solo difieran en
+  mayúsculas y con la ruta por debajo de 200 caracteres. Detalle en
+  [[6. Práctica/1. Estructura#Compatibles con Windows]]
 - Archivos fechados: `AAAA-MM-DD` delante
 - **Sin número de iteración en las partituras.** Las iteraciones son commits;
   las variantes llevan sufijo descriptivo (`Contrapunto - 3a especie`)
