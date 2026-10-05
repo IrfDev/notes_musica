@@ -1,4 +1,4 @@
-setcpm(120 / 2);
+setcpm(120 / 3);
 
 const MODO = "D:major";
 const RAIZ = "<0@2 4 5 3>";
@@ -33,7 +33,7 @@ let bass = note("D2 A2 B2 G1").sound("gm_acoustic_bass");
 //   .sound("gm_acoustic_guitar_steel");
 
 let bassy = piso.scale(MODO).sound("piano");
-let guitar = motor.scale(MODO).struct("[~ x]").sound("piano");
+let guitar = motor.scale(MODO).struct("[~ x x]").sound("piano");
 
 stack(
   // Armony

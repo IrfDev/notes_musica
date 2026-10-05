@@ -50,6 +50,10 @@ VS Code  ──guardar──▶  motor (localhost:5173, Chrome)  ──Web MIDI�
 │   ├── 0. House desde cero.md    la guía, con bloques para tocar
 │   └── _lessons/                 una sesión por bloque de la guía (0–8)
 │
+├── 8. Dream pop/              ← al estilo de Beach House: del órgano a la coda
+│   ├── 0. Dream pop desde cero.md
+│   └── _lessons/                 una sesión por bloque de la guía (0–7)
+│
 ├── .motor/                    ← el motor; no se toca para tocar
 │   ├── index.html · main.js      la página que evalúa y toca
 │   ├── exportar.js               las notas de un patrón, para el arpegiador de Sonar

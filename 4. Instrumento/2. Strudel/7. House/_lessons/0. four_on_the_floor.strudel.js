@@ -22,7 +22,7 @@ cuenta  1 e & a   2 e & a   3 e &  a    4  e  &  a
 // Escucha 8 compases solo el kick. Cuéntalos en voz alta.
 let chords = "<C Am F Fmaj7 Em7 G G7>";
 $: s("bd*8").bank(BANK).swingBy(2, 8);
-$: s("hh*4").bank(BANK);
+$: s("[hh hh hh oh]*4").bank(BANK);
 $: s("[[~ sd ~ ~] [~ sd ~ sd] [~ sd sd ~] [~ sd]]").bank(BANK);
 $: s(chords).sound("gm_lead_8_bass_lead").room(0.4).roomsize(2).lpf(300).hpf(5);
 $: n("[0 3 1 2 3 1 2 1]".sub(7))
@@ -31,7 +31,7 @@ $: n("[0 3 1 2 3 1 2 1]".sub(7))
   .swingBy(2, 8)
   .room(0.5)
   .roomsize(9)
-  .lpf(10000)
+  .lpf(300)
   .hpf(3)
   .sound("gm_synth_strings_2");
 

@@ -1,11 +1,11 @@
-setcpm(180 / 3);
+setcpm(160 / 3);
 
 const MODO = "D:major";
 const RAIZ = "<0@2 4 5 3>";
 
 let CHORD_TYPES = {
   nor: "[0,2,4,9]",
-  sus: "[0,1,4]",
+  sus: "[0,1,4,9]",
   sus4: "[0,3,4]",
   add9: "[0,2,4,8]",
   add11: "[0,2,4,10]",
