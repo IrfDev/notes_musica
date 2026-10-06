@@ -1,21 +1,26 @@
 setcpm(160 / 3);
 
 const MODO = "D:major";
-const RAIZ = "<0@2 4 5 3>";
+const INTRO_CHORDS = "<D@2 A Bm G>";
 
-let MAIN_VOICING = "[0,2,4,9]";
+let MAIN_VOICING = "<[0,2,4,9]>";
 let MAIN_MELODY = "<[A4@0.5 G4@0.75 F#4@0.5 D4@0.75 F#4]@2 ~!3>";
+
+let diatonicVoicingByScale = (
+  gradeVoicing,
+  rootNoteIndex,
+  chordsToUse,
+  baseScale,
+) =>
+  n(gradeVoicing).anchor(chordsToUse.rootNotes(rootNoteIndex)).scale(baseScale);
 
 let melody = note(MAIN_MELODY).sound("piano");
 
-let transposedBass = RAIZ.sub(7);
-let bassy = n(transposedBass).scale(MODO).mode("above").sound("piano");
+let bassy = chord(INTRO_CHORDS).rootNotes(2).sound("piano");
 
-let armonic = n(RAIZ.add(MAIN_VOICING))
-  .scale(MODO)
+let armonic = diatonicVoicingByScale(MAIN_VOICING, 3, INTRO_CHORDS, MODO)
   .struct("<~@2 [~ x@1.2 x]!3>")
-  .sound("piano")
-  .mode("above");
+  .sound("piano");
 
 // Piano
 let chumPamPam = stack(
@@ -23,7 +28,7 @@ let chumPamPam = stack(
   bassy,
   // The armonic part is a custom voicing planned, that may be reused
   armonic,
-);
+).pianoroll({ labels: 3, cycles: 2, vertical: 0 });
 
 let kick = s("<[~ ~ bd] [bd ~ ~] [~ ~ bd]!2 ~>");
 
@@ -54,35 +59,56 @@ let intro = stack(
   // guitar,
 );
 
-let LONG_CHORDS = "<D^7 F#m C#o A@0.5 A7@0.5>";
-let pianoVerseVoicing =
-  "<[0,2,9,11,13] [0,2,4,9]!2 [0,2,4,9]@0.5 [0,2,9,11,13]@0.5>";
-let firstVerseArmonyPiano = chord(LONG_CHORDS)
-  .voicing()
-  .arp(pianoVerseVoicing)
-  .anchor("D2")
-  .mode("above")
-  .sound("piano")
-  .pianoroll({ labels: 3, cycles: 2, vertical: 0 });
+let LONG_CHORDS = `<
+  D^7
+  F#m@0.75
+  F#m@0.25
+  C#o
+  A@0.5 
+  A7@0.5
 
-let guitarBass = n("[0,2]".sub(7));
-let guitarMid = n("[4, 7]".sub(7));
-let guitarHigh = n("[0, 4]".add(7));
-let guitarStruct = "<[~ x x]>";
+  
+  >`;
 
+let pianoVerseVoicing = `<
+  [0,2,9,11,13]
+  [0,2,4,11]@0.75
+  [0,2,4,9]@0.25
+  [0,2,4,9]
+  [0,2,4,9]@0.5
+  [0,2,9,11,13]@0.5
+  >`;
+
+let firstVerseArmonyPiano = diatonicVoicingByScale(
+  pianoVerseVoicing,
+  3,
+  LONG_CHORDS,
+  MODO,
+).sound("piano");
+
+let guitarStruct = `<
+  [x@3]!4
+  [~ x x]
+  [x@3]
+  [~ x x]
+  [x@3]
+>`;
+
+// Guitar divided by voices, creating voicings by scale
 let guitar = stack(
-  guitarBass.chord(LONG_CHORDS).voicing().struct(guitarStruct),
-  guitarMid
-    .chord(LONG_CHORDS)
-    .voicing()
+  // Guitar bass
+  diatonicVoicingByScale("[0,2]", 2, LONG_CHORDS, MODO).struct(guitarStruct),
+  // Guitar Mid
+  diatonicVoicingByScale("<[0, 2]!4 [7,9]!4>", 3, LONG_CHORDS, MODO)
     .struct(guitarStruct)
-    .late(rand.range(0.01, 0.02)),
-  guitarHigh
-    .chord(LONG_CHORDS)
-    .voicing()
+    .late(rand.range(0.01, 0.025)),
+  // Guitar high
+  diatonicVoicingByScale("<[0,4]!7 [4,6]>", 4, LONG_CHORDS, MODO)
     .struct(guitarStruct)
-    .late(rand.range(0.03, 0.04)),
-).sound("gm_acoustic_guitar_nylon");
+    .late(rand.range(0.04, 0.06)),
+)
+  .swingBy(0.5, 6)
+  .sound("gm_acoustic_guitar_nylon");
 
 let verse = stack(
   //Piano
@@ -93,7 +119,7 @@ let verse = stack(
 
 arrange(
   // Intro
-  [10, intro],
+  // [10, intro],
   // Verse
-  [10, verse],
+  [8, verse],
 );

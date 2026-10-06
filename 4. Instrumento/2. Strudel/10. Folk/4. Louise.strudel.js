@@ -54,14 +54,14 @@ let drums = stack(
 ).bank("AkaiLinn");
 
 stack(
-  // Drums
-  drums,
-  // Melodic
-  melody,
-  // Armony
+  // // Drums
+  // drums,
+  // // Melodic
+  // melody,
+  // // Armony
   armonic,
   // Bass
   bassy,
   // Guitar
-  guitar,
+  // guitar,
 ).pianoroll({ labels: 2, cycles: 2, vertical: 0 });
