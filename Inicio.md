@@ -13,7 +13,7 @@ aliases:
 
 | | |
 |---|---|
-| **Obra activa** | *(una a la vez)* |
+| **Obra activa** | [[Intro\|Louise]] |
 | **Concepto activo** | |
 | **Curso en marcha** | [[2. Cursos/1. Cresciente/00. Curso\|Cresciente]] — módulo 1B Séptimas |
 | **Día de revisión semanal** | *(elegir uno fijo)* |
