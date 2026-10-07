@@ -126,6 +126,7 @@ let verse = stack(
   firstVerseArmonyPiano,
   // Melodic Guitar
   guitar,
+  drums,
 );
 
 const CHORUS_CHORDS = `<
@@ -155,9 +156,9 @@ let chorus = stack(
 
 arrange(
   // Intro
-  [10, intro],
+  // [10, intro],
   // // Verse
   [16, verse],
   // Chorus
-  [8, chorus],
+  // [8, chorus],
 );
