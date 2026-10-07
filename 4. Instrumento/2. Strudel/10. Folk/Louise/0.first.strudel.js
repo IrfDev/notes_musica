@@ -33,11 +33,11 @@ let chumPamPam = stack(
 // Drums
 let kick = s("<[~ ~ bd] [bd ~ ~] [bd ~ ~]!2 ~>");
 
-let box = s("<[cr,oh] [tb tb ~] [~ tb tb]!2 [tb ~ [[lt,mt] [mt,ht]]]>")
-  .velocity(0.7)
-  .swingBy(0.2, 6);
+let box = s(
+  "<[mt cr ~] [tb tb ~] [~ tb@1.2 tb]!2 [tb ~@1.2 [ht lt]]>",
+).velocity(0.7);
 
-let ghosty = s("<[[sh ~ sh] ~ [~ sh] ~]>").velocity(0.1);
+let ghosty = s("<[sh sh sh] [sh] [~ sh]>").velocity(0.1);
 
 let drums = stack(
   // Kick
@@ -47,7 +47,7 @@ let drums = stack(
   // Ghosty
   ghosty,
 )
-  .mask("<0 0 1!8>")
+  .mask("<0 0 1!4 0 1!3>")
   .bank("AkaiLinn");
 
 let intro = stack(
@@ -134,11 +134,11 @@ let guitar = stack(
 //Drums
 let verseDrums = stack(
   //kick
-  s("<[bd ~]>"),
+  s("<[bd ~ ~]>"),
   // Box: cr, oh, ht,lt,mt, tb, cp
-  s("<[~ tb tb] [~ ~ [sd,tb]]>"),
+  s("<[tb ~ ~]>").velocity(0.7),
   // Ghosty:
-  s("<[cb ~] [[cb,sh] oh ~]>").velocity(0.4),
+  s("<[~ [cb,sh] sh]>").velocity(0.1),
 ).bank("AkaiLinn");
 
 let verse = stack(
@@ -201,11 +201,11 @@ let chorusGuitar = stack(
 //Drums
 let chorusDrums = stack(
   //kick
-  s("<[bd ~]!3 ~>"),
+  s("<[bd ~ bd]!3 ~>"),
   // Box: cr, oh, ht,lt,mt, tb, cp
-  s("<[~ tb tb]!3 [lt mt ht]>"),
+  s("<[~ tb tb]!3 [lt mt ht]>").velocity(0.7),
   // Ghosty:
-  s("<[cb ~] [[cb,sh] oh ~]>").velocity(0.4),
+  s("<[cb ~] [[cb,sh] oh hh]>").velocity(0.4),
 ).bank("AkaiLinn");
 
 // Same chords as intro, but more waltzy
@@ -222,7 +222,7 @@ arrange(
   // Intro
   [10, intro],
   // // Verse
-  [16, verse],
+  // [16, verse],
   // Chorus
-  [8, chorus],
+  // [8, chorus],
 );
