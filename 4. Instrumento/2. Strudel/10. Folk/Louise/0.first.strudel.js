@@ -15,8 +15,9 @@ let diatonicVoicingByScale = (
 
 let melody = note(MAIN_MELODY).sound("piano");
 
-let bassy = chord(INTRO_CHORDS).rootNotes(2).sound("piano");
+// ═══════════════════════ Intro ══════════════════════
 
+let bassy = chord(INTRO_CHORDS).rootNotes(2).sound("piano");
 let armonic = diatonicVoicingByScale(MAIN_VOICING, 3, INTRO_CHORDS, MODO)
   .struct("<~@2 [~ x@1.2 x]!3>")
   .sound("piano");
@@ -29,15 +30,14 @@ let chumPamPam = stack(
   armonic,
 );
 
-let kick = s("<[~ ~ bd] [bd ~ ~] [~ ~ bd]!2 ~>");
+// Drums
+let kick = s("<[~ ~ bd] [bd ~ ~] [bd ~ ~]!2 ~>");
 
-let box = s(
-  "<[cr,oh] [tb tb ~] [~ [[tb,lt,mt] [tb,mt,lt]] ~]!2 [tb ~ [[lt,mt] [mt,ht]]]>",
-)
+let box = s("<[cr,oh] [tb tb ~] [~ tb tb]!2 [tb ~ [[lt,mt] [mt,ht]]]>")
   .velocity(0.7)
   .swingBy(0.2, 6);
 
-let ghosty = s("<[[sh ~ ~ sh] ~ [~ sh] ~]>").velocity(0.1);
+let ghosty = s("<[[sh ~ sh] ~ [~ sh] ~]>").velocity(0.1);
 
 let drums = stack(
   // Kick
@@ -60,6 +60,12 @@ let intro = stack(
   // guitar,
 );
 
+// ═══════════════════════ Verse ══════════════════════
+/*
+The verse is a combination of the guitar doing the chumpampam waltzy thing 
+And long piano verses
+*/
+
 // So we have two patterns repeated twice
 let VERSE_CHORDS = `<
   [D^7 F#m@0.75 F#m@0.25 C#o A@0.5 A7@0.5]!2
@@ -73,6 +79,8 @@ let VERSE_CHORDS = `<
   ]!2
 >/4`;
 
+// Per pattern we have specific voicings
+// THe only change occours on the 2nd and 3rd compass with the 6th
 let pianoVerseVoicing = `<
   [
     [0,2,9,11,13]
@@ -92,6 +100,7 @@ let pianoVerseVoicing = `<
   ]!2
   >/4`;
 
+// Voiced chords long playing
 let firstVerseArmonyPiano = diatonicVoicingByScale(
   pianoVerseVoicing,
   3,
@@ -99,6 +108,7 @@ let firstVerseArmonyPiano = diatonicVoicingByScale(
   MODO,
 ).sound("piano");
 
+// Guitar
 let guitarStruct = `<
   [x@3]!4
   [~ x x]
@@ -121,14 +131,30 @@ let guitar = stack(
     .late(rand.range(0.04, 0.06)),
 ).sound("gm_acoustic_guitar_nylon");
 
+//Drums
+let verseDrums = stack(
+  //kick
+  s("<[bd ~]>"),
+  // Box: cr, oh, ht,lt,mt, tb, cp
+  s("<[~ tb tb] [~ ~ [sd,tb]]>"),
+  // Ghosty:
+  s("<[cb ~] [[cb,sh] oh ~]>").velocity(0.4),
+).bank("AkaiLinn");
+
 let verse = stack(
   //Piano
   firstVerseArmonyPiano,
   // Melodic Guitar
   guitar,
-  drums,
+  // Drums
+  verseDrums,
 );
 
+// ═══════════════════════ Chorus ══════════════════════
+/*
+In the chorus, we'll leaving the piano doing the waltzy rythm 
+And the guitar can do the long chords
+*/
 const CHORUS_CHORDS = `<
   Em G F#m7 Bm
   Em G A7 D 
@@ -146,19 +172,57 @@ let armonicChorus = diatonicVoicingByScale(
   .swingBy(1 / 3, 6)
   .sound("piano");
 
-// Same chords as intro, but more waltzy
-let chorus = stack(
-  // Walts
+let chumPamPamPiano = stack(
+  // bassy
   bassyChorus,
   // Armonic
   armonicChorus,
 );
 
+// Guitar
+let CHORUS_GUITAR_STRUCT = "<[x@3]!3 [~ x x]>";
+
+// Guitar divided by voices, creating voicings by scale
+let chorusGuitar = stack(
+  // Guitar bass
+  diatonicVoicingByScale("[0,2]", 2, CHORUS_CHORDS, MODO).struct(
+    CHORUS_GUITAR_STRUCT,
+  ),
+  // Guitar Mid
+  diatonicVoicingByScale("<[0, 2]!4 [4,7]!4>", 3, CHORUS_CHORDS, MODO)
+    .struct(CHORUS_GUITAR_STRUCT)
+    .late(rand.range(0.01, 0.025)),
+  // Guitar high
+  diatonicVoicingByScale("<[0,4]!7 [2,4]>", 4, CHORUS_CHORDS, MODO)
+    .struct(CHORUS_GUITAR_STRUCT)
+    .late(rand.range(0.04, 0.06)),
+).sound("gm_acoustic_guitar_nylon");
+
+//Drums
+let chorusDrums = stack(
+  //kick
+  s("<[bd ~]!3 ~>"),
+  // Box: cr, oh, ht,lt,mt, tb, cp
+  s("<[~ tb tb]!3 [lt mt ht]>"),
+  // Ghosty:
+  s("<[cb ~] [[cb,sh] oh ~]>").velocity(0.4),
+).bank("AkaiLinn");
+
+// Same chords as intro, but more waltzy
+let chorus = stack(
+  // Walts
+  chumPamPamPiano,
+  // Armonic guitar
+  chorusGuitar,
+  // Drums
+  chorusDrums,
+);
+
 arrange(
   // Intro
-  // [10, intro],
+  [10, intro],
   // // Verse
   [16, verse],
   // Chorus
-  // [8, chorus],
+  [8, chorus],
 );
