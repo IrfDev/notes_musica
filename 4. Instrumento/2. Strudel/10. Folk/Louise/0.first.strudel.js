@@ -128,8 +128,11 @@ let verse = stack(
   guitar,
 );
 
-const CHORUS_CHORDS = "<D@2 A Bm G>";
-let CHORUS_VOICING = "<[0,2,4,9]!4 [0,2,6,9]>";
+const CHORUS_CHORDS = `<
+  Em G F#m7 Bm
+  Em G A7 D 
+>`;
+let CHORUS_VOICING = "<[0,2,4,9]!2 [0,2,6,9] [0,2,4,9]>";
 
 let bassyChorus = chord(CHORUS_CHORDS).rootNotes(2).sound("piano");
 let armonicChorus = diatonicVoicingByScale(
@@ -138,7 +141,8 @@ let armonicChorus = diatonicVoicingByScale(
   CHORUS_CHORDS,
   MODO,
 )
-  .struct("<[~ x@1.2 x]!4 [~ x@2]>")
+  .struct("<[~ x x]!3 [~ x@2]>")
+  .swingBy(1 / 3, 6)
   .sound("piano");
 
 // Same chords as intro, but more waltzy
@@ -151,9 +155,9 @@ let chorus = stack(
 
 arrange(
   // Intro
-  // [10, intro],
+  [10, intro],
   // // Verse
-  // [16, verse],
+  [16, verse],
   // Chorus
   [8, chorus],
 );
