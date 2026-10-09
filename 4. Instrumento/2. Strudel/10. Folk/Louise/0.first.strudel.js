@@ -1,7 +1,7 @@
 setcpm(160 / 3);
 
 const MODO = "D:major";
-const INTRO_CHORDS = "<D@2 A Bm G D@2 A Bm G7>";
+const INTRO_CHORDS = "<D@2 A Bm G D@2 A Bm G^7>";
 let MAIN_VOICING = "<[0,2,4,9]!9 [0,2,4,6]>";
 let MAIN_MELODY = "<[A4@0.5 G4@0.75 F#4@0.5 D4@0.75 F#4]@2 ~!3>";
 
@@ -112,16 +112,24 @@ let VERSE_CHORDS = `<
 // THe only change occours on the 2nd and 3rd compass with the 6th
 let pianoVerseVoicing = `<
     [0,2,9,11,13]
+
     [0,2,4,11]@0.75
     [0,2,4,9]@0.25
+
     [0,2,4,9]
+
     [0,2,4,9]@0.5
     [0,2,9,11,13]@0.5
   
+
+
     [0,2,9,11,13]
+
     [0,2,4,11]@0.75
     [0,2,4,5]@0.25
+
     [0,2,4,5]
+
     [0,2,4,9]@0.5
     [0,2,9,11,13]@0.5
   >`;
@@ -136,10 +144,16 @@ let firstVerseArmonyPiano = diatonicVoicingByScale(
 
 // Guitar
 let guitarStruct = `<
-    [x@3]!4
+    [x@3]!8
+    [~ x x]
+    [x@3]
+    [~ x x]
+    [x@3]
+    [~ x x]
+    [x@3]
+    [~ x x]
+    [x@3]
 >`;
-// [~ x x]
-// [x@3]
 // [~ x x]
 // [x@3]
 
@@ -160,9 +174,10 @@ let guitar = stack(
 //Drums
 let verseDrums = stack(
   //kick
-  s("<[bd ~ ~]>"),
+  s("<[bd ~ ~]!7 ~>"),
   // Box: cr, oh, ht,lt,mt, tb, cp
-  s("<[tb ~ ~]>").velocity(0.7),
+  s("<[~ ~ tb]>").velocity(0.7),
+  s("<[oh hh ~] ~!6 [mt lt ht]>"),
   // Ghosty:
   s("<[~ [cb,sh] sh]>").velocity(0.1),
 ).bank("AkaiLinn");
@@ -174,6 +189,7 @@ let verse = stack(
   guitar,
   // Drums
   verseDrums,
+  note("<[g3 a3 b3] a4>").sound("gm_choir_aahs"),
 );
 
 // ═══════════════════════ Chorus ══════════════════════
@@ -263,7 +279,10 @@ let chorusDrums = stack(
   //kick
   s("<[bd ~ bd]!3 ~>"),
   // Box: cr, oh, ht,lt,mt, tb, cp
-  s("<[~ tb tb]!3 [lt mt ht]>").velocity(0.7),
+  s("<[~ tb tb]>").velocity(0.7),
+  //Fills
+  s("<~!3 [lt mt ht]>"),
+  s("<[cr hh oh] ~!15>"),
   // Ghosty:
   s("<[cb ~] [[cb,sh] oh hh]>").velocity(0.4),
 ).bank("AkaiLinn");
@@ -287,14 +306,9 @@ let bridge = stack();
 
 arrange(
   // Intro
-  [10, intro],
+  // [10, intro],
   // // Verse
   [16, verse],
   // Chorus
-  [16, chorus],
-  [10, intro],
-  [16, verse],
-  [16, chorus],
-  [16, chorus],
-  [10, intro],
+  // [16, chorus],
 );
