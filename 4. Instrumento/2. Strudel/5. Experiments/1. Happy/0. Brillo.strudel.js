@@ -44,7 +44,9 @@ let synth = chord(PROG)
   .voicing()
   .arp(ARP_ORDER)
   .struct(ARP_RYTHM)
-  .sound("piano");
+  .lpf(300)
+  .lpq(4)
+  .sound("gm_synth_choir");
 
 stack(
   // Synth

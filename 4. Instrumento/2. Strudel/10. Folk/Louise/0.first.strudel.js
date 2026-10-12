@@ -118,7 +118,7 @@ let pianoVerseVoicing = `<
 
     [0,2,4,9]
 
-    [0,2,4,9]@0.5
+    [0,2,4,9]@0.5 
     [0,2,9,11,13]@0.5
   
 
@@ -149,7 +149,7 @@ let guitarStruct = `<
     [x@3]
     [~ x x]
     [x@3]
-    [~ x x]
+    [~ x x] 
     [x@3]
     [~ x x]
     [x@3]
@@ -208,7 +208,7 @@ let BASS_CHORUS_VOICING = `<
   [0,7]!8
 >`;
 
-let CHORUS_VOICING = `<
+let CHORUS_VOICING = `< 
   [
     0!4
   ]!2
