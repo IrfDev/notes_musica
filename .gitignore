@@ -26,6 +26,9 @@
 *.mscz.autosave
 .*.mscz,
 
+# Partituras con licencia de uso personal: viven en la bóveda, no se comparten.
+7. Partituras/3. Referencias/The Lumineers - Sleep on the Floor.pdf
+
 # ── Derivados ────────────────────────────────────────────────
 # Audio y PDF se regeneran desde el .mscz. Versionarlos convierte
 # un repo de 15 MB en uno de 2 GB.
