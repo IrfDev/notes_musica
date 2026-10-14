@@ -1004,6 +1004,8 @@ V:2 clef=bass name="MI"
 [V:2] "_5"C,"_4"E,"_3"F,"_2"G, "_1"A,"_2"G,"_3"F,"_4"E, | D,F,G,A, B,A,G,F, | E,G,A,B, CB,A,G, || "_1"G"_2"E"_3"D"_4"C "_5"B,"_4"C"_3"D"_2"E | FDCB, A,B,CD |]
 ```
 
+
+
 ```strudel
 setcpm(60/2)   // ♩ = 60 · un ciclo = un compás de 2/4 = una celda
 // Hanon 1 subiendo dos octavas: la misma celda, un grado más arriba en cada ciclo
