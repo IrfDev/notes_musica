@@ -292,9 +292,9 @@ let chorus = stack(
   // Walts
   chumPamPamPiano,
   // Armonic guitar
-  // chorusGuitar,
+  chorusGuitar,
   // Drums
-  // chorusDrums,
+  chorusDrums,
 );
 
 // ═══════════════════════ Bridge ══════════════════════
