@@ -12,7 +12,7 @@ concepto: "[[2. Armonización de tonalidades mayores]]"
 > 2. **Las 12 escalas y arpegios mayores**, con digitación, porque los acordes salen de ahí.
 > 3. **Cómo se enlazan**: inversión más cercana, cadencias y patrones de mano izquierda.
 > 4. **Hanon** (técnica de dedos) y **Sleep on the Floor** (repertorio), con ejercicios.
-> 5. **Un plan de 20 sesiones** que lo junta todo, dividido por día: [[4. Instrumento/1. Piano/1. Programa de 20 sesiones/00. Plan y progreso|Plan y progreso]].
+> 5. **Un plan de 30 sesiones** que lo junta todo, dividido por día: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/00. Plan y progreso|Plan y progreso]].
 >
 > Hermana de [[Cheat sheet - acordes por tonalidad]] (guitarra): la teoría es la misma y aquí
 > está aplicada al teclado.
@@ -34,7 +34,7 @@ concepto: "[[2. Armonización de tonalidades mayores]]"
 9. [[#9. La mano izquierda, patrones de acompañamiento]]
 10. [[#10. Hanon, técnica de dedos]]
 11. [[#11. Repertorio, Sleep on the Floor]]
-12. [[#12. Plan de 20 sesiones]]
+12. [[#12. Plan de 30 sesiones]]
 13. [[#13. Errores comunes]]
 14. [[#14. Decisión musical]]
 
@@ -1149,31 +1149,39 @@ s("hh*4").bank("RolandTR909").gain("1 .4 .4 .4")
 
 ---
 
-## 12. Plan de 20 sesiones
+## 12. Plan de 30 sesiones
 
-Cuatro semanas, cinco sesiones por semana, **40 minutos** cada una. Cada sesión tiene tres
-carriles que avanzan en paralelo: **técnica** (Hanon, §10), **teclado** (acordes, escalas y
-cadencias de esta hoja) y **repertorio** (*Sleep on the Floor*, §11). Cada semana termina con una
-grabación (*semana sin audio es semana en blanco*).
+Seis semanas, cinco sesiones por semana, **40 minutos** cada una. Cada sesión tiene tres
+carriles que avanzan en paralelo: **técnica** (Hanon, §10), **teclado** (acordes, escalas,
+arpegios y cadencias de esta hoja) y **repertorio** (*Sleep on the Floor*, §11, y al final tu obra).
+Cada semana termina con una grabación (*semana sin audio es semana en blanco*).
+
+El punto de partida es que **las escalas de C, D, E y F ya salen a dos manos**, de arriba abajo, como
+un Hanon: no se vuelven a estudiar, se miden el día 1 y desde ahí sirven de ancla (G y A comparten su
+digitación). Por eso la semana de escalas solo enseña las ocho que faltan y queda tiempo para tocar
+las 12 tonalidades a dos manos en todo. Las tríadas, arpegios y cadencias de C, D, E y F se estudian
+como las de las demás.
 
 ```mermaid
 flowchart TB
     subgraph TEC["Técnica · Hanon"]
         direction LR
-        H1["Semana 1<br/>Hanon 1–2"] --> H2["Semana 2<br/>Hanon 3–5"] --> H3["Semana 3<br/>Hanon 6–10"] --> H4["Semana 4<br/>Hanon 11–15"]
+        H1["S1<br/>1–4"] --> H2["S2<br/>5–8"] --> H3["S3<br/>9–12"] --> H4["S4<br/>13–16"] --> H5["S5<br/>17–20"] --> H6["S6<br/>variantes"]
     end
     subgraph REP["Repertorio · Sleep on the Floor"]
         direction LR
-        R1["Semana 1<br/>verso, MI"] --> R2["Semana 2<br/>verso, manos juntas"] --> R3["Semana 3<br/>intro"] --> R4["Semana 4<br/>instrumental, crescendo,<br/>clímax y final"]
+        R1["S1<br/>verso,<br/>cada mano"] --> R2["S2<br/>verso juntas,<br/>intro"] --> R3["S3<br/>intro → verso,<br/>instrumental"] --> R4["S4<br/>crescendo"] --> R5["S5<br/>clímax<br/>y final"] --> R6["S6<br/>completa"]
     end
 ```
 
 ```mermaid
 flowchart LR
-    S1["Semana 1<br/>Geografía<br/>las 12 tríadas"] --> S2["Semana 2<br/>Inversiones<br/>y la más cercana"]
-    S2 --> S3["Semana 3<br/>Escalas y<br/>armonización"]
-    S3 --> S4["Semana 4<br/>Cadencias y<br/>mano izquierda"]
-    S4 --> M["Mantenimiento<br/>rotación semanal"]
+    S1["Semana 1<br/>Tríadas e<br/>inversiones"] --> S2["Semana 2<br/>Escalas"]
+    S2 --> S3["Semana 3<br/>Arpegios y<br/>armonización"]
+    S3 --> S4["Semana 4<br/>Cadencias"]
+    S4 --> S5["Semana 5<br/>Mano izquierda<br/>y Louise"]
+    S5 --> S6["Semana 6<br/>Integración<br/>y examen"]
+    S6 --> M["Mantenimiento<br/>rotación semanal"]
 ```
 
 ### Cómo es una sesión
@@ -1181,21 +1189,21 @@ flowchart LR
 ```mermaid
 pie showData
     title Una sesión de 40 minutos
-    "Hanon" : 5
+    "Hanon" : 6
     "Recuperación" : 3
-    "Trabajo principal" : 15
-    "Aplicación" : 5
-    "Sleep on the Floor" : 10
+    "Trabajo principal" : 14
+    "Aplicación" : 4
+    "Sleep on the Floor" : 11
     "Registro" : 2
 ```
 
 | Bloque | Min | Qué |
 |---|---:|---|
-| **Hanon** | 5 | técnica: el ejercicio del día, manos separadas y luego juntas (§10) |
+| **Hanon** | 6 | técnica: el ejercicio nuevo (manos separadas y luego juntas) y dos de la rotación (§10) |
 | **Recuperación** | 3 | lo del día anterior, sin mirar la hoja |
-| **Trabajo principal** | 15 | lo nuevo del día, con metrónomo |
-| **Aplicación** | 5 | usarlo en algo musical: tu pieza, una progresión, improvisar |
-| **Sleep on the Floor** | 10 | repertorio: los compases del día, con el metrónomo de §11 |
+| **Trabajo principal** | 14 | lo nuevo del día, con metrónomo |
+| **Aplicación** | 4 | usarlo en algo musical: transportar, al azar, tu pieza |
+| **Sleep on the Floor** | 11 | repertorio: los compases del día, con el metrónomo de §11 |
 | **Registro** | 2 | anotar los BPM alcanzados y qué falló |
 
 ### El metrónomo
@@ -1217,38 +1225,26 @@ flowchart TD
 
 Tempos de partida: **tríadas en bloque a 60** (un acorde por pulso), **quebradas y escalas a 60 en
 negras**, luego corcheas al mismo tempo. **Hanon a 60. Sleep on the Floor a 40**, aunque la pieza vaya
-a 63 y 71.
+a 63 y 71. Las escalas de C, D, E y F empiezan donde las midas el día 1. La meta del programa en *Sleep on the
+Floor* es el **80 % del tempo real** (50 y 56); el resto se gana en el mantenimiento.
 
 ---
 
-### Las 20 sesiones
+### Las 30 sesiones
 
 Cada sesión tiene **su propia nota**, con las casillas, el material del día y un registro. El
-progreso (sesiones hechas, BPM, hitos y seguimiento por carril) está en
-[[4. Instrumento/1. Piano/1. Programa de 20 sesiones/00. Plan y progreso|Plan y progreso]].
+calendario día por día, el progreso (sesiones hechas, BPM, hitos y seguimiento por carril) y el
+mantenimiento están en
+[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/00. Plan y progreso|Plan y progreso]].
 
-| Semana | Día | Sesión | Teclado | Hanon | Sleep on the Floor |
-|:-:|:-:|---|---|:-:|---|
-| 1 | 1 | [[01. Día 1 - Grupo 1 (C F G)\|Día 1]] | Grupo 1 (C, F, G) | 1 | mapa · cc. 18–20 |
-| 1 | 2 | [[02. Día 2 - Grupo 2 (D E A)\|Día 2]] | Grupo 2 (D, E, A) | 1 | cc. 18–23 · MI |
-| 1 | 3 | [[03. Día 3 - Grupo 3 (Db Eb Ab)\|Día 3]] | Grupo 3 (D♭, E♭, A♭) | 1 | cc. 24–29 · MI |
-| 1 | 4 | [[04. Día 4 - Grupo 4 (las únicas)\|Día 4]] | Grupo 4 (F♯/G♭, B♭, B) | 2 | cc. 30–39 · MI |
-| 1 | 5 | [[05. Día 5 - El círculo de quintas\|Día 5]] 🎙 | Las 12 por el círculo de quintas | 1–2 | cc. 18–39 · MI |
-| 2 | 6 | [[06. Día 6 - Inversiones con la MD\|Día 6]] | Inversiones con la MD, grupo 1 | 3 | cc. 21–25 · MD |
-| 2 | 7 | [[07. Día 7 - Inversiones con la MI\|Día 7]] | Inversiones con la MI, grupo 1 · MD, grupo 2 | 3 | cc. 26–33 · MD |
-| 2 | 8 | [[08. Día 8 - Inversiones, grupos 2 y 3\|Día 8]] | Ambas manos, grupos 2 y 3 | 4 | cc. 34–39 · MD |
-| 2 | 9 | [[09. Día 9 - Inversiones, grupo 4\|Día 9]] | Ambas manos, grupo 4 · repaso del grupo 1 | 5 | cc. 24–33 · juntas |
-| 2 | 10 | [[10. Día 10 - La inversión más cercana\|Día 10]] 🎙 | La inversión más cercana | 1–5 | cc. 18–39 · juntas |
-| 3 | 11 | [[11. Día 11 - Escalas C G D A E\|Día 11]] | Escalas de C, G, D, A, E | 6 | cc. 1–9 · MI |
-| 3 | 12 | [[12. Día 12 - Escalas F y B\|Día 12]] | F y B (las excepciones) · manos juntas | 7 | cc. 1–9 · MD |
-| 3 | 13 | [[13. Día 13 - Escalas Bb Eb Ab\|Día 13]] | B♭, E♭, A♭ (la regla del 4 en Si♭) | 8 | cc. 1–9 · juntas |
-| 3 | 14 | [[14. Día 14 - Escalas Db y Gb, arpegios\|Día 14]] | D♭ y F♯/G♭ · arpegios | 9 | cc. 10–17 |
-| 3 | 15 | [[15. Día 15 - Armonizar la escala\|Día 15]] 🎙 | Armonizar la escala | 10 | cc. 1–39 |
-| 4 | 16 | [[16. Día 16 - Cadencia en C G F D\|Día 16]] | Cadencia I – IV⁶₄ – V⁶ – I en C, G, F, D | 11 | cc. 40–47 |
-| 4 | 17 | [[17. Día 17 - Cadencia en A E Bb Eb\|Día 17]] | Cadencia en A, E, B♭, E♭ · variante con V⁶₅ | 12 | cc. 48–55 |
-| 4 | 18 | [[18. Día 18 - Cadencia en las 12\|Día 18]] | Cadencia en B, F♯, D♭, A♭ · las 12 | 13 | cc. 56–67 |
-| 4 | 19 | [[19. Día 19 - Patrones de mano izquierda\|Día 19]] | Patrones de mano izquierda | 14 | cc. 40–55 · 68–76 |
-| 4 | 20 | [[20. Día 20 - Aplicación a tu obra\|Día 20]] 🎙 | Aplicación a tu obra | 15 | completa |
+| Semana | Días | Teclado | Hanon | Sleep on the Floor | Se graba |
+|:-:|:-:|---|:-:|---|---|
+| 1 | 1–5 | tríadas e inversiones en las 12 · la cadena del círculo (§8.2) | 1–4 | verso (cc. 18–39), cada mano | la cadena y la MI del verso |
+| 2 | 6–10 | las 8 escalas que faltaban · las 12 a dos manos | 5–8 | verso a dos manos · intro, manos separadas | las 12 escalas y el verso |
+| 3 | 11–15 | arpegios de las 12 · armonizar la escala en ocho tonalidades | 9–12 | intro a dos manos · intro → verso · instrumental | tres armonizadas y cc. 1–47 |
+| 4 | 16–20 | la cadencia I – IV⁶₄ – V⁶ – I en las 12 y la variante con V⁶₅ | 13–16 | crescendo (cc. 48–59) | las 12 cadencias y cc. 40–59 |
+| 5 | 21–25 | los ocho patrones de MI (§9) · *Louise* en el piano | 17–20 | clímax y final (cc. 60–76) | *Louise* y cc. 40–76 |
+| 6 | 26–30 | rotación de las 12 · examen en frío | variantes | completa, al 80 % del tempo | la toma final |
 
 ---
 
