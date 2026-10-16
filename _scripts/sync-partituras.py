@@ -25,7 +25,10 @@ from pathlib import Path
 
 BOVEDA = Path(__file__).resolve().parent.parent
 PARTITURAS = BOVEDA / "7. Partituras"
-MSCORE = Path("/Applications/MuseScore 4.app/Contents/MacOS/mscore")
+if sys.platform == "win32":
+    MSCORE = Path(r"C:\Program Files\MuseScore 4\bin\MuseScore4.exe")
+else:
+    MSCORE = Path("/Applications/MuseScore 4.app/Contents/MacOS/mscore")
 
 # Carpetas que nunca se convierten
 EXCLUIR = {".mscbackup", "_legacy"}
