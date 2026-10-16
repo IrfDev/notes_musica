@@ -67,7 +67,9 @@ let introPiano = stack(
 
 let introDrums = stack(
   // Bombo: cada frase de 5 empieza distinto
-  s("<~ [bd ~ ~] [bd ~ ~] [bd ~ bd] ~ [~ bd bd] [bd ~ ~] [bd ~ ~] [bd ~ bd] ~>"),
+  s(
+    "<~ [bd ~ ~] [bd ~ ~] [bd ~ bd] ~ [~ bd bd] [bd ~ ~] [bd ~ ~] [bd ~ bd] ~>",
+  ),
   // Pandereta
   s("<~ [tb tb ~] [~ tb tb] [~ tb tb] [tb ~ ~]>"),
   // Shaker
@@ -312,10 +314,9 @@ const BRIDGE_LEFT = [
   "[G2@2 B3]", // c.50
 ];
 
-let bridge = stack(
-  note(cat(...BRIDGE_RIGHT)),
-  note(cat(...BRIDGE_LEFT)),
-).sound("piano");
+let bridge = stack(note(cat(...BRIDGE_RIGHT)), note(cat(...BRIDGE_LEFT))).sound(
+  "piano",
+);
 
 // ═══════════════════════ Verse 2 (c.51–66) ══════════════════════
 /*
@@ -374,18 +375,25 @@ let chorus2 = stack(
   chorus2Drums,
 );
 
-arrange(
-  // Intro
-  [10, intro],
-  // Verse
-  [16, verse],
-  // Chorus
-  [16, chorus],
-  // Bridge
-  [8, bridge],
-  // Verse 2
-  [16, verse2],
-  // Chorus 2
-  [16, chorus2],
-  // c.83–108 (B2, C3, outro) están vacíos en la partitura
-);
+stack(
+  //RH
+  n("<[]>"),
+  // lh
+  n("<[]>"),
+).sound("piano");
+
+// arrange(
+//   // Intro
+//   [10, intro],
+//   // Verse
+//   [16, verse],
+//   // Chorus
+//   [16, chorus],
+//   // Bridge
+//   [8, bridge],
+//   // Verse 2
+//   [16, verse2],
+//   // Chorus 2
+//   [16, chorus2],
+//   // c.83–108 (B2, C3, outro) están vacíos en la partitura
+// );
