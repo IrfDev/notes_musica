@@ -1,0 +1,390 @@
+# La nota de obra y las notas de cada sesión
+
+> Archivo derivado: lo genera `_scripts/generar-chatgpt.py` desde la bóveda de música del usuario (Obsidian + git), el 2026-10-18. Cada sección es una nota de la bóveda, con su ruta. La bóveda es la fuente de verdad: si algo de aquí contradice a una conversación más reciente, pregunta.
+
+La nota principal (origen, material, decisiones, por decidir, problemas abiertos) y las notas 1–7 que escribió el usuario al terminar cada sesión.
+
+Contiene:
+
+- `3. Composiciones/6. louise/0. Intro.md`
+- `3. Composiciones/6. louise/1. Adding verse.md`
+- `3. Composiciones/6. louise/2. Drums and separation.md`
+- `3. Composiciones/6. louise/3. Verse and choruse.md`
+- `3. Composiciones/6. louise/4. Adding specific voicing.md`
+- `3. Composiciones/6. louise/5. Adding bridge1.md`
+- `3. Composiciones/6. louise/6. Second bridge.md`
+- `3. Composiciones/6. louise/7. Second bridge.md`
+
+---
+
+## Archivo: `3. Composiciones/6. louise/0. Intro.md`
+
+```yaml
+tipo: composicion
+estado: boceto
+inicio: 2026-10-02
+cierre:
+instrumento: Strudel — piano, guitarra nylon, batería AkaiLinn
+tonalidad: Re mayor
+metrica: 3/4
+tempo: 160
+definicion_terminado:
+referencias:
+conceptos:
+  - "[[2. Composición binaria — contraste, intro y puente]]"
+  - "[[0. Enlaces 2.0 y motivos]]"
+ultimo_audio:
+tags:
+  - curso-musica/obra
+```
+
+# Louise
+
+> [!important] Antes de la primera nota
+> `definicion_terminado` está vacío a propósito: lo escribes tú, en la sesión 0.
+> "Que quede bien" no es una definición. "90 s, forma AABA, una toma limpia exportada" sí.
+
+## Cronograma
+
+Dos semanas, ocho sesiones. Los pasos de cada sesión y lo que se registra están en la nota de su
+semana, en la bitácora.
+
+| Semana                                                       | Fecha      | Sesión              | Objetivo                               | Hecho cuando                               | ✓     |
+| ------------------------------------------------------------ | ---------- | ------------------- | -------------------------------------- | ------------------------------------------ | ----- |
+| [[2026-10-05 - Semana 02 - Louise, del loop a la forma\|02]] | lun 5 oct  | 0 · Definición      | escribir `definicion_terminado`        | el campo está lleno y hay audio de partida | [ X ] |
+|                                                              | mar 6 oct  | 1 · Limpiar         | decidir las cuatro dudas               | 4 líneas en `## Decisiones` y un audio     | [ ]   |
+|                                                              | jue 8 oct  | 2 · Motivo          | el motivo en los compases de respuesta | 1–2 versiones elegidas y un audio          | [ ]   |
+|                                                              | sáb 10 oct | 3 · Forma en papel  | la tabla de secciones                  | tabla llena, sin código                    | [ ]   |
+|                                                              | dom 11 oct | Revisión            | revisión semanal                       | la revisión de la semana está llena        | [ ]   |
+| [[2026-10-12 - Semana 03 - Louise, forma y cierre\|03]]      | lun 12 oct | 4 · Forma en código | la tabla en `arrange()`                | **primer audio de la pieza entera**        | [ ]   |
+|                                                              | mar 13 oct | 5 · Escucha en frío | rúbrica, 24 h después                  | rúbrica llena y una prioridad elegida      | [ ]   |
+|                                                              | jue 15 oct | 6 · Revisión        | la prioridad y dos detalles            | un audio revisado                          | [ ]   |
+|                                                              | sáb 17 oct | 7 · Cierre          | exportar y cerrar                      | se cumple `definicion_terminado`           | [ ]   |
+|                                                              | dom 18 oct | Revisión            | revisión semanal y retrospectiva       | `estado: cerrada` o la causa escrita       | [ ]   |
+
+> [!info] Cómo se usa
+> 1. **Antes de cada sesión:** abre la nota de la semana y lee solo la sesión del día.
+> 2. **Durante:** marca los pasos. No hagas los de otra sesión.
+> 3. **Al terminar:** llena *Registro*, graba el audio en `render/` (con la fecha delante) y pasa
+>    la decisión del día a `## Decisiones`. Marca ✓ en esta tabla.
+> 4. **El domingo:** haz la revisión semanal en la misma nota de la semana y actualiza
+>    *Último audio* en [[Inicio]].
+> 5. **Si se pierde un día:** la sesión pasa al siguiente día libre y las demás se corren. No se
+>    recupera con un maratón.
+
+## Origen
+
+- Nació en Strudel, sin partitura. El esqueleto es `3. wddl.strudel.js` (2 oct): vals con el bajo
+  en el 1 y el acorde en el 2 y el 3, armado con grados (`RAIZ.add(voicing)`).
+	- El origen viene de tratar de replicar un walz tipo Elouise de the lumineers, pero con una progresión que me gustó y una melodía que logré hacer en el piano, a partir de mi acorde favorito. Bb
+- *Louise* nace el mismo día sobre ese esqueleto y le suma melodía y batería. La guitarra entra el 3 oct.
+- El motivo **La–Sol–Fa#–Re–Fa#** ya estaba antes, en 4/4, en
+  `5. Experiments/2. House/0.happy_beats.strudel.js`. Louise es el tercer archivo donde aparece.
+- Archivo: `4. Instrumento/2. Strudel/5. Experiments/1. Happy/4. Louise.strudel.js`
+  (Obsidian no muestra `.js`; se abre en VS Code).
+- Qué escuchabas, por qué *Louise*: ____
+
+## Material
+
+Estado al 2026-10-05, con las notas que salen al evaluar el archivo compás por compás.
+
+**La frase dura 5 compases.** `RAIZ = "<0@2 4 5 3>"` → **D · D · A · Bm · G**.
+
+| Capa | Suena en | Qué toca |
+|---|---|---|
+| melodía (piano) | cc. 1–2 | el motivo, una vez. Pesos 0.5 · 0.75 · 0.5 · 0.75 · 1, repartidos en 6 tiempos |
+| bajo (piano) | cc. 1, 3, 4, 5 | la raíz, una por compás: D2 · A2 · B2 · G2 |
+| armonía (piano) | cc. 3–5 | `CHORD_TYPES.nor` (1-3-5 y la 3ª arriba) sobre RAIZ, en el 2 y el 3, con el balanceo de `x@1.2` |
+| guitarra (nylon) | cc. 3–5 | Re fijo: D2 F#2 · A2 D3 · F#4 A4, rasgueada con `late()` |
+| kick | ciclo de 4 | tiempo 3 · tiempo 1 · tiempo 3 · nada |
+| toms y crash | ciclo de 5 | crash al empezar, toms después |
+| shaker | cada compás | ghost a 0.1 |
+
+**Cómo está armada hoy:** los cc. 1–2 son una *pregunta* (melodía sola sobre el bajo) y los
+cc. 3–5 la *respuesta* (entra la banda y se va la melodía). La melodía y la armonía nunca suenan juntas.
+
+Cambios que ya hiciste. El *qué* sale de git; el *por qué* es tuyo:
+
+| Fecha | Cambio | Por qué |
+|---|---|---|
+| 2026-10-03 | `nor` pierde la octava: `[0,2,4,7,9]` → `[0,2,4,9]` | |
+| 2026-10-03 | armonía: `[~ x]` → `[~ x@1.2 x]`, de un golpe a dos y con balanceo | |
+| 2026-10-03 | entra la guitarra nylon | |
+| 2026-10-05 | tempo 180 → 160 | |
+| 2026-10-05 | `sus` gana la 6ª: `[0,1,4]` → `[0,1,4,9]` (todavía no se usa) | |
+
+## Decisiones
+
+> Una línea por decisión: **qué hice · por qué · qué cambió → enlace al concepto**.
+> Sin esto, las decisiones quedan dentro de la narración: valiosas pero irrecuperables.
+
+> Redactadas con Claude el 2026-10-13, a partir de las notas 1–6 y de la revisión de la partitura.
+> Donde dice `____`, el porqué es tuyo y no está escrito en ningún lado.
+
+### Forma
+
+- 2026-10-06 · **Puente automático** · por qué: ____ · qué cambió: ____ → [[2. Composición binaria — contraste, intro y puente]]
+- 2026-10-13 · **Bridge 1 (c.43–50): tres compases nuevos (Bm · Em7 · E/A) y la frase de 5 de la intro** · contraste después del coro, y que el verso 2 entre solo · la frase de 5 queda en 8, el bajo baja por quintas B–E–A–D, y suena el piano solo → [[2. Composición binaria — contraste, intro y puente]]
+- 2026-10-13 · **Forma: Intro · V1 · C1 · B1 · V2 · C2 · B2 · C3 · Outro, con el pico en el B2** · le va a una canción triste (cada vez que llega a D se escapa) y es la ruta más barata para cerrar el 17 · de 82 compases pasa a unos 100–115 (1:50–2:10) → [[2. Composición binaria — contraste, intro y puente]]
+- 2026-10-13 · **C3 de despedida: el coro con capas quitadas, que sí cierra en A7→D** · después del pico llega la resolución que el B2 retuvo · por escribir → [[0. Cadencias, progresiones y líneas melódicas]]
+
+### Energía y arreglo
+
+> Sin nota de concepto en Teoría todavía: candidatas para `8. Textura y arreglo` (ver *Qué sube a Teoría*).
+
+- 2026-10-08 · **Un rol específico para cada parte, y un coro que crezca con más fuerza** · lo aprendí al ver las capas por separado · en los compases de cadencia el vals se reparte: piano en el 1, guitarra en el 2 y el 3 (c.19, 30, 34, 38)
+- 2026-10-13 · **C1 más plano: se va la decoración (fills cada 4 compases, brillo) y se queda el cambio de patrón respecto al verso** · el C1 gastaba toda la batería y no dejaba adónde crecer · lo que pierde el C1 es lo que recupera el C2
+- 2026-10-13 · **C2 sube: recupera lo que perdió el C1, hace crescendo y no cierra en D** · tensión hacia el B2 · c.67–82 dejan de ser copia exacta del coro
+- 2026-10-13 · **El B2 estrena lo único que nunca sonó** · el pico tiene que superar a todos los coros, no solo al C2
+
+### Armonía
+
+- 2026-10-06 · **Cadencias sencillas con dirección, y cadencia rota** · "me gustó más crear cadencias sencillas, pero que tuvieran dirección" · V7→vi en c.14→15 y c.22→23: el verso nunca cierra en el I y el coro sí (c.33–34, c.41–42) → [[0. Cadencias, progresiones y líneas melódicas]]
+- 2026-10-06 · **Mayormente acordes diatónicos** · por qué: ____ · el único cromatismo de toda la pieza es el G♯ del c.45, que sube al La del motivo → [[2. Armonización de tonalidades mayores]]
+- 2026-10-13 · **c.12 y c.52: bajo de F♯m (F♯3) en lugar de G3** · el piano decía A7/G mientras la guitarra decía F♯m · en el c.12 el G3 queda solo al final, como anticipación del C♯° del c.13; el c.52 queda como el c.20 → [[00. Voicing e inversiones]]
+
+### Ritmo
+
+- 2026-10-06 · **El vals se queda** · el origen es replicar un vals tipo *Elouise* de The Lumineers · 3/4 en toda la pieza, bajo en el 1 y acorde en el 2 y el 3
+
+### Por decidir
+
+> Qué implica cada punto y con qué recursos se cambia → [[9. Recursos de energía y forma - Louise]]
+
+- [ ] **¿Voz o instrumental?** Define `definicion_terminado`.
+- [ ] **c.51: ¿el bajo es Mi o Re?** El D3 nuevo queda encima del E2 de la guitarra, así que el verso 2 sigue llegando sobre Mi. D2 como en el c.11, quitar el Mi grave de la guitarra, o dejarlo a propósito.
+- [ ] **Qué le quito al C1:** crash, hi-hat abierto, fills cada 4 compases.
+- [ ] **Qué capa estrena el B2:** aahs, guitarra rasgueada, *ff*, cromatismo.
+- [ ] **Que el B2 no arranque como el B1:** hoy el c.82 lleva el mismo enlace D–C♯–B que el c.42. Cambia el final del C2 o el arranque del B2.
+- [ ] **La descarga después del B2:** corte o vaciado.
+- [ ] **C3 de 8 o de 16 compases.** Cada mitad del coro ya termina en A7→D.
+- [ ] **Outro:** ¿qué riff? El motivo de la intro es el candidato natural. ¿Termina en D (cerrado) o en el Gmaj7♯11 de la intro (suspendido)?
+- [ ] **Mapa de dinámicas:** hoy no hay ninguna marca en toda la partitura.
+- [ ] **Guitarra: ¿la grabas tú?** Si sí, hay que revoicear lo que no se puede tocar: c.13/53, el Em del coro (c.27, 31, 35, 39 y copias) y las aperturas de c.12, 14, 15, 16 y 18 (y copias).
+
+## Problemas abiertos
+
+> Los bloqueos, formulados como problema y no como queja.
+
+- [ ] **La guitarra pisa al bajo.** Toca Re fijo y solo suena en los compases que *no* son Re
+  (A, Bm, G). Su D2 queda debajo del bajo, así que el A suena a Dmaj9, el G a G/D, y el V
+  desaparece. D2–F#2 es una tercera en registro de barro. → sesión 1
+- [ ] **La melodía no cae en los tiempos del vals.** Dentro de `[ ]`, `@` reparte en proporción:
+  los cinco pesos suman 3.5 y se estiran sobre 6 tiempos. De las cinco notas, solo el Re cae en
+  un tiempo. ¿Flotando o en rejilla? → sesión 1
+- [ ] **El kick dura 4 compases y la frase 5.** Solo coinciden cada 20. ¿Recurso o accidente? → sesión 1
+- [ ] **La frase dura 5 compases (2 + 3).** ¿La asimetría es buscada, o le falta o le sobra un compás? → sesión 1
+- [ ] **Los compases de respuesta no tienen voz.** El motivo suena una vez y desaparece. → sesión 2
+- [ ] **No hay forma.** No tiene intro, B ni final: es un loop de 5 compases. → sesiones 3 y 4
+
+## Feedback
+
+> Fechado y con fuente. Incluye el tuyo propio después de 24 h.
+
+### 2026-10-05 — *Claude (código evaluado nota por nota, sin escucharlo)*
+
+- Funciona: el `x@1.2` (el tiempo 2 entra antes y el 3 después, como el balanceo de un vals
+  vienés), un motivo que vuelve desde `happy_beats`, las cuentas de `CHORD_TYPES` y el rasgueo con `late()`.
+- Choca: ver *Problemas abiertos*.
+
+## Revisiones
+
+- [ ]
+
+## Grabaciones
+
+> Bounce incondicional: cada vez que dejas de trabajar, exportas. Aunque esté feo.
+> Van a `render/` con la fecha delante.
+
+| Fecha | Archivo | Qué cambió respecto a la anterior |
+|---|---|---|
+| | | |
+
+---
+
+## Cierre
+
+- [ ] Se cumple `definicion_terminado`
+- [ ] Rúbrica aplicada → [[Rúbrica - Composición]]
+- [ ] Escuchada tras 24 h de descanso
+- [ ] Exportada con fecha
+- [ ] Retrospectiva de tres líneas
+
+### Retrospectiva
+
+- Qué aprendí:
+- Qué evitaría la próxima:
+- Qué me llevo a la siguiente pieza:
+
+### Qué sube a Teoría
+
+> Una obra no es solo un producto: es una fuente.
+> Lo que descubriste aquí pertenece a una nota de concepto, con enlace de vuelta a esta pieza.
+
+- [ ] `[[...]]` ←
+
+---
+
+## Archivo: `3. Composiciones/6. louise/1. Adding verse.md`
+
+```yaml
+tipo: composicion
+estado: boceto
+fecha: 06/10/2026
+```
+
+# What
+
+I added a new verse, but it was literally just adding some chords
+
+## Then
+
+Cambié la progresión, porque me gustó más crear cadencias sencillas, pero que tuvieran dirección
+
+## Decisiones
+
+- Caedncias y cadencia rota
+- Puente automático
+- Nos quedamos mayormente con acordes diatónicos
+- La parte waltz se queda
+
+Me gusta mucho como se queda la progresión.
+El motivo aún no me convence y no sé bien como incluírlo o replicarlo. En la siguiente sesión haré un análisis de la estructura que tiene la melodía y las distancias de las otras notas, para entender como es que fluyen y como es que siguen.
+
+Quizá será buena idea terminarla, y al final la paso a partitura.
+También sería buena idea que si me bloqueo lo paso a partitura desde antes
+
+---
+
+## Archivo: `3. Composiciones/6. louise/2. Drums and separation.md`
+
+```yaml
+tipo: composicion
+estado: boceto
+fecha: 07/10/2026
+```
+
+# What
+
+Hoy voy a separar todo y añadir la batería a la composición para ver como suena
+
+## Then
+
+Añadí la batería replicando un poco de waltz, me gustó bastante, si siento como la música comienza a fluir, pero igual y faltan un poco de cambios y crear un poco más de contraste
+
+## Decisiones
+
+- Caedncias y cadencia rota
+- Puente automático
+- Nos quedamos mayormente con acordes diatónicos
+- La parte waltz se queda
+
+Me gusta mucho como se queda la progresión.
+El motivo aún no me convence y no sé bien como incluírlo o replicarlo. En la siguiente sesión haré un análisis de la estructura que tiene la melodía y las distancias de las otras notas, para entender como es que fluyen y como es que siguen.
+
+Quizá será buena idea terminarla, y al final la paso a partitura.
+También sería buena idea que si me bloqueo lo paso a partitura desde antes
+
+---
+
+Al final aprendí que es posible y mejor ver como se ve todo por su cuenta
+
+---
+
+## Archivo: `3. Composiciones/6. louise/3. Verse and choruse.md`
+
+```yaml
+tipo: composicion
+estado: boceto
+fecha: 08/10/2026
+```
+
+# Desription
+
+Converting the chorus and verse with his own melodies and structure
+
+---
+
+I ended up just fixing some small stuff and putting everything together so it make sense
+
+Now we'll be checking and continuing with tiny details
+
+---
+
+Lo que aprendí más bien fue que es mejor arreglar bien los voicings y darle un rol específico a cada parte, también hacer crecer el coro con más fuerza
+
+---
+
+## Archivo: `3. Composiciones/6. louise/4. Adding specific voicing.md`
+
+```yaml
+tipo: composicion
+estado: boceto
+fecha: 09/10/2026
+```
+
+### Description
+
+Trying to add the voicing to the chorus to see if I can polish a motif there
+
+After that I'll start thinking on bridges and how to join the different notes between
+
+---
+
+Now that the voicings are already in place in the score, is easy to understand some movements. Still have a way to go. But now I feel more in touch with the melody
+
+Next steps will be to improve voicing over the piano, on the verse. Then move to the chorus and then start with the guitar, and also give space to the voice
+
+---
+
+## Archivo: `3. Composiciones/6. louise/5. Adding bridge1.md`
+
+```yaml
+tipo: composicion
+estado: boceto
+fecha: 13/10/2026
+```
+
+### Description
+
+I already had the voicings and now I just added a bridge that includes the actual bridging between chorus and verse again
+
+Now we have a first bridge and the second verse just slip through nicely
+
+---
+
+## Archivo: `3. Composiciones/6. louise/6. Second bridge.md`
+
+```yaml
+tipo: composicion
+estado: boceto
+fecha: 09/10/2026 - 14/10/26
+```
+
+### Description
+
+After the bridge we'll have a chorus 2 and then we'll have the pick of the song
+
+So the plan right now is to have a peak in the C2 and then the super peak at B2
+
+
+```
+            energía      compases          duración
+Intro    ██░░░   2       c.1–10            11 s
+V1       ███░░   3       c.11–26           18 s
+C1       ███░░   3       c.27–42           18 s   ← más plano
+B1       █░░░░   1       c.43–50            9 s   ← valle, piano solo
+V2       ███░░   3       c.51–66           18 s
+C2       ███▓░   3→4     c.67–82           18 s   ← sube, no cierra
+B2       █████   5       c.83–             9–18 s ← pico, estrena lo nuevo
+C3       ██░░░   2       —                 9–18 s ← despedida, cierra A7→D
+Outro    █░░░░   1–2     —                 6–11 s
+```
+
+---
+
+## Archivo: `3. Composiciones/6. louise/7. Second bridge.md`
+
+Aún sigo buscando como es que se puede dar una conversación entre piano y guitarra, para que uno le dé armonía al otro y después intercambien el rol
+
+Me gusta como va, pero no siento que realmente esté generando mucho
