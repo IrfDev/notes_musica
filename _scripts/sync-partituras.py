@@ -74,7 +74,8 @@ def convertir(trabajos, verbose):
         job_path = fh.name
     try:
         proc = subprocess.run([str(MSCORE), "-j", job_path],
-                              capture_output=True, text=True, check=False)
+                              capture_output=True, text=True, check=False,
+                              encoding="utf-8", errors="replace")
     finally:
         os.unlink(job_path)
 
@@ -89,6 +90,11 @@ def convertir(trabajos, verbose):
 
 
 def main():
+    # En Windows, con la salida redirigida (un pipe, un hook, otra herramienta),
+    # Python escribe en cp1252 y revienta en el primer "→". UTF-8 siempre.
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+
     ap = argparse.ArgumentParser(description="Genera el MusicXML de tus partituras")
     ap.add_argument("--dry-run", action="store_true", help="no convierte nada")
     ap.add_argument("--force", action="store_true", help="reconvierte todo")
