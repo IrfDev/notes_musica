@@ -126,10 +126,10 @@ PROYECTOS = {
          [f"@reduccion:{LOUISE_XML}"]),
         ("Louise 04 - Código Strudel.md", "El código de Strudel",
          "Del esqueleto del vals al B2: el origen (happy_beats, wddl), el archivo con el que nació la forma "
-         "(0.first), el puente, las transcripciones de la partitura y las propuestas de Claude para el B2 (4.ai_*).",
+         "(0.first), el puente, las transcripciones de la partitura y las propuestas de Claude para el B2 (AI/: 4.ai_* y 5.ai_*).",
          [f"{STRUDEL}/5. Experiments/2. House/0.happy_beats.strudel.js",
           f"{STRUDEL}/5. Experiments/1. Happy/3. wddl.strudel.js", f"{STRUDEL}/10. Folk/4. Louise.strudel.js",
-          f"{STRUDEL}/10. Folk/Louise/*.strudel.js"]),
+          f"{STRUDEL}/10. Folk/Louise/*.strudel.js", f"{STRUDEL}/10. Folk/Louise/AI/*.strudel.js"]),
         ("Louise 05 - Bitácora y piano.md", "La bitácora de Louise y Louise en el piano",
          "Las semanas 02 y 03 (sesión por sesión, con su definición de hecho) y los días del programa de "
          "piano donde se toca Louise.",
