@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 312" width="760" height="312" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'>
+<title>Qué grados usa el disco</title>
+<rect width="760" height="312" rx="10" fill="#fcfcfb"/>
+<text x="16.00" y="24.00" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="600" >Qué grados usa el disco</text>
+<text x="16.00" y="42.00" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" >En cuántas de las 14 canciones aparece cada tríada, contada respecto a su propia tónica.</text>
+<rect x="46.00" y="57.00" width="10.00" height="10.00" rx="2" fill="#eb6834" />
+<text x="61.00" y="66.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >canciones de The Lumineers que lo usan</text>
+<rect x="291.80" y="57.00" width="10.00" height="10.00" rx="2" fill="#2a78d6" />
+<text x="306.80" y="66.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >Louise también lo usa</text>
+<line x1="46.00" y1="254.00" x2="746.00" y2="254.00" stroke="#e1e0d9" stroke-width="1" />
+<text x="40.00" y="258.00" font-size="10" fill="#898781" text-anchor="end" font-weight="normal" >0</text>
+<line x1="46.00" y1="217.57" x2="746.00" y2="217.57" stroke="#e1e0d9" stroke-width="1" />
+<text x="40.00" y="221.57" font-size="10" fill="#898781" text-anchor="end" font-weight="normal" >3</text>
+<line x1="46.00" y1="181.14" x2="746.00" y2="181.14" stroke="#e1e0d9" stroke-width="1" />
+<text x="40.00" y="185.14" font-size="10" fill="#898781" text-anchor="end" font-weight="normal" >6</text>
+<line x1="46.00" y1="144.71" x2="746.00" y2="144.71" stroke="#e1e0d9" stroke-width="1" />
+<text x="40.00" y="148.71" font-size="10" fill="#898781" text-anchor="end" font-weight="normal" >9</text>
+<line x1="46.00" y1="108.29" x2="746.00" y2="108.29" stroke="#e1e0d9" stroke-width="1" />
+<text x="40.00" y="112.29" font-size="10" fill="#898781" text-anchor="end" font-weight="normal" >12</text>
+<rect x="50.00" y="84.00" width="35.75" height="170.00" rx="2" fill="#eb6834" />
+<text x="67.88" y="80.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal" >14</text>
+<circle cx="67.9" cy="280.0" r="5" fill="#2a78d6"/>
+<text x="67.88" y="268.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >I</text>
+<rect x="93.75" y="84.00" width="35.75" height="170.00" rx="2" fill="#eb6834" />
+<text x="111.62" y="80.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal" >14</text>
+<circle cx="111.6" cy="280.0" r="5" fill="#2a78d6"/>
+<text x="111.62" y="268.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >IV</text>
+<rect x="137.50" y="108.29" width="35.75" height="145.71" rx="2" fill="#eb6834" />
+<text x="155.38" y="104.29" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal" >12</text>
+<circle cx="155.4" cy="280.0" r="5" fill="#2a78d6"/>
+<text x="155.38" y="268.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >V</text>
+<rect x="181.25" y="108.29" width="35.75" height="145.71" rx="2" fill="#eb6834" />
+<text x="199.12" y="104.29" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal" >12</text>
+<circle cx="199.1" cy="280.0" r="5" fill="#2a78d6"/>
+<text x="199.12" y="268.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >vi</text>
+<rect x="225.00" y="229.71" width="35.75" height="24.29" rx="2" fill="#eb6834" />
+<text x="242.88" y="225.71" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal" >2</text>
+<circle cx="242.9" cy="280.0" r="5" fill="#2a78d6"/>
+<text x="242.88" y="268.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >ii</text>
+<rect x="268.75" y="217.57" width="35.75" height="36.43" rx="2" fill="#eb6834" />
+<text x="286.62" y="213.57" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal" >3</text>
+<circle cx="286.6" cy="280.0" r="5" fill="#2a78d6"/>
+<text x="286.62" y="268.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >iii</text>
+<circle cx="330.4" cy="280.0" r="5" fill="#2a78d6"/>
+<text x="330.38" y="268.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >♭VII</text>
+<rect x="356.25" y="241.86" width="35.75" height="12.14" rx="2" fill="#eb6834" />
+<text x="374.12" y="237.86" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal" >1</text>
+<text x="374.12" y="268.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >III</text>
+<rect x="400.00" y="241.86" width="35.75" height="12.14" rx="2" fill="#eb6834" />
+<text x="417.88" y="237.86" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal" >1</text>
+<circle cx="417.9" cy="280.0" r="5" fill="#2a78d6"/>
+<text x="417.88" y="268.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >II</text>
+<rect x="443.75" y="241.86" width="35.75" height="12.14" rx="2" fill="#eb6834" />
+<text x="461.62" y="237.86" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal" >1</text>
+<circle cx="461.6" cy="280.0" r="5" fill="#2a78d6"/>
+<text x="461.62" y="268.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >iv</text>
+<circle cx="505.4" cy="280.0" r="5" fill="#2a78d6"/>
+<text x="505.38" y="268.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >v</text>
+<circle cx="549.1" cy="280.0" r="5" fill="#2a78d6"/>
+<text x="549.12" y="268.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >i</text>
+<circle cx="592.9" cy="280.0" r="5" fill="#2a78d6"/>
+<text x="592.88" y="268.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >vii</text>
+<circle cx="636.6" cy="280.0" r="5" fill="#2a78d6"/>
+<text x="636.62" y="268.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >♭II</text>
+<circle cx="680.4" cy="280.0" r="5" fill="#2a78d6"/>
+<text x="680.38" y="268.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >♭III</text>
+<circle cx="724.1" cy="280.0" r="5" fill="#2a78d6"/>
+<text x="724.12" y="268.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >♭VI</text>
+<line x1="46.00" y1="254.00" x2="746.00" y2="254.00" stroke="#c3c2b7" stroke-width="1" />
+</svg>

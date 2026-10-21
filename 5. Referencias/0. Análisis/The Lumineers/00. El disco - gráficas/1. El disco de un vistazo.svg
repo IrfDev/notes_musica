@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 546" width="760" height="546" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'>
+<title>The Lumineers (2012): mapa del disco</title>
+<rect width="760" height="546" rx="10" fill="#fcfcfb"/>
+<text x="16.00" y="24.00" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="600" >El disco de un vistazo</text>
+<text x="16.00" y="42.00" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" >Cada barra es una canción en el orden del disco (las tres últimas son pistas extra de la deluxe).</text>
+<text x="16.00" y="58.00" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" >Largo de la barra: duración. Color: tipo de compás. A la derecha: tonalidad, pulso y acordes distintos.</text>
+<rect x="196.00" y="67.00" width="10.00" height="10.00" rx="2" fill="#eb6834" />
+<text x="211.00" y="76.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >vals (3/4)</text>
+<rect x="285.00" y="67.00" width="10.00" height="10.00" rx="2" fill="#eda100" />
+<text x="300.00" y="76.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >binario con swing</text>
+<rect x="413.20" y="67.00" width="10.00" height="10.00" rx="2" fill="#9a988f" />
+<text x="428.20" y="76.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >binario</text>
+<text x="188.00" y="107.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >1. Flowers in Your Hair</text>
+<rect x="196.00" y="94.00" width="117.06" height="20.00" rx="3" fill="#9a988f" />
+<text x="319.06" y="108.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >1:50</text>
+<text x="590.00" y="108.00" font-size="10.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Sol</text>
+<text x="640.00" y="108.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4/4 · 127</text>
+<text x="720.00" y="108.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4 ac.</text>
+<text x="188.00" y="137.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >2. Classy Girls</text>
+<rect x="196.00" y="124.00" width="176.66" height="20.00" rx="3" fill="#9a988f" />
+<text x="378.66" y="138.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >2:46</text>
+<text x="590.00" y="138.00" font-size="10.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Do</text>
+<text x="640.00" y="138.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4/4 · 121</text>
+<text x="720.00" y="138.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >3 ac.</text>
+<text x="188.00" y="167.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >3. Submarines</text>
+<rect x="196.00" y="154.00" width="173.47" height="20.00" rx="3" fill="#eda100" />
+<text x="375.47" y="168.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >2:43</text>
+<text x="590.00" y="168.00" font-size="10.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Sol</text>
+<text x="640.00" y="168.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4/4 · 95</text>
+<text x="720.00" y="168.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4 ac.</text>
+<text x="188.00" y="197.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >4. Dead Sea</text>
+<rect x="196.00" y="184.00" width="263.93" height="20.00" rx="3" fill="#9a988f" />
+<text x="465.93" y="198.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4:08</text>
+<text x="590.00" y="198.00" font-size="10.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Do</text>
+<text x="640.00" y="198.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4/4 · 94</text>
+<text x="720.00" y="198.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >7 ac.</text>
+<text x="188.00" y="227.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >5. Ho Hey</text>
+<rect x="196.00" y="214.00" width="173.47" height="20.00" rx="3" fill="#9a988f" />
+<text x="375.47" y="228.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >2:43</text>
+<text x="590.00" y="228.00" font-size="10.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Do</text>
+<text x="640.00" y="228.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4/4 · 80</text>
+<text x="720.00" y="228.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4 ac.</text>
+<text x="188.00" y="257.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >6. Slow It Down</text>
+<rect x="196.00" y="244.00" width="326.72" height="20.00" rx="3" fill="#eda100" />
+<text x="528.72" y="258.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >5:07</text>
+<text x="590.00" y="258.00" font-size="10.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Re♭</text>
+<text x="640.00" y="258.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4/4 · 62</text>
+<text x="720.00" y="258.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >5 ac.</text>
+<text x="188.00" y="287.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >7. Stubborn Love</text>
+<rect x="196.00" y="274.00" width="296.92" height="20.00" rx="3" fill="#9a988f" />
+<text x="498.92" y="288.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4:39</text>
+<text x="590.00" y="288.00" font-size="10.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Do</text>
+<text x="640.00" y="288.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >2/2 · 116</text>
+<text x="720.00" y="288.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4 ac.</text>
+<text x="188.00" y="317.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >8. Big Parade</text>
+<rect x="196.00" y="304.00" width="348.00" height="20.00" rx="3" fill="#eb6834" />
+<text x="550.00" y="318.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >5:27</text>
+<text x="590.00" y="318.00" font-size="10.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Mi</text>
+<text x="640.00" y="318.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >3/4 · 124</text>
+<text x="720.00" y="318.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4 ac.</text>
+<text x="188.00" y="347.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >9. Charlie Boy</text>
+<rect x="196.00" y="334.00" width="277.76" height="20.00" rx="3" fill="#9a988f" />
+<text x="479.76" y="348.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4:21</text>
+<text x="590.00" y="348.00" font-size="10.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Sol</text>
+<text x="640.00" y="348.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4/4 · 128</text>
+<text x="720.00" y="348.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >6 ac.</text>
+<text x="188.00" y="377.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >10. Flapper Girl</text>
+<rect x="196.00" y="364.00" width="207.52" height="20.00" rx="3" fill="#eda100" />
+<text x="409.52" y="378.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >3:15</text>
+<text x="590.00" y="378.00" font-size="10.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Do</text>
+<text x="640.00" y="378.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4/4 · 120</text>
+<text x="720.00" y="378.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >5 ac.</text>
+<text x="188.00" y="407.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >11. Morning Song</text>
+<rect x="196.00" y="394.00" width="336.29" height="20.00" rx="3" fill="#eb6834" />
+<text x="538.29" y="408.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >5:16</text>
+<text x="590.00" y="408.00" font-size="10.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Do</text>
+<text x="640.00" y="408.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >3/4 · 118</text>
+<text x="720.00" y="408.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4 ac.</text>
+<text x="188.00" y="437.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >12. Ain’t Nobody’s Problem</text>
+<rect x="196.00" y="424.00" width="315.01" height="20.00" rx="3" fill="#9a988f" />
+<text x="517.01" y="438.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4:56</text>
+<text x="590.00" y="438.00" font-size="10.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Do</text>
+<text x="640.00" y="438.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4/4 · 136</text>
+<text x="720.00" y="438.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4 ac.</text>
+<text x="188.00" y="467.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >14. Elouise</text>
+<rect x="196.00" y="454.00" width="156.44" height="20.00" rx="3" fill="#eb6834" />
+<text x="358.44" y="468.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >2:27</text>
+<text x="590.00" y="468.00" font-size="10.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Do</text>
+<text x="640.00" y="468.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >3/4 · 180</text>
+<text x="720.00" y="468.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >6 ac.</text>
+<text x="188.00" y="497.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >15. Darlene</text>
+<rect x="196.00" y="484.00" width="190.50" height="20.00" rx="3" fill="#eb6834" />
+<text x="392.50" y="498.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >2:59</text>
+<text x="590.00" y="498.00" font-size="10.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Do</text>
+<text x="640.00" y="498.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >3/4 · 132</text>
+<text x="720.00" y="498.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >4 ac.</text>
+<text x="590.00" y="84.00" font-size="9.5" fill="#898781" text-anchor="start" font-weight="normal" >tono</text>
+<text x="640.00" y="84.00" font-size="9.5" fill="#898781" text-anchor="start" font-weight="normal" >compás · pulso</text>
+<text x="720.00" y="84.00" font-size="9.5" fill="#898781" text-anchor="start" font-weight="normal" >acordes</text>
+</svg>

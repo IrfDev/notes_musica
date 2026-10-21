@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 324" width="760" height="324" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'>
+<title>The Lumineers (2012): qué grados usa el disco</title>
+<rect width="760" height="324" rx="10" fill="#fcfcfb"/>
+<text x="16.00" y="24.00" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="600" >Qué acordes usa el disco</text>
+<text x="16.00" y="42.00" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" >En cuántas de las 14 canciones aparece cada tríada, contada respecto a la tónica de la canción.</text>
+<line x1="46.00" y1="250.00" x2="746.00" y2="250.00" stroke="#e1e0d9" stroke-width="1" />
+<text x="40.00" y="254.00" font-size="10" fill="#898781" text-anchor="end" font-weight="normal" >0</text>
+<line x1="46.00" y1="198.57" x2="746.00" y2="198.57" stroke="#e1e0d9" stroke-width="1" />
+<text x="40.00" y="202.57" font-size="10" fill="#898781" text-anchor="end" font-weight="normal" >4</text>
+<line x1="46.00" y1="147.14" x2="746.00" y2="147.14" stroke="#e1e0d9" stroke-width="1" />
+<text x="40.00" y="151.14" font-size="10" fill="#898781" text-anchor="end" font-weight="normal" >8</text>
+<line x1="46.00" y1="95.71" x2="746.00" y2="95.71" stroke="#e1e0d9" stroke-width="1" />
+<text x="40.00" y="99.71" font-size="10" fill="#898781" text-anchor="end" font-weight="normal" >12</text>
+<line x1="46.00" y1="70.00" x2="746.00" y2="70.00" stroke="#e1e0d9" stroke-width="1" />
+<text x="40.00" y="74.00" font-size="10" fill="#898781" text-anchor="end" font-weight="normal" >14</text>
+<rect x="52.00" y="70.00" width="65.78" height="180.00" rx="2" fill="#2a78d6" />
+<text x="84.89" y="66.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal" >14</text>
+<text x="84.89" y="265.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600" >I</text>
+<rect x="129.78" y="70.00" width="65.78" height="180.00" rx="2" fill="#2a78d6" />
+<text x="162.67" y="66.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal" >14</text>
+<text x="162.67" y="265.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600" >IV</text>
+<rect x="207.56" y="95.71" width="65.78" height="154.29" rx="2" fill="#2a78d6" />
+<text x="240.44" y="91.71" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal" >12</text>
+<text x="240.44" y="265.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600" >V</text>
+<rect x="285.33" y="95.71" width="65.78" height="154.29" rx="2" fill="#2a78d6" />
+<text x="318.22" y="91.71" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal" >12</text>
+<text x="318.22" y="265.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600" >vi</text>
+<rect x="363.11" y="224.29" width="65.78" height="25.71" rx="2" fill="#2a78d6" />
+<text x="396.00" y="220.29" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal" >2</text>
+<text x="396.00" y="265.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600" >ii</text>
+<text x="396.00" y="280.00" font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" >Elouise · Darlene</text>
+<rect x="440.89" y="211.43" width="65.78" height="38.57" rx="2" fill="#2a78d6" />
+<text x="473.78" y="207.43" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal" >3</text>
+<text x="473.78" y="265.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600" >iii</text>
+<rect x="518.67" y="237.14" width="65.78" height="12.86" rx="2" fill="#eb6834" />
+<text x="551.56" y="233.14" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal" >1</text>
+<text x="551.56" y="265.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600" >II</text>
+<text x="551.56" y="280.00" font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" >Dead</text>
+<rect x="596.44" y="237.14" width="65.78" height="12.86" rx="2" fill="#eb6834" />
+<text x="629.33" y="233.14" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal" >1</text>
+<text x="629.33" y="265.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600" >III</text>
+<text x="629.33" y="280.00" font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" >Ain’t</text>
+<rect x="674.22" y="237.14" width="65.78" height="12.86" rx="2" fill="#eb6834" />
+<text x="707.11" y="233.14" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal" >1</text>
+<text x="707.11" y="265.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600" >iv</text>
+<text x="707.11" y="280.00" font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" >Dead</text>
+<rect x="46.00" y="303.00" width="10.00" height="10.00" rx="2" fill="#2a78d6" />
+<text x="61.00" y="312.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >diatónico en mayor</text>
+<rect x="179.80" y="303.00" width="10.00" height="10.00" rx="2" fill="#eb6834" />
+<text x="194.80" y="312.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >fuera de la escala</text>
+</svg>

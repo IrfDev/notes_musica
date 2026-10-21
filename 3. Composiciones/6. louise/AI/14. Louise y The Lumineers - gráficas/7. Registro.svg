@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'>
+<title>Registro: Louise y The Lumineers</title>
+<rect width="760" height="320" rx="10" fill="#fcfcfb"/>
+<text x="16.00" y="24.00" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="600" >Registro de cada mano</text>
+<text x="16.00" y="42.00" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" >De la nota más grave a la más aguda de cada pentagrama. Las alturas de la guitarra de Louise no entran.</text>
+<rect x="170.00" y="53.00" width="10.00" height="10.00" rx="2" fill="#eb6834" />
+<text x="185.00" y="62.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >mano izquierda</text>
+<rect x="281.40" y="53.00" width="10.00" height="10.00" rx="2" fill="#2a78d6" />
+<text x="296.40" y="62.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >mano derecha</text>
+<line x1="198.30" y1="76.00" x2="198.30" y2="276.00" stroke="#e1e0d9" stroke-width="1" />
+<text x="198.30" y="292.00" font-size="10" fill="#898781" text-anchor="middle" font-weight="normal" >Fa1</text>
+<line x1="283.20" y1="76.00" x2="283.20" y2="276.00" stroke="#e1e0d9" stroke-width="1" />
+<text x="283.20" y="292.00" font-size="10" fill="#898781" text-anchor="middle" font-weight="normal" >Re2</text>
+<line x1="377.53" y1="76.00" x2="377.53" y2="276.00" stroke="#e1e0d9" stroke-width="1" />
+<text x="377.53" y="292.00" font-size="10" fill="#898781" text-anchor="middle" font-weight="normal" >Do3</text>
+<line x1="490.73" y1="76.00" x2="490.73" y2="276.00" stroke="#e1e0d9" stroke-width="1" />
+<text x="490.73" y="292.00" font-size="10" fill="#898781" text-anchor="middle" font-weight="normal" >Do4</text>
+<line x1="603.93" y1="76.00" x2="603.93" y2="276.00" stroke="#e1e0d9" stroke-width="1" />
+<text x="603.93" y="292.00" font-size="10" fill="#898781" text-anchor="middle" font-weight="normal" >Do5</text>
+<line x1="717.13" y1="76.00" x2="717.13" y2="276.00" stroke="#e1e0d9" stroke-width="1" />
+<text x="717.13" y="292.00" font-size="10" fill="#898781" text-anchor="middle" font-weight="normal" >Do6</text>
+<text x="162.00" y="98.00" font-size="11" fill="#0b0b0b" text-anchor="end" font-weight="600" >Louise</text>
+<rect x="283.20" y="86.00" width="226.40" height="9.00" rx="3" fill="#eb6834" />
+<text x="279.20" y="94.00" font-size="8.5" fill="#52514e" text-anchor="end" font-weight="normal" >Re2</text>
+<text x="513.60" y="94.00" font-size="8.5" fill="#52514e" text-anchor="start" font-weight="normal" >Re4</text>
+<rect x="481.30" y="97.00" width="216.97" height="9.00" rx="3" fill="#2a78d6" />
+<text x="477.30" y="105.00" font-size="8.5" fill="#52514e" text-anchor="end" font-weight="normal" >Si3</text>
+<text x="702.27" y="105.00" font-size="8.5" fill="#52514e" text-anchor="start" font-weight="normal" >Si♭5</text>
+<text x="162.00" y="138.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Elouise</text>
+<rect x="198.30" y="126.00" width="245.27" height="9.00" rx="3" fill="#eb6834" />
+<text x="194.30" y="134.00" font-size="8.5" fill="#52514e" text-anchor="end" font-weight="normal" >Fa1</text>
+<text x="447.57" y="134.00" font-size="8.5" fill="#52514e" text-anchor="start" font-weight="normal" >Sol3</text>
+<rect x="368.10" y="137.00" width="320.73" height="9.00" rx="3" fill="#2a78d6" />
+<text x="364.10" y="145.00" font-size="8.5" fill="#52514e" text-anchor="end" font-weight="normal" >Si2</text>
+<text x="692.83" y="145.00" font-size="8.5" fill="#52514e" text-anchor="start" font-weight="normal" >La5</text>
+<text x="162.00" y="178.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Flapper Girl</text>
+<rect x="264.33" y="166.00" width="339.60" height="9.00" rx="3" fill="#eb6834" />
+<text x="260.33" y="174.00" font-size="8.5" fill="#52514e" text-anchor="end" font-weight="normal" >Do2</text>
+<text x="607.93" y="174.00" font-size="8.5" fill="#52514e" text-anchor="start" font-weight="normal" >Do5</text>
+<rect x="481.30" y="177.00" width="235.83" height="9.00" rx="3" fill="#2a78d6" />
+<text x="477.30" y="185.00" font-size="8.5" fill="#52514e" text-anchor="end" font-weight="normal" >Si3</text>
+<text x="721.13" y="185.00" font-size="8.5" fill="#52514e" text-anchor="start" font-weight="normal" >Do6</text>
+<text x="162.00" y="218.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Submarines</text>
+<rect x="320.93" y="206.00" width="188.67" height="9.00" rx="3" fill="#eb6834" />
+<text x="316.93" y="214.00" font-size="8.5" fill="#52514e" text-anchor="end" font-weight="normal" >Fa♯2</text>
+<text x="513.60" y="214.00" font-size="8.5" fill="#52514e" text-anchor="start" font-weight="normal" >Re4</text>
+<rect x="509.60" y="217.00" width="226.40" height="9.00" rx="3" fill="#2a78d6" />
+<text x="505.60" y="225.00" font-size="8.5" fill="#52514e" text-anchor="end" font-weight="normal" >Re4</text>
+<text x="740.00" y="225.00" font-size="8.5" fill="#52514e" text-anchor="start" font-weight="normal" >Re6</text>
+<text x="162.00" y="258.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Sleep on the Floor</text>
+<rect x="217.17" y="246.00" width="339.60" height="9.00" rx="3" fill="#eb6834" />
+<text x="213.17" y="254.00" font-size="8.5" fill="#52514e" text-anchor="end" font-weight="normal" >Sol1</text>
+<text x="560.77" y="254.00" font-size="8.5" fill="#52514e" text-anchor="start" font-weight="normal" >Sol4</text>
+<rect x="443.57" y="257.00" width="273.57" height="9.00" rx="3" fill="#2a78d6" />
+<text x="439.57" y="265.00" font-size="8.5" fill="#52514e" text-anchor="end" font-weight="normal" >Sol3</text>
+<text x="721.13" y="265.00" font-size="8.5" fill="#52514e" text-anchor="start" font-weight="normal" >Do6</text>
+</svg>

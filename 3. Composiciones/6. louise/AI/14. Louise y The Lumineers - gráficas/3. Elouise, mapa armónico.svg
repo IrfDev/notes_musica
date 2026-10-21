@@ -1,0 +1,297 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 680" width="760" height="680" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'>
+<title>Elouise: mapa armónico</title>
+<rect width="760" height="680" rx="10" fill="#fcfcfb"/>
+<text x="16.00" y="24.00" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="600" >Elouise: mapa armónico</text>
+<text x="16.00" y="42.00" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" >Cifrado del arreglo, compás por compás, en Do mayor. «×2»: el compás suena dos veces por las repeticiones.</text>
+<rect x="176.00" y="55.00" width="10.00" height="10.00" rx="2" fill="#d6e6fa" />
+<text x="191.00" y="64.00" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" >Tónica</text>
+<rect x="245.96" y="55.00" width="10.00" height="10.00" rx="2" fill="#fbdccd" />
+<text x="260.96" y="64.00" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" >Subdominante</text>
+<rect x="352.88" y="55.00" width="10.00" height="10.00" rx="2" fill="#c9eedf" />
+<text x="367.88" y="64.00" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" >Dominante</text>
+<rect x="441.32" y="55.00" width="10.00" height="10.00" rx="2" fill="#f0efec" />
+<text x="456.32" y="64.00" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" >sin acorde</text>
+<text x="16.00" y="102.00" font-size="11.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Intro: riff</text>
+<text x="16.00" y="117.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.1–9</text>
+<rect x="178.00" y="87.00" width="67.25" height="38.00" rx="5" fill="#f0efec" />
+<text x="183.00" y="98.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >1</text>
+<text x="211.62" y="109.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >—</text>
+<text x="211.62" y="121.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >silencio</text>
+<rect x="249.25" y="87.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="254.25" y="98.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >2</text>
+<text x="282.88" y="109.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → G7</text>
+<text x="282.88" y="121.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → V7</text>
+<rect x="320.50" y="87.00" width="67.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="325.50" y="98.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >3</text>
+<text x="354.12" y="109.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C/F</text>
+<text x="354.12" y="121.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I/IV (bajo Fa)</text>
+<rect x="391.75" y="87.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="396.75" y="98.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >4</text>
+<text x="425.38" y="109.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → G</text>
+<text x="425.38" y="121.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → V</text>
+<rect x="463.00" y="87.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="468.00" y="98.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >5</text>
+<text x="496.62" y="109.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C</text>
+<text x="496.62" y="121.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<rect x="534.25" y="87.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="539.25" y="98.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >6</text>
+<text x="567.88" y="109.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → G7</text>
+<text x="567.88" y="121.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → V7</text>
+<rect x="605.50" y="87.00" width="67.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="610.50" y="98.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >7</text>
+<text x="639.12" y="109.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C/F</text>
+<text x="639.12" y="121.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I/IV (bajo Fa)</text>
+<rect x="676.75" y="87.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="681.75" y="98.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >8</text>
+<text x="710.38" y="109.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → G</text>
+<text x="710.38" y="121.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → V</text>
+<rect x="178.00" y="131.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="183.00" y="142.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >9</text>
+<text x="211.62" y="153.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C</text>
+<text x="211.62" y="165.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<text x="16.00" y="190.00" font-size="11.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Estribillo instrumental</text>
+<text x="16.00" y="205.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.10–14</text>
+<line x1="16.00" y1="171.00" x2="746.00" y2="171.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="178.00" y="175.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="183.00" y="186.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >10</text>
+<text x="241.25" y="186.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >×2</text>
+<text x="211.62" y="197.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → G</text>
+<text x="211.62" y="209.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → V</text>
+<rect x="249.25" y="175.00" width="67.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="254.25" y="186.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >11</text>
+<text x="312.50" y="186.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >×2</text>
+<text x="282.88" y="197.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >F → C</text>
+<text x="282.88" y="209.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >IV → I</text>
+<rect x="320.50" y="175.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="325.50" y="186.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >12</text>
+<text x="383.75" y="186.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >×2</text>
+<text x="354.12" y="197.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Am → G</text>
+<text x="354.12" y="209.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >vi → V</text>
+<rect x="391.75" y="175.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="396.75" y="186.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >13</text>
+<text x="425.38" y="197.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C</text>
+<text x="425.38" y="209.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<rect x="463.00" y="175.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="468.00" y="186.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >14</text>
+<text x="496.62" y="197.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → F</text>
+<text x="496.62" y="209.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → IV</text>
+<text x="16.00" y="234.00" font-size="11.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Verso</text>
+<text x="16.00" y="249.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.15–20</text>
+<line x1="16.00" y1="215.00" x2="746.00" y2="215.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="178.00" y="219.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="183.00" y="230.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >15</text>
+<text x="241.25" y="230.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >×2</text>
+<text x="211.62" y="241.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C</text>
+<text x="211.62" y="253.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<rect x="249.25" y="219.00" width="67.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="254.25" y="230.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >16</text>
+<text x="312.50" y="230.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >×2</text>
+<text x="282.88" y="241.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G → C</text>
+<text x="282.88" y="253.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >V → I</text>
+<rect x="320.50" y="219.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="325.50" y="230.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >17</text>
+<text x="383.75" y="230.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >×2</text>
+<text x="354.12" y="241.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → F</text>
+<text x="354.12" y="253.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → IV</text>
+<rect x="391.75" y="219.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="396.75" y="230.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >18</text>
+<text x="455.00" y="230.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >×2</text>
+<text x="425.38" y="241.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Am</text>
+<text x="425.38" y="253.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >vi</text>
+<rect x="463.00" y="219.00" width="67.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="468.00" y="230.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >19</text>
+<text x="526.25" y="230.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >×2</text>
+<text x="496.62" y="241.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G → C</text>
+<text x="496.62" y="253.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >V → I</text>
+<rect x="534.25" y="219.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="539.25" y="230.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >20</text>
+<text x="597.50" y="230.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >×2</text>
+<text x="567.88" y="241.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → F</text>
+<text x="567.88" y="253.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → IV</text>
+<text x="16.00" y="278.00" font-size="11.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Acordes a contratiempo</text>
+<text x="16.00" y="293.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.21–24</text>
+<line x1="16.00" y1="259.00" x2="746.00" y2="259.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="178.00" y="263.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="183.00" y="274.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >21</text>
+<text x="241.25" y="274.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >×2</text>
+<text x="211.62" y="285.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C</text>
+<text x="211.62" y="297.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<rect x="249.25" y="263.00" width="67.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="254.25" y="274.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >22</text>
+<text x="312.50" y="274.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >×2</text>
+<text x="282.88" y="285.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G → C</text>
+<text x="282.88" y="297.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >V → I</text>
+<rect x="320.50" y="263.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="325.50" y="274.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >23</text>
+<text x="383.75" y="274.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >×2</text>
+<text x="354.12" y="285.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → F</text>
+<text x="354.12" y="297.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → IV</text>
+<rect x="391.75" y="263.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="396.75" y="274.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >24</text>
+<text x="455.00" y="274.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >×2</text>
+<text x="425.38" y="285.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Am</text>
+<text x="425.38" y="297.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >vi</text>
+<text x="16.00" y="322.00" font-size="11.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Bisagra 3/4</text>
+<text x="16.00" y="337.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.25–25</text>
+<line x1="16.00" y1="303.00" x2="746.00" y2="303.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="178.00" y="307.00" width="67.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="183.00" y="318.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >25</text>
+<text x="211.62" y="318.00" font-size="9" fill="#0b0b0b" text-anchor="middle" font-weight="600" >3/4</text>
+<text x="241.25" y="318.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >×2</text>
+<text x="211.62" y="329.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G</text>
+<text x="211.62" y="341.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >V</text>
+<text x="16.00" y="366.00" font-size="11.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Riff</text>
+<text x="16.00" y="381.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.26–33</text>
+<line x1="16.00" y1="347.00" x2="746.00" y2="347.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="178.00" y="351.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="183.00" y="362.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >26</text>
+<text x="211.62" y="373.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → G7</text>
+<text x="211.62" y="385.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → V7</text>
+<rect x="249.25" y="351.00" width="67.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="254.25" y="362.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >27</text>
+<text x="282.88" y="373.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C/F</text>
+<text x="282.88" y="385.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I/IV (bajo Fa)</text>
+<rect x="320.50" y="351.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="325.50" y="362.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >28</text>
+<text x="354.12" y="373.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → G</text>
+<text x="354.12" y="385.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → V</text>
+<rect x="391.75" y="351.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="396.75" y="362.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >29</text>
+<text x="425.38" y="373.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C</text>
+<text x="425.38" y="385.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<rect x="463.00" y="351.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="468.00" y="362.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >30</text>
+<text x="496.62" y="373.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → G7</text>
+<text x="496.62" y="385.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → V7</text>
+<rect x="534.25" y="351.00" width="67.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="539.25" y="362.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >31</text>
+<text x="567.88" y="373.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C/F</text>
+<text x="567.88" y="385.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I/IV (bajo Fa)</text>
+<rect x="605.50" y="351.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="610.50" y="362.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >32</text>
+<text x="639.12" y="373.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → G</text>
+<text x="639.12" y="385.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → V</text>
+<rect x="676.75" y="351.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="681.75" y="362.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >33</text>
+<text x="710.38" y="373.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C</text>
+<text x="710.38" y="385.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<text x="16.00" y="410.00" font-size="11.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Puente instrumental</text>
+<text x="16.00" y="425.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.34–39</text>
+<line x1="16.00" y1="391.00" x2="746.00" y2="391.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="178.00" y="395.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="183.00" y="406.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >34</text>
+<text x="241.25" y="406.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >×2</text>
+<text x="211.62" y="417.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → G</text>
+<text x="211.62" y="429.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → V</text>
+<rect x="249.25" y="395.00" width="67.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="254.25" y="406.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >35</text>
+<text x="312.50" y="406.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >×2</text>
+<text x="282.88" y="417.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >F → C</text>
+<text x="282.88" y="429.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >IV → I</text>
+<rect x="320.50" y="395.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="325.50" y="406.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >36</text>
+<text x="383.75" y="406.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >×2</text>
+<text x="354.12" y="417.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Am → G</text>
+<text x="354.12" y="429.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >vi → V</text>
+<rect x="391.75" y="395.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="396.75" y="406.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >37</text>
+<text x="425.38" y="417.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C</text>
+<text x="425.38" y="429.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<rect x="463.00" y="395.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="468.00" y="406.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >38</text>
+<text x="496.62" y="417.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → F</text>
+<text x="496.62" y="429.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → IV</text>
+<rect x="534.25" y="395.00" width="67.25" height="38.00" rx="5" fill="#f0efec" />
+<text x="539.25" y="406.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >39</text>
+<text x="567.88" y="417.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >—</text>
+<text x="567.88" y="429.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >silencio</text>
+<text x="16.00" y="454.00" font-size="11.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Coda: acordes</text>
+<text x="16.00" y="469.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.40–41</text>
+<line x1="16.00" y1="435.00" x2="746.00" y2="435.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="178.00" y="439.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="183.00" y="450.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >40</text>
+<text x="211.62" y="461.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C</text>
+<text x="211.62" y="473.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<rect x="249.25" y="439.00" width="67.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="254.25" y="450.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >41</text>
+<text x="282.88" y="450.00" font-size="9" fill="#0b0b0b" text-anchor="middle" font-weight="600" >3/4</text>
+<text x="282.88" y="461.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >F</text>
+<text x="282.88" y="473.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >IV</text>
+<text x="16.00" y="498.00" font-size="11.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Coda: verso grave</text>
+<text x="16.00" y="513.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.42–48</text>
+<line x1="16.00" y1="479.00" x2="746.00" y2="479.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="178.00" y="483.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="183.00" y="494.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >42</text>
+<text x="211.62" y="505.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C</text>
+<text x="211.62" y="517.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<rect x="249.25" y="483.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="254.25" y="494.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >43</text>
+<text x="282.88" y="505.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → G</text>
+<text x="282.88" y="517.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → V</text>
+<rect x="320.50" y="483.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="325.50" y="494.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >44</text>
+<text x="354.12" y="505.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C</text>
+<text x="354.12" y="517.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<rect x="391.75" y="483.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="396.75" y="494.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >45</text>
+<text x="425.38" y="505.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → F</text>
+<text x="425.38" y="517.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → IV</text>
+<rect x="463.00" y="483.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="468.00" y="494.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >46</text>
+<text x="496.62" y="505.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Am</text>
+<text x="496.62" y="517.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >vi</text>
+<rect x="534.25" y="483.00" width="67.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="539.25" y="494.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >47</text>
+<text x="567.88" y="505.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G → C</text>
+<text x="567.88" y="517.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >V → I</text>
+<rect x="605.50" y="483.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="610.50" y="494.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >48</text>
+<text x="639.12" y="505.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → F</text>
+<text x="639.12" y="517.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → IV</text>
+<text x="16.00" y="542.00" font-size="11.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Coda: acordes</text>
+<text x="16.00" y="557.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.49–52</text>
+<line x1="16.00" y1="523.00" x2="746.00" y2="523.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="178.00" y="527.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="183.00" y="538.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >49</text>
+<text x="211.62" y="549.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C</text>
+<text x="211.62" y="561.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<rect x="249.25" y="527.00" width="67.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="254.25" y="538.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >50</text>
+<text x="282.88" y="549.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G → C</text>
+<text x="282.88" y="561.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >V → I</text>
+<rect x="320.50" y="527.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="325.50" y="538.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >51</text>
+<text x="354.12" y="549.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → F</text>
+<text x="354.12" y="561.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → IV</text>
+<rect x="391.75" y="527.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="396.75" y="538.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >52</text>
+<text x="425.38" y="549.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Am</text>
+<text x="425.38" y="561.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >vi</text>
+<text x="16.00" y="586.00" font-size="11.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Bisagra 3/4</text>
+<text x="16.00" y="601.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.53–53</text>
+<line x1="16.00" y1="567.00" x2="746.00" y2="567.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="178.00" y="571.00" width="67.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="183.00" y="582.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >53</text>
+<text x="211.62" y="582.00" font-size="9" fill="#0b0b0b" text-anchor="middle" font-weight="600" >3/4</text>
+<text x="211.62" y="593.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G</text>
+<text x="211.62" y="605.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >V</text>
+<text x="16.00" y="630.00" font-size="11.5" fill="#0b0b0b" text-anchor="start" font-weight="600" >Final: riff</text>
+<text x="16.00" y="645.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.54–57</text>
+<line x1="16.00" y1="611.00" x2="746.00" y2="611.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="178.00" y="615.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="183.00" y="626.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >54</text>
+<text x="211.62" y="637.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → G7</text>
+<text x="211.62" y="649.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → V7</text>
+<rect x="249.25" y="615.00" width="67.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="254.25" y="626.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >55</text>
+<text x="282.88" y="637.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C/F</text>
+<text x="282.88" y="649.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I/IV (bajo Fa)</text>
+<rect x="320.50" y="615.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="325.50" y="626.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >56</text>
+<text x="354.12" y="637.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C → G</text>
+<text x="354.12" y="649.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I → V</text>
+<rect x="391.75" y="615.00" width="67.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="396.75" y="626.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >57</text>
+<text x="425.38" y="637.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C</text>
+<text x="425.38" y="649.00" font-size="9.5" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+</svg>

@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 712" width="760" height="712" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'>
+<title>Louise simple: perfil de cada sección</title>
+<rect width="760" height="712" rx="10" fill="#fcfcfb"/>
+<text x="16.00" y="24.00" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="600" >Perfil de cada sección</text>
+<text x="16.00" y="42.00" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" >Cada barra suma 100%. El Coro 3 es la zona c.93–108, que la partitura deja bajo la marca B2.</text>
+<text x="16.00" y="76.00" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600" >Material: ¿nuevo o repetido? (porcentaje de compases)</text>
+<rect x="150.00" y="87.00" width="10.00" height="10.00" rx="2" fill="#2a78d6" />
+<text x="165.00" y="96.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >Material nuevo</text>
+<rect x="261.40" y="87.00" width="10.00" height="10.00" rx="2" fill="#eb6834" />
+<text x="276.40" y="96.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >Variación</text>
+<rect x="344.80" y="87.00" width="10.00" height="10.00" rx="2" fill="#1baf7a" />
+<text x="359.80" y="96.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >Repetición exacta</text>
+<text x="142.00" y="120.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Intro</text>
+<rect x="151.00" y="108.00" width="534.40" height="16.00" rx="3" fill="#2a78d6" />
+<text x="418.20" y="120.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >90%</text>
+<rect x="687.40" y="108.00" width="57.60" height="16.00" rx="3" fill="#eb6834" />
+<text x="142.00" y="140.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Verso 1</text>
+<rect x="151.00" y="128.00" width="485.64" height="16.00" rx="3" fill="#2a78d6" />
+<text x="393.82" y="140.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >82%</text>
+<rect x="638.64" y="128.00" width="70.24" height="16.00" rx="3" fill="#eb6834" />
+<text x="673.76" y="140.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >12%</text>
+<rect x="710.88" y="128.00" width="34.12" height="16.00" rx="3" fill="#1baf7a" />
+<text x="142.00" y="160.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Coro 1</text>
+<rect x="151.00" y="148.00" width="445.00" height="16.00" rx="3" fill="#2a78d6" />
+<text x="373.50" y="160.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >75%</text>
+<rect x="598.00" y="148.00" width="33.76" height="16.00" rx="3" fill="#eb6834" />
+<rect x="633.76" y="148.00" width="111.24" height="16.00" rx="3" fill="#1baf7a" />
+<text x="689.38" y="160.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >19%</text>
+<text x="142.00" y="180.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Bridge 1</text>
+<rect x="151.00" y="168.00" width="522.48" height="16.00" rx="3" fill="#2a78d6" />
+<text x="412.24" y="180.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >88%</text>
+<rect x="675.48" y="168.00" width="69.52" height="16.00" rx="3" fill="#eb6834" />
+<text x="710.24" y="180.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >12%</text>
+<text x="142.00" y="200.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Verso 2</text>
+<rect x="151.00" y="188.00" width="182.76" height="16.00" rx="3" fill="#eb6834" />
+<text x="242.38" y="200.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >31%</text>
+<rect x="335.76" y="188.00" width="409.24" height="16.00" rx="3" fill="#1baf7a" />
+<text x="540.38" y="200.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >69%</text>
+<text x="142.00" y="220.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Coro 2</text>
+<rect x="151.00" y="208.00" width="111.24" height="16.00" rx="3" fill="#2a78d6" />
+<text x="206.62" y="220.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >19%</text>
+<rect x="264.24" y="208.00" width="480.76" height="16.00" rx="3" fill="#1baf7a" />
+<text x="504.62" y="220.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >81%</text>
+<text x="142.00" y="240.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >B2</text>
+<rect x="151.00" y="228.00" width="594.00" height="16.00" rx="3" fill="#2a78d6" />
+<text x="448.00" y="240.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >100%</text>
+<text x="142.00" y="260.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Coro 3 (sin marca)</text>
+<rect x="151.00" y="248.00" width="33.76" height="16.00" rx="3" fill="#eb6834" />
+<rect x="186.76" y="248.00" width="558.24" height="16.00" rx="3" fill="#1baf7a" />
+<text x="465.88" y="260.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >94%</text>
+<text x="16.00" y="292.00" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600" >Función armónica (porcentaje del tiempo)</text>
+<rect x="150.00" y="303.00" width="10.00" height="10.00" rx="2" fill="#2a78d6" />
+<text x="165.00" y="312.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >Tónica</text>
+<rect x="216.60" y="303.00" width="10.00" height="10.00" rx="2" fill="#eb6834" />
+<text x="231.60" y="312.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >Subdominante</text>
+<rect x="316.80" y="303.00" width="10.00" height="10.00" rx="2" fill="#1baf7a" />
+<text x="331.80" y="312.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >Dominante</text>
+<rect x="400.20" y="303.00" width="10.00" height="10.00" rx="2" fill="#eda100" />
+<text x="415.20" y="312.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >Fuera de la tonalidad</text>
+<text x="142.00" y="336.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Intro</text>
+<rect x="151.00" y="324.00" width="375.27" height="16.00" rx="3" fill="#2a78d6" />
+<text x="338.63" y="336.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >63%</text>
+<rect x="528.27" y="324.00" width="97.53" height="16.00" rx="3" fill="#eb6834" />
+<text x="577.03" y="336.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >17%</text>
+<rect x="627.80" y="324.00" width="117.20" height="16.00" rx="3" fill="#1baf7a" />
+<text x="686.40" y="336.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >20%</text>
+<text x="142.00" y="356.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Verso 1</text>
+<rect x="151.00" y="344.00" width="370.50" height="16.00" rx="3" fill="#2a78d6" />
+<text x="336.25" y="356.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >62%</text>
+<rect x="523.50" y="344.00" width="72.50" height="16.00" rx="3" fill="#eb6834" />
+<text x="559.75" y="356.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >12%</text>
+<rect x="598.00" y="344.00" width="147.00" height="16.00" rx="3" fill="#1baf7a" />
+<text x="671.50" y="356.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >25%</text>
+<text x="142.00" y="376.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Coro 1</text>
+<rect x="151.00" y="364.00" width="234.02" height="16.00" rx="3" fill="#2a78d6" />
+<text x="268.01" y="376.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >40%</text>
+<rect x="387.02" y="364.00" width="283.48" height="16.00" rx="3" fill="#eb6834" />
+<text x="528.76" y="376.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >48%</text>
+<rect x="672.50" y="364.00" width="72.50" height="16.00" rx="3" fill="#1baf7a" />
+<text x="708.75" y="376.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >12%</text>
+<text x="142.00" y="396.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Bridge 1</text>
+<rect x="151.00" y="384.00" width="332.95" height="16.00" rx="3" fill="#2a78d6" />
+<text x="317.48" y="396.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >56%</text>
+<rect x="485.95" y="384.00" width="110.05" height="16.00" rx="3" fill="#eb6834" />
+<text x="540.98" y="396.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >19%</text>
+<rect x="598.00" y="384.00" width="72.50" height="16.00" rx="3" fill="#1baf7a" />
+<text x="634.25" y="396.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >12%</text>
+<rect x="672.50" y="384.00" width="72.50" height="16.00" rx="3" fill="#eda100" />
+<text x="708.75" y="396.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >12%</text>
+<text x="142.00" y="416.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Verso 2</text>
+<rect x="151.00" y="404.00" width="370.50" height="16.00" rx="3" fill="#2a78d6" />
+<text x="336.25" y="416.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >62%</text>
+<rect x="523.50" y="404.00" width="72.50" height="16.00" rx="3" fill="#eb6834" />
+<text x="559.75" y="416.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >12%</text>
+<rect x="598.00" y="404.00" width="147.00" height="16.00" rx="3" fill="#1baf7a" />
+<text x="671.50" y="416.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >25%</text>
+<text x="142.00" y="436.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Coro 2</text>
+<rect x="151.00" y="424.00" width="196.67" height="16.00" rx="3" fill="#2a78d6" />
+<text x="249.33" y="436.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >33%</text>
+<rect x="349.67" y="424.00" width="283.77" height="16.00" rx="3" fill="#eb6834" />
+<text x="491.55" y="436.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >48%</text>
+<rect x="635.44" y="424.00" width="72.57" height="16.00" rx="3" fill="#1baf7a" />
+<text x="671.72" y="436.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >13%</text>
+<rect x="710.01" y="424.00" width="34.99" height="16.00" rx="3" fill="#eda100" />
+<text x="142.00" y="456.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >B2</text>
+<rect x="151.00" y="444.00" width="216.73" height="16.00" rx="3" fill="#2a78d6" />
+<text x="259.37" y="456.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >37%</text>
+<rect x="369.73" y="444.00" width="77.27" height="16.00" rx="3" fill="#eb6834" />
+<text x="408.37" y="456.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >13%</text>
+<rect x="449.00" y="444.00" width="176.80" height="16.00" rx="3" fill="#1baf7a" />
+<text x="537.40" y="456.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >30%</text>
+<rect x="627.80" y="444.00" width="117.20" height="16.00" rx="3" fill="#eda100" />
+<text x="686.40" y="456.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >20%</text>
+<text x="142.00" y="476.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Coro 3 (sin marca)</text>
+<rect x="151.00" y="464.00" width="234.02" height="16.00" rx="3" fill="#2a78d6" />
+<text x="268.01" y="476.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >40%</text>
+<rect x="387.02" y="464.00" width="283.48" height="16.00" rx="3" fill="#eb6834" />
+<text x="528.76" y="476.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >48%</text>
+<rect x="672.50" y="464.00" width="72.50" height="16.00" rx="3" fill="#1baf7a" />
+<text x="708.75" y="476.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >12%</text>
+<text x="16.00" y="508.00" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600" >Movimiento entre voz superior y bajo (porcentaje de pasos)</text>
+<rect x="150.00" y="519.00" width="10.00" height="10.00" rx="2" fill="#2a78d6" />
+<text x="165.00" y="528.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >Contrario</text>
+<rect x="233.40" y="519.00" width="10.00" height="10.00" rx="2" fill="#eb6834" />
+<text x="248.40" y="528.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >Oblicuo</text>
+<rect x="305.60" y="519.00" width="10.00" height="10.00" rx="2" fill="#1baf7a" />
+<text x="320.60" y="528.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >Directo</text>
+<rect x="377.80" y="519.00" width="10.00" height="10.00" rx="2" fill="#eda100" />
+<text x="392.80" y="528.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal" >Paralelo</text>
+<text x="142.00" y="552.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Intro</text>
+<rect x="151.00" y="540.00" width="103.00" height="16.00" rx="3" fill="#2a78d6" />
+<text x="202.50" y="552.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >18%</text>
+<rect x="256.00" y="540.00" width="313.60" height="16.00" rx="3" fill="#eb6834" />
+<text x="412.80" y="552.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >53%</text>
+<rect x="571.60" y="540.00" width="173.40" height="16.00" rx="3" fill="#1baf7a" />
+<text x="658.30" y="552.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >29%</text>
+<text x="142.00" y="572.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Verso 1</text>
+<rect x="151.00" y="560.00" width="196.67" height="16.00" rx="3" fill="#2a78d6" />
+<text x="249.33" y="572.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >33%</text>
+<rect x="349.67" y="560.00" width="221.72" height="16.00" rx="3" fill="#eb6834" />
+<text x="460.53" y="572.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >38%</text>
+<rect x="573.39" y="560.00" width="122.09" height="16.00" rx="3" fill="#1baf7a" />
+<text x="634.44" y="572.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >21%</text>
+<rect x="697.48" y="560.00" width="47.52" height="16.00" rx="3" fill="#eda100" />
+<text x="142.00" y="592.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Coro 1</text>
+<rect x="151.00" y="580.00" width="210.77" height="16.00" rx="3" fill="#2a78d6" />
+<text x="256.39" y="592.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >36%</text>
+<rect x="363.77" y="580.00" width="125.54" height="16.00" rx="3" fill="#1baf7a" />
+<text x="426.54" y="592.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >21%</text>
+<rect x="491.32" y="580.00" width="253.68" height="16.00" rx="3" fill="#eda100" />
+<text x="618.16" y="592.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >43%</text>
+<text x="142.00" y="612.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Bridge 1</text>
+<rect x="151.00" y="600.00" width="196.47" height="16.00" rx="3" fill="#2a78d6" />
+<text x="249.23" y="612.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >33%</text>
+<rect x="349.47" y="600.00" width="296.00" height="16.00" rx="3" fill="#eb6834" />
+<text x="497.47" y="612.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >50%</text>
+<rect x="647.47" y="600.00" width="97.53" height="16.00" rx="3" fill="#1baf7a" />
+<text x="696.23" y="612.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >17%</text>
+<text x="142.00" y="632.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Verso 2</text>
+<rect x="151.00" y="620.00" width="196.47" height="16.00" rx="3" fill="#2a78d6" />
+<text x="249.23" y="632.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >33%</text>
+<rect x="349.47" y="620.00" width="246.53" height="16.00" rx="3" fill="#eb6834" />
+<text x="472.73" y="632.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >42%</text>
+<rect x="598.00" y="620.00" width="72.50" height="16.00" rx="3" fill="#1baf7a" />
+<text x="634.25" y="632.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >12%</text>
+<rect x="672.50" y="620.00" width="72.50" height="16.00" rx="3" fill="#eda100" />
+<text x="708.75" y="632.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >12%</text>
+<text x="142.00" y="652.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Coro 2</text>
+<rect x="151.00" y="640.00" width="196.47" height="16.00" rx="3" fill="#2a78d6" />
+<text x="249.23" y="652.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >33%</text>
+<rect x="349.47" y="640.00" width="37.93" height="16.00" rx="3" fill="#eb6834" />
+<rect x="389.40" y="640.00" width="157.13" height="16.00" rx="3" fill="#1baf7a" />
+<text x="467.97" y="652.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >27%</text>
+<rect x="548.53" y="640.00" width="196.47" height="16.00" rx="3" fill="#eda100" />
+<text x="646.77" y="652.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >33%</text>
+<text x="142.00" y="672.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >B2</text>
+<rect x="151.00" y="660.00" width="128.65" height="16.00" rx="3" fill="#2a78d6" />
+<text x="215.33" y="672.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >22%</text>
+<rect x="281.65" y="660.00" width="333.29" height="16.00" rx="3" fill="#eb6834" />
+<text x="448.30" y="672.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >56%</text>
+<rect x="616.94" y="660.00" width="91.07" height="16.00" rx="3" fill="#1baf7a" />
+<text x="662.48" y="672.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >16%</text>
+<rect x="710.01" y="660.00" width="34.99" height="16.00" rx="3" fill="#eda100" />
+<text x="142.00" y="692.00" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal" >Coro 3 (sin marca)</text>
+<rect x="151.00" y="680.00" width="196.47" height="16.00" rx="3" fill="#2a78d6" />
+<text x="249.23" y="692.00" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600" >33%</text>
+<rect x="349.47" y="680.00" width="37.93" height="16.00" rx="3" fill="#eb6834" />
+<rect x="389.40" y="680.00" width="77.27" height="16.00" rx="3" fill="#1baf7a" />
+<text x="428.03" y="692.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >13%</text>
+<rect x="468.67" y="680.00" width="276.33" height="16.00" rx="3" fill="#eda100" />
+<text x="606.83" y="692.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600" >47%</text>
+</svg>
