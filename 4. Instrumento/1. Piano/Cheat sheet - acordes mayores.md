@@ -913,7 +913,7 @@ transportan como las tríadas.
 | **Arpegio largo** | C · G · C · E · C · G | 5 – 3 – 2 – 1 – 2 – 3 | flujo constante; con mano grande |
 
 > [!tip] El vals es tu *Louise*
-> El *chum-pam-pam* de [[3. Composiciones/6. louise/0. Intro|Louise]] es el patrón de vals: bajo en
+> El *chum-pam-pam* de [[3. Composiciones/6. louise/0. Obra|Louise]] es el patrón de vals: bajo en
 > el 1 con el 5, acorde en el 2 y el 3. Con la inversión más cercana (§8), el acorde de la MI casi
 > no se mueve aunque cambie la armonía.
 
