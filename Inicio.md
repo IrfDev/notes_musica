@@ -13,7 +13,7 @@ aliases:
 
 | | |
 |---|---|
-| **Obra activa** | [[Intro\|Louise]] |
+| **Obra activa** | [[3. Composiciones/6. louise/0. Obra\|Louise]] |
 | **Concepto activo** | |
 | **Curso en marcha** | [[2. Cursos/1. Cresciente/00. Curso\|Cresciente]] — módulo 1B Séptimas |
 | **Día de revisión semanal** | *(elegir uno fijo)* |
@@ -100,7 +100,7 @@ No hay calendario. No hay semanas numeradas. **Nada que recuperar si te atrasas*
 
 1. **Una obra activa a la vez.**
 2. **Semana sin audio es semana en blanco**, por mucho que hayas estudiado.
-3. **La nota de concepto la escribes tú.** La IA escribe en `AI/`.
+3. **La nota de concepto la escribes tú.** La IA escribe en `AI/`. En una obra, también `5. Feedback/` y `6. Hallazgos.md`.
 4. **Una dificultad nueva por proyecto.**
 5. **Nada se borra.** Lo superado se archiva en `_legacy/`.
 6. **Toda teoría termina en una decisión musical.** Si no puedes oírla ni aplicarla, todavía no la aprendiste.
@@ -108,7 +108,7 @@ No hay calendario. No hay semanas numeradas. **Nada que recuperar si te atrasas*
 
 ## Accesos
 
-- [[6. Práctica/0. Flujos]] — los seis bucles, paso a paso
+- [[6. Práctica/0. Flujos]] — los siete bucles, paso a paso
 - [[6. Práctica/1. Estructura]] — por qué está organizado así y dónde va cada cosa
 - [[Clase]] · [[Obra]] · [[Semana]] · [[Curso]]
 - [[Sesión deliberada]] · [[Rúbrica - Composición]]

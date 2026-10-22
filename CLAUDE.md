@@ -9,7 +9,7 @@ Antes de tocar nada, la documentación viva es:
 |---|---|
 | [[Inicio]] | el mapa, el estado activo y las reglas duras |
 | [[6. Práctica/1. Estructura]] | por qué está organizado así y dónde va cada cosa |
-| [[6. Práctica/0. Flujos]] | los seis bucles, con su definición de hecho |
+| [[6. Práctica/0. Flujos]] | los siete bucles, con su definición de hecho |
 | [[7. Partituras/Sistema de partituras]] | cómo se versionan y renderizan las partituras |
 | [[7. Partituras/Cómo usar las partituras]] | el ciclo diario con MuseScore |
 
@@ -196,11 +196,123 @@ malo fuera de su terreno.
 
 ---
 
+## Obras: mapa, contexto, decisiones, sesiones y feedback
+
+Toda obra de `3. Composiciones/` usa los mismos nombres. **El nombre de la pieza no se repite en los
+archivos**: está en la carpeta y en `titulo`.
+
+```
+3. Composiciones/<n>. <obra>/
+├── 0. Obra.md          ← ficha (tú)
+├── 1. Mapa.md          ← secciones, intención, energía: la vara de medir (tú)
+├── 2. Decisiones.md    ← D-NN (tú)
+├── 3. Sesiones/        ← NN. <alcance>.md (tú)
+├── 4. Contexto.md      ← R-NN: qué tomas de otras canciones y qué no (tú)
+├── 5. Feedback/        ← NN. <alcance>.md (IA)
+├── 6. Hallazgos.md     ← H-NN con estado (IA)
+└── AI/                 ← guías y análisis de esta obra que no son feedback (IA)
+```
+
+Detalle en [[6. Práctica/1. Estructura]], sección *`3. Composiciones/`*.
+
+**Qué escribe la IA y qué no.**
+
+1. La IA escribe **solo** `5. Feedback/`, `6. Hallazgos.md` y `AI/` (guías y análisis que no evalúan una
+   versión de la pieza).
+2. `0. Obra`, `1. Mapa`, `2. Decisiones`, `3. Sesiones/` y `4. Contexto` los escribe el usuario. La IA
+   **propone** cambios al Mapa, líneas para Decisiones y tomas para Contexto (con `____` en el porqué y
+   en lo que el usuario quiere) dentro de la sección *Propuestas* de un feedback, y nunca los aplica.
+
+**Cómo se hace un feedback.**
+
+1. **Es sobre la composición, no sobre las sesiones.** Se evalúa la versión actual dentro del alcance
+   pedido. Las sesiones de ese alcance desde el feedback anterior se leen como
+   **contexto** (qué quería, por qué cambió algo); nunca se evalúan.
+2. **Antes de escribir**, se leen `1. Mapa`, `2. Decisiones`, `4. Contexto` y `6. Hallazgos`. Un
+   error es lo que escribió (cifrado, Mapa, Decisiones, Contexto) contra lo que suena. Lo que contradice
+   una decisión vigente **no se reporta**. Con Contexto hay dos familias más: una toma ✅ del alcance que
+   no se oye, y una ❌ que se coló. Las dos llevan `contra: R-NN`.
+3. **Numeración:** la IA toma el siguiente número de `5. Feedback/` (dos dígitos, empieza en `00`, sin
+   huecos, nunca se renumera lo que ya existe) y nombra el archivo con el alcance: `07. B2.energia.md`.
+4. **Alcance:** `sección.instrumento.aspecto`, en ese orden, omitiendo lo que no aplica, sin acentos.
+   Sección = las del Mapa; instrumento = `instrumentos` de `0. Obra`; aspecto = `forma`, `armonia`,
+   `voicing`, `ritmo`, `melodia`, `arreglo`, `energia`, `notacion`. Si el usuario pide feedback sin
+   alcance, se usa el de su última sesión.
+5. **Solo se muestra lo abierto y lo nuevo** del alcance, más una línea con lo que se cerró.
+6. **Un feedback solo toca hallazgos de su alcance.** Que no se haya mirado un hallazgo no lo cierra.
+7. **Termina con una sola recomendación** (`siguiente`): el hallazgo abierto de más peso en el alcance.
+   El usuario revisa solo el último feedback y hace una cosa a la vez.
+8. **Los ejemplos muestran lo que suena hoy**; nunca la corrección.
+9. **Cada feedback registra qué evaluó, exactamente** (`evaluado` en el frontmatter y la tabla *Qué se
+   evaluó*), para poder volver a esa pieza en ese punto del tiempo. Un renglón por archivo fuente (dos si
+   `formato: ambos` y se miraron los dos):
+
+   | Campo | Qué es | Cómo se saca |
+   |---|---|---|
+   | `archivo` | el `.mscz` o el `.strudel.js` evaluado | `fuente` de `0. Obra` |
+   | `commit` | HEAD al evaluar | `git log -1 --format=%h` |
+   | `limpio` | `true` si el archivo es igual al del commit | `git status --porcelain -- "<archivo>"` vacío |
+   | `blob` | huella del contenido exacto, aun sin commit | `git hash-object "<archivo>"` (7 caracteres) |
+   | `guardado` | fecha y hora del archivo en disco | la del archivo, `AAAA-MM-DD HH:MM` |
+
+   Si el archivo **no está limpio**, se dice en el feedback: el blob lo identifica pero no lo guarda, y
+   para volver a él hace falta un commit. Se recomienda hacerlo; no se hace sin que el usuario lo pida.
+   Si hay un autosave de MuseScore más nuevo que el archivo, también se dice, y se evalúa lo guardado.
+10. **Cada feedback trae recursos para entender el problema, no solo texto.** La *Lista* es siempre una
+    tabla, y cada hallazgo de *Uno por uno* lleva **al menos uno** de estos:
+
+    | Recurso | Para qué |
+    |---|---|
+    | bloque ```` ```music-abc ```` | lo que suena hoy, 2–8 compases, con las voces separadas y la altura real de la guitarra |
+    | bloque ```` ```strudel ```` | el patrón tal como está, cuando la fuente es Strudel o el problema es de ritmo |
+    | tabla | números: volumen por compás o por tiempo, intervalos, registros, antes contra ahora |
+    | bloque ```` ```mermaid ```` | estructura y movimiento: la forma (`gantt`), una curva de energía (`xychart-beta`), cadenas armónicas o conducción (`flowchart`) |
+    | gráfica `.svg` | cuando nada de lo anterior alcanza; va en una carpeta `5. Feedback/NN. <alcance> - gráficas/` y se incrusta |
+
+    Los ejemplos nunca traen la corrección: muestran lo que suena, o un compás del propio usuario como
+    comparación.
+
+**Hallazgos.** Describen la pieza, nunca la sesión. El ID (`H-NN`) no cambia nunca y la línea termina con
+su ID de bloque (`^h-07`). Estados: `abierto`, `arreglado` (con el feedback que lo cerró), `decisión`
+(con su `D-NN`) y `retirado` (la IA se equivocó, y dice por qué). Nada se borra: baja a *Cerrados*.
+
+**Enlaces.** Cada enlace se escribe una sola vez, en el archivo de quien lo escribe; la vuelta la dan los
+backlinks. Hallazgos y decisiones se enlazan por línea y con ruta desde la obra:
+`[[6. Hallazgos#^h-07|H-07]]`, `[[2. Decisiones#^d-12|D-12]]`, `[[4. Contexto#^r-03|R-03]]`.
+
+**Contexto y referencias.** Dos capas, como Teoría y Cursos:
+
+| | `5. Referencias/` | `4. Contexto` de la obra |
+|---|---|---|
+| Qué es | la canción ajena, completa | lo que el usuario quiere de ella **para esta obra**, y lo que no |
+| Unidad | una nota por canción | una **toma**: `R-NN` |
+
+Una toma es una línea exacta: de dónde (canción y momento: tiempo o compases) · qué (un principio, uno
+solo) · aspecto y destino (con el vocabulario del alcance) · cómo se reconoce al oírla · estado
+(`propuesta`, `aplicada`, `descartada`). Tiene dos polaridades: ✅ *tomo* y ❌ *no quiero*. El ID no
+cambia nunca y la línea termina con `^r-NN`. Descartar una toma es una decisión (`D-NN`). El Mapa asigna
+tomas a secciones; una sesión libre dice cuál aplica (`aplica:`).
+
+Material de IA sobre referencias: el análisis de la canción sola va a `5. Referencias/0. Análisis/AI/`;
+la comparación obra contra referencia va a `<obra>/AI/`.
+
+**Partitura o Strudel.** `0. Obra` dice cuál con `formato` y la enlaza con `fuente`. El `.mscz` vive en
+`7. Partituras/`; un `.strudel.js` **se queda donde está**. El "qué cambió" sale de
+`./_scripts/diff-musical.py` / `historial.py` en partituras, y de `git diff` en Strudel.
+
+**Commits de sesión:** `<Obra> NN: qué cambió [H-07]`.
+
+**Scripts:** estos nombres llevan puntos; nada de `with_suffix()` sobre ellos (ver *Trampas conocidas*).
+
+---
+
 ## Nomenclatura
 
 - Prefijo numérico **entero** en carpetas y archivos: `1. Armonía/0. Séptimas.md`
 - Cero a la izquierda si el grupo pasa de 10: `00.`, `01.`
-- **Nunca decimales** (`8.1`, `11.3`): fue el síntoma del colapso anterior
+- **Nunca decimales** (`8.1`, `11.3`): fue el síntoma del colapso anterior. La única excepción son los
+  puntos del alcance en `3. Sesiones/` y `5. Feedback/` de una obra (`12. B2.energia.md`): el número es
+  entero y los puntos separan ejes
 - Sin guiones largos (`—`) en nombres de **carpeta**
 - Sin `:` en ningún nombre — rompe las rutas de Obsidian
 - Archivos fechados: `AAAA-MM-DD` delante
@@ -214,6 +326,7 @@ Todas las notas:
 ```yaml
 tipo:   # captura | concepto | guia-ai | ejercicio | estudio
         # composicion | sesion | semana | mapa | referencia | rubrica | setup
+        # mapa-obra | decisiones | contexto | hallazgos | feedback
 estado: # vigente | borrador | superseded | archivado
 ```
 
@@ -230,7 +343,8 @@ Los tipos de propiedad son **globales en la bóveda**: si `leccion` es número e
 un sitio, lo es en todos. Eso convierte un error de tecleo en un error visible.
 
 Plantillas listas en `10. System/2. Plantillas/`: notas (`Clase`, `Concepto`,
-`Obra`, `Estudio`, `Actividad de curso`, `Semana`, `Sesión deliberada`, `Setup`), bloques
+`Obra`, `Mapa`, `Decisiones`, `Sesión de obra`, `Contexto`, `Hallazgos`, `Feedback`, `Estudio`,
+`Actividad de curso`, `Semana`, `Sesión deliberada`, `Setup`), bloques
 reutilizables (`bloque — dónde va cada archivo`, `bloque — prueba de posesión`,
 `Rúbrica - Composición`) y snippets de notación.
 
@@ -242,7 +356,7 @@ Vienen de [[Inicio]]. No son negociables sin que el usuario lo decida:
 
 1. **Una obra activa a la vez.**
 2. **Semana sin audio es semana en blanco**, por mucho que haya estudiado.
-3. **La nota de concepto la escribe él.** La IA escribe en `AI/`.
+3. **La nota de concepto la escribe él.** La IA escribe en `AI/`. En una obra, también `5. Feedback/` y `6. Hallazgos.md`.
 4. **Una dificultad nueva por proyecto.**
 5. **Nada se borra.** Lo superado se archiva en `_legacy/`.
 6. **Toda teoría termina en una decisión musical.** Si no se puede oír ni

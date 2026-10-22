@@ -113,13 +113,13 @@ PROYECTOS = {
     "Improviser Louise": [
         ("Louise 00 - Guía.md", None, None, ["@copiar:8. Setup/6. ChatGPT/Improviser Louise/00. Guía.md"]),
         ("Louise 01 - Nota de obra y sesiones.md", "La nota de obra y las notas de cada sesión",
-         "La nota principal (origen, material, decisiones, por decidir, problemas abiertos) y las notas "
-         "1–7 que escribió el usuario al terminar cada sesión.",
-         [f"{LOUISE}/*.md"]),
+         "La ficha, el mapa, las decisiones, el contexto (lo que toma de otras canciones) y las notas que "
+         "escribió el usuario al terminar cada sesión.",
+         [f"{LOUISE}/*.md", f"{LOUISE}/3. Sesiones/*.md"]),
         ("Louise 02 - Guías de IA.md", "Las guías de IA de Louise",
          "Recursos de energía y forma (la curva, el inventario de lo gastado, el catálogo de palancas y qué "
-         "implica cada decisión) y el feedback del B2 del 2026-10-18.",
-         [f"{LOUISE}/AI/*.md"]),
+         "implica cada decisión), los hallazgos abiertos y cerrados, y cada feedback.",
+         [f"{LOUISE}/AI/*.md", f"{LOUISE}/5. Feedback/*.md"]),
         ("Louise 03 - Partitura compás por compás.md", "La partitura, compás por compás",
          "Reducción de la partitura de MuseScore: cifrado, notas del piano (MD y MI), guitarra en altura "
          "real y batería, en cada uno de los compases.",

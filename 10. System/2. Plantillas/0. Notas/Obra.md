@@ -1,9 +1,12 @@
 ---
 tipo: composicion
 estado: boceto
+titulo:
 inicio: "{{date:YYYY-MM-DD}}"
 cierre:
-instrumento:
+formato:
+fuente:
+instrumentos: []
 tonalidad:
 metrica:
 tempo:
@@ -21,40 +24,51 @@ tags:
 > `definicion_terminado` se escribe **hoy**, no cuando la pieza esté avanzada.
 > "Que quede bien" no es una definición. "90 s, forma AABA, una toma limpia exportada" sí.
 
+> [!info] Cómo se llena la ficha
+> - **Se guarda como `0. Obra.md`** dentro de `3. Composiciones/<n>. <obra>/`. El nombre de la pieza va en `titulo`, no en el archivo.
+> - `formato`: `musescore`, `strudel` o `ambos`.
+> - `fuente`: la ruta al archivo que se edita. El `.mscz` vive en `7. Partituras/2. Composiciones/`; un `.strudel.js` se queda donde esté.
+> - `instrumentos`: el vocabulario de instrumento de los alcances (`piano`, `guitarra`, `bateria`), sin acentos.
+
+- 🗺️ [[1. Mapa|Mapa]] · 📜 [[2. Decisiones|Decisiones]] · 🎧 [[4. Contexto|Contexto]] · 🎯 [[6. Hallazgos|Hallazgos]]
+
 ## Origen
 
 <!-- De dónde salió. Qué escuchabas, qué acorde, qué ritmo tenías en la cabeza. -->
 
-## Material
+## Sesiones
 
-<!-- Compases, capturas, partitura. -->
-<!-- ![[nombre.musicxml]] para partitura completa, o un bloque ```abc para un fragmento. -->
-
-## Decisiones
-
-> Una línea por decisión: **qué hice · por qué · qué cambió → enlace al concepto**.
-> Sin esto, las decisiones quedan dentro de la narración: valiosas pero irrecuperables.
-
-- <!-- Csus2 → D7 en c. 9 — natural pero con tensión retenida. → [[1. Acordes dominantes]] -->
-
-## Problemas abiertos
-
-> Los bloqueos, formulados como problema y no como queja.
-> "A suena como final" es un problema abierto. "No me gusta" no lo es.
-
-- [ ]
+```base
+filters:
+  and:
+    - file.path.startsWith(this.file.folder)
+    - file.folder.endsWith("3. Sesiones")
+views:
+  - type: table
+    name: Sesiones
+    order:
+      - file.name
+      - fecha
+      - tipo_sesion
+      - ataca
+```
 
 ## Feedback
 
-> Fechado y con fuente. Incluye el tuyo propio después de 24 h.
-
-### AAAA-MM-DD — *fuente*
-
--
-
-## Revisiones
-
-- [ ]
+```base
+filters:
+  and:
+    - file.path.startsWith(this.file.folder)
+    - file.folder.endsWith("5. Feedback")
+views:
+  - type: table
+    name: Feedback
+    order:
+      - file.name
+      - fecha
+      - alcance
+      - siguiente
+```
 
 ## Grabaciones
 
@@ -69,6 +83,7 @@ tags:
 
 ## Cierre
 
+- [ ] Cada sección del [[1. Mapa|Mapa]] cumple lo que quería
 - [ ] Se cumple `definicion_terminado`
 - [ ] Rúbrica aplicada → [[Rúbrica - Composición]]
 - [ ] Escuchada tras 24 h de descanso
