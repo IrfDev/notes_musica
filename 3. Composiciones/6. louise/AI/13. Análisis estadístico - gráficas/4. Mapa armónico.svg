@@ -1,0 +1,527 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 818" width="760" height="818" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'>
+<title>Louise simple: mapa armónico</title>
+<rect width="760" height="818" rx="10" fill="#fcfcfb"/>
+<text x="16.00" y="24.00" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="600" >Mapa armónico</text>
+<text x="16.00" y="42.00" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" >Cifrado de la partitura, grado respecto a Re y función. «= c.N»: repite el c.N nota por nota. * sin marca de ensayo.</text>
+<rect x="120.00" y="55.00" width="10.00" height="10.00" rx="2" fill="#d6e6fa" />
+<text x="135.00" y="64.00" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" >Tónica</text>
+<rect x="189.96" y="55.00" width="10.00" height="10.00" rx="2" fill="#fbdccd" />
+<text x="204.96" y="64.00" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" >Subdominante</text>
+<rect x="296.88" y="55.00" width="10.00" height="10.00" rx="2" fill="#c9eedf" />
+<text x="311.88" y="64.00" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" >Dominante</text>
+<rect x="385.32" y="55.00" width="10.00" height="10.00" rx="2" fill="#fbe8bd" />
+<text x="400.32" y="64.00" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" >Fuera de la tonalidad</text>
+<text x="16.00" y="102.00" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600" >Intro</text>
+<text x="16.00" y="117.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.1–10 · Re mayor</text>
+<rect x="122.00" y="87.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="127.00" y="98.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >1</text>
+<text x="159.12" y="108.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >D</text>
+<text x="159.12" y="120.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<rect x="200.25" y="87.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="205.25" y="98.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >2</text>
+<text x="237.38" y="108.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >D/F♯</text>
+<text x="237.38" y="120.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >I/F♯</text>
+<rect x="278.50" y="87.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="283.50" y="98.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >3</text>
+<text x="315.62" y="108.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >A</text>
+<text x="315.62" y="120.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >V</text>
+<rect x="356.75" y="87.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="361.75" y="98.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >4</text>
+<text x="393.88" y="108.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Bm</text>
+<text x="393.88" y="120.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >vi</text>
+<rect x="435.00" y="87.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="440.00" y="98.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >5</text>
+<text x="472.12" y="108.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G</text>
+<text x="472.12" y="120.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IV</text>
+<rect x="513.25" y="87.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="518.25" y="98.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >6</text>
+<text x="550.38" y="108.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >D</text>
+<text x="550.38" y="120.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<rect x="591.50" y="87.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="596.50" y="98.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >7</text>
+<text x="628.62" y="108.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >D</text>
+<text x="628.62" y="120.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<rect x="669.75" y="87.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="674.75" y="98.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >8</text>
+<text x="706.88" y="108.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >A</text>
+<text x="706.88" y="120.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >V</text>
+<rect x="122.00" y="131.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="127.00" y="142.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >9</text>
+<text x="159.12" y="152.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Bm</text>
+<text x="159.12" y="164.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >vi</text>
+<rect x="200.25" y="131.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="205.25" y="142.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >10</text>
+<text x="237.38" y="152.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Gmaj7</text>
+<text x="237.38" y="164.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IVmaj7</text>
+<text x="16.00" y="190.00" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600" >Verso 1</text>
+<text x="16.00" y="205.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.11–26 · Re mayor</text>
+<line x1="16.00" y1="171.00" x2="746.00" y2="171.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="122.00" y="175.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="127.00" y="186.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >11</text>
+<text x="159.12" y="196.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Dmaj7</text>
+<text x="159.12" y="208.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >Imaj7</text>
+<rect x="200.25" y="175.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="205.25" y="186.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >12</text>
+<text x="237.38" y="196.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >F♯m → D</text>
+<text x="237.38" y="208.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >iii → I</text>
+<rect x="278.50" y="175.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="283.50" y="186.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >13</text>
+<text x="315.62" y="196.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C♯°</text>
+<text x="315.62" y="208.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >vii°</text>
+<rect x="356.75" y="175.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="361.75" y="186.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >14</text>
+<text x="393.88" y="196.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >A → A7</text>
+<text x="393.88" y="208.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >V → V7</text>
+<rect x="435.00" y="175.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="440.00" y="186.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >15</text>
+<text x="472.12" y="196.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Bm7</text>
+<text x="472.12" y="208.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >vi7</text>
+<rect x="513.25" y="175.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="518.25" y="186.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >16</text>
+<text x="550.38" y="196.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G → G6</text>
+<text x="550.38" y="208.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IV → IV6</text>
+<rect x="591.50" y="175.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="596.50" y="186.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >17</text>
+<text x="628.62" y="196.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Dmaj7</text>
+<text x="628.62" y="208.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >Imaj7</text>
+<rect x="669.75" y="175.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="674.75" y="186.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >18</text>
+<text x="706.88" y="196.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >F♯m → F♯m7</text>
+<text x="706.88" y="208.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >iii → iii7</text>
+<rect x="122.00" y="219.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="127.00" y="230.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >19</text>
+<text x="159.12" y="240.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Dmaj7</text>
+<text x="159.12" y="252.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >Imaj7</text>
+<rect x="200.25" y="219.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="205.25" y="230.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >20</text>
+<text x="237.38" y="240.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >F♯m</text>
+<text x="237.38" y="252.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >iii</text>
+<rect x="278.50" y="219.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="283.50" y="230.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >21</text>
+<text x="315.62" y="240.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C♯°</text>
+<text x="315.62" y="252.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >vii°</text>
+<rect x="356.75" y="219.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="361.75" y="230.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >22</text>
+<text x="393.88" y="240.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >A → A7</text>
+<text x="393.88" y="252.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >V → V7</text>
+<text x="427.00" y="230.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.14</text>
+<rect x="435.00" y="219.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="440.00" y="230.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >23</text>
+<text x="472.12" y="240.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Bm7</text>
+<text x="472.12" y="252.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >vi7</text>
+<rect x="513.25" y="219.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="518.25" y="230.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >24</text>
+<text x="550.38" y="240.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G → G6</text>
+<text x="550.38" y="252.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IV → IV6</text>
+<rect x="591.50" y="219.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="596.50" y="230.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >25</text>
+<text x="628.62" y="240.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >D6</text>
+<text x="628.62" y="252.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >I6</text>
+<rect x="669.75" y="219.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="674.75" y="230.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >26</text>
+<text x="706.88" y="240.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >F♯m</text>
+<text x="706.88" y="252.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >iii</text>
+<text x="16.00" y="278.00" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600" >Coro 1</text>
+<text x="16.00" y="293.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.27–42 · Re mayor</text>
+<line x1="16.00" y1="259.00" x2="746.00" y2="259.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="122.00" y="263.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="127.00" y="274.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >27</text>
+<text x="159.12" y="284.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Em</text>
+<text x="159.12" y="296.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >ii</text>
+<rect x="200.25" y="263.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="205.25" y="274.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >28</text>
+<text x="237.38" y="284.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G</text>
+<text x="237.38" y="296.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IV</text>
+<rect x="278.50" y="263.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="283.50" y="274.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >29</text>
+<text x="315.62" y="284.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >F♯m7</text>
+<text x="315.62" y="296.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >iii7</text>
+<rect x="356.75" y="263.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="361.75" y="274.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >30</text>
+<text x="393.88" y="284.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Bm</text>
+<text x="393.88" y="296.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >vi</text>
+<rect x="435.00" y="263.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="440.00" y="274.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >31</text>
+<text x="472.12" y="284.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Em</text>
+<text x="472.12" y="296.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >ii</text>
+<text x="505.25" y="274.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.27</text>
+<rect x="513.25" y="263.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="518.25" y="274.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >32</text>
+<text x="550.38" y="284.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G</text>
+<text x="550.38" y="296.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IV</text>
+<text x="583.50" y="274.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.28</text>
+<rect x="591.50" y="263.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="596.50" y="274.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >33</text>
+<text x="628.62" y="284.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >A7</text>
+<text x="628.62" y="296.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >V7</text>
+<rect x="669.75" y="263.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="674.75" y="274.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >34</text>
+<text x="706.88" y="284.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >D</text>
+<text x="706.88" y="296.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<rect x="122.00" y="307.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="127.00" y="318.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >35</text>
+<text x="159.12" y="328.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Em</text>
+<text x="159.12" y="340.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >ii</text>
+<rect x="200.25" y="307.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="205.25" y="318.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >36</text>
+<text x="237.38" y="328.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G</text>
+<text x="237.38" y="340.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IV</text>
+<rect x="278.50" y="307.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="283.50" y="318.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >37</text>
+<text x="315.62" y="328.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >F♯m7</text>
+<text x="315.62" y="340.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >iii7</text>
+<rect x="356.75" y="307.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="361.75" y="318.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >38</text>
+<text x="393.88" y="328.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Bm</text>
+<text x="393.88" y="340.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >vi</text>
+<rect x="435.00" y="307.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="440.00" y="318.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >39</text>
+<text x="472.12" y="328.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Em</text>
+<text x="472.12" y="340.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >ii</text>
+<rect x="513.25" y="307.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="518.25" y="318.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >40</text>
+<text x="550.38" y="328.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G</text>
+<text x="550.38" y="340.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IV</text>
+<text x="583.50" y="318.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.36</text>
+<rect x="591.50" y="307.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="596.50" y="318.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >41</text>
+<text x="628.62" y="328.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >A7</text>
+<text x="628.62" y="340.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >V7</text>
+<rect x="669.75" y="307.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="674.75" y="318.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >42</text>
+<text x="706.88" y="328.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >D</text>
+<text x="706.88" y="340.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<text x="16.00" y="366.00" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600" >Bridge 1</text>
+<text x="16.00" y="381.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.43–50 · Re mayor</text>
+<line x1="16.00" y1="347.00" x2="746.00" y2="347.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="122.00" y="351.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="127.00" y="362.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >43</text>
+<text x="159.12" y="372.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Bm</text>
+<text x="159.12" y="384.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >vi</text>
+<rect x="200.25" y="351.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="205.25" y="362.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >44</text>
+<text x="237.38" y="372.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Em</text>
+<text x="237.38" y="384.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >ii</text>
+<rect x="278.50" y="351.00" width="74.25" height="38.00" rx="5" fill="#fbe8bd" />
+<text x="283.50" y="362.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >45</text>
+<text x="315.62" y="372.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >E</text>
+<text x="315.62" y="384.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >II</text>
+<rect x="356.75" y="351.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="361.75" y="362.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >46</text>
+<text x="393.88" y="372.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >D</text>
+<text x="393.88" y="384.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<rect x="435.00" y="351.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="440.00" y="362.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >47</text>
+<text x="472.12" y="372.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >D</text>
+<text x="472.12" y="384.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<rect x="513.25" y="351.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="518.25" y="362.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >48</text>
+<text x="550.38" y="372.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >A</text>
+<text x="550.38" y="384.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >V</text>
+<rect x="591.50" y="351.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="596.50" y="362.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >49</text>
+<text x="628.62" y="372.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Bm</text>
+<text x="628.62" y="384.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >vi</text>
+<rect x="669.75" y="351.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="674.75" y="362.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >50</text>
+<text x="706.88" y="372.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Gmaj7</text>
+<text x="706.88" y="384.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IVmaj7</text>
+<text x="16.00" y="410.00" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600" >Verso 2</text>
+<text x="16.00" y="425.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.51–66 · Re mayor</text>
+<line x1="16.00" y1="391.00" x2="746.00" y2="391.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="122.00" y="395.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="127.00" y="406.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >51</text>
+<text x="159.12" y="416.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Dmaj7</text>
+<text x="159.12" y="428.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >Imaj7</text>
+<rect x="200.25" y="395.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="205.25" y="406.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >52</text>
+<text x="237.38" y="416.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >F♯m → F♯m7</text>
+<text x="237.38" y="428.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >iii → iii7</text>
+<rect x="278.50" y="395.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="283.50" y="406.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >53</text>
+<text x="315.62" y="416.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C♯°</text>
+<text x="315.62" y="428.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >vii°</text>
+<rect x="356.75" y="395.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="361.75" y="406.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >54</text>
+<text x="393.88" y="416.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >A → A7</text>
+<text x="393.88" y="428.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >V → V7</text>
+<text x="427.00" y="406.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.14</text>
+<rect x="435.00" y="395.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="440.00" y="406.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >55</text>
+<text x="472.12" y="416.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Bm7</text>
+<text x="472.12" y="428.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >vi7</text>
+<text x="505.25" y="406.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.15</text>
+<rect x="513.25" y="395.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="518.25" y="406.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >56</text>
+<text x="550.38" y="416.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G → G6</text>
+<text x="550.38" y="428.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IV → IV6</text>
+<text x="583.50" y="406.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.16</text>
+<rect x="591.50" y="395.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="596.50" y="406.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >57</text>
+<text x="628.62" y="416.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Dmaj7</text>
+<text x="628.62" y="428.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >Imaj7</text>
+<rect x="669.75" y="395.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="674.75" y="406.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >58</text>
+<text x="706.88" y="416.00" font-size="10.5" fill="#0b0b0b" text-anchor="middle" font-weight="600" >F♯m → F♯m7</text>
+<text x="706.88" y="428.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >iii → iii7</text>
+<rect x="122.00" y="439.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="127.00" y="450.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >59</text>
+<text x="159.12" y="460.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Dmaj7</text>
+<text x="159.12" y="472.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >Imaj7</text>
+<text x="192.25" y="450.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.19</text>
+<rect x="200.25" y="439.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="205.25" y="450.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >60</text>
+<text x="237.38" y="460.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >F♯m</text>
+<text x="237.38" y="472.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >iii</text>
+<text x="270.50" y="450.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.20</text>
+<rect x="278.50" y="439.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="283.50" y="450.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >61</text>
+<text x="315.62" y="460.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C♯°</text>
+<text x="315.62" y="472.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >vii°</text>
+<text x="348.75" y="450.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.21</text>
+<rect x="356.75" y="439.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="361.75" y="450.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >62</text>
+<text x="393.88" y="460.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >A → A7</text>
+<text x="393.88" y="472.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >V → V7</text>
+<text x="427.00" y="450.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.14</text>
+<rect x="435.00" y="439.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="440.00" y="450.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >63</text>
+<text x="472.12" y="460.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Bm7</text>
+<text x="472.12" y="472.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >vi7</text>
+<text x="505.25" y="450.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.23</text>
+<rect x="513.25" y="439.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="518.25" y="450.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >64</text>
+<text x="550.38" y="460.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G → G6</text>
+<text x="550.38" y="472.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IV → IV6</text>
+<text x="583.50" y="450.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.24</text>
+<rect x="591.50" y="439.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="596.50" y="450.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >65</text>
+<text x="628.62" y="460.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >D6</text>
+<text x="628.62" y="472.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >I6</text>
+<text x="661.75" y="450.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.25</text>
+<rect x="669.75" y="439.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="674.75" y="450.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >66</text>
+<text x="706.88" y="460.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >F♯m</text>
+<text x="706.88" y="472.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >iii</text>
+<text x="740.00" y="450.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.26</text>
+<text x="16.00" y="498.00" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600" >Coro 2</text>
+<text x="16.00" y="513.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.67–82 · Re mayor</text>
+<line x1="16.00" y1="479.00" x2="746.00" y2="479.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="122.00" y="483.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="127.00" y="494.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >67</text>
+<text x="159.12" y="504.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Em</text>
+<text x="159.12" y="516.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >ii</text>
+<text x="192.25" y="494.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.27</text>
+<rect x="200.25" y="483.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="205.25" y="494.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >68</text>
+<text x="237.38" y="504.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G</text>
+<text x="237.38" y="516.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IV</text>
+<text x="270.50" y="494.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.28</text>
+<rect x="278.50" y="483.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="283.50" y="494.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >69</text>
+<text x="315.62" y="504.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >F♯m7</text>
+<text x="315.62" y="516.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >iii7</text>
+<text x="348.75" y="494.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.29</text>
+<rect x="356.75" y="483.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="361.75" y="494.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >70</text>
+<text x="393.88" y="504.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Bm</text>
+<text x="393.88" y="516.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >vi</text>
+<text x="427.00" y="494.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.30</text>
+<rect x="435.00" y="483.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="440.00" y="494.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >71</text>
+<text x="472.12" y="504.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Em</text>
+<text x="472.12" y="516.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >ii</text>
+<text x="505.25" y="494.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.27</text>
+<rect x="513.25" y="483.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="518.25" y="494.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >72</text>
+<text x="550.38" y="504.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G</text>
+<text x="550.38" y="516.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IV</text>
+<text x="583.50" y="494.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.28</text>
+<rect x="591.50" y="483.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="596.50" y="494.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >73</text>
+<text x="628.62" y="504.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >A7</text>
+<text x="628.62" y="516.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >V7</text>
+<text x="661.75" y="494.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.33</text>
+<rect x="669.75" y="483.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="674.75" y="494.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >74</text>
+<text x="706.88" y="504.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >D</text>
+<text x="706.88" y="516.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<text x="740.00" y="494.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.34</text>
+<rect x="122.00" y="527.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="127.00" y="538.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >75</text>
+<text x="159.12" y="548.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Em</text>
+<text x="159.12" y="560.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >ii</text>
+<text x="192.25" y="538.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.35</text>
+<rect x="200.25" y="527.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="205.25" y="538.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >76</text>
+<text x="237.38" y="548.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G</text>
+<text x="237.38" y="560.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IV</text>
+<text x="270.50" y="538.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.36</text>
+<rect x="278.50" y="527.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="283.50" y="538.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >77</text>
+<text x="315.62" y="548.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >F♯m7</text>
+<text x="315.62" y="560.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >iii7</text>
+<text x="348.75" y="538.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.37</text>
+<rect x="356.75" y="527.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="361.75" y="538.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >78</text>
+<text x="393.88" y="548.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Bm</text>
+<text x="393.88" y="560.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >vi</text>
+<text x="427.00" y="538.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.38</text>
+<rect x="435.00" y="527.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="440.00" y="538.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >79</text>
+<text x="472.12" y="548.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Em</text>
+<text x="472.12" y="560.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >ii</text>
+<text x="505.25" y="538.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.39</text>
+<rect x="513.25" y="527.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="518.25" y="538.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >80</text>
+<text x="550.38" y="548.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Gmaj13</text>
+<text x="550.38" y="560.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IVmaj13</text>
+<rect x="591.50" y="527.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="596.50" y="538.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >81</text>
+<text x="628.62" y="548.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >A7</text>
+<text x="628.62" y="560.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >V7</text>
+<rect x="669.75" y="527.00" width="74.25" height="38.00" rx="5" fill="#fbe8bd" />
+<text x="674.75" y="538.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >82</text>
+<text x="706.88" y="548.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >E♭7</text>
+<text x="706.88" y="560.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >♭II7</text>
+<text x="16.00" y="586.00" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600" >B2</text>
+<text x="16.00" y="601.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.83–92 · Re menor</text>
+<line x1="16.00" y1="567.00" x2="746.00" y2="567.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="122.00" y="571.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="127.00" y="582.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >83</text>
+<text x="159.12" y="592.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Dm</text>
+<text x="159.12" y="604.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >i</text>
+<rect x="200.25" y="571.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="205.25" y="582.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >84</text>
+<text x="237.38" y="592.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Dm</text>
+<text x="237.38" y="604.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >i</text>
+<rect x="278.50" y="571.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="283.50" y="582.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >85</text>
+<text x="315.62" y="592.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Gm</text>
+<text x="315.62" y="604.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >iv</text>
+<rect x="356.75" y="571.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="361.75" y="582.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >86</text>
+<text x="393.88" y="592.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Am</text>
+<text x="393.88" y="604.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >v</text>
+<rect x="435.00" y="571.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="440.00" y="582.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >87</text>
+<text x="472.12" y="592.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Csus4</text>
+<text x="472.12" y="604.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >VIIsus4</text>
+<rect x="513.25" y="571.00" width="74.25" height="38.00" rx="5" fill="#fbe8bd" />
+<text x="518.25" y="582.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >88</text>
+<text x="550.38" y="592.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G7</text>
+<text x="550.38" y="604.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IV7</text>
+<rect x="591.50" y="571.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="596.50" y="582.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >89</text>
+<text x="628.62" y="592.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >C7</text>
+<text x="628.62" y="604.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >VII7</text>
+<rect x="669.75" y="571.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="674.75" y="582.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >90</text>
+<text x="706.88" y="592.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >F → F7</text>
+<text x="706.88" y="604.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >III → III7</text>
+<rect x="122.00" y="615.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="127.00" y="626.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >91</text>
+<text x="159.12" y="636.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >B♭</text>
+<text x="159.12" y="648.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >VI</text>
+<rect x="200.25" y="615.00" width="74.25" height="38.00" rx="5" fill="#fbe8bd" />
+<text x="205.25" y="626.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >92</text>
+<text x="237.38" y="636.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >D</text>
+<text x="237.38" y="648.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<text x="16.00" y="674.00" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600" >Coro 3*</text>
+<text x="16.00" y="689.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.93–108 · Re mayor</text>
+<line x1="16.00" y1="655.00" x2="746.00" y2="655.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="122.00" y="659.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="127.00" y="670.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >93</text>
+<text x="159.12" y="680.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Em</text>
+<text x="159.12" y="692.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >ii</text>
+<rect x="200.25" y="659.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="205.25" y="670.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >94</text>
+<text x="237.38" y="680.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G</text>
+<text x="237.38" y="692.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IV</text>
+<text x="270.50" y="670.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.28</text>
+<rect x="278.50" y="659.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="283.50" y="670.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >95</text>
+<text x="315.62" y="680.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >F♯m7</text>
+<text x="315.62" y="692.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >iii7</text>
+<text x="348.75" y="670.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.29</text>
+<rect x="356.75" y="659.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="361.75" y="670.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >96</text>
+<text x="393.88" y="680.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Bm</text>
+<text x="393.88" y="692.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >vi</text>
+<text x="427.00" y="670.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.30</text>
+<rect x="435.00" y="659.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="440.00" y="670.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >97</text>
+<text x="472.12" y="680.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Em</text>
+<text x="472.12" y="692.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >ii</text>
+<text x="505.25" y="670.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.27</text>
+<rect x="513.25" y="659.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="518.25" y="670.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >98</text>
+<text x="550.38" y="680.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G</text>
+<text x="550.38" y="692.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IV</text>
+<text x="583.50" y="670.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.28</text>
+<rect x="591.50" y="659.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="596.50" y="670.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >99</text>
+<text x="628.62" y="680.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >A7</text>
+<text x="628.62" y="692.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >V7</text>
+<text x="661.75" y="670.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.33</text>
+<rect x="669.75" y="659.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="674.75" y="670.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >100</text>
+<text x="706.88" y="680.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >D</text>
+<text x="706.88" y="692.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<text x="740.00" y="670.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.34</text>
+<rect x="122.00" y="703.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="127.00" y="714.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >101</text>
+<text x="159.12" y="724.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Em</text>
+<text x="159.12" y="736.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >ii</text>
+<text x="192.25" y="714.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.35</text>
+<rect x="200.25" y="703.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="205.25" y="714.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >102</text>
+<text x="237.38" y="724.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G</text>
+<text x="237.38" y="736.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IV</text>
+<text x="270.50" y="714.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.36</text>
+<rect x="278.50" y="703.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="283.50" y="714.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >103</text>
+<text x="315.62" y="724.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >F♯m7</text>
+<text x="315.62" y="736.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >iii7</text>
+<text x="348.75" y="714.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.37</text>
+<rect x="356.75" y="703.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="361.75" y="714.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >104</text>
+<text x="393.88" y="724.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Bm</text>
+<text x="393.88" y="736.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >vi</text>
+<text x="427.00" y="714.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.38</text>
+<rect x="435.00" y="703.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="440.00" y="714.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >105</text>
+<text x="472.12" y="724.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >Em</text>
+<text x="472.12" y="736.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >ii</text>
+<text x="505.25" y="714.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.39</text>
+<rect x="513.25" y="703.00" width="74.25" height="38.00" rx="5" fill="#fbdccd" />
+<text x="518.25" y="714.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >106</text>
+<text x="550.38" y="724.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >G</text>
+<text x="550.38" y="736.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >IV</text>
+<text x="583.50" y="714.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.36</text>
+<rect x="591.50" y="703.00" width="74.25" height="38.00" rx="5" fill="#c9eedf" />
+<text x="596.50" y="714.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >107</text>
+<text x="628.62" y="724.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >A7</text>
+<text x="628.62" y="736.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >V7</text>
+<text x="661.75" y="714.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.41</text>
+<rect x="669.75" y="703.00" width="74.25" height="38.00" rx="5" fill="#d6e6fa" />
+<text x="674.75" y="714.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >108</text>
+<text x="706.88" y="724.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >D</text>
+<text x="706.88" y="736.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >I</text>
+<text x="740.00" y="714.00" font-size="9" fill="#898781" text-anchor="end" font-weight="normal" >= c.42</text>
+<text x="16.00" y="762.00" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600" >Compases vacíos</text>
+<text x="16.00" y="777.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal" >c.109–111 · Re mayor</text>
+<line x1="16.00" y1="743.00" x2="746.00" y2="743.00" stroke="#c3c2b7" stroke-width="1" />
+<rect x="122.00" y="747.00" width="74.25" height="38.00" rx="5" fill="#f0efec" />
+<text x="127.00" y="758.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >109</text>
+<text x="159.12" y="768.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >—</text>
+<text x="159.12" y="780.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >silencio</text>
+<rect x="200.25" y="747.00" width="74.25" height="38.00" rx="5" fill="#f0efec" />
+<text x="205.25" y="758.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >110</text>
+<text x="237.38" y="768.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >—</text>
+<text x="237.38" y="780.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >silencio</text>
+<rect x="278.50" y="747.00" width="74.25" height="38.00" rx="5" fill="#f0efec" />
+<text x="283.50" y="758.00" font-size="9" fill="#898781" text-anchor="start" font-weight="normal" >111</text>
+<text x="315.62" y="768.00" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600" >—</text>
+<text x="315.62" y="780.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal" >silencio</text>
+</svg>

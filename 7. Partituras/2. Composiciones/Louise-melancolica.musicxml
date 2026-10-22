@@ -8,7 +8,7 @@
     <creator type="composer">Irving Suarez</creator>
     <encoding>
       <software>MuseScore Studio 4.7.5</software>
-      <encoding-date>2026-10-20</encoding-date>
+      <encoding-date>2026-10-21</encoding-date>
       <supports element="accidental" type="yes"/>
       <supports element="beam" type="yes"/>
       <supports element="print" attribute="new-page" type="yes" value="yes"/>
@@ -287,7 +287,7 @@
         <system-layout>
           <system-margins>
             <left-margin>160.5</left-margin>
-            <right-margin>-14403.41</right-margin>
+            <right-margin>-14406.24</right-margin>
             </system-margins>
           <top-system-distance>70</top-system-distance>
           </system-layout>
@@ -998,8 +998,8 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="90" width="130.21">
-      <note default-x="57.71" default-y="-10">
+    <measure number="90" width="133.04">
+      <note default-x="59.12" default-y="-10">
         <rest measure="yes"/>
         <duration>12</duration>
         <voice>1</voice>
@@ -7056,7 +7056,7 @@
         <stem>up</stem>
         </note>
       </measure>
-    <measure number="90" width="130.21">
+    <measure number="90" width="133.04">
       <note default-x="12.5" default-y="-157.55">
         <pitch>
           <step>F</step>
@@ -7101,7 +7101,7 @@
         <dot default-x="65.5" default-y="-117.55"/>
         <stem>down</stem>
         </note>
-      <note default-x="100.41" default-y="-127.55">
+      <note default-x="103.24" default-y="-127.55">
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -7113,7 +7113,7 @@
         <accidental>flat</accidental>
         <stem>down</stem>
         </note>
-      <note default-x="100.41" default-y="-112.55">
+      <note default-x="103.24" default-y="-112.55">
         <chord/>
         <pitch>
           <step>A</step>
@@ -7251,12 +7251,14 @@
         <chord/>
         <pitch>
           <step>F</step>
+          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>6</duration>
         <voice>1</voice>
         <type>quarter</type>
         <dot default-x="95.1" default-y="-117.55"/>
+        <accidental>sharp</accidental>
         <stem>up</stem>
         </note>
       <barline location="right">
@@ -16687,30 +16689,29 @@
         <stem>down</stem>
         <staff>2</staff>
         </note>
-      <note default-x="59.17" default-y="-406.01">
+      <note default-x="59.17" default-y="-421.01">
         <pitch>
-          <step>B</step>
-          <alter>-1</alter>
+          <step>F</step>
           <octave>2</octave>
           </pitch>
         <duration>6</duration>
         <voice>5</voice>
         <type>quarter</type>
-        <dot default-x="77.17" default-y="-401.01"/>
-        <stem>down</stem>
+        <dot default-x="77.17" default-y="-421.01"/>
+        <stem>up</stem>
         <staff>2</staff>
         </note>
-      <note default-x="59.17" default-y="-381.01">
+      <note default-x="59.17" default-y="-386.01">
         <chord/>
         <pitch>
-          <step>G</step>
+          <step>F</step>
           <octave>3</octave>
           </pitch>
         <duration>6</duration>
         <voice>5</voice>
         <type>quarter</type>
         <dot default-x="77.17" default-y="-381.01"/>
-        <stem>down</stem>
+        <stem>up</stem>
         <staff>2</staff>
         </note>
       <note default-x="103.54" default-y="-401.01">
@@ -16993,7 +16994,7 @@
         <staff>2</staff>
         </note>
       </measure>
-    <measure number="90" width="130.21">
+    <measure number="90" width="133.04">
       <note default-x="12.5" default-y="-298.08">
         <pitch>
           <step>F</step>
@@ -17042,7 +17043,7 @@
           </root>
         <kind text="7">dominant</kind>
         </harmony>
-      <note default-x="100.41" default-y="-288.08">
+      <note default-x="103.24" default-y="-288.08">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -17053,7 +17054,7 @@
         <stem>down</stem>
         <staff>1</staff>
         </note>
-      <note default-x="100.41" default-y="-253.08">
+      <note default-x="103.24" default-y="-253.08">
         <chord/>
         <pitch>
           <step>A</step>
@@ -17110,10 +17111,9 @@
         <type>eighth</type>
         <staff>2</staff>
         </note>
-      <note default-x="100.41" default-y="-406.01">
+      <note default-x="103.24" default-y="-411.01">
         <pitch>
-          <step>B</step>
-          <alter>-1</alter>
+          <step>A</step>
           <octave>2</octave>
           </pitch>
         <duration>2</duration>
@@ -17122,23 +17122,24 @@
         <stem>down</stem>
         <staff>2</staff>
         </note>
-      <note default-x="100.41" default-y="-386.01">
+      <note default-x="103.24" default-y="-391.01">
         <chord/>
         <pitch>
-          <step>F</step>
+          <step>E</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>2</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <accidental>flat</accidental>
         <stem>down</stem>
         <staff>2</staff>
         </note>
-      <note default-x="100.41" default-y="-371.01">
+      <note default-x="103.24" default-y="-376.01">
         <chord/>
         <pitch>
-          <step>B</step>
-          <alter>-1</alter>
+          <step>A</step>
           <octave>3</octave>
           </pitch>
         <duration>2</duration>
@@ -21022,8 +21023,8 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="90" width="130.21">
-      <note default-x="57.71" default-y="-468.83">
+    <measure number="90" width="133.04">
+      <note default-x="59.12" default-y="-468.83">
         <rest measure="yes"/>
         <duration>12</duration>
         <voice>1</voice>
@@ -22847,8 +22848,8 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="90" width="130.21">
-      <note default-x="57.71" default-y="-517.38">
+    <measure number="90" width="133.04">
+      <note default-x="59.12" default-y="-517.38">
         <rest measure="yes"/>
         <duration>12</duration>
         <voice>1</voice>
@@ -24527,8 +24528,8 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="90" width="130.21">
-      <note default-x="57.71" default-y="-563.42">
+    <measure number="90" width="133.04">
+      <note default-x="59.12" default-y="-563.42">
         <rest measure="yes"/>
         <duration>12</duration>
         <voice>1</voice>
@@ -25420,8 +25421,8 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="90" width="130.21">
-      <note default-x="57.71" default-y="-614.46">
+    <measure number="90" width="133.04">
+      <note default-x="59.12" default-y="-614.46">
         <rest measure="yes"/>
         <duration>12</duration>
         <voice>1</voice>
@@ -26688,8 +26689,8 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="90" width="130.21">
-      <note default-x="57.71" default-y="-664.78">
+    <measure number="90" width="133.04">
+      <note default-x="59.12" default-y="-664.78">
         <rest measure="yes"/>
         <duration>12</duration>
         <voice>1</voice>
@@ -28262,8 +28263,8 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="90" width="130.21">
-      <note default-x="57.71" default-y="-731.66">
+    <measure number="90" width="133.04">
+      <note default-x="59.12" default-y="-731.66">
         <rest measure="yes"/>
         <duration>12</duration>
         <voice>1</voice>
@@ -29336,8 +29337,8 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="90" width="130.21">
-      <note default-x="57.71" default-y="-776.66">
+    <measure number="90" width="133.04">
+      <note default-x="59.12" default-y="-776.66">
         <rest measure="yes"/>
         <duration>12</duration>
         <voice>1</voice>
@@ -31117,8 +31118,8 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="90" width="130.21">
-      <note default-x="57.71" default-y="-841.66">
+    <measure number="90" width="133.04">
+      <note default-x="59.12" default-y="-841.66">
         <rest measure="yes"/>
         <duration>12</duration>
         <voice>1</voice>
