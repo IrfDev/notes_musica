@@ -233,7 +233,8 @@ Detalle en [[6. Práctica/1. Estructura]], sección *`3. Composiciones/`*.
    una decisión vigente **no se reporta**. Con Contexto hay dos familias más: una toma ✅ del alcance que
    no se oye, y una ❌ que se coló. Las dos llevan `contra: R-NN`.
 3. **Numeración:** la IA toma el siguiente número de `5. Feedback/` (dos dígitos, empieza en `00`, sin
-   huecos, nunca se renumera lo que ya existe) y nombra el archivo con el alcance: `07. B2.energia.md`.
+   huecos; lo que ya existe no se renumera nunca: la única excepción fue la migración de una obra a este
+   esquema, que se hace una vez y deja una tabla de equivalencias en `0. Obra`) y nombra el archivo con el alcance: `07. B2.energia.md`.
 4. **Alcance:** `sección.instrumento.aspecto`, en ese orden, omitiendo lo que no aplica, sin acentos.
    Sección = las del Mapa; instrumento = `instrumentos` de `0. Obra`; aspecto = `forma`, `armonia`,
    `voicing`, `ritmo`, `melodia`, `arreglo`, `energia`, `notacion`. Si el usuario pide feedback sin
