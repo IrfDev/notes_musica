@@ -8,7 +8,7 @@
     <creator type="composer">Irving Suarez</creator>
     <encoding>
       <software>MuseScore Studio 4.7.5</software>
-      <encoding-date>2026-10-22</encoding-date>
+      <encoding-date>2026-10-23</encoding-date>
       <supports element="accidental" type="yes"/>
       <supports element="beam" type="yes"/>
       <supports element="print" attribute="new-page" type="yes" value="yes"/>
@@ -16306,15 +16306,15 @@
       <backup>
         <duration>12</duration>
         </backup>
-      <note default-x="12.5" default-y="-426.07">
+      <note default-x="12.5" default-y="-431.07">
         <pitch>
-          <step>E</step>
+          <step>D</step>
           <octave>2</octave>
           </pitch>
         <duration>6</duration>
         <voice>5</voice>
         <type>quarter</type>
-        <dot default-x="30.5" default-y="-421.07"/>
+        <dot default-x="30.5" default-y="-431.07"/>
         <stem>up</stem>
         <staff>2</staff>
         </note>
@@ -16877,9 +16877,9 @@
         <stem>up</stem>
         <staff>2</staff>
         </note>
-      <note default-x="107.04" default-y="-421.07">
+      <note default-x="107.04" default-y="-416.07">
         <pitch>
-          <step>F</step>
+          <step>G</step>
           <octave>2</octave>
           </pitch>
         <duration>2</duration>
