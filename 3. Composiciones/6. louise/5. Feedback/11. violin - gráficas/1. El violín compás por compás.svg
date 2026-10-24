@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'>
+<title>Louise: el violín por compás, hoy contra la sesión 07</title>
+<rect x="0" y="0" width="760" height="470" rx="10" fill="#fcfcfb"/>
+<text x="16.00" y="24.00" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="600">El violín compás por compás: hoy contra la sesión 07</text>
+<text x="16.00" y="42.00" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal">Render de MuseScore del 24 oct, 12:29 (blob d6c13e5) y de 76af301 · RMS por compás en dBFS · ♩=160</text>
+<rect x="54.00" y="128" width="62.16" height="272" fill="#f3f2ee"/>
+<line x1="54.00" y1="128" x2="54.00" y2="400" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="55.00" y="58" width="60.16" height="22" rx="4" fill="#e9e8e2"/>
+<text x="85.08" y="73.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">Intro</text>
+<text x="85.08" y="92.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal"></text>
+<line x1="116.16" y1="128" x2="116.16" y2="400" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="117.16" y="58" width="97.46" height="22" rx="4" fill="#e9e8e2"/>
+<text x="165.89" y="73.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">V1</text>
+<text x="165.89" y="92.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">pizz.</text>
+<rect x="215.62" y="128" width="99.46" height="272" fill="#f3f2ee"/>
+<line x1="215.62" y1="128" x2="215.62" y2="400" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="216.62" y="58" width="97.46" height="22" rx="4" fill="#e9e8e2"/>
+<text x="265.35" y="73.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">C1</text>
+<text x="265.35" y="92.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">p &lt;</text>
+<line x1="315.08" y1="128" x2="315.08" y2="400" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="316.08" y="58" width="47.73" height="22" rx="4" fill="#e9e8e2"/>
+<text x="339.95" y="73.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">B1</text>
+<text x="339.95" y="92.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">—</text>
+<rect x="364.81" y="128" width="99.46" height="272" fill="#f3f2ee"/>
+<line x1="364.81" y1="128" x2="364.81" y2="400" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="365.81" y="58" width="97.46" height="22" rx="4" fill="#e9e8e2"/>
+<text x="414.54" y="73.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">V2</text>
+<text x="414.54" y="92.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">pizz.</text>
+<line x1="464.27" y1="128" x2="464.27" y2="400" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="465.27" y="58" width="97.46" height="22" rx="4" fill="#e9e8e2"/>
+<text x="514.00" y="73.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">C2</text>
+<text x="514.00" y="92.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">p &lt; … &gt;</text>
+<rect x="563.73" y="128" width="62.16" height="272" fill="#f3f2ee"/>
+<line x1="563.73" y1="128" x2="563.73" y2="400" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="564.73" y="58" width="60.16" height="22" rx="4" fill="#e9e8e2"/>
+<text x="594.81" y="73.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">B2</text>
+<text x="594.81" y="92.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">(sin marca)</text>
+<line x1="625.89" y1="128" x2="625.89" y2="400" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="626.89" y="58" width="97.46" height="22" rx="4" fill="#e9e8e2"/>
+<text x="675.62" y="73.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">C3</text>
+<text x="675.62" y="92.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">mf &lt;</text>
+<rect x="725.35" y="128" width="18.65" height="272" fill="#f3f2ee"/>
+<line x1="725.35" y1="128" x2="725.35" y2="400" stroke="#e1e0d9" stroke-width="1"/>
+<text x="54.00" y="112.00" font-size="10" fill="#8a8984" text-anchor="start" font-weight="normal">dinámica del violín escrita →</text>
+<line x1="54" y1="400.00" x2="744" y2="400.00" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48.00" y="404.00" font-size="10" fill="#52514e" text-anchor="end" font-weight="normal">-50</text>
+<line x1="54" y1="345.60" x2="744" y2="345.60" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48.00" y="349.60" font-size="10" fill="#52514e" text-anchor="end" font-weight="normal">-40</text>
+<line x1="54" y1="291.20" x2="744" y2="291.20" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48.00" y="295.20" font-size="10" fill="#52514e" text-anchor="end" font-weight="normal">-30</text>
+<line x1="54" y1="236.80" x2="744" y2="236.80" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48.00" y="240.80" font-size="10" fill="#52514e" text-anchor="end" font-weight="normal">-20</text>
+<line x1="54" y1="182.40" x2="744" y2="182.40" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48.00" y="186.40" font-size="10" fill="#52514e" text-anchor="end" font-weight="normal">-10</text>
+<line x1="54" y1="128.00" x2="744" y2="128.00" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48.00" y="132.00" font-size="10" fill="#52514e" text-anchor="end" font-weight="normal">0</text>
+<text x="16.00" y="122.00" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal">dB</text>
+<polyline points="57.11,237.15 63.32,227.20 69.54,218.60 75.76,209.65 81.97,225.37 88.19,216.18 94.41,228.86 100.62,214.29 106.84,211.07 113.05,215.30 119.27,192.65 125.49,187.95 131.70,201.33 137.92,197.45 144.14,202.51 150.35,197.48 156.57,197.31 162.78,210.31 169.00,198.12 175.22,185.10 181.43,198.17 187.65,192.44 193.86,212.45 200.08,202.70 206.30,200.78 212.51,197.45 218.73,191.86 224.95,206.88 231.16,190.65 237.38,219.32 243.59,191.66 249.81,193.31 256.03,200.47 262.24,211.09 268.46,186.33 274.68,189.38 280.89,190.69 287.11,207.68 293.32,192.55 299.54,201.62 305.76,196.34 311.97,223.96 318.19,196.89 324.41,181.32 330.62,190.14 336.84,194.06 343.05,202.38 349.27,181.44 355.49,176.56 361.70,176.09 367.92,184.45 374.14,182.36 380.35,184.56 386.57,195.21 392.78,201.92 399.00,196.55 405.22,189.32 411.43,192.99 417.65,196.42 423.86,183.78 430.08,195.30 436.30,185.95 442.51,206.87 448.73,193.83 454.95,196.87 461.16,183.75 467.38,189.36 473.59,199.04 479.81,184.28 486.03,217.10 492.24,189.82 498.46,202.73 504.68,201.05 510.89,203.84 517.11,184.34 523.32,184.83 529.54,182.36 535.76,196.29 541.97,178.18 548.19,183.72 554.41,181.98 560.62,204.99 566.84,178.55 573.05,184.99 579.27,171.52 585.49,171.87 591.70,166.13 597.92,164.38 604.14,172.23 610.35,169.78 616.57,166.53 622.78,168.71 629.00,168.96 635.22,187.29 641.43,193.36 647.65,221.89 653.86,198.68 660.08,211.36 666.30,201.14 672.51,211.49 678.73,186.80 684.95,194.92 691.16,180.50 697.38,194.33 703.59,184.07 709.81,180.15 716.03,181.69 722.24,210.50 728.46,214.04 734.68,227.29 740.89,310.12" fill="none" stroke="#eb6834" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" />
+<polyline points="119.27,277.00 125.49,284.23 131.70,281.01 137.92,287.87 144.14,286.86 150.35,274.26 156.57,278.93 162.78,261.08 169.00,281.74 175.22,279.24 181.43,296.03 187.65,279.62 193.86,284.85 200.08,288.50 206.30,296.18 212.51,262.36 218.73,244.39 224.95,234.37 231.16,241.79 237.38,228.90 243.59,220.96 249.81,230.36 256.03,228.09 262.24,224.16 268.46,220.81 274.68,231.76 280.89,232.04 287.11,227.79 293.32,224.21 299.54,218.22 305.76,231.04 311.97,217.93 318.19,257.59 324.41,226.23 330.62,228.34 336.84,228.98 343.05,221.69 349.27,320.08" fill="none" stroke="#9a998f" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3"/>
+<polyline points="367.92,270.03 374.14,264.46 380.35,269.07 386.57,267.91 392.78,274.80 399.00,276.36 405.22,271.22 411.43,258.05 417.65,269.01 423.86,265.77 430.08,273.01 436.30,276.23 442.51,287.19 448.73,277.01 454.95,297.27 461.16,263.76 467.38,242.63 473.59,234.78 479.81,242.58 486.03,232.17 492.24,220.17 498.46,230.62 504.68,227.42 510.89,226.60 517.11,222.47 523.32,231.47 529.54,232.34 535.76,229.62 541.97,220.78 548.19,219.99 554.41,245.53 560.62,237.33 566.84,277.87 573.05,278.96 579.27,283.40 585.49,272.80 591.70,291.56 597.92,276.71 604.14,272.85 610.35,270.90 616.57,255.05 622.78,247.73 629.00,242.71 635.22,258.98 641.43,259.75 647.65,249.80 653.86,244.37 660.08,260.60 666.30,261.96 672.51,263.67 678.73,242.63 684.95,261.94 691.16,267.43 697.38,236.20 703.59,256.92 709.81,263.68 716.03,268.71 722.24,246.20 728.46,322.32" fill="none" stroke="#9a998f" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3"/>
+<polyline points="119.27,277.00 125.49,284.23 131.70,281.01 137.92,287.87 144.14,286.86 150.35,274.26 156.57,278.93 162.78,261.08 169.00,281.74 175.22,279.24 181.43,296.03 187.65,279.62 193.86,284.85 200.08,288.50 206.30,296.18 212.51,262.36 218.73,259.43 224.95,243.95 231.16,237.44 237.38,229.48 243.59,230.75 249.81,227.67 256.03,222.31 262.24,223.94 268.46,220.81 274.68,231.76 280.89,232.04 287.11,227.79 293.32,224.21 299.54,218.22 305.76,231.04 311.97,217.93 318.19,288.01" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polyline points="367.92,293.23 374.14,276.43 380.35,276.39 386.57,269.92 392.78,291.24 399.00,287.78 405.22,276.55 411.43,268.37 417.65,281.56 423.86,273.49 430.08,290.46 436.30,279.49 442.51,299.30 448.73,290.95 454.95,323.85 461.16,270.08 467.38,259.18 473.59,247.52 479.81,243.76 486.03,231.37 492.24,235.17 498.46,228.41 504.68,231.63 510.89,226.82 517.11,220.84 523.32,230.82 529.54,233.30 535.76,229.20 541.97,208.72 548.19,202.99 554.41,229.67 560.62,239.24 566.84,240.07 573.05,243.86 579.27,230.76 585.49,233.05 591.70,239.83 597.92,245.83 604.14,247.93 610.35,241.02 616.57,239.30 622.78,245.78 629.00,242.65 635.22,204.20 641.43,201.91 647.65,189.63 653.86,180.53 660.08,196.15 666.30,196.36 672.51,196.34 678.73,174.41 684.95,190.60 691.16,195.93 697.38,162.50 703.59,180.59 709.81,188.28 716.03,193.58 722.24,170.62 728.46,245.12" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="113.05" y="416.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">10</text>
+<text x="175.22" y="416.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">20</text>
+<text x="237.38" y="416.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">30</text>
+<text x="299.54" y="416.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">40</text>
+<text x="361.70" y="416.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">50</text>
+<text x="423.86" y="416.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">60</text>
+<text x="486.03" y="416.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">70</text>
+<text x="548.19" y="416.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">80</text>
+<text x="610.35" y="416.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">90</text>
+<text x="672.51" y="416.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">100</text>
+<text x="734.68" y="416.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">110</text>
+<text x="399.00" y="432.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">compás</text>
+<line x1="16" y1="448" x2="38" y2="448" stroke="#2a78d6" stroke-width="2" />
+<text x="44.00" y="452.00" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="normal">violín, hoy</text>
+<line x1="206" y1="448" x2="228" y2="448" stroke="#9a998f" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="234.00" y="452.00" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="normal">violín, sesión 07</text>
+<line x1="396" y1="448" x2="418" y2="448" stroke="#eb6834" stroke-width="2" />
+<text x="424.00" y="452.00" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="normal">todo menos el violín, hoy</text>
+<text x="678.73" y="164.41" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600">−8.5</text>
+<text x="697.38" y="152.50" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="600">−6.3</text>
+</svg>
