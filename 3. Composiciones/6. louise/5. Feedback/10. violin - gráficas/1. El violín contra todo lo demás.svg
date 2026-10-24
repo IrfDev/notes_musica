@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'>
+<title>Louise: el violín contra todo lo demás, compás por compás</title>
+<rect x="0" y="0" width="760" height="470" rx="10" fill="#fcfcfb"/>
+<text x="16.00" y="24.00" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="600">El violín contra todo lo demás, compás por compás</text>
+<text x="16.00" y="42.00" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal">Render de MuseScore del 23 oct, 18:25 (blob 4cc453b) · RMS por compás en dBFS · ♩=160 · violín solo vs. la mezcla sin violín</text>
+<rect x="54.00" y="128.00" width="62.16" height="272.00" rx="0" fill="#f3f2ee"/>
+<line x1="54.00" y1="128.00" x2="54.00" y2="400.00" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="55.00" y="58.00" width="60.16" height="22.00" rx="4" fill="#e9e8e2"/>
+<text x="85.08" y="73.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">Intro</text>
+<line x1="116.16" y1="128.00" x2="116.16" y2="400.00" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="117.16" y="58.00" width="97.46" height="22.00" rx="4" fill="#e9e8e2"/>
+<text x="165.89" y="73.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">V1</text>
+<text x="165.89" y="92.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal">—</text>
+<rect x="215.62" y="128.00" width="99.46" height="272.00" rx="0" fill="#f3f2ee"/>
+<line x1="215.62" y1="128.00" x2="215.62" y2="400.00" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="216.62" y="58.00" width="97.46" height="22.00" rx="4" fill="#e9e8e2"/>
+<text x="265.35" y="73.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">C1</text>
+<text x="265.35" y="92.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal">p  &lt;</text>
+<line x1="315.08" y1="128.00" x2="315.08" y2="400.00" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="316.08" y="58.00" width="47.73" height="22.00" rx="4" fill="#e9e8e2"/>
+<text x="339.95" y="73.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">B1</text>
+<text x="339.95" y="92.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal">p* &lt;</text>
+<rect x="364.81" y="128.00" width="99.46" height="272.00" rx="0" fill="#f3f2ee"/>
+<line x1="364.81" y1="128.00" x2="364.81" y2="400.00" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="365.81" y="58.00" width="97.46" height="22.00" rx="4" fill="#e9e8e2"/>
+<text x="414.54" y="73.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">V2</text>
+<text x="414.54" y="92.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal">—</text>
+<line x1="464.27" y1="128.00" x2="464.27" y2="400.00" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="465.27" y="58.00" width="97.46" height="22.00" rx="4" fill="#e9e8e2"/>
+<text x="514.00" y="73.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">C2</text>
+<text x="514.00" y="92.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal">p &lt; &gt;</text>
+<text x="514.00" y="105.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">Mapa 3→4</text>
+<rect x="563.73" y="128.00" width="62.16" height="272.00" rx="0" fill="#f3f2ee"/>
+<line x1="563.73" y1="128.00" x2="563.73" y2="400.00" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="564.73" y="58.00" width="60.16" height="22.00" rx="4" fill="#e9e8e2"/>
+<text x="594.81" y="73.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">B2</text>
+<text x="594.81" y="92.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal">pp &lt;</text>
+<text x="594.81" y="105.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">Mapa 5</text>
+<line x1="625.89" y1="128.00" x2="625.89" y2="400.00" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="626.89" y="58.00" width="97.46" height="22.00" rx="4" fill="#e9e8e2"/>
+<text x="675.62" y="73.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">C3</text>
+<text x="675.62" y="92.00" font-size="10" fill="#0b0b0b" text-anchor="middle" font-weight="normal">—</text>
+<text x="675.62" y="105.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">Mapa 2</text>
+<rect x="725.35" y="128.00" width="18.65" height="272.00" rx="0" fill="#f3f2ee"/>
+<line x1="725.35" y1="128.00" x2="725.35" y2="400.00" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="726.35" y="58.00" width="16.65" height="22.00" rx="4" fill="#e9e8e2"/>
+<text x="734.68" y="73.00" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">Out</text>
+<text x="48.00" y="92.00" font-size="10" fill="#898781" text-anchor="end" font-weight="normal">marca</text>
+<text x="48.00" y="105.00" font-size="10" fill="#898781" text-anchor="end" font-weight="normal">Mapa</text>
+<line x1="54.00" y1="400.00" x2="744.00" y2="400.00" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48.00" y="404.00" font-size="10" fill="#898781" text-anchor="end" font-weight="normal">-40</text>
+<line x1="54.00" y1="361.14" x2="744.00" y2="361.14" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48.00" y="365.14" font-size="10" fill="#898781" text-anchor="end" font-weight="normal">-35</text>
+<line x1="54.00" y1="322.29" x2="744.00" y2="322.29" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48.00" y="326.29" font-size="10" fill="#898781" text-anchor="end" font-weight="normal">-30</text>
+<line x1="54.00" y1="283.43" x2="744.00" y2="283.43" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48.00" y="287.43" font-size="10" fill="#898781" text-anchor="end" font-weight="normal">-25</text>
+<line x1="54.00" y1="244.57" x2="744.00" y2="244.57" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48.00" y="248.57" font-size="10" fill="#898781" text-anchor="end" font-weight="normal">-20</text>
+<line x1="54.00" y1="205.71" x2="744.00" y2="205.71" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48.00" y="209.71" font-size="10" fill="#898781" text-anchor="end" font-weight="normal">-15</text>
+<line x1="54.00" y1="166.86" x2="744.00" y2="166.86" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48.00" y="170.86" font-size="10" fill="#898781" text-anchor="end" font-weight="normal">-10</text>
+<line x1="54.00" y1="128.00" x2="744.00" y2="128.00" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48.00" y="132.00" font-size="10" fill="#898781" text-anchor="end" font-weight="normal">-5</text>
+<text x="16.00" y="120.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal">dB</text>
+<path d="M57.11,243.02 L63.32,228.25 L69.54,216.59 L75.76,202.61 L81.97,225.92 L88.19,211.93 L94.41,228.25 L100.62,211.15 L106.84,205.71 L113.05,212.71 L119.27,179.29 L125.49,173.85 L131.70,191.73 L137.92,185.51 L144.14,194.06 L150.35,188.62 L156.57,187.84 L162.78,199.50 L169.00,188.62 L175.22,170.74 L181.43,186.29 L187.65,179.29 L193.86,206.49 L200.08,195.61 L206.30,190.17 L212.51,187.06 L218.73,180.07 L224.95,201.83 L231.16,177.74 L237.38,217.37 L243.59,179.29 L249.81,182.40 L256.03,190.95 L262.24,206.49 L268.46,172.30 L274.68,176.18 L280.89,177.74 L287.11,197.94 L293.32,180.85 L299.54,193.28 L305.76,185.51 L311.97,223.59 L318.19,230.58 L324.41,214.26 L330.62,237.58 L336.84,250.01 L343.05,260.11 L349.27,232.91 L355.49,236.02 L361.70,232.14 L367.92,190.17 L374.14,178.51 L380.35,169.97 L386.57,187.06 L392.78,197.17 L399.00,192.50 L405.22,180.07 L411.43,185.51 L417.65,190.95 L423.86,172.30 L430.08,190.17 L436.30,182.40 L442.51,212.71 L448.73,203.38 L454.95,194.83 L461.16,184.73 L467.38,183.95 L473.59,198.72 L479.81,171.52 L486.03,218.15 L492.24,178.51 L498.46,197.94 L504.68,194.83 L510.89,197.94 L517.11,172.30 L523.32,173.85 L529.54,170.74 L535.76,192.50 L541.97,168.41 L548.19,185.51 L554.41,182.40 L560.62,232.91 L566.84,204.16 L573.05,230.58 L579.27,186.29 L585.49,185.51 L591.70,184.73 L597.92,184.73 L604.14,187.84 L610.35,187.84 L616.57,186.29 L622.78,189.39 L629.00,187.06 L635.22,215.82 L641.43,183.18 L647.65,223.59 L653.86,193.28 L660.08,213.49 L666.30,199.50 L672.51,213.49 L678.73,183.18 L684.95,205.71 L691.16,178.51 L697.38,210.38 L703.59,190.17 L709.81,183.18 L716.03,195.61 L722.24,257.78 L728.46,278.77 L734.68,290.42 L740.89,400.00" fill="none" stroke="#eb6834" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M119.27,302.08 L125.49,312.18 L131.70,307.52 L137.92,317.62 L144.14,316.07 L150.35,298.19 L156.57,304.41 L162.78,279.54 L169.00,309.07 L175.22,305.19 L181.43,329.28 L187.65,305.97 L193.86,312.96 L200.08,318.40 L206.30,329.28 L212.51,281.10 L218.73,255.45 L224.95,241.46 L231.16,251.57 L237.38,232.91 L243.59,222.03 L249.81,235.25 L256.03,232.14 L262.24,226.70 L268.46,222.03 L274.68,237.58 L280.89,237.58 L287.11,231.36 L293.32,226.70 L299.54,218.15 L305.76,236.02 L311.97,217.37 L318.19,274.10 L324.41,229.81 L330.62,232.14 L336.84,233.69 L343.05,222.81" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M367.92,291.98 L374.14,284.21 L380.35,290.42 L386.57,288.87 L392.78,298.97 L399.00,301.30 L405.22,293.53 L411.43,274.88 L417.65,290.42 L423.86,285.76 L430.08,296.64 L436.30,300.53 L442.51,316.85 L448.73,302.08 L454.95,330.83 L461.16,283.43 L467.38,253.12 L473.59,241.46 L479.81,253.12 L486.03,237.58 L492.24,220.48 L498.46,236.02 L504.68,231.36 L510.89,229.81 L517.11,224.37 L523.32,236.80 L529.54,238.35 L535.76,234.47 L541.97,222.03 L548.19,220.48 L554.41,257.01 L560.62,245.35 L566.84,303.63 L573.05,305.19 L579.27,311.41 L585.49,295.86 L591.70,323.06 L597.92,301.30 L604.14,295.86 L610.35,293.53 L616.57,270.99 L622.78,260.11 L629.00,253.12 L635.22,276.43 L641.43,277.21 L647.65,263.22 L653.86,255.45 L660.08,278.77 L666.30,280.32 L672.51,282.65 L678.73,253.12 L684.95,280.32 L691.16,288.09 L697.38,243.79 L703.59,273.33 L709.81,282.65 L716.03,290.42 L722.24,257.78" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="119.16" y1="305.17" x2="212.62" y2="305.17" stroke="#2a78d6" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="165.89" y="414.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">-27.8</text>
+<line x1="218.62" y1="231.23" x2="312.08" y2="231.23" stroke="#2a78d6" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="265.35" y="414.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">-18.3</text>
+<line x1="318.08" y1="250.42" x2="361.81" y2="250.42" stroke="#2a78d6" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="339.95" y="414.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">-20.8</text>
+<line x1="367.81" y1="293.47" x2="461.27" y2="293.47" stroke="#2a78d6" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="414.54" y="414.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">-26.3</text>
+<line x1="467.27" y1="234.56" x2="560.73" y2="234.56" stroke="#2a78d6" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="514.00" y="414.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">-18.7</text>
+<line x1="566.73" y1="291.07" x2="622.89" y2="291.07" stroke="#2a78d6" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="594.81" y="414.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">-26.0</text>
+<line x1="628.89" y1="268.03" x2="722.35" y2="268.03" stroke="#2a78d6" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="675.62" y="414.00" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">-23.0</text>
+<text x="48.00" y="414.00" font-size="10" fill="#898781" text-anchor="end" font-weight="normal">⌀ vln</text>
+<text x="172.11" y="143.54" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">todo lo demás</text>
+<circle cx="126.11" cy="139.54" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="172.11" y="353.37" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">violín</text>
+<circle cx="148.11" cy="349.37" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="616.57" cy="270.99" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="597.92" y="345.60" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">B2: el pico del Mapa es la parte</text>
+<text x="597.92" y="358.60" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">de arco más baja del violín</text>
+<text x="339.95" y="147.43" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">B1: el violín es</text>
+<text x="339.95" y="160.43" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">lo más fuerte</text>
+<line x1="339.95" y1="164.43" x2="339.95" y2="227.69" stroke="#898781" stroke-width="1"/>
+<circle cx="60.00" cy="436.00" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="70.00" y="440.00" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="normal">violín (solo)</text>
+<circle cx="164.00" cy="436.00" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="174.00" y="440.00" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="normal">todo lo demás (piano, guitarra, batería)</text>
+<line x1="414.00" y1="436.00" x2="434.00" y2="436.00" stroke="#2a78d6" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="440.00" y="440.00" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="normal">media del violín en la sección</text>
+<text x="16.00" y="460.00" font-size="10" fill="#898781" text-anchor="start" font-weight="normal">* el «p» del c.43 tiene velocidad 64: suena mp.  Marcas = las del pentagrama de violín.  Mapa = la energía escrita en 1. Mapa (solo C2, B2 y C3 la tienen).</text>
+</svg>
