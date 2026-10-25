@@ -220,7 +220,7 @@ Detalle en [[6. Práctica/1. Estructura]], sección *`3. Composiciones/`*.
 1. La IA escribe **solo** `5. Feedback/`, `6. Hallazgos.md` y `AI/` (guías y análisis que no evalúan una
    versión de la pieza).
 2. `0. Obra`, `1. Mapa`, `2. Decisiones`, `3. Sesiones/` y `4. Contexto` los escribe el usuario. La IA
-   **propone** cambios al Mapa, líneas para Decisiones y tomas para Contexto (con `____` en el porqué y
+   **propone** cambios al Mapa, decisiones y tomas para Contexto (con `____` en el porqué y
    en lo que el usuario quiere) dentro de la sección *Propuestas* de un feedback, y nunca los aplica.
 
 **Cómo se hace un feedback.**
@@ -278,8 +278,9 @@ su ID de bloque (`^h-07`). Estados: `abierto`, `arreglado` (con el feedback que 
 (con su `D-NN`) y `retirado` (la IA se equivocó, y dice por qué). Nada se borra: baja a *Cerrados*.
 
 **Enlaces.** Cada enlace se escribe una sola vez, en el archivo de quien lo escribe; la vuelta la dan los
-backlinks. Hallazgos y decisiones se enlazan por línea y con ruta desde la obra:
-`[[6. Hallazgos#^h-07|H-07]]`, `[[2. Decisiones#^d-12|D-12]]`, `[[4. Contexto#^r-03|R-03]]`.
+backlinks. Hallazgos, decisiones y tomas se enlazan por línea, con su ID de bloque y con ruta desde la obra:
+`[[6. Hallazgos#^h-07|H-07]]`, `[[2. Decisiones#^d-12|D-12]]`, `[[4. Contexto#^r-03|R-03]]`. Cada decisión es
+una tabla propia con su `^d-NN` debajo: Obsidian solo deja enlazar una tabla entera, no una fila.
 
 **Contexto y referencias.** Dos capas, como Teoría y Cursos:
 

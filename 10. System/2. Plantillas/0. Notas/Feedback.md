@@ -76,7 +76,7 @@ V:2 clef=bass name="Piano MI"
 
 ## Propuestas
 
-- **Para Decisiones:** `D-NN · … · porque ____`
+- **Para Decisiones** (la fila de una tabla nueva, con su `^d-NN` debajo): `| D-NN | AAAA-MM-DD | **qué** | ____ | | nace de H-NN |`
 - **Para el Mapa:**
 - **Para Contexto:** `R-NN · <referencia> · <momento> · ____ · aspecto → destino`
 
