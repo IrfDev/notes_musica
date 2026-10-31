@@ -556,15 +556,15 @@ const V1 = {
   // Efectos de esta sección; los que no están salen de EFECTOS (en 1)
   efectos: {
     violin: {
-      pan: 0.5,
+      pan: 0.9,
     },
     piano: {
-      pan: 0.8,
+      pan: 0.1,
       room: 1,
       roomsize: 0.5,
     },
     guitarra: {
-      pan: 0.2,
+      pan: 0.5,
     },
   },
   // Batería. Una columna por compás; filas: c.11–14 · c.15–18 · c.19–22 · c.23–26
