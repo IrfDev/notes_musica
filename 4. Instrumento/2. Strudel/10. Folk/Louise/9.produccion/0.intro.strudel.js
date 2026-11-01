@@ -16,12 +16,16 @@ Para qué
   cambias un compás, cambia solo ese. Lo que se quede se pasa a mano a
   MuseScore; este archivo no vuelve al .mscz.
 
+  El V1 (c.11–18) suena como quedó en 1.v1: dinámicas, batería y efectos.
+
 Dónde se mueve cada cosa
   - Dinámicas: en cada sección, `dinamica`, una velocidad por compás y por
     instrumento (0–127, como en MuseScore).
   - Batería: en cada sección, `bateria`, una columna por compás.
   - Sonidos: SONIDO (en 1), y `tecnica` en cada sección para el violín.
-  - Efectos: EFECTOS (en 1): reverb, eco y paneo por instrumento.
+  - Efectos: EFECTOS (en 1) vale para todo el archivo, y `efectos` en cada
+    sección cambia solo esa sección: un valor, o una lista con uno por
+    compás. Así lo que ya quedó en una sección no se mueve al trabajar otra.
   - Volumen: MEZCLA y KIT (en 1).
 
 Cómo se escucha
@@ -171,10 +175,13 @@ let arpegio = (pat, gap) => {
 // ── Secciones ──
 // Una sección es un objeto: desde qué compás empieza, el sonido del violín,
 // si la guitarra arpegia, una lista por parte (violin, guitarra, der, izq),
-// una lista de velocidades por instrumento y su batería.
+// una lista de velocidades por instrumento, sus efectos y su batería.
 
 // Cuántos compases dura una sección; todas sus listas tienen que coincidir
 let largo = (sec) => {
+  let porCompas = Object.values(sec.efectos).flatMap((e) =>
+    Object.values(e).filter(Array.isArray),
+  );
   let listas = [
     sec.violin,
     sec.guitarra,
@@ -183,6 +190,7 @@ let largo = (sec) => {
     sec.dinamica.violin,
     sec.dinamica.guitarra,
     sec.dinamica.piano,
+    ...porCompas,
   ];
   let largos = [...new Set(listas.map((lista) => lista.length))];
   if (largos.length !== 1) {
@@ -195,11 +203,18 @@ let largo = (sec) => {
 
 // ── Instrumentos ──
 
-let efectos = (pat, e) =>
-  pat.room(e.room).delay(e.delay).pan(e.pan).orbit(e.orbit);
+// Los efectos de un instrumento: los de EFECTOS, con lo que cambie la sección.
+// Cada clave es un efecto de Strudel (room, roomsize, delay, pan, lpf…) y su
+// valor vale para toda la sección, o es una lista con uno por compás.
+let efectos = (pat, base, propios = {}) =>
+  Object.entries({ ...base, ...propios }).reduce(
+    (p, [efecto, valor]) =>
+      p[efecto](Array.isArray(valor) ? cat(...valor) : valor),
+    pat,
+  );
 
 let violin = (sec) =>
-  efectos(note(compases(sec.violin)), EFECTOS.violin)
+  efectos(note(compases(sec.violin)), EFECTOS.violin, sec.efectos.violin)
     .sound(sec.tecnica)
     .velocity(velocidades(sec.dinamica.violin))
     .gain(MEZCLA.violin);
@@ -210,6 +225,7 @@ let guitarra = (sec) => {
   return efectos(
     sec.arpegio ? arpegio(notas, ARPEGIO) : notas,
     EFECTOS.guitarra,
+    sec.efectos.guitarra,
   )
     .sound(SONIDO.guitarra)
     .velocity(velocidades(sec.dinamica.guitarra))
@@ -217,11 +233,11 @@ let guitarra = (sec) => {
 };
 
 let piano = (sec) =>
-  stack(note(compases(sec.der)), note(compases(sec.izq)))
-    .room(1)
-    .delay("<0!2 0.25!3>")
-    .roomsize("<0.5!2 1!3>")
-    .pan("<0.2!2 0.8!2 0.5>")
+  efectos(
+    stack(note(compases(sec.der)), note(compases(sec.izq))),
+    EFECTOS.piano,
+    sec.efectos.piano,
+  )
     .sound(SONIDO.piano)
     .velocity(velocidades(sec.dinamica.piano))
     .gain(MEZCLA.piano);
@@ -229,14 +245,21 @@ let piano = (sec) =>
 // Una línea de batería: el patrón con sus muestras y una velocidad MIDI
 let golpe = (patron, vel = MEDIO) => s(patron).velocity(vel / 127);
 
-// Las líneas de una sección, con el kit, el volumen de la mezcla y los efectos
+// Las líneas de una sección, con el kit y el volumen de la mezcla (los
+// efectos se ponen en tocar, con los de la sección)
 let bateria = (...lineas) =>
-  efectos(stack(...lineas), EFECTOS.bateria)
+  stack(...lineas)
     .bank(SONIDO.kit)
     .withValue((v) => ({ ...v, gain: MEZCLA.bateria * (KIT[v.s] ?? 1) }));
 
 // Todo lo que toca una sección
-let tocar = (sec) => stack(violin(sec), guitarra(sec), piano(sec), sec.bateria);
+let tocar = (sec) =>
+  stack(
+    violin(sec),
+    guitarra(sec),
+    piano(sec),
+    efectos(sec.bateria, EFECTOS.bateria, sec.efectos.bateria),
+  );
 
 // Las secciones una tras otra, cada una con sus compases
 let forma = (...secciones) =>
@@ -260,6 +283,17 @@ let recortar = (sec, desde, hasta) => {
       guitarra: corte(sec.dinamica.guitarra),
       piano: corte(sec.dinamica.piano),
     },
+    efectos: Object.fromEntries(
+      Object.entries(sec.efectos).map(([instrumento, e]) => [
+        instrumento,
+        Object.fromEntries(
+          Object.entries(e).map(([efecto, v]) => [
+            efecto,
+            Array.isArray(v) ? corte(v) : v,
+          ]),
+        ),
+      ]),
+    ),
     bateria: sec.bateria.ribbon(i, n),
   };
 };
@@ -362,6 +396,16 @@ const INTRO = {
       80, // c.10
     ],
   },
+  // Efectos de esta sección; los que no están salen de EFECTOS (en 1). Los
+  // del piano son los que quedaron en el Intro
+  efectos: {
+    piano: {
+      room: 1,
+      roomsize: [0.5, 0.5, 1, 1, 1, 0.5, 0.5, 1, 1, 1], // c.1–10
+      delay: [0, 0, 0.25, 0.25, 0.25, 0, 0, 0.25, 0.25, 0.25],
+      pan: [0.2, 0.2, 0.8, 0.8, 0.5, 0.2, 0.2, 0.8, 0.8, 0.5],
+    },
+  },
   // Batería. Una columna por compás; filas: c.1–5 · c.6–10
   bateria: bateria(
     // Bombo
@@ -460,24 +504,24 @@ const V1 = {
   // Velocidad MIDI (0–127) de cada compás, como la toca MuseScore
   dinamica: {
     violin: [
-      80, // c.11
-      80, // c.12
-      80, // c.13
-      80, // c.14
-      80, // c.15
-      80, // c.16
-      80, // c.17
-      80, // c.18
+      127, // c.11
+      127, // c.12
+      127, // c.13
+      127, // c.14
+      127, // c.15
+      127, // c.16
+      127, // c.17
+      127, // c.18
     ],
     guitarra: [
-      80, // c.11
-      80, // c.12
-      80, // c.13
-      80, // c.14
-      80, // c.15
-      80, // c.16
-      80, // c.17
-      80, // c.18
+      90, // c.11
+      90, // c.12
+      90, // c.13
+      90, // c.14
+      90, // c.15
+      90, // c.16
+      90, // c.17
+      90, // c.18
     ],
     piano: [
       80, // c.11
@@ -490,6 +534,21 @@ const V1 = {
       80, // c.18
     ],
   },
+  // Efectos de esta sección; los que no están salen de EFECTOS (en 1). Vienen
+  // de 1.v1
+  efectos: {
+    violin: {
+      pan: [0.5, 0.5, 0.5, 0.5, 0.5, 0.8, 0.8, 0.8], // c.11–18
+    },
+    piano: {
+      pan: 0.1,
+      room: 1,
+      roomsize: 0.5,
+    },
+    guitarra: {
+      pan: 0.5,
+    },
+  },
   // Batería. Una columna por compás; filas: c.11–14 · c.15–18
   bateria: bateria(
     // Bombo
@@ -498,7 +557,7 @@ const V1 = {
       [bd ~ ~] [bd ~ ~] [bd ~ ~] [bd ~ ~]
       [bd ~ ~] [bd ~ ~] [bd ~ ~] ~
     >`,
-      FUERTE,
+      NORMAL,
     ),
     // Platillos
     golpe(
@@ -516,21 +575,22 @@ const V1 = {
     >`,
       FUERTE,
     ),
-    // Pandereta
-    golpe(
-      `<
+    // Pandereta, con la velocidad de 1.v1 (de 0 a 1, una por compás)
+    s(`<
       [~ ~ tb] [~ ~ tb] [~ ~ tb] [~ ~ tb]
       [~ ~ tb] [~ ~ tb] [~ ~ tb] [~ ~ tb]
-    >`,
-      NORMAL,
-    ),
-    // Cencerro
-    s(
-      `<
+    >`).velocity(`<
+      0.27     0.27     0.27     0.27
+      0.27     0.27     0.27     0.27
+    >`),
+    // Cencerro, con la velocidad de 1.v1 (de 0 a 1, una por compás)
+    s(`<
       [~ cb ~] [~ cb ~] [~ cb ~] [~ cb ~]
       [~ cb ~] [~ cb ~] [~ cb ~] [~ cb ~]
-    >`,
-    ).velocity("<0.6!4 1!4>"),
+    >`).velocity(`<
+      0.27     0.27     0.27     0.27
+      0.27     0.27     0.27     0.27
+    >`),
     // Shaker
     golpe(
       `<

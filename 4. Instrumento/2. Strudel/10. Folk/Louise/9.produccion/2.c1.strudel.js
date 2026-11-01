@@ -123,7 +123,15 @@ let velocidades = (lista) => cat(...lista).div(127);
 let ligar = (semis, compas) =>
   reify(compas).withHap((hap) =>
     hap.whole.end.eq(hap.whole.begin.sam().add(1))
-      ? new Hap(new TimeSpan(hap.whole.begin, hap.whole.end.add(Fraction(semis).div(12))), hap.part, hap.value, hap.context)
+      ? new Hap(
+          new TimeSpan(
+            hap.whole.begin,
+            hap.whole.end.add(Fraction(semis).div(12)),
+          ),
+          hap.part,
+          hap.value,
+          hap.context,
+        )
       : hap,
   );
 
@@ -151,7 +159,14 @@ let arpegio = (pat, gap) => {
             let fin = hap.whole.end.sub(i * gap);
             return hap.part.begin.gte(fin)
               ? []
-              : [new Hap(new TimeSpan(hap.whole.begin, fin), new TimeSpan(hap.part.begin, hap.part.end.min(fin)), hap.value, hap.context)];
+              : [
+                  new Hap(
+                    new TimeSpan(hap.whole.begin, fin),
+                    new TimeSpan(hap.part.begin, hap.part.end.min(fin)),
+                    hap.value,
+                    hap.context,
+                  ),
+                ];
           }),
         ),
     ),
@@ -165,11 +180,24 @@ let arpegio = (pat, gap) => {
 
 // Cuántos compases dura una sección; todas sus listas tienen que coincidir
 let largo = (sec) => {
-  let porCompas = Object.values(sec.efectos).flatMap((e) => Object.values(e).filter(Array.isArray));
-  let listas = [sec.violin, sec.guitarra, sec.der, sec.izq, sec.dinamica.violin, sec.dinamica.guitarra, sec.dinamica.piano, ...porCompas];
+  let porCompas = Object.values(sec.efectos).flatMap((e) =>
+    Object.values(e).filter(Array.isArray),
+  );
+  let listas = [
+    sec.violin,
+    sec.guitarra,
+    sec.der,
+    sec.izq,
+    sec.dinamica.violin,
+    sec.dinamica.guitarra,
+    sec.dinamica.piano,
+    ...porCompas,
+  ];
   let largos = [...new Set(listas.map((lista) => lista.length))];
   if (largos.length !== 1) {
-    fallar(String.raw`La sección del c.${sec.desde} tiene listas de ${largos} compases`);
+    fallar(
+      String.raw`La sección del c.${sec.desde} tiene listas de ${largos} compases`,
+    );
   }
   return largos[0];
 };
@@ -181,7 +209,8 @@ let largo = (sec) => {
 // valor vale para toda la sección, o es una lista con uno por compás.
 let efectos = (pat, base, propios = {}) =>
   Object.entries({ ...base, ...propios }).reduce(
-    (p, [efecto, valor]) => p[efecto](Array.isArray(valor) ? cat(...valor) : valor),
+    (p, [efecto, valor]) =>
+      p[efecto](Array.isArray(valor) ? cat(...valor) : valor),
     pat,
   );
 
@@ -194,14 +223,22 @@ let violin = (sec) =>
 // Arpegiada, salvo en las secciones con `arpegio: false` (acordes en bloque)
 let guitarra = (sec) => {
   let notas = note(compases(sec.guitarra));
-  return efectos(sec.arpegio ? arpegio(notas, ARPEGIO) : notas, EFECTOS.guitarra, sec.efectos.guitarra)
+  return efectos(
+    sec.arpegio ? arpegio(notas, ARPEGIO) : notas,
+    EFECTOS.guitarra,
+    sec.efectos.guitarra,
+  )
     .sound(SONIDO.guitarra)
     .velocity(velocidades(sec.dinamica.guitarra))
     .gain(MEZCLA.guitarra);
 };
 
 let piano = (sec) =>
-  efectos(stack(note(compases(sec.der)), note(compases(sec.izq))), EFECTOS.piano, sec.efectos.piano)
+  efectos(
+    stack(note(compases(sec.der)), note(compases(sec.izq))),
+    EFECTOS.piano,
+    sec.efectos.piano,
+  )
     .sound(SONIDO.piano)
     .velocity(velocidades(sec.dinamica.piano))
     .gain(MEZCLA.piano);
@@ -218,10 +255,16 @@ let bateria = (...lineas) =>
 
 // Todo lo que toca una sección
 let tocar = (sec) =>
-  stack(violin(sec), guitarra(sec), piano(sec), efectos(sec.bateria, EFECTOS.bateria, sec.efectos.bateria));
+  stack(
+    violin(sec),
+    guitarra(sec),
+    piano(sec),
+    efectos(sec.bateria, EFECTOS.bateria, sec.efectos.bateria),
+  );
 
 // Las secciones una tras otra, cada una con sus compases
-let forma = (...secciones) => arrange(...secciones.map((sec) => [largo(sec), tocar(sec)]));
+let forma = (...secciones) =>
+  arrange(...secciones.map((sec) => [largo(sec), tocar(sec)]));
 
 // Una sección solo de `desde` a `hasta`. Las listas se cortan por compás, así
 // que la primera nota no arrastra la cola del compás anterior
@@ -244,7 +287,12 @@ let recortar = (sec, desde, hasta) => {
     efectos: Object.fromEntries(
       Object.entries(sec.efectos).map(([instrumento, e]) => [
         instrumento,
-        Object.fromEntries(Object.entries(e).map(([efecto, v]) => [efecto, Array.isArray(v) ? corte(v) : v])),
+        Object.fromEntries(
+          Object.entries(e).map(([efecto, v]) => [
+            efecto,
+            Array.isArray(v) ? corte(v) : v,
+          ]),
+        ),
       ]),
     ),
     bateria: sec.bateria.ribbon(i, n),
@@ -265,43 +313,43 @@ const V1 = {
   tecnica: SONIDO.pizz, // el sonido del violín
   arpegio: true, // la guitarra arpegia sus acordes
   violin: [
-    "[D4,C#5]",               // c.19   Dmaj7
-    "[~ F#4 D4]",             // c.20   F#m
-    "E4",                     // c.21   C#dim
-    "[~ [C#4,A4]]",           // c.22   A · A7
-    "[D4,C#5]",               // c.23   Bm7
-    "[~ G4 B4]",              // c.24   G · G6
-    "F#4",                    // c.25   D6
+    "[D4,C#5]", // c.19   Dmaj7
+    "[~ F#4 D4]", // c.20   F#m
+    "E4", // c.21   C#dim
+    "[~ [C#4,A4]]", // c.22   A · A7
+    "[D4,C#5]", // c.23   Bm7
+    "[~ G4 B4]", // c.24   G · G6
+    "F#4", // c.25   D6
     "[~ [F#4,C#5] [C#4,A4]]", // c.26   F#m
   ],
   guitarra: [
-    "[~ [D3,F#3,D4,A4] [D3,F#3,D4,A4]]",   // c.19   Dmaj7
-    "[F#3,A3,C#4,F#4]",                    // c.20   F#m
+    "[~ [D3,F#3,D4,A4] [D3,F#3,D4,A4]]", // c.19   Dmaj7
+    "[F#3,A3,C#4,F#4]", // c.20   F#m
     "[~ [C#3,E3,C#4,G4] [C#3,E3,C#4,G4]]", // c.21   C#dim
-    "[A2,E3,A3,C#4,E4]",                   // c.22   A · A7
+    "[A2,E3,A3,C#4,E4]", // c.22   A · A7
     "[~ [B3,F#4,B4,F#5] [B3,F#4,B4,F#5]]", // c.23   Bm7
-    "[G3,D4,G4,D5]",                       // c.24   G · G6
-    "[~ [F#3,A3,D4,A4] [F#3,A3,D4,A4]]",   // c.25   D6
-    "[C#3,A3,C#4,F#4,A4,C#5]",             // c.26   F#m
+    "[G3,D4,G4,D5]", // c.24   G · G6
+    "[~ [F#3,A3,D4,A4] [F#3,A3,D4,A4]]", // c.25   D6
+    "[C#3,A3,C#4,F#4,A4,C#5]", // c.26   F#m
   ],
   der: [
-    "[[F#4,C#5] ~@2]",        // c.19   Dmaj7
+    "[[F#4,C#5] ~@2]", // c.19   Dmaj7
     "[[C#4,C#5]@3 [C#4,A4]]", // c.20   F#m
-    "[E4,G4]",                // c.21   C#dim
-    "[[E4,C#5] [C#4,G5]]",    // c.22   A · A7
-    "[D4,F#5]",               // c.23   Bm7
-    "[[B3,D5]@3 [E4,B4]]",    // c.24   G · G6
-    "[F#4,A4]",               // c.25   D6
-    "[[C#4,A4] [A4,E5]]",     // c.26   F#m
+    "[E4,G4]", // c.21   C#dim
+    "[[E4,C#5] [C#4,G5]]", // c.22   A · A7
+    "[D4,F#5]", // c.23   Bm7
+    "[[B3,D5]@3 [E4,B4]]", // c.24   G · G6
+    "[F#4,A4]", // c.25   D6
+    "[[C#4,A4] [A4,E5]]", // c.26   F#m
   ],
   izq: [
-    "[[A2,D3] ~@2]",       // c.19   Dmaj7
-    "[A3@3 A3]",           // c.20   F#m
-    "[C#3,E3]",            // c.21   C#dim
-    "[A3 A3]",             // c.22   A · A7
-    "B3",                  // c.23   Bm7
-    "[G3@3 F#3]",          // c.24   G · G6
-    "D3",                  // c.25   D6
+    "[[A2,D3] ~@2]", // c.19   Dmaj7
+    "[A3@3 A3]", // c.20   F#m
+    "[C#3,E3]", // c.21   C#dim
+    "[A3 A3]", // c.22   A · A7
+    "B3", // c.23   Bm7
+    "[G3@3 F#3]", // c.24   G · G6
+    "D3", // c.25   D6
     "[[F#3,A3] [F#3,A3]]", // c.26   F#m
   ],
   // Velocidad MIDI (0–127) de cada compás, como la toca MuseScore
@@ -321,10 +369,10 @@ const V1 = {
       90, // c.20
       90, // c.21
       90, // c.22
-      80, // c.23
-      80, // c.24
-      80, // c.25
-      80, // c.26
+      90, // c.23
+      90, // c.24
+      90, // c.25
+      90, // c.26
     ],
     piano: [
       80, // c.19
@@ -341,7 +389,7 @@ const V1 = {
   // de 1.v1
   efectos: {
     violin: {
-      pan: 0.9,
+      pan: 0.8,
     },
     piano: {
       pan: 0.1,
@@ -355,20 +403,29 @@ const V1 = {
   // Batería. Una columna por compás; filas: c.19–22 · c.23–26
   bateria: bateria(
     // Bombo
-    golpe(`<
+    golpe(
+      `<
       [bd ~ ~] [bd ~ ~] [bd ~ ~] [bd ~ ~]
       [bd ~ ~] [bd ~ ~] [bd ~ ~] ~
-    >`, NORMAL),
+    >`,
+      NORMAL,
+    ),
     // Platillos
-    golpe(`<
+    golpe(
+      `<
       [oh hh ~] ~         ~         ~
       ~         ~         ~         ~
-    >`, FUERTE),
+    >`,
+      FUERTE,
+    ),
     // Toms
-    golpe(`<
+    golpe(
+      `<
       ~          ~          ~          ~
       ~          ~          ~          [mt lt ht]
-    >`, FUERTE),
+    >`,
+      FUERTE,
+    ),
     // Pandereta, con la velocidad de 1.v1 (de 0 a 1, una por compás)
     s(`<
       [~ ~ tb]  [~ ~ tb]  [~ ~ tb]  [~ ~ tb]
@@ -386,10 +443,13 @@ const V1 = {
       0.27          0.27          0.27          0.27
     >`),
     // Shaker
-    golpe(`<
+    golpe(
+      `<
       [~ sh sh] [~ sh sh] [~ sh sh] [~ sh sh]
       [~ sh sh] [~ sh sh] [~ sh sh] [~ sh sh]
-    >`, GHOST),
+    >`,
+      GHOST,
+    ),
   ),
 };
 
@@ -405,76 +465,76 @@ const C1 = {
   tecnica: SONIDO.arco, // el sonido del violín
   arpegio: true, // la guitarra arpegia sus acordes
   violin: [
-    ligar(8, "G4"),    // c.27   Em — se liga 8 semicorcheas al c.28
-    "[~@2 B4]",        // c.28   G — sigue lo del c.27
-    "A4",              // c.29   F#m7
-    "[F#4 D4]",        // c.30   Bm
-    "G4",              // c.31   Em
-    "[B4 D4 B3]",      // c.32   G
-    "C#4",             // c.33   A7
-    "[D4@2 A4]",       // c.34   D
-    "E4",              // c.35   Em
-    "D4",              // c.36   G
-    "F#4",             // c.37   F#m7
+    ligar(8, "G4"), // c.27   Em — se liga 8 semicorcheas al c.28
+    "[~@2 B4]", // c.28   G — sigue lo del c.27
+    "A4", // c.29   F#m7
+    "[F#4 D4]", // c.30   Bm
+    "G4", // c.31   Em
+    "[B4 D4 B3]", // c.32   G
+    "C#4", // c.33   A7
+    "[D4@2 A4]", // c.34   D
+    "E4", // c.35   Em
+    "D4", // c.36   G
+    "F#4", // c.37   F#m7
     "[B3@2 D4@3 F#4]", // c.38   Bm
-    "[E4@2 C#4]",      // c.39   Em
-    "D4",              // c.40   G
+    "[E4@2 C#4]", // c.39   Em
+    "D4", // c.40   G
     "[F#4@2 A4@3 A4]", // c.41   A7
-    "D4",              // c.42   D
+    "D4", // c.42   D
   ],
   guitarra: [
-    "[E2,B2,E3,G3,B3,E4]",               // c.27   Em
-    "[G2,B2,G3,B3]",                     // c.28   G
-    "[F#2,A2,F#3,A3]",                   // c.29   F#m7
+    "[E2,B2,E3,G3,B3,E4]", // c.27   Em
+    "[G2,B2,G3,B3]", // c.28   G
+    "[F#2,A2,F#3,A3]", // c.29   F#m7
     "[~ [B3,D4,B4,F#5] [B3,D4,B4,F#5]]", // c.30   Bm
-    "[E2,B2,E3,G3,B3,E4]",               // c.31   Em
-    "[G2,B2,G3,B3]",                     // c.32   G
-    "[A2,C#3,E4,A4,E5]",                 // c.33   A7
+    "[E2,B2,E3,G3,B3,E4]", // c.31   Em
+    "[G2,B2,G3,B3]", // c.32   G
+    "[A2,C#3,E4,A4,E5]", // c.33   A7
     "[~ [A3,D4,F#4,A4] [A3,D4,F#4,A4]]", // c.34   D
-    "[E2,B2,E3,G3,B3,E4]",               // c.35   Em
-    "[G2,B2,G3,B3]",                     // c.36   G
-    "[F#2,A2,F#3,A3]",                   // c.37   F#m7
+    "[E2,B2,E3,G3,B3,E4]", // c.35   Em
+    "[G2,B2,G3,B3]", // c.36   G
+    "[F#2,A2,F#3,A3]", // c.37   F#m7
     "[~ [B3,D4,B4,F#5] [B3,D4,B4,F#5]]", // c.38   Bm
-    "[E2,B2,E3,G3,B3,E4]",               // c.39   Em
-    "[G2,B2,G3,B3]",                     // c.40   G
-    "[A2,C#3,E4,A4,E5]",                 // c.41   A7
-    "~",                                 // c.42   D
+    "[E2,B2,E3,G3,B3,E4]", // c.39   Em
+    "[G2,B2,G3,B3]", // c.40   G
+    "[A2,C#3,E4,A4,E5]", // c.41   A7
+    "~", // c.42   D
   ],
   der: [
-    "[~ E4 E4]",                 // c.27   Em
-    "[~ G4 G4]",                 // c.28   G
-    "[~ F#4 F#4]",               // c.29   F#m7
-    "~",                         // c.30   Bm
-    "[~ E4 E4]",                 // c.31   Em
-    "[~ G4 G4]",                 // c.32   G
-    "[~@2 A4@3 A4]",             // c.33   A7
-    "~",                         // c.34   D
-    "[~ [E4,E5] [E4,E5]]",       // c.35   Em
-    "[~ [D4,B4] [D4,B4]]",       // c.36   G
-    "[~ [E4,A4] [E4,A4]]",       // c.37   F#m7
-    "[D4,F#4]",                  // c.38   Bm
-    "[~ G4 G4]",                 // c.39   Em
-    "[~ [D4,B4] [D4,B4]]",       // c.40   G
+    "[~ E4 E4]", // c.27   Em
+    "[~ G4 G4]", // c.28   G
+    "[~ F#4 F#4]", // c.29   F#m7
+    "~", // c.30   Bm
+    "[~ E4 E4]", // c.31   Em
+    "[~ G4 G4]", // c.32   G
+    "[~@2 A4@3 A4]", // c.33   A7
+    "~", // c.34   D
+    "[~ [E4,E5] [E4,E5]]", // c.35   Em
+    "[~ [D4,B4] [D4,B4]]", // c.36   G
+    "[~ [E4,A4] [E4,A4]]", // c.37   F#m7
+    "[D4,F#4]", // c.38   Bm
+    "[~ G4 G4]", // c.39   Em
+    "[~ [D4,B4] [D4,B4]]", // c.40   G
     "[~@2 [A4,C#5]@3 [A4,C#5]]", // c.41   A7
-    "[F#4,D5]",                  // c.42   D
+    "[F#4,D5]", // c.42   D
   ],
   izq: [
-    "[E3 ~@2]",                  // c.27   Em
-    "[G3 ~@2]",                  // c.28   G
-    "[F#3 ~@2]",                 // c.29   F#m7
-    "[B3, [B2 ~@2]]",            // c.30   Bm
-    "[E3 ~@2]",                  // c.31   Em
-    "[G3 ~@2]",                  // c.32   G
-    "[A2@2 E3@3 E3]",            // c.33   A7
-    "[D3, [D2 ~@2]]",            // c.34   D
-    "[[E2,E3] E3 E3]",           // c.35   Em
-    "[[G2,G3] G3 G3]",           // c.36   G
-    "[[F#2,F#3] F#3 F#3]",       // c.37   F#m7
-    "[B3, [[B2,B3] ~@2]]",       // c.38   Bm
+    "[E3 ~@2]", // c.27   Em
+    "[G3 ~@2]", // c.28   G
+    "[F#3 ~@2]", // c.29   F#m7
+    "[B3, [B2 ~@2]]", // c.30   Bm
+    "[E3 ~@2]", // c.31   Em
+    "[G3 ~@2]", // c.32   G
+    "[A2@2 E3@3 E3]", // c.33   A7
+    "[D3, [D2 ~@2]]", // c.34   D
+    "[[E2,E3] E3 E3]", // c.35   Em
+    "[[G2,G3] G3 G3]", // c.36   G
+    "[[F#2,F#3] F#3 F#3]", // c.37   F#m7
+    "[B3, [[B2,B3] ~@2]]", // c.38   Bm
     "[[E2,E3] [E3,B3] [E3,B3]]", // c.39   Em
-    "[[G2,G3] G3 G3]",           // c.40   G
-    "[[A2,G3]@2 G3@3 G3]",       // c.41   A7
-    "[[F#2,F#3]@4 D4 C#4]",      // c.42   D
+    "[[G2,G3] G3 G3]", // c.40   G
+    "[[A2,G3]@2 G3@3 G3]", // c.41   A7
+    "[[F#2,F#3]@4 D4 C#4]", // c.42   D
   ],
   // Velocidad MIDI (0–127) de cada compás, como la toca MuseScore
   dinamica: {
@@ -483,20 +543,38 @@ const C1 = {
       55, // c.28
       57, // c.29
       62, // c.30
-      65, // c.31
-      65, // c.32
-      65, // c.33
-      65, // c.34
-      65, // c.35
-      65, // c.36
-      65, // c.37
-      65, // c.38
-      65, // c.39
-      65, // c.40
-      65, // c.41
-      65, // c.42
+      70, // c.31
+      70, // c.32
+      70, // c.33
+      70, // c.34
+      70, // c.35
+      70, // c.36
+      85, // c.37
+      85, // c.38
+      85, // c.39
+      85, // c.40
+      85, // c.41
+      85, // c.42
     ],
     guitarra: [
+      100, // c.27
+      100, // c.28
+      100, // c.29
+      100, // c.30
+      100, // c.31
+      100, // c.32
+      100, // c.33
+      100, // c.34
+      100, // c.35
+      100, // c.36
+      100, // c.37
+      100, // c.38
+      100, // c.39
+      100, // c.40
+      100, // c.41
+      100, // c.42
+    ],
+    piano: [
       80, // c.27
       80, // c.28
       80, // c.29
@@ -505,87 +583,99 @@ const C1 = {
       80, // c.32
       80, // c.33
       80, // c.34
-      80, // c.35
-      80, // c.36
-      80, // c.37
-      80, // c.38
-      80, // c.39
-      80, // c.40
-      80, // c.41
-      80, // c.42
-    ],
-    piano: [
-      80,          // c.27
-      80,          // c.28
-      80,          // c.29
-      80,          // c.30
-      80,          // c.31
-      80,          // c.32
-      80,          // c.33
-      80,          // c.34
       "[80 64@2]", // c.35
-      64,          // c.36
-      64,          // c.37
-      64,          // c.38
-      64,          // c.39
-      64,          // c.40
-      64,          // c.41
-      64,          // c.42
+      64, // c.36
+      64, // c.37
+      64, // c.38
+      64, // c.39
+      64, // c.40
+      64, // c.41
+      64, // c.42
     ],
   },
   // Efectos de esta sección; los que no están salen de EFECTOS (en 1)
-  efectos: {},
+  efectos: {
+    piano: {
+      room: 1,
+      roomsize: 0.5,
+    },
+
+    guitarra: {
+      pan: 0.5,
+    },
+  },
   // Batería. Una columna por compás; filas: c.27–30 · c.31–34 · c.35–38 · c.39–42
   bateria: bateria(
     // Bombo
-    golpe(`<
+    golpe(
+      `<
       [bd ~ ~] [bd ~ ~] [bd ~ ~] ~
       [bd ~ ~] [bd ~ ~] [bd ~ ~] ~
       [bd ~ ~] [bd ~ ~] [bd ~ ~] ~
       [bd ~ ~] [bd ~ ~] [bd ~ ~] ~
-    >`, FUERTE),
+    >`,
+      SUAVE,
+    ),
     // Caja
-    golpe(`<
+    golpe(
+      `<
       [~ sd sd] [~ sd sd] [~ sd sd] [~ sd sd]
       [~ sd sd] [~ sd sd] [~ sd sd] [~ sd sd]
       [~ sd sd] [~ sd sd] [~ sd sd] [~ sd sd]
       [~ sd sd] [~ sd sd] [~ sd sd] [sd sd ~]
-    >`, FUERTE),
+    >`,
+      SUAVE,
+    ),
     // Caja
-    golpe(`<
+    golpe(
+      `<
       ~            ~            ~            ~
       ~            ~            ~            ~
       ~            ~            ~            ~
       ~            ~            ~            [[~ sd] ~ ~]
-    >`, MEDIO),
+    >`,
+      MEDIO,
+    ),
     // Platillos
-    golpe(`<
+    golpe(
+      `<
       [hh oh ~] ~         ~         ~
       ~         ~         ~         ~
       ~         ~         ~         ~
       ~         ~         ~         ~
-    >`, FUERTE),
+    >`,
+      FUERTE,
+    ),
     // Toms
-    golpe(`<
+    golpe(
+      `<
       ~              ~              ~              ~
       ~              ~              ~              ~
       ~              ~              ~              ~
       ~              ~              ~              [~ [lt lt] mt]
-    >`, MEDIO),
+    >`,
+      FUERTE,
+    ),
     // Pandereta
-    golpe(`<
+    golpe(
+      `<
       [tb ~ ~] [tb ~ ~] [tb ~ ~] [tb ~ ~]
       [tb ~ ~] [tb ~ ~] [tb ~ ~] [tb ~ ~]
       [tb ~ ~] [tb ~ ~] [tb ~ ~] [tb ~ ~]
       [tb ~ ~] [tb ~ ~] [tb ~ ~] [tb ~ ~]
-    >`, FUERTE),
+    >`,
+      SUAVE,
+    ),
     // Palmas
-    golpe(`<
+    golpe(
+      `<
       ~        ~        ~        [cp ~ ~]
       ~        ~        ~        [cp ~ ~]
       ~        ~        ~        [cp ~ ~]
       ~        ~        ~        [cp ~ ~]
-    >`, FUERTE),
+    >`,
+      SUAVE,
+    ),
   ),
 };
 
@@ -611,16 +701,16 @@ const B1 = {
     "~", // c.46   D
   ],
   der: [
-    "[F#4,D5]",            // c.43   Bm
+    "[F#4,D5]", // c.43   Bm
     "[~ [G4,D5] [G4,D5]]", // c.44   Em
     "[~@2 [E4,B4]@3 G#4]", // c.45   E
-    "[A4 G4@2 F#4]",       // c.46   D
+    "[A4 G4@2 F#4]", // c.46   D
   ],
   izq: [
     "[B3@2 D3@3 F#3]", // c.43   Bm
     "[[E3,B3] B3 B3]", // c.44   Em
-    "[[A2,E3] E3]",    // c.45   E
-    "[D2,D3]",         // c.46   D
+    "[[A2,E3] E3]", // c.45   E
+    "[D2,D3]", // c.46   D
   ],
   // Velocidad MIDI (0–127) de cada compás, como la toca MuseScore
   dinamica: {
@@ -637,8 +727,8 @@ const B1 = {
       80, // c.46
     ],
     piano: [
-      96,  // c.43
-      98,  // c.44
+      96, // c.43
+      98, // c.44
       100, // c.45
       103, // c.46
     ],
@@ -648,10 +738,13 @@ const B1 = {
   // Batería. Una columna por compás; filas: c.43–45 · c.46
   bateria: bateria(
     // Platillos
-    golpe(`<
+    golpe(
+      `<
       [cr ~ ~] ~        ~
       ~
-    >`, MEDIO),
+    >`,
+      FUERTE,
+    ),
   ),
 };
 
@@ -666,8 +759,14 @@ let tramo = (desde, hasta) => {
   if (desde < inicio || hasta > fin || desde > hasta) {
     fallar(String.raw`tramo: este archivo va del c.${inicio} al c.${fin}`);
   }
-  let partes = TRAMO.filter((sec) => sec.desde <= hasta && sec.desde + largo(sec) > desde).map((sec) =>
-    recortar(sec, Math.max(desde, sec.desde), Math.min(hasta, sec.desde + largo(sec) - 1)),
+  let partes = TRAMO.filter(
+    (sec) => sec.desde <= hasta && sec.desde + largo(sec) > desde,
+  ).map((sec) =>
+    recortar(
+      sec,
+      Math.max(desde, sec.desde),
+      Math.min(hasta, sec.desde + largo(sec) - 1),
+    ),
   );
   return forma(...partes);
 };

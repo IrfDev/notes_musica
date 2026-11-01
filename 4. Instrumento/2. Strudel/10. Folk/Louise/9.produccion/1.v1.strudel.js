@@ -17,7 +17,8 @@ Para qué
   MuseScore; este archivo no vuelve al .mscz.
 
   El final del Intro (c.6–10) trae lo que quedó en 0.intro: dinámicas,
-  batería y efectos del piano. El cencerro de c.11–18 también.
+  batería y efectos del piano. El inicio del C1 (c.27–34) suena como quedó en
+  2.c1: dinámicas, batería y efectos.
 
 Dónde se mueve cada cosa
   - Dinámicas: en cada sección, `dinamica`, una velocidad por compás y por
@@ -215,11 +216,9 @@ let efectos = (pat, base, propios = {}) =>
   );
 
 let violin = (sec) =>
-  note(compases(sec.violin))
-    .velocity(200)
-    .pan("<0.5!5 0.8!14>")
+  efectos(note(compases(sec.violin)), EFECTOS.violin, sec.efectos.violin)
     .sound(sec.tecnica)
-    .velocity(1)
+    .velocity(velocidades(sec.dinamica.violin))
     .gain(MEZCLA.violin);
 
 // Arpegiada, salvo en las secciones con `arpegio: false` (acordes en bloque)
@@ -499,40 +498,40 @@ const V1 = {
   // Velocidad MIDI (0–127) de cada compás, como la toca MuseScore
   dinamica: {
     violin: [
-      80, // c.11
-      80, // c.12
-      80, // c.13
-      80, // c.14
-      80, // c.15
-      80, // c.16
-      80, // c.17
-      80, // c.18
-      80, // c.19
-      80, // c.20
-      80, // c.21
+      127, // c.11
+      127, // c.12
+      127, // c.13
+      127, // c.14
+      127, // c.15
+      127, // c.16
+      127, // c.17
+      127, // c.18
+      127, // c.19
+      127, // c.20
+      127, // c.21
+      127, // c.22
+      127, // c.23
+      127, // c.24
+      127, // c.25
+      127, // c.26
+    ],
+    guitarra: [
+      90, // c.11
+      90, // c.12
+      90, // c.13
+      90, // c.14
+      90, // c.15
+      90, // c.16
+      90, // c.17
+      90, // c.18
+      90, // c.19
+      90, // c.20
+      90, // c.21
       90, // c.22
       90, // c.23
       90, // c.24
       90, // c.25
       90, // c.26
-    ],
-    guitarra: [
-      80, // c.11
-      80, // c.12
-      80, // c.13
-      80, // c.14
-      80, // c.15
-      80, // c.16
-      80, // c.17
-      80, // c.18
-      90, // c.19
-      90, // c.20
-      90, // c.21
-      90, // c.22
-      80, // c.23
-      80, // c.24
-      80, // c.25
-      80, // c.26
     ],
     piano: [
       80, // c.11
@@ -556,7 +555,24 @@ const V1 = {
   // Efectos de esta sección; los que no están salen de EFECTOS (en 1)
   efectos: {
     violin: {
-      pan: 0.9,
+      pan: [
+        0.5, // c.11
+        0.5, // c.12
+        0.5, // c.13
+        0.5, // c.14
+        0.5, // c.15
+        0.8, // c.16
+        0.8, // c.17
+        0.8, // c.18
+        0.8, // c.19
+        0.8, // c.20
+        0.8, // c.21
+        0.8, // c.22
+        0.8, // c.23
+        0.8, // c.24
+        0.8, // c.25
+        0.8, // c.26
+      ],
     },
     piano: {
       pan: 0.1,
@@ -611,8 +627,7 @@ const V1 = {
       0.27!8 0.5!8
     >`),
 
-    // Cencerro, con la velocidad de 0.intro en c.11–18 (de 0 a 1, una por
-    // compás); en c.19–26 sigue la de la partitura (GHOST, 0.27)
+    // Cencerro (velocidad de 0 a 1)
     s(`<
       [~ cb ~] [~ cb ~] [~ cb ~] [~ cb ~]
       [~ cb ~] [~ cb ~] [~ cb ~] [~ cb ~]
@@ -692,20 +707,20 @@ const C1 = {
       55, // c.28
       57, // c.29
       62, // c.30
-      65, // c.31
-      65, // c.32
-      65, // c.33
-      65, // c.34
+      70, // c.31
+      70, // c.32
+      70, // c.33
+      70, // c.34
     ],
     guitarra: [
-      80, // c.27
-      80, // c.28
-      80, // c.29
-      80, // c.30
-      80, // c.31
-      80, // c.32
-      80, // c.33
-      80, // c.34
+      100, // c.27
+      100, // c.28
+      100, // c.29
+      100, // c.30
+      100, // c.31
+      100, // c.32
+      100, // c.33
+      100, // c.34
     ],
     piano: [
       80, // c.27
@@ -718,8 +733,17 @@ const C1 = {
       80, // c.34
     ],
   },
-  // Efectos de esta sección; los que no están salen de EFECTOS (en 1)
-  efectos: {},
+  // Efectos de esta sección; los que no están salen de EFECTOS (en 1). Vienen
+  // de 2.c1
+  efectos: {
+    piano: {
+      room: 1,
+      roomsize: 0.5,
+    },
+    guitarra: {
+      pan: 0.5,
+    },
+  },
   // Batería. Una columna por compás; filas: c.27–30 · c.31–34
   bateria: bateria(
     // Bombo
@@ -728,7 +752,7 @@ const C1 = {
       [bd ~ ~] [bd ~ ~] [bd ~ ~] ~
       [bd ~ ~] [bd ~ ~] [bd ~ ~] ~
     >`,
-      FUERTE,
+      SUAVE,
     ),
     // Caja
     golpe(
@@ -736,7 +760,7 @@ const C1 = {
       [~ sd sd] [~ sd sd] [~ sd sd] [~ sd sd]
       [~ sd sd] [~ sd sd] [~ sd sd] [~ sd sd]
     >`,
-      FUERTE,
+      SUAVE,
     ),
     // Platillos
     golpe(
@@ -752,7 +776,7 @@ const C1 = {
       [tb ~ ~] [tb ~ ~] [tb ~ ~] [tb ~ ~]
       [tb ~ ~] [tb ~ ~] [tb ~ ~] [tb ~ ~]
     >`,
-      FUERTE,
+      SUAVE,
     ),
     // Palmas
     golpe(
@@ -760,7 +784,7 @@ const C1 = {
       ~        ~        ~        [cp ~ ~]
       ~        ~        ~        [cp ~ ~]
     >`,
-      FUERTE,
+      SUAVE,
     ),
   ),
 };
