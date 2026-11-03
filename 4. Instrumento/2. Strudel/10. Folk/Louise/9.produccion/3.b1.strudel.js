@@ -651,23 +651,23 @@ const V2 = {
   dinamica: {
     violin: [
       "[64 70 76]", // c.51
-      80, // c.52
-      80, // c.53
-      80, // c.54
-      80, // c.55
-      80, // c.56
-      80, // c.57
-      80, // c.58
+      100, // c.52
+      100, // c.53
+      100, // c.54
+      100, // c.55
+      100, // c.56
+      100, // c.57
+      100, // c.58
     ],
     guitarra: [
-      80, // c.51
-      80, // c.52
-      80, // c.53
-      80, // c.54
-      80, // c.55
-      80, // c.56
-      80, // c.57
-      80, // c.58
+      100, // c.51
+      100, // c.52
+      100, // c.53
+      100, // c.54
+      100, // c.55
+      100, // c.56
+      100, // c.57
+      100, // c.58
     ],
     piano: [
       112, // c.51
@@ -681,7 +681,19 @@ const V2 = {
     ],
   },
   // Efectos de esta sección; los que no están salen de EFECTOS (en 1)
-  efectos: {},
+  efectos: {
+    violin: {
+      pan: 0.1,
+    },
+    piano: {
+      pan: 0.8,
+      room: 1,
+      roomsize: 0.5,
+    },
+    guitarra: {
+      pan: 0.5,
+    },
+  },
   // Batería. Una columna por compás; filas: c.51–54 · c.55–58
   bateria: bateria(
     // Bombo
@@ -690,7 +702,15 @@ const V2 = {
       [bd ~ ~] [bd ~ ~] [bd ~ ~] [bd ~ ~]
       [bd ~ ~] [bd ~ ~] [bd ~ ~] ~
     >`,
-      FUERTE,
+      SUAVE,
+    ),
+    // Caja
+    golpe(
+      `<
+      ~             ~             ~             ~
+      ~             ~             ~             ~
+    >`,
+      SUAVE,
     ),
     // Platillos
     golpe(
@@ -698,7 +718,7 @@ const V2 = {
       [oh hh ~] ~         ~         ~
       ~         ~         ~         ~
     >`,
-      FUERTE,
+      MEDIO,
     ),
     // Toms
     golpe(
@@ -706,7 +726,7 @@ const V2 = {
       ~          ~          ~          ~
       ~          ~          ~          [mt lt ht]
     >`,
-      FUERTE,
+      MEDIO,
     ),
     // Pandereta
     golpe(
@@ -714,7 +734,7 @@ const V2 = {
       [~ ~ tb] [~ ~ tb] [~ ~ tb] [~ ~ tb]
       [~ ~ tb] [~ ~ tb] [~ ~ tb] [~ ~ tb]
     >`,
-      NORMAL,
+      SUAVE,
     ),
     // Cencerro
     golpe(
