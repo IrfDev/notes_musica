@@ -551,9 +551,9 @@ const C2 = {
       58, // c.69
       62, // c.70
       65, // c.71
-      71, // c.72
-      71, // c.73
-      71, // c.74
+      65, // c.72
+      65, // c.73
+      65, // c.74
       71, // c.75
       71, // c.76
       71, // c.77
@@ -604,14 +604,14 @@ const C2 = {
   efectos: {
     violin: {
       room: [
-        1, // c.67
-        1, // c.68
-        1, // c.69
-        1, // c.70
-        1, // c.71
-        1, // c.72
-        1, // c.73
-        1, // c.74
+        0, // c.67
+        0, // c.68
+        0, // c.69
+        0, // c.70
+        0, // c.71
+        0, // c.72
+        0, // c.73
+        0, // c.74
         1, // c.75
         1, // c.76
         1, // c.77
@@ -631,6 +631,16 @@ const C2 = {
       `<
       [bd ~ bd]  [bd ~ bd]  [bd ~ bd]  ~
       [bd ~ bd]  [bd ~ bd]  ~          [bd ~ bd]
+      ~          ~          ~          ~
+      ~          ~          ~          ~
+    >`,
+      FUERTE,
+    ),
+    // Bombo
+    golpe(
+      `<
+      ~          ~          ~          ~
+      ~          ~          ~          ~
       [bd ~ bd]  [bd bd bd] [bd bd bd] [bd bd bd]
       [bd bd bd] [bd bd bd] [bd bd bd] ~
     >`,
@@ -641,6 +651,16 @@ const C2 = {
       `<
       [~ sd sd] [~ sd sd] [~ sd sd] [~ sd sd]
       [~ sd sd] [~ sd sd] [~ sd sd] [~ sd sd]
+      ~         ~         ~         ~
+      ~         ~         ~         ~
+    >`,
+      FUERTE,
+    ),
+    // Caja
+    golpe(
+      `<
+      ~         ~         ~         ~
+      ~         ~         ~         ~
       [~ sd sd] [~ sd sd] [~ sd sd] [~ sd sd]
       [~ sd sd] [~ sd sd] [~ sd sd] ~
     >`,
@@ -711,6 +731,16 @@ const C2 = {
       `<
       ~             ~             ~             ~
       ~             [tb tb ~]     [tb tb ~]     [~ tb tb]
+      ~             ~             ~             ~
+      ~             ~             ~             ~
+    >`,
+      NORMAL,
+    ),
+    // Pandereta
+    golpe(
+      `<
+      ~             ~             ~             ~
+      ~             ~             ~             ~
       [~ tb tb]     [~ tb tb]     [~ tb [~ tb]] [~ tb [~ tb]]
       [~ tb [~ tb]] [~ tb [~ tb]] [~ tb [~ tb]] ~
     >`,
@@ -722,6 +752,16 @@ const C2 = {
       `<
       [cb ~ ~] [cb ~ ~] [cb ~ ~] [cb ~ ~]
       [cb ~ ~] [cb ~ ~] [cb ~ ~] [cb ~ ~]
+      ~        ~        ~        ~
+      ~        ~        ~        ~
+    >`,
+      SUAVE,
+    ),
+    // Cencerro
+    golpe(
+      `<
+      ~        ~        ~        ~
+      ~        ~        ~        ~
       [cb ~ ~] [cb ~ ~] [cb ~ ~] [~ ~ cb]
       [~ ~ cb] [~ ~ cb] [~ ~ cb] [cb ~ ~]
     >`,
@@ -732,6 +772,16 @@ const C2 = {
       `<
       ~        [sh ~ ~] ~        [sh ~ ~]
       ~        [sh ~ ~] ~        [sh ~ ~]
+      ~        ~        ~        ~
+      ~        ~        ~        ~
+    >`,
+      SUAVE,
+    ),
+    // Shaker
+    golpe(
+      `<
+      ~        ~        ~        ~
+      ~        ~        ~        ~
       ~        [sh ~ ~] ~        [sh ~ ~]
       ~        [sh ~ ~] [sh ~ ~] ~
     >`,

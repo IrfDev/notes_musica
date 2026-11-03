@@ -694,9 +694,9 @@ const C2 = {
       58, // c.69
       62, // c.70
       65, // c.71
-      71, // c.72
-      71, // c.73
-      71, // c.74
+      65, // c.72
+      65, // c.73
+      65, // c.74
     ],
     guitarra: [
       80, // c.67
@@ -720,30 +720,16 @@ const C2 = {
     ],
   },
   // Efectos de esta sección; los que no están salen de EFECTOS (en 1)
-  efectos: {
-    violin: {
-      room: [
-        1, // c.67
-        1, // c.68
-        1, // c.69
-        1, // c.70
-        1, // c.71
-        1, // c.72
-        1, // c.73
-        1, // c.74
-      ],
-      roomsize: 0.5,
-    },
-  },
+  efectos: {},
   // Batería. Una columna por compás; filas: c.67–70 · c.71–74
   bateria: bateria(
     // Bombo
     golpe(
       `<
-      [bd ~ bd]  [bd ~ bd]  [bd ~ bd]  ~
-      [bd ~ bd]  [bd ~ bd]  ~          [bd ~ bd]
+      [bd ~ bd] [bd ~ bd] [bd ~ bd] ~
+      [bd ~ bd] [bd ~ bd] ~         [bd ~ bd]
     >`,
-      MEDIO,
+      FUERTE,
     ),
     // Caja
     golpe(
@@ -751,15 +737,7 @@ const C2 = {
       [~ sd sd] [~ sd sd] [~ sd sd] [~ sd sd]
       [~ sd sd] [~ sd sd] [~ sd sd] [~ sd sd]
     >`,
-      SUAVE,
-    ),
-    // Caja
-    golpe(
-      `<
-      ~             ~             ~             ~
-      ~             ~             ~             ~
-    >`,
-      SUAVE,
+      FUERTE,
     ),
     // Platillos
     golpe(
@@ -793,30 +771,21 @@ const C2 = {
     >`,
       FUERTE,
     ),
-    // Toms
-    golpe(
-      `<
-      ~        ~        ~        ~
-      ~        ~        ~        ~
-    >`,
-      SUAVE,
-    ),
     // Pandereta
     golpe(
       `<
-      ~             ~             ~             ~
-      ~             [tb tb ~]     [tb tb ~]     [~ tb tb]
+      ~         ~         ~         ~
+      ~         [tb tb ~] [tb tb ~] [~ tb tb]
     >`,
-      SUAVE,
+      NORMAL,
     ),
-
     // Cencerro
     golpe(
       `<
       [cb ~ ~] [cb ~ ~] [cb ~ ~] [cb ~ ~]
       [cb ~ ~] [cb ~ ~] [cb ~ ~] [cb ~ ~]
     >`,
-      GHOST,
+      SUAVE,
     ),
     // Shaker
     golpe(
@@ -824,7 +793,7 @@ const C2 = {
       ~        [sh ~ ~] ~        [sh ~ ~]
       ~        [sh ~ ~] ~        [sh ~ ~]
     >`,
-      GHOST,
+      SUAVE,
     ),
   ),
 };

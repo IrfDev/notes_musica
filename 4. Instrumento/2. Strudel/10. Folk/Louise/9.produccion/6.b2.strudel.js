@@ -563,10 +563,10 @@ const B2 = {
       94, // c.86
       85, // c.87
       77, // c.88
-      68, // c.89
-      54, // c.90
-      50, // c.91
-      49, // c.92
+      77, // c.89
+      85, // c.90
+      90, // c.91
+      77, // c.92
     ],
     guitarra: [
       80, // c.83
@@ -763,14 +763,14 @@ const C3 = {
   // Velocidad MIDI (0–127) de cada compás, como la toca MuseScore
   dinamica: {
     violin: [
-      82, // c.93
+      96, // c.93
       96, // c.94
-      96, // c.95
-      96, // c.96
-      96, // c.97
-      "[96 95 93]", // c.98
-      "[91 89 87]", // c.99
-      "[86 85 84@2 82@2]", // c.100
+      82, // c.95
+      82, // c.96
+      77, // c.97
+      77, // c.98
+      77, // c.99
+      77, // c.100
     ],
     guitarra: [
       80, // c.93
@@ -783,14 +783,14 @@ const C3 = {
       80, // c.100
     ],
     piano: [
-      127, // c.93
-      "[127 80 83]", // c.94
-      "[86 89 92]", // c.95
-      96, // c.96
-      96, // c.97
-      96, // c.98
-      96, // c.99
-      96, // c.100
+      100, // c.93
+      90, // c.94
+      80, // c.95
+      80, // c.96
+      80, // c.97
+      80, // c.98
+      80, // c.99
+      80, // c.100
     ],
   },
   // Efectos de esta sección; los que no están salen de EFECTOS (en 1)
@@ -805,7 +805,7 @@ const C3 = {
       [bd bd [~ bd]] [bd ~ ~]       [bd ~ ~]       [bd ~ ~]
       [bd ~ ~]       [bd ~ bd]      ~              [bd ~ bd]
     >`,
-      NORMAL,
+      MEDIO,
     ),
     // Caja
     golpe(
@@ -826,7 +826,7 @@ const C3 = {
     // Platillos
     golpe(
       `<
-      [cr ~ [~ cr]] [~ oh [~ hh]]   ~              ~
+      [cr ~ ~] [~ oh [~ hh]]   ~              ~
       ~              ~              ~              [cr ~ ~]
     >`,
       MEDIO,
@@ -845,7 +845,7 @@ const C3 = {
       ~              ~              ~              ~
       [lt mt [~ ht]] ~              [lt mt [~ ht]] ~
     >`,
-      FUERTE,
+      NORMAL,
     ),
     // Pandereta
     golpe(
