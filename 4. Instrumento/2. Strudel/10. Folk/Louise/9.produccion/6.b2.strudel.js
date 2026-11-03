@@ -622,7 +622,7 @@ const B2 = {
       [~ [~ bd] ~] ~            [~ [~ bd] ~] ~
       ~            [~ [~ bd] ~] [~ [~ bd] ~] ~
     >`,
-      NORMAL,
+      MEDIO,
     ),
     // Caja
     golpe(
@@ -631,7 +631,7 @@ const B2 = {
       [[~ sd] ~ sd]  [[~ sd] ~ sd]  [[~ sd] ~ sd]  [[~ sd] ~ sd]
       ~              [[~ sd] ~ sd]  [sd [~ sd] ~]  [sd sd [~ sd]]
     >`,
-      NORMAL,
+      MEDIO,
     ),
     // Platillos
     golpe(
@@ -640,7 +640,7 @@ const B2 = {
       [cr ~ ~]       ~              ~              ~
       ~              [cr oh [oh hh]] [~ ~ [~ hh]]   ~
     >`,
-      NORMAL,
+      MEDIO,
     ),
     // Toms
     golpe(
@@ -694,7 +694,7 @@ const B2 = {
       [~ cp [~ cp]] [~ cp [~ cp]] [~ cp [~ cp]] [~ cp [~ cp]]
       ~             [~ cp [~ cp]] [[~ cp] ~ cp] ~
     >`,
-      MEDIO,
+      SUAVE,
     ),
 
     // Shaker
