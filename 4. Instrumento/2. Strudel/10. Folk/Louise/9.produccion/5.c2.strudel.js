@@ -786,7 +786,7 @@ const B2 = {
       "[111 107]", // c.84
       102, // c.85
       94, // c.86
-      "[85@2 80]", // c.87
+      85, // c.87
     ],
     guitarra: [
       80, // c.83
@@ -804,7 +804,16 @@ const B2 = {
     ],
   },
   // Efectos de esta sección; los que no están salen de EFECTOS (en 1)
-  efectos: {},
+  efectos: {
+    bateria: {
+      // room: 1,
+      // roomsize: 0.5,
+    },
+    piano: {
+      room: 1,
+      roomsize: 0.5,
+    },
+  },
   // Batería. Una columna por compás; filas: c.83–84 · c.85–87
   bateria: bateria(
     // Bombo
@@ -813,7 +822,7 @@ const B2 = {
       [bd bd bd]     [bd bd [~ bd]]
       [bd ~ ~]       [bd ~ ~]       [bd ~ ~]
     >`,
-      FUERTE,
+      NORMAL,
     ),
     // Bombo
     golpe(
@@ -821,23 +830,23 @@ const B2 = {
       ~            ~
       [~ [~ bd] ~] ~            [~ [~ bd] ~]
     >`,
-      MEDIO,
+      NORMAL,
     ),
     // Caja
     golpe(
       `<
-      ~             ~
-      [[~ sd] ~ sd] [[~ sd] ~ sd] [[~ sd] ~ sd]
+      ~              ~
+      [[~ sd] ~ sd]  [[~ sd] ~ sd]  [[~ sd] ~ sd]
     >`,
-      MEDIO,
+      NORMAL,
     ),
     // Platillos
     golpe(
       `<
-      [oh hh hh] ~
-      [cr ~ ~]   ~          ~
+      [oh hh hh]     ~
+      [cr ~ ~]       ~              ~
     >`,
-      MEDIO,
+      NORMAL,
     ),
     // Toms
     golpe(
@@ -847,13 +856,21 @@ const B2 = {
     >`,
       FUERTE,
     ),
+    // Toms
+    golpe(
+      `<
+      ~              ~
+      ~              ~              ~
+    >`,
+      FUERTE,
+    ),
     // Pandereta
     golpe(
       `<
       ~             ~
       [~ tb [~ tb]] [~ tb [~ tb]] [~ tb [~ tb]]
     >`,
-      NORMAL,
+      SUAVE,
     ),
     // Pandereta
     golpe(
@@ -861,47 +878,32 @@ const B2 = {
       [tb ~ ~] ~
       ~        ~        ~
     >`,
-      MEDIO,
-    ),
-    // Cencerro
-    golpe(
-      `<
-      [cb cb ~] ~
-      ~         ~         ~
-    >`,
-      MEDIO,
-    ),
-    // Cencerro
-    golpe(
-      `<
-      [~ ~ cb] ~
-      ~        ~        ~
-    >`,
       SUAVE,
     ),
-    // Palmas
+    // Cencerro
     golpe(
       `<
-      ~             ~
-      [~ cp [~ cp]] [~ cp [~ cp]] [~ cp [~ cp]]
+      [cb cb cb]     ~
+      ~             ~             ~
     >`,
-      NORMAL,
+      GHOST,
     ),
     // Palmas
     golpe(
       `<
-      [cp ~ ~] ~
-      ~        ~        ~
+      [cp ~ ~]            ~
+      [~ cp [~ cp]] [~ cp [~ cp]] [~ cp [~ cp]]
     >`,
       MEDIO,
     ),
+
     // Shaker
     golpe(
       `<
       [sh sh ~]      [[sh sh] ~ sh]
       [[sh sh] ~ sh] [[sh sh] ~ sh] [[sh sh] ~ sh]
     >`,
-      MEDIO,
+      GHOST,
     ),
   ),
 };
