@@ -1159,16 +1159,21 @@ arpegios y cadencias de esta hoja) y **repertorio** (*Sleep on the Floor*, §11,
 Cada semana termina con una grabación (*semana sin audio es semana en blanco*).
 
 El punto de partida es que **las escalas de C, D, E y F ya salen a dos manos**, de arriba abajo, como
-un Hanon: no se vuelven a estudiar, se miden el día 1 y desde ahí sirven de ancla (G y A comparten su
+un Hanon: no se vuelven a estudiar, se miden el día 3 y desde ahí sirven de ancla (G y A comparten su
 digitación). Por eso la semana de escalas solo enseña las ocho que faltan y queda tiempo para tocar
 las 12 tonalidades a dos manos en todo. Las tríadas, arpegios y cadencias de C, D, E y F se estudian
 como las de las demás.
+
+Las dos primeras semanas arrancan **a media carga**: una cosa nueva por sesión en la semana 1, el Hanon
+nuevo cada dos sesiones en la semana 2 y el ritmo completo desde la semana 3. El porqué y el reparto
+día por día están en *La rampa*, en
+[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/00. Plan y progreso#La rampa · cómo arranca|Plan y progreso]].
 
 ```mermaid
 flowchart TB
     subgraph TEC["Técnica · Hanon"]
         direction LR
-        H1["S1<br/>1–4"] --> H2["S2<br/>5–8"] --> H3["S3<br/>9–12"] --> H4["S4<br/>13–16"] --> H5["S5<br/>17–20"] --> H6["S6<br/>variantes"]
+        H1["S1<br/>1–2"] --> H2["S2<br/>3–4"] --> H3["S3<br/>5–8"] --> H4["S4<br/>9–12"] --> H5["S5<br/>13–16"] --> H6["S6<br/>variantes"]
     end
     subgraph REP["Repertorio · Sleep on the Floor"]
         direction LR
@@ -1201,8 +1206,8 @@ pie showData
 
 | Bloque | Min | Qué |
 |---|---:|---|
-| **Hanon** | 6 | técnica: el ejercicio nuevo (manos separadas y luego juntas) y dos de la rotación (§10) |
-| **Recuperación** | 3 | lo del día anterior, sin mirar la hoja |
+| **Hanon** | 6 | técnica: primero los que ya salen, para calentar; después el nuevo, si hoy toca (§10) |
+| **Recuperación** | 3 | lo del día anterior, sin mirar la hoja: la comprobación en frío de su *hecho cuando* |
 | **Trabajo principal** | 14 | lo nuevo del día, con metrónomo |
 | **Aplicación** | 4 | usarlo en algo musical: transportar, al azar, tu pieza |
 | **Sleep on the Floor** | 11 | repertorio: los compases del día, con el metrónomo de §11 |
@@ -1227,7 +1232,7 @@ flowchart TD
 
 Tempos de partida: **tríadas en bloque a 60** (un acorde por pulso), **quebradas y escalas a 60 en
 negras**, luego corcheas al mismo tempo. **Hanon a 60. Sleep on the Floor a 40**, aunque la pieza vaya
-a 63 y 71. Las escalas de C, D, E y F empiezan donde las midas el día 1. La meta del programa en *Sleep on the
+a 63 y 71. Las escalas de C, D, E y F empiezan donde las midas el día 3. La meta del programa en *Sleep on the
 Floor* es el **80 % del tempo real** (50 y 56); el resto se gana en el mantenimiento.
 
 ---
@@ -1241,11 +1246,11 @@ mantenimiento están en
 
 | Semana | Días | Teclado | Hanon | Sleep on the Floor | Se graba |
 |:-:|:-:|---|:-:|---|---|
-| 1 | 1–5 | tríadas e inversiones en las 12 · la cadena del círculo (§8.2) | 1–4 | verso (cc. 18–39), cada mano | la cadena y la MI del verso |
-| 2 | 6–10 | las 8 escalas que faltaban · las 12 a dos manos | 5–8 | verso a dos manos · intro, manos separadas | las 12 escalas y el verso |
-| 3 | 11–15 | arpegios de las 12 · armonizar la escala en ocho tonalidades | 9–12 | intro a dos manos · intro → verso · instrumental | tres armonizadas y cc. 1–47 |
-| 4 | 16–20 | la cadencia I – IV⁶₄ – V⁶ – I en las 12 y la variante con V⁶₅ | 13–16 | crescendo (cc. 48–59) | las 12 cadencias y cc. 40–59 |
-| 5 | 21–25 | los ocho patrones de MI (§9) · *Louise* en el piano | 17–20 | clímax y final (cc. 60–76) | *Louise* y cc. 40–76 |
+| 1 | 1–5 | tríadas e inversiones en las 12 (la MI, en seis) · la cadena del círculo (§8.2), de ida | 1–2 | verso (cc. 18–39), cada mano | la cadena y la MI del verso |
+| 2 | 6–10 | las 8 escalas que faltaban · las 12 a dos manos | 3–4 | verso a dos manos · intro, manos separadas | las 12 escalas y el verso |
+| 3 | 11–15 | arpegios de las 12 · armonizar la escala en ocho tonalidades | 5–8 | intro a dos manos · intro → verso · instrumental | tres armonizadas y cc. 1–47 |
+| 4 | 16–20 | la cadencia I – IV⁶₄ – V⁶ – I en las 12 y la variante con V⁶₅ | 9–12 | crescendo (cc. 48–59) | las 12 cadencias y cc. 40–59 |
+| 5 | 21–25 | los ocho patrones de MI (§9) · *Louise* en el piano | 13–16 | clímax y final (cc. 60–76) | *Louise* y cc. 40–76 |
 | 6 | 26–30 | rotación de las 12 · examen en frío | variantes | completa, al 80 % del tempo | la toma final |
 
 ---
