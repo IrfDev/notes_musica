@@ -1164,9 +1164,10 @@ digitación). Por eso la semana de escalas solo enseña las ocho que faltan y qu
 las 12 tonalidades a dos manos en todo. Las tríadas, arpegios y cadencias de C, D, E y F se estudian
 como las de las demás.
 
-Las dos primeras semanas arrancan **a media carga**: una cosa nueva por sesión en la semana 1, el Hanon
-nuevo cada dos sesiones en la semana 2 y el ritmo completo desde la semana 3. El porqué y el reparto
-día por día están en *La rampa*, en
+Las dos primeras semanas arrancan **a media carga**: cada día se toca en dos sentadas, una de pieza (con la
+Recuperación) y una de teclado, las dos con Hanon; una cosa nueva por sesión en la semana 1, el Hanon nuevo cada dos sesiones en la semana 2
+y el ritmo completo, en una sentada, desde la semana 3. El porqué y el reparto día por día están en
+*La rampa*, en
 [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/00. Plan y progreso#La rampa · cómo arranca|Plan y progreso]].
 
 ```mermaid
