@@ -409,7 +409,7 @@ const C2 = {
       [bd ~ bd]  [bd bd bd] [bd bd bd] [bd bd bd]
       [bd bd bd] [bd bd bd] [bd bd bd] ~
     >`,
-      MEDIO,
+      FUERTE,
     ),
     // Caja
     golpe(
@@ -417,7 +417,7 @@ const C2 = {
       [~ sd sd] [~ sd sd] [~ sd sd] [~ sd sd]
       [~ sd sd] [~ sd sd] [~ sd sd] ~
     >`,
-      SUAVE,
+      FUERTE,
     ),
     // Caja
     golpe(
@@ -473,7 +473,7 @@ const C2 = {
       [~ tb tb]     [~ tb tb]     [~ tb [~ tb]] [~ tb [~ tb]]
       [~ tb [~ tb]] [~ tb [~ tb]] [~ tb [~ tb]] ~
     >`,
-      SUAVE,
+      NORMAL,
     ),
 
     // Cencerro
@@ -482,7 +482,7 @@ const C2 = {
       [cb ~ ~] [cb ~ ~] [cb ~ ~] [~ ~ cb]
       [~ ~ cb] [~ ~ cb] [~ ~ cb] [cb ~ ~]
     >`,
-      GHOST,
+      SUAVE,
     ),
     // Shaker
     golpe(
@@ -490,7 +490,7 @@ const C2 = {
       ~        [sh ~ ~] ~        [sh ~ ~]
       ~        [sh ~ ~] [sh ~ ~] ~
     >`,
-      GHOST,
+      SUAVE,
     ),
   ),
 };

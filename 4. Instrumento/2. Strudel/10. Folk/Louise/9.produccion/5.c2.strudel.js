@@ -631,40 +631,20 @@ const C2 = {
       `<
       [bd ~ bd]  [bd ~ bd]  [bd ~ bd]  ~
       [bd ~ bd]  [bd ~ bd]  ~          [bd ~ bd]
-      ~          ~          ~          ~
-      ~          ~          ~          ~
-    >`,
-      FUERTE,
-    ),
-    // Bombo
-    golpe(
-      `<
-      ~          ~          ~          ~
-      ~          ~          ~          ~
       [bd ~ bd]  [bd bd bd] [bd bd bd] [bd bd bd]
       [bd bd bd] [bd bd bd] [bd bd bd] ~
     >`,
-      MEDIO,
-    ),
-    // Caja
-    golpe(
-      `<
-      [~ sd sd] [~ sd sd] [~ sd sd] [~ sd sd]
-      [~ sd sd] [~ sd sd] [~ sd sd] [~ sd sd]
-      ~         ~         ~         ~
-      ~         ~         ~         ~
-    >`,
       FUERTE,
     ),
     // Caja
     golpe(
       `<
-      ~         ~         ~         ~
-      ~         ~         ~         ~
+      [~ sd sd] [~ sd sd] [~ sd sd] [~ sd sd]
+      [~ sd sd] [~ sd sd] [~ sd sd] [~ sd sd]
       [~ sd sd] [~ sd sd] [~ sd sd] [~ sd sd]
       [~ sd sd] [~ sd sd] [~ sd sd] ~
     >`,
-      SUAVE,
+      FUERTE,
     ),
     // Caja
     golpe(
@@ -731,20 +711,10 @@ const C2 = {
       `<
       ~             ~             ~             ~
       ~             [tb tb ~]     [tb tb ~]     [~ tb tb]
-      ~             ~             ~             ~
-      ~             ~             ~             ~
-    >`,
-      NORMAL,
-    ),
-    // Pandereta
-    golpe(
-      `<
-      ~             ~             ~             ~
-      ~             ~             ~             ~
       [~ tb tb]     [~ tb tb]     [~ tb [~ tb]] [~ tb [~ tb]]
       [~ tb [~ tb]] [~ tb [~ tb]] [~ tb [~ tb]] ~
     >`,
-      SUAVE,
+      NORMAL,
     ),
 
     // Cencerro
@@ -752,40 +722,20 @@ const C2 = {
       `<
       [cb ~ ~] [cb ~ ~] [cb ~ ~] [cb ~ ~]
       [cb ~ ~] [cb ~ ~] [cb ~ ~] [cb ~ ~]
-      ~        ~        ~        ~
-      ~        ~        ~        ~
-    >`,
-      SUAVE,
-    ),
-    // Cencerro
-    golpe(
-      `<
-      ~        ~        ~        ~
-      ~        ~        ~        ~
       [cb ~ ~] [cb ~ ~] [cb ~ ~] [~ ~ cb]
       [~ ~ cb] [~ ~ cb] [~ ~ cb] [cb ~ ~]
     >`,
-      GHOST,
-    ),
-    // Shaker
-    golpe(
-      `<
-      ~        [sh ~ ~] ~        [sh ~ ~]
-      ~        [sh ~ ~] ~        [sh ~ ~]
-      ~        ~        ~        ~
-      ~        ~        ~        ~
-    >`,
       SUAVE,
     ),
     // Shaker
     golpe(
       `<
-      ~        ~        ~        ~
-      ~        ~        ~        ~
+      ~        [sh ~ ~] ~        [sh ~ ~]
+      ~        [sh ~ ~] ~        [sh ~ ~]
       ~        [sh ~ ~] ~        [sh ~ ~]
       ~        [sh ~ ~] [sh ~ ~] ~
     >`,
-      GHOST,
+      SUAVE,
     ),
   ),
 };
