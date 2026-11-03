@@ -610,7 +610,9 @@ const C3 = {
     ],
   },
   // Efectos de esta sección; los que no están salen de EFECTOS (en 1)
-  efectos: {},
+  efectos: {
+    piano: { room: 1, roomsize: 0.5 },
+  },
   // Batería. Una columna por compás; filas: c.93–96 · c.97–100 · c.101–104 · c.105–108
   bateria: bateria(
     // Bombo
@@ -621,7 +623,7 @@ const C3 = {
       [bd ~ bd]      [bd ~ bd]      [bd ~ bd]      [bd ~ bd]
       [bd ~ bd]      [bd ~ bd]      ~              ~
     >`,
-      FUERTE,
+      NORMAL,
     ),
     // Caja
     golpe(
@@ -631,7 +633,7 @@ const C3 = {
       [~ ~ sd]      [~ ~ sd]      [~ ~ sd]      ~
       ~             ~             ~             ~
     >`,
-      FUERTE,
+      SUAVE,
     ),
     // Caja
     golpe(
@@ -641,24 +643,14 @@ const C3 = {
       [sd sd [~ sd]] [sd sd [~ sd]] [sd sd [~ sd]] [[sd sd] ~ sd]
       ~              ~              ~              ~
     >`,
-      MEDIO,
+      SUAVE,
     ),
     // Platillos
     golpe(
       `<
-      ~        [~ oh ~] ~        ~
-      ~        ~        ~        ~
-      [~ oh ~] ~        ~        ~
-      ~        ~        ~        ~
-    >`,
-      FUERTE,
-    ),
-    // Platillos
-    golpe(
-      `<
-      [cr cr [~ cr]] [~ ~ [~ hh]]   ~              ~
+      [cr ~ [~ cr]] [~ oh [~ hh]]   ~              ~
       ~              ~              ~              [cr ~ ~]
-      [~ ~ [~ hh]]   ~              ~              ~
+      [~ oh [~ hh]]   ~              ~              ~
       ~              ~              ~              [cr ~ ~]
     >`,
       MEDIO,
@@ -691,7 +683,7 @@ const C3 = {
       ~             ~             ~             ~
       ~             ~             ~             ~
     >`,
-      FUERTE,
+      SUAVE,
     ),
     // Pandereta
     golpe(
@@ -701,7 +693,7 @@ const C3 = {
       ~             ~             ~             ~
       ~             ~             ~             ~
     >`,
-      NORMAL,
+      SUAVE,
     ),
     // Cencerro
     golpe(
@@ -711,7 +703,7 @@ const C3 = {
       [[~ cb] ~ cb] [[~ cb] ~ cb] [[~ cb] ~ cb] [[~ cb] ~ cb]
       [[~ cb] ~ cb] [[~ cb] ~ cb] ~             ~
     >`,
-      MEDIO,
+      GHOST,
     ),
     // Palmas
     golpe(
@@ -721,7 +713,7 @@ const C3 = {
       [cp cp ~] [cp cp ~] [cp cp ~] ~
       ~         ~         ~         ~
     >`,
-      MEDIO,
+      GHOST,
     ),
     // Shaker
     golpe(
@@ -731,7 +723,7 @@ const C3 = {
       [sh sh [~ sh]] [sh sh [~ sh]] [sh sh [~ sh]] [sh sh [~ sh]]
       [sh sh [~ sh]] [sh sh [~ sh]] [sh sh [~ sh]] [sh sh [~ sh]]
     >`,
-      MEDIO,
+      GHOST,
     ),
     // Shaker
     golpe(
@@ -741,7 +733,7 @@ const C3 = {
       ~        ~        ~        ~
       ~        ~        ~        ~
     >`,
-      SUAVE,
+      GHOST,
     ),
   ),
 };
