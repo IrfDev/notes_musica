@@ -87,7 +87,7 @@ const KIT = { sh: 0.29 };
 const EFECTOS = {
   violin: { room: 0, delay: 0, pan: 0.5, orbit: 1 },
   guitarra: { room: 0, delay: 0, pan: 0.5, orbit: 2 },
-  piano: { room: 0.5, delay: 0, pan: 0.5, orbit: 3 },
+  piano: { room: 0, delay: 0, pan: 0.5, orbit: 3 },
   bateria: { room: 0, delay: 0, pan: 0.5, orbit: 4 },
 };
 

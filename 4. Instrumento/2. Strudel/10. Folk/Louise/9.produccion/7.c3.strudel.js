@@ -16,12 +16,17 @@ Para qué
   cambias un compás, cambia solo ese. Lo que se quede se pasa a mano a
   MuseScore; este archivo no vuelve al .mscz.
 
+  El final del B2 (c.88–92) suena como quedó en 6.b2: dinámicas, batería y
+  efectos.
+
 Dónde se mueve cada cosa
   - Dinámicas: en cada sección, `dinamica`, una velocidad por compás y por
     instrumento (0–127, como en MuseScore).
   - Batería: en cada sección, `bateria`, una columna por compás.
   - Sonidos: SONIDO (en 1), y `tecnica` en cada sección para el violín.
-  - Efectos: EFECTOS (en 1): reverb, eco y paneo por instrumento.
+  - Efectos: EFECTOS (en 1) vale para todo el archivo, y `efectos` en cada
+    sección cambia solo esa sección: un valor, o una lista con uno por
+    compás. Así lo que ya quedó en una sección no se mueve al trabajar otra.
   - Volumen: MEZCLA y KIT (en 1).
 
 Cómo se escucha
@@ -118,7 +123,15 @@ let velocidades = (lista) => cat(...lista).div(127);
 let ligar = (semis, compas) =>
   reify(compas).withHap((hap) =>
     hap.whole.end.eq(hap.whole.begin.sam().add(1))
-      ? new Hap(new TimeSpan(hap.whole.begin, hap.whole.end.add(Fraction(semis).div(12))), hap.part, hap.value, hap.context)
+      ? new Hap(
+          new TimeSpan(
+            hap.whole.begin,
+            hap.whole.end.add(Fraction(semis).div(12)),
+          ),
+          hap.part,
+          hap.value,
+          hap.context,
+        )
       : hap,
   );
 
@@ -146,7 +159,14 @@ let arpegio = (pat, gap) => {
             let fin = hap.whole.end.sub(i * gap);
             return hap.part.begin.gte(fin)
               ? []
-              : [new Hap(new TimeSpan(hap.whole.begin, fin), new TimeSpan(hap.part.begin, hap.part.end.min(fin)), hap.value, hap.context)];
+              : [
+                  new Hap(
+                    new TimeSpan(hap.whole.begin, fin),
+                    new TimeSpan(hap.part.begin, hap.part.end.min(fin)),
+                    hap.value,
+                    hap.context,
+                  ),
+                ];
           }),
         ),
     ),
@@ -156,24 +176,46 @@ let arpegio = (pat, gap) => {
 // ── Secciones ──
 // Una sección es un objeto: desde qué compás empieza, el sonido del violín,
 // si la guitarra arpegia, una lista por parte (violin, guitarra, der, izq),
-// una lista de velocidades por instrumento y su batería.
+// una lista de velocidades por instrumento, sus efectos y su batería.
 
 // Cuántos compases dura una sección; todas sus listas tienen que coincidir
 let largo = (sec) => {
-  let listas = [sec.violin, sec.guitarra, sec.der, sec.izq, sec.dinamica.violin, sec.dinamica.guitarra, sec.dinamica.piano];
+  let porCompas = Object.values(sec.efectos).flatMap((e) =>
+    Object.values(e).filter(Array.isArray),
+  );
+  let listas = [
+    sec.violin,
+    sec.guitarra,
+    sec.der,
+    sec.izq,
+    sec.dinamica.violin,
+    sec.dinamica.guitarra,
+    sec.dinamica.piano,
+    ...porCompas,
+  ];
   let largos = [...new Set(listas.map((lista) => lista.length))];
   if (largos.length !== 1) {
-    fallar(String.raw`La sección del c.${sec.desde} tiene listas de ${largos} compases`);
+    fallar(
+      String.raw`La sección del c.${sec.desde} tiene listas de ${largos} compases`,
+    );
   }
   return largos[0];
 };
 
 // ── Instrumentos ──
 
-let efectos = (pat, e) => pat.room(e.room).delay(e.delay).pan(e.pan).orbit(e.orbit);
+// Los efectos de un instrumento: los de EFECTOS, con lo que cambie la sección.
+// Cada clave es un efecto de Strudel (room, roomsize, delay, pan, lpf…) y su
+// valor vale para toda la sección, o es una lista con uno por compás.
+let efectos = (pat, base, propios = {}) =>
+  Object.entries({ ...base, ...propios }).reduce(
+    (p, [efecto, valor]) =>
+      p[efecto](Array.isArray(valor) ? cat(...valor) : valor),
+    pat,
+  );
 
 let violin = (sec) =>
-  efectos(note(compases(sec.violin)), EFECTOS.violin)
+  efectos(note(compases(sec.violin)), EFECTOS.violin, sec.efectos.violin)
     .sound(sec.tecnica)
     .velocity(velocidades(sec.dinamica.violin))
     .gain(MEZCLA.violin);
@@ -181,14 +223,22 @@ let violin = (sec) =>
 // Arpegiada, salvo en las secciones con `arpegio: false` (acordes en bloque)
 let guitarra = (sec) => {
   let notas = note(compases(sec.guitarra));
-  return efectos(sec.arpegio ? arpegio(notas, ARPEGIO) : notas, EFECTOS.guitarra)
+  return efectos(
+    sec.arpegio ? arpegio(notas, ARPEGIO) : notas,
+    EFECTOS.guitarra,
+    sec.efectos.guitarra,
+  )
     .sound(SONIDO.guitarra)
     .velocity(velocidades(sec.dinamica.guitarra))
     .gain(MEZCLA.guitarra);
 };
 
 let piano = (sec) =>
-  efectos(stack(note(compases(sec.der)), note(compases(sec.izq))), EFECTOS.piano)
+  efectos(
+    stack(note(compases(sec.der)), note(compases(sec.izq))),
+    EFECTOS.piano,
+    sec.efectos.piano,
+  )
     .sound(SONIDO.piano)
     .velocity(velocidades(sec.dinamica.piano))
     .gain(MEZCLA.piano);
@@ -196,17 +246,25 @@ let piano = (sec) =>
 // Una línea de batería: el patrón con sus muestras y una velocidad MIDI
 let golpe = (patron, vel = MEDIO) => s(patron).velocity(vel / 127);
 
-// Las líneas de una sección, con el kit, el volumen de la mezcla y los efectos
+// Las líneas de una sección, con el kit y el volumen de la mezcla (los
+// efectos se ponen en tocar, con los de la sección)
 let bateria = (...lineas) =>
-  efectos(stack(...lineas), EFECTOS.bateria)
+  stack(...lineas)
     .bank(SONIDO.kit)
     .withValue((v) => ({ ...v, gain: MEZCLA.bateria * (KIT[v.s] ?? 1) }));
 
 // Todo lo que toca una sección
-let tocar = (sec) => stack(violin(sec), guitarra(sec), piano(sec), sec.bateria);
+let tocar = (sec) =>
+  stack(
+    violin(sec),
+    guitarra(sec),
+    piano(sec),
+    efectos(sec.bateria, EFECTOS.bateria, sec.efectos.bateria),
+  );
 
 // Las secciones una tras otra, cada una con sus compases
-let forma = (...secciones) => arrange(...secciones.map((sec) => [largo(sec), tocar(sec)]));
+let forma = (...secciones) =>
+  arrange(...secciones.map((sec) => [largo(sec), tocar(sec)]));
 
 // Una sección solo de `desde` a `hasta`. Las listas se cortan por compás, así
 // que la primera nota no arrastra la cola del compás anterior
@@ -226,6 +284,17 @@ let recortar = (sec, desde, hasta) => {
       guitarra: corte(sec.dinamica.guitarra),
       piano: corte(sec.dinamica.piano),
     },
+    efectos: Object.fromEntries(
+      Object.entries(sec.efectos).map(([instrumento, e]) => [
+        instrumento,
+        Object.fromEntries(
+          Object.entries(e).map(([efecto, v]) => [
+            efecto,
+            Array.isArray(v) ? corte(v) : v,
+          ]),
+        ),
+      ]),
+    ),
     bateria: sec.bateria.ribbon(i, n),
   };
 };
@@ -295,6 +364,8 @@ const B2 = {
       127,                 // c.92
     ],
   },
+  // Efectos de esta sección; los que no están salen de EFECTOS (en 1)
+  efectos: {},
   // Batería. Una columna por compás; filas: c.88 · c.89–92
   bateria: bateria(
     // Bombo
@@ -490,6 +561,8 @@ const C3 = {
       96,            // c.108
     ],
   },
+  // Efectos de esta sección; los que no están salen de EFECTOS (en 1)
+  efectos: {},
   // Batería. Una columna por compás; filas: c.93–96 · c.97–100 · c.101–104 · c.105–108
   bateria: bateria(
     // Bombo
@@ -633,6 +706,8 @@ const OUTRO = {
       96, // c.111
     ],
   },
+  // Efectos de esta sección; los que no están salen de EFECTOS (en 1)
+  efectos: {},
   // Batería. Una columna por compás; filas: c.109–111
   bateria: bateria(
     // Pandereta
