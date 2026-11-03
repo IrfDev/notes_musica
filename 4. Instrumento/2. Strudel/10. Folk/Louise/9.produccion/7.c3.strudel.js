@@ -415,7 +415,7 @@ const B2 = {
       ~
       ~        ~        ~        ~
     >`,
-      FUERTE,
+      NORMAL,
     ),
     // Toms
     golpe(
@@ -423,7 +423,7 @@ const B2 = {
       ~
       [~ lt [~ mt]]  [~ mt [~ lt]]  ~              [lt mt [~ ht]]
     >`,
-      FUERTE,
+      NORMAL,
     ),
     // Pandereta
     golpe(
@@ -555,8 +555,8 @@ const C3 = {
   // Velocidad MIDI (0–127) de cada compás, como la toca MuseScore
   dinamica: {
     violin: [
-      96, // c.93
-      96, // c.94
+      82, // c.93
+      82, // c.94
       82, // c.95
       82, // c.96
       77, // c.97

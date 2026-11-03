@@ -355,14 +355,14 @@ const V2 = {
   // Velocidad MIDI (0–127) de cada compás, como la toca MuseScore
   dinamica: {
     violin: [
-      100, // c.59
-      100, // c.60
-      100, // c.61
-      100, // c.62
-      100, // c.63
-      100, // c.64
-      100, // c.65
-      100, // c.66
+      127, // c.59
+      127, // c.60
+      127, // c.61
+      127, // c.62
+      127, // c.63
+      127, // c.64
+      127, // c.65
+      127, // c.66
     ],
     guitarra: [
       100, // c.59
@@ -375,11 +375,11 @@ const V2 = {
       80, // c.66
     ],
     piano: [
-      71, // c.59
-      72, // c.60
-      73, // c.61
-      74, // c.62
-      75, // c.63
+      68, // c.59
+      68, // c.60
+      68, // c.61
+      68, // c.62
+      68, // c.63
       76, // c.64
       78, // c.65
       79, // c.66
@@ -634,7 +634,7 @@ const C2 = {
       [bd ~ bd]  [bd bd bd] [bd bd bd] [bd bd bd]
       [bd bd bd] [bd bd bd] [bd bd bd] ~
     >`,
-      FUERTE,
+      MEDIO,
     ),
     // Caja
     golpe(
@@ -644,7 +644,7 @@ const C2 = {
       [~ sd sd] [~ sd sd] [~ sd sd] [~ sd sd]
       [~ sd sd] [~ sd sd] [~ sd sd] ~
     >`,
-      FUERTE,
+      SUAVE,
     ),
     // Caja
     golpe(
@@ -714,7 +714,7 @@ const C2 = {
       [~ tb tb]     [~ tb tb]     [~ tb [~ tb]] [~ tb [~ tb]]
       [~ tb [~ tb]] [~ tb [~ tb]] [~ tb [~ tb]] ~
     >`,
-      NORMAL,
+      MEDIO,
     ),
 
     // Cencerro
@@ -854,7 +854,7 @@ const B2 = {
       [ht ~ ~] ~
       ~        ~        ~
     >`,
-      FUERTE,
+      NORMAL,
     ),
     // Toms
     golpe(
@@ -862,7 +862,7 @@ const B2 = {
       ~              ~
       ~              ~              ~
     >`,
-      FUERTE,
+      NORMAL,
     ),
     // Pandereta
     golpe(

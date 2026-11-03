@@ -46,6 +46,7 @@ let synth = chord(PROG)
   .struct(ARP_RYTHM)
   .lpf(300)
   .lpq(4)
+  .fast(4)
   .sound("gm_synth_choir");
 
 stack(
