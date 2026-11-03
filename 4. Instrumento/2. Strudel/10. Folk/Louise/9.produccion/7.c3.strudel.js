@@ -481,96 +481,96 @@ const C3 = {
   tecnica: SONIDO.arco, // el sonido del violín
   arpegio: true, // la guitarra arpegia sus acordes
   violin: [
-    "[B3,G4,E5]",                      // c.93   Em
-    "[[G4,D5] F#4 G4]",                // c.94   G
-    "[A4@2 C#4@3 D4]",                 // c.95   F#m7
+    "[B3,G4,E5]", // c.93   Em
+    "[[G4,D5] F#4 G4]", // c.94   G
+    "[A4@2 C#4@3 D4]", // c.95   F#m7
     "[[D4,F#4]@2 [D4,B4]@3 [F#4,D5]]", // c.96   Bm
-    "[G4,E5]",                         // c.97   Em
-    "[[G4,D5] F#4 G4]",                // c.98   G
-    "[A4 C#4 E4]",                     // c.99   A7
-    "[F#4 E4 D4@2 F#4@2]",             // c.100  D
-    "[B3,G4]",                         // c.101  Em
-    "[G4 B4 D5]",                      // c.102  G
-    "[F#4@2 G4@3 A4]",                 // c.103  F#m7
-    "[D4,B4]",                         // c.104  Bm
-    "[B4@2 A4@3 E4]",                  // c.105  Em
-    "[D5 B4 G4]",                      // c.106  G
-    "[E4 G4 A4@2 C#5@2]",              // c.107  A7
-    "[F#4,D5]",                        // c.108  D
+    "[G4,E5]", // c.97   Em
+    "[[G4,D5] F#4 G4]", // c.98   G
+    "[A4 C#4 E4]", // c.99   A7
+    "[F#4 E4 D4@2 F#4@2]", // c.100  D
+    "[B3,G4]", // c.101  Em
+    "[G4 B4 D5]", // c.102  G
+    "[F#4@2 G4@3 A4]", // c.103  F#m7
+    "[D4,B4]", // c.104  Bm
+    "[B4@2 A4@3 E4]", // c.105  Em
+    "[D5 B4 G4]", // c.106  G
+    "[E4 G4 A4@2 C#5@2]", // c.107  A7
+    "[F#4,D5]", // c.108  D
   ],
   guitarra: [
-    "[E2,B2,E3,G3,B3,E4]",               // c.93   Em
-    "[G2,B2,G3,B3]",                     // c.94   G
-    "[F#2,A2,F#3,A3]",                   // c.95   F#m7
-    "~",                                 // c.96   Bm
-    "[E2,B2,E3,G3,B3,E4]",               // c.97   Em
-    "[G2,B2,G3,B3]",                     // c.98   G
-    "[A2,C#3,E4,A4,E5]",                 // c.99   A7
+    "[E2,B2,E3,G3,B3,E4]", // c.93   Em
+    "[G2,B2,G3,B3]", // c.94   G
+    "[F#2,A2,F#3,A3]", // c.95   F#m7
+    "~", // c.96   Bm
+    "[E2,B2,E3,G3,B3,E4]", // c.97   Em
+    "[G2,B2,G3,B3]", // c.98   G
+    "[A2,C#3,E4,A4,E5]", // c.99   A7
     "[~ [A3,D4,F#4,A4] [A3,D4,F#4,A4]]", // c.100  D
-    "[E2,B2,E3,G3,B3,E4]",               // c.101  Em
-    "[G2,B2,G3,B3]",                     // c.102  G
-    "[F#2,A2,F#3,A3]",                   // c.103  F#m7
+    "[E2,B2,E3,G3,B3,E4]", // c.101  Em
+    "[G2,B2,G3,B3]", // c.102  G
+    "[F#2,A2,F#3,A3]", // c.103  F#m7
     "[~ [B3,D4,B4,F#5] [B3,D4,B4,F#5]]", // c.104  Bm
-    "[E2,B2,E3,G3,B3,E4]",               // c.105  Em
-    "[G2,B2,G3,B3]",                     // c.106  G
-    "[A2,C#3,E4,A4,E5]",                 // c.107  A7
-    "~",                                 // c.108  D
+    "[E2,B2,E3,G3,B3,E4]", // c.105  Em
+    "[G2,B2,G3,B3]", // c.106  G
+    "[A2,C#3,E4,A4,E5]", // c.107  A7
+    "~", // c.108  D
   ],
   der: [
-    "[[G4,E5,G5] E4 E4]",              // c.93   Em
-    "[~ G4 G4]",                       // c.94   G
-    "[~ F#4 F#4]",                     // c.95   F#m7
-    "[~@2 [B4,F#5]@3 [F#4,B4,F#5]]",   // c.96   Bm
-    "[~ E4 E4]",                       // c.97   Em
-    "[~ G4 G4]",                       // c.98   G
-    "[~@2 A4@3 A4]",                   // c.99   A7
-    "~",                               // c.100  D
-    "[~ [E4,E5] [E4,E5]]",             // c.101  Em
-    "[~ [D4,B4] [D4,B4]]",             // c.102  G
-    "[~ [E4,A4] [E4,A4]]",             // c.103  F#m7
-    "[D4,F#4]",                        // c.104  Bm
-    "[~ [G4,E5,G5] [G4,E5,G5]]",       // c.105  Em
-    "[~ [D4,B4,G5] [D4,B4,G5]]",       // c.106  G
+    "[[G4,E5,G5] E4 E4]", // c.93   Em
+    "[~ G4 G4]", // c.94   G
+    "[~ F#4 F#4]", // c.95   F#m7
+    "[~@2 [B4,F#5]@3 [F#4,B4,F#5]]", // c.96   Bm
+    "[~ E4 E4]", // c.97   Em
+    "[~ G4 G4]", // c.98   G
+    "[~@2 A4@3 A4]", // c.99   A7
+    "~", // c.100  D
+    "[~ [E4,E5] [E4,E5]]", // c.101  Em
+    "[~ [D4,B4] [D4,B4]]", // c.102  G
+    "[~ [E4,A4] [E4,A4]]", // c.103  F#m7
+    "[D4,F#4]", // c.104  Bm
+    "[~ [G4,E5,G5] [G4,E5,G5]]", // c.105  Em
+    "[~ [D4,B4,G5] [D4,B4,G5]]", // c.106  G
     "[~@2 [A4,C#5,A5]@3 [A4,C#5,A5]]", // c.107  A7
-    ligar(4, "[D4,A4,D5]"),            // c.108  D — se liga 4 semicorcheas al c.109
+    ligar(4, "[D4,A4,D5]"), // c.108  D — se liga 4 semicorcheas al c.109
   ],
   izq: [
-    "[[E2,E3] ~@2]",             // c.93   Em
-    "[G3 ~@2]",                  // c.94   G
-    "[F#3 ~@2]",                 // c.95   F#m7
-    "[B3, [B2 ~@2]]",            // c.96   Bm
-    "[E3 ~@2]",                  // c.97   Em
-    "[G2 G3 G3]",                // c.98   G
-    "[A2@2 E3@3 E3]",            // c.99   A7
-    "[D3, [D2 ~@2]]",            // c.100  D
-    "[[E2,E3] E3 E3]",           // c.101  Em
-    "[[G2,G3] G3 G3]",           // c.102  G
-    "[[F#2,F#3] F#3 F#3]",       // c.103  F#m7
-    "[B3, [[B2,B3] ~@2]]",       // c.104  Bm
+    "[[E2,E3] ~@2]", // c.93   Em
+    "[G3 ~@2]", // c.94   G
+    "[F#3 ~@2]", // c.95   F#m7
+    "[B3, [B2 ~@2]]", // c.96   Bm
+    "[E3 ~@2]", // c.97   Em
+    "[G2 G3 G3]", // c.98   G
+    "[A2@2 E3@3 E3]", // c.99   A7
+    "[D3, [D2 ~@2]]", // c.100  D
+    "[[E2,E3] E3 E3]", // c.101  Em
+    "[[G2,G3] G3 G3]", // c.102  G
+    "[[F#2,F#3] F#3 F#3]", // c.103  F#m7
+    "[B3, [[B2,B3] ~@2]]", // c.104  Bm
     "[[E2,E3] [E3,B3] [E3,B3]]", // c.105  Em
-    "[[G2,G3] G3 G3]",           // c.106  G
+    "[[G2,G3] G3 G3]", // c.106  G
     "[[A2,G3]@2 G3@3 [C#2,G3]]", // c.107  A7
-    "[D2,A3]",                   // c.108  D
+    "[D2,A3]", // c.108  D
   ],
   // Velocidad MIDI (0–127) de cada compás, como la toca MuseScore
   dinamica: {
     violin: [
-      82,                  // c.93
-      96,                  // c.94
-      96,                  // c.95
-      96,                  // c.96
-      96,                  // c.97
-      "[96 95 93]",        // c.98
-      "[91 89 87]",        // c.99
+      82, // c.93
+      96, // c.94
+      96, // c.95
+      96, // c.96
+      96, // c.97
+      "[96 95 93]", // c.98
+      "[91 89 87]", // c.99
       "[86 85 84@2 82@2]", // c.100
-      80,                  // c.101
-      "[75 73 71]",        // c.102
-      "[69@2 68@3 65]",    // c.103
-      64,                  // c.104
-      "[59@2 57@3 54]",    // c.105
-      "[53 51 50]",        // c.106
+      80, // c.101
+      "[75 73 71]", // c.102
+      "[69@2 68@3 65]", // c.103
+      64, // c.104
+      "[59@2 57@3 54]", // c.105
+      "[53 51 50]", // c.106
       "[48 47 46@2 44@2]", // c.107
-      42,                  // c.108
+      42, // c.108
     ],
     guitarra: [
       80, // c.93
@@ -591,22 +591,22 @@ const C3 = {
       80, // c.108
     ],
     piano: [
-      127,           // c.93
+      127, // c.93
       "[127 80 83]", // c.94
-      "[86 89 92]",  // c.95
-      96,            // c.96
-      96,            // c.97
-      96,            // c.98
-      96,            // c.99
-      96,            // c.100
-      96,            // c.101
-      96,            // c.102
-      96,            // c.103
-      96,            // c.104
-      96,            // c.105
-      96,            // c.106
-      96,            // c.107
-      96,            // c.108
+      "[86 89 92]", // c.95
+      96, // c.96
+      96, // c.97
+      96, // c.98
+      96, // c.99
+      96, // c.100
+      96, // c.101
+      96, // c.102
+      96, // c.103
+      96, // c.104
+      96, // c.105
+      96, // c.106
+      96, // c.107
+      96, // c.108
     ],
   },
   // Efectos de esta sección; los que no están salen de EFECTOS (en 1)
@@ -614,96 +614,135 @@ const C3 = {
   // Batería. Una columna por compás; filas: c.93–96 · c.97–100 · c.101–104 · c.105–108
   bateria: bateria(
     // Bombo
-    golpe(`<
+    golpe(
+      `<
       [bd bd [~ bd]] [bd ~ ~]       [bd ~ ~]       [bd ~ ~]
       [bd ~ ~]       [bd ~ bd]      ~              [bd ~ bd]
       [bd ~ bd]      [bd ~ bd]      [bd ~ bd]      [bd ~ bd]
       [bd ~ bd]      [bd ~ bd]      ~              ~
-    >`, FUERTE),
+    >`,
+      FUERTE,
+    ),
     // Caja
-    golpe(`<
+    golpe(
+      `<
       ~             [~ sd [~ sd]] [~ sd [~ sd]] [~ sd [~ sd]]
       [~ sd [~ sd]] [~ sd [~ sd]] ~             [~ sd ~]
       [~ ~ sd]      [~ ~ sd]      [~ ~ sd]      ~
       ~             ~             ~             ~
-    >`, FUERTE),
+    >`,
+      FUERTE,
+    ),
     // Caja
-    golpe(`<
+    golpe(
+      `<
       ~              ~              ~              ~
       ~              ~              ~              [~ ~ sd]
       [sd sd [~ sd]] [sd sd [~ sd]] [sd sd [~ sd]] [[sd sd] ~ sd]
       ~              ~              ~              ~
-    >`, MEDIO),
+    >`,
+      MEDIO,
+    ),
     // Platillos
-    golpe(`<
+    golpe(
+      `<
       ~        [~ oh ~] ~        ~
       ~        ~        ~        ~
       [~ oh ~] ~        ~        ~
       ~        ~        ~        ~
-    >`, FUERTE),
+    >`,
+      FUERTE,
+    ),
     // Platillos
-    golpe(`<
+    golpe(
+      `<
       [cr cr [~ cr]] [~ ~ [~ hh]]   ~              ~
       ~              ~              ~              [cr ~ ~]
       [~ ~ [~ hh]]   ~              ~              ~
       ~              ~              ~              [cr ~ ~]
-    >`, MEDIO),
+    >`,
+      MEDIO,
+    ),
     // Platillos
-    golpe(`<
+    golpe(
+      `<
       ~             ~             [~ oh [~ hh]] ~
       [~ oh [~ hh]] [~ oh [~ hh]] ~             [~ oh hh]
       ~             ~             ~             ~
       ~             ~             ~             [~ oh [~ hh]]
-    >`, SUAVE),
+    >`,
+      SUAVE,
+    ),
     // Toms
-    golpe(`<
+    golpe(
+      `<
       ~              ~              ~              ~
       [lt mt [~ ht]] ~              [lt mt [~ ht]] ~
       ~              ~              ~              ~
       ~              ~              [lt mt [~ ht]] ~
-    >`, FUERTE),
+    >`,
+      FUERTE,
+    ),
     // Pandereta
-    golpe(`<
+    golpe(
+      `<
       ~             ~             ~             ~
       ~             ~             [~ tb [~ tb]] ~
       ~             ~             ~             ~
       ~             ~             ~             ~
-    >`, FUERTE),
+    >`,
+      FUERTE,
+    ),
     // Pandereta
-    golpe(`<
+    golpe(
+      `<
       [[~ tb] ~ tb] ~             ~             ~
       ~             ~             ~             ~
       ~             ~             ~             ~
       ~             ~             ~             ~
-    >`, NORMAL),
+    >`,
+      NORMAL,
+    ),
     // Cencerro
-    golpe(`<
+    golpe(
+      `<
       ~             ~             ~             ~
       ~             ~             ~             [[~ cb] ~ cb]
       [[~ cb] ~ cb] [[~ cb] ~ cb] [[~ cb] ~ cb] [[~ cb] ~ cb]
       [[~ cb] ~ cb] [[~ cb] ~ cb] ~             ~
-    >`, MEDIO),
+    >`,
+      MEDIO,
+    ),
     // Palmas
-    golpe(`<
+    golpe(
+      `<
       ~         ~         ~         ~
       ~         ~         ~         ~
       [cp cp ~] [cp cp ~] [cp cp ~] ~
       ~         ~         ~         ~
-    >`, MEDIO),
+    >`,
+      MEDIO,
+    ),
     // Shaker
-    golpe(`<
+    golpe(
+      `<
       [sh sh [~ sh]] [sh sh [~ sh]] ~              [sh sh [~ sh]]
       ~              [sh sh [~ sh]] [sh sh [~ sh]] [sh sh sh]
       [sh sh [~ sh]] [sh sh [~ sh]] [sh sh [~ sh]] [sh sh [~ sh]]
       [sh sh [~ sh]] [sh sh [~ sh]] [sh sh [~ sh]] [sh sh [~ sh]]
-    >`, MEDIO),
+    >`,
+      MEDIO,
+    ),
     // Shaker
-    golpe(`<
+    golpe(
+      `<
       ~        ~        [sh ~ ~] ~
       [sh ~ ~] ~        ~        ~
       ~        ~        ~        ~
       ~        ~        ~        ~
-    >`, SUAVE),
+    >`,
+      SUAVE,
+    ),
   ),
 };
 
@@ -732,9 +771,9 @@ const OUTRO = {
     "~", // c.111
   ],
   izq: [
-    "[[F#2,A2] G2@2 F#2]",   // c.109
+    "[[F#2,A2] G2@2 F#2]", // c.109
     ligar(1, "[D2@5 D3@7]"), // c.110  D — se liga 1 semicorchea al c.111
-    "~",                     // c.111  — sigue lo del c.110
+    "~", // c.111  — sigue lo del c.110
   ],
   // Velocidad MIDI (0–127) de cada compás, como la toca MuseScore
   dinamica: {
@@ -759,13 +798,19 @@ const OUTRO = {
   // Batería. Una columna por compás; filas: c.109–111
   bateria: bateria(
     // Pandereta
-    golpe(`<
+    golpe(
+      `<
       [~ tb tb]     [tb [~ tb] ~] ~
-    >`, MEDIO),
+    >`,
+      MEDIO,
+    ),
     // Pandereta
-    golpe(`<
+    golpe(
+      `<
       [tb ~ ~] ~        ~
-    >`, SUAVE),
+    >`,
+      SUAVE,
+    ),
   ),
 };
 
@@ -780,8 +825,14 @@ let tramo = (desde, hasta) => {
   if (desde < inicio || hasta > fin || desde > hasta) {
     fallar(String.raw`tramo: este archivo va del c.${inicio} al c.${fin}`);
   }
-  let partes = TRAMO.filter((sec) => sec.desde <= hasta && sec.desde + largo(sec) > desde).map((sec) =>
-    recortar(sec, Math.max(desde, sec.desde), Math.min(hasta, sec.desde + largo(sec) - 1)),
+  let partes = TRAMO.filter(
+    (sec) => sec.desde <= hasta && sec.desde + largo(sec) > desde,
+  ).map((sec) =>
+    recortar(
+      sec,
+      Math.max(desde, sec.desde),
+      Math.min(hasta, sec.desde + largo(sec) - 1),
+    ),
   );
   return forma(...partes);
 };
