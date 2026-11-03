@@ -299,11 +299,11 @@ const B1 = {
     // Toms
     golpe(`<
       ~             ~             ~             [~ ~ [lt ht]]
-    >`, FUERTE),
+    >`, MEDIO),
     // Pandereta
     golpe(`<
       ~         [~ tb tb] [~ tb tb] [tb ~ ~]
-    >`, FUERTE),
+    >`, MEDIO),
     // Palmas
     golpe(`<
       ~             ~             ~             [cp [~ cp] ~]

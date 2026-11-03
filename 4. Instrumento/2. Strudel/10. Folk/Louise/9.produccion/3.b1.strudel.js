@@ -532,7 +532,9 @@ const B1 = {
     ],
   },
   // Efectos de esta sección; los que no están salen de EFECTOS (en 1)
-  efectos: {},
+  efectos: {
+    piano: {},
+  },
   // Batería. Una columna por compás; filas: c.43–45 · c.46–50
   bateria: bateria(
     // Bombo
@@ -557,7 +559,7 @@ const B1 = {
       [cr ~ ~] ~        ~
       ~        ~        ~        ~        ~
     >`,
-      FUERTE,
+      MEDIO,
     ),
     // Toms
     golpe(
@@ -565,7 +567,7 @@ const B1 = {
       ~             ~             ~
       ~             ~             ~             ~             [~ ~ [lt ht]]
     >`,
-      FUERTE,
+      MEDIO,
     ),
     // Pandereta
     golpe(
@@ -573,7 +575,7 @@ const B1 = {
       ~         ~         ~
       ~         ~         [~ tb tb] [~ tb tb] [tb ~ ~]
     >`,
-      FUERTE,
+      MEDIO,
     ),
     // Palmas
     golpe(

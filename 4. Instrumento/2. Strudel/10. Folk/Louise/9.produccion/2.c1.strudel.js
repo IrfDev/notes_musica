@@ -734,7 +734,9 @@ const B1 = {
     ],
   },
   // Efectos de esta sección; los que no están salen de EFECTOS (en 1)
-  efectos: {},
+  efectos: {
+    piano: {},
+  },
   // Batería. Una columna por compás; filas: c.43–45 · c.46
   bateria: bateria(
     // Platillos
@@ -743,7 +745,7 @@ const B1 = {
       [cr ~ ~] ~        ~
       ~
     >`,
-      FUERTE,
+      MEDIO,
     ),
   ),
 };
