@@ -1,6 +1,6 @@
 # Cómo se trabaja Louise: partituras, Strudel y flujos
 
-> Archivo derivado: lo genera `_scripts/generar-chatgpt.py` desde la bóveda de música del usuario (Obsidian + git), el 2026-10-18. Cada sección es una nota de la bóveda, con su ruta. La bóveda es la fuente de verdad: si algo de aquí contradice a una conversación más reciente, pregunta.
+> Archivo derivado: lo genera `_scripts/generar-chatgpt.py` desde la bóveda de música del usuario (Obsidian + git), el 2026-11-04. Cada sección es una nota de la bóveda, con su ruta. La bóveda es la fuente de verdad: si algo de aquí contradice a una conversación más reciente, pregunta.
 
 El ciclo de MuseScore, el sistema de partituras, Strudel (qué es, el motor, el folk) y los flujos de la bóveda.
 
@@ -2845,7 +2845,7 @@ estado: vigente
 >
 > Un temario tiene fechas, y en cuanto te atrasas una semana te deja atrás. Un bucle no se atrasa: si no tomas clase en tres semanas, el flujo de clase simplemente no corre, y no hay nada que recuperar.
 
-Seis bucles. Cada uno tiene **disparador**, **pasos**, **artefactos** y **definición de hecho**.
+Siete bucles. Cada uno tiene **disparador**, **pasos**, **artefactos** y **definición de hecho**.
 
 La definición de hecho es la parte que importa. Sin ella, "estudiar" es un estado difuso que puede durar meses sin producir nada.
 
@@ -2977,21 +2977,29 @@ Verovio lo renderiza y lo reproduce dentro de la nota.
 
 ```
 3. Composiciones/<n>. <nombre>/
-├── <Nombre>.md          ← la nota
+├── 0. Obra.md           ← la ficha
+├── 1. Mapa.md           ← secciones, qué quieres en cada una, energía
+├── 2. Decisiones.md     ← D-NN
+├── 3. Sesiones/         ← NN. <alcance>.md
+├── 4. Contexto.md       ← R-NN: qué tomas de otras canciones y qué no
+├── AI/                  ← Hallazgos y Feedback (los escribe la IA)
 ├── render/              ← audio y PDF (derivados, gitignored)
-└── ref/                 ← referencias que la inspiraron
+└── ref/                 ← archivos sueltos de referencia
 ```
 
 La partitura **no** va aquí: va a `7. Partituras/2. Composiciones/`, como todas.
-Ver [[7. Partituras/Sistema de partituras]].
+Un `.strudel.js` se queda donde está. `0. Obra` enlaza cualquiera de los dos con `fuente`.
+Ver [[7. Partituras/Sistema de partituras]] y [[6. Práctica/1. Estructura|Estructura]].
 
-Plantilla: [[Obra]]
+Plantillas: [[Obra]], [[Mapa]], [[Decisiones]], [[Contexto]]. El Mapa se escribe el día uno, aunque sea
+solo con los nombres de las secciones: es la vara con la que se mide todo el feedback.
 
 **`definicion_terminado` se escribe el día uno.** No es negociable después. "Que quede bien" no es una definición válida; "90 s, forma AABA, una toma limpia exportada" sí.
 
 ## Paso 2 — Trabajar
 
-Cada sesión usa [[Sesión deliberada]].
+Cada sesión es una nota en `3. Sesiones/`, con [[Sesión de obra]]. Cuándo y cómo se pide feedback está en
+el bucle ⑦.
 
 **Bounce incondicional:** cada vez que dejas de trabajar, exportas audio a `render/`. Aunque esté feo, aunque no esté terminada, aunque no te guste. Grabar no es una recompensa por terminar — es el registro de que pasaste por ahí.
 
@@ -3004,13 +3012,24 @@ Nombre de los renders, fecha primero:
 
 ## Paso 3 — Registrar decisiones
 
-Cada decisión, **una línea** en `## Decisiones`, con enlace al concepto:
+Cada decisión, **una tabla propia** en su sección de `2. Decisiones`, con su ID (`D-NN`), enlace al concepto
+y, pegado debajo, su ID de bloque (`^d-NN`):
 
 ```markdown
-- Csus2 → D7 en c. 9 — natural pero con tensión retenida. → [[1. Acordes dominantes]]
-- 12/8 en vez de 4/4 — el arpegio respira, el tempo queda bajo 70. → [[2. Path completo]]
-- Add4 en el cierre de A — rompe la expectativa, da redención al mayor. → [[0. Modos]]
+| ID | Fecha | Qué | Por qué | Qué cambió | Enlaces |
+|---|---|---|---|---|---|
+| D-01 | 2026-02-24 | **Csus2 → D7 en c. 9** | color antes de resolver a G | natural, pero con tensión retenida | [[1. Acordes dominantes]] |
+^d-01
+
+| ID | Fecha | Qué | Por qué | Qué cambió | Enlaces |
+|---|---|---|---|---|---|
+| D-02 | 2026-04-02 | **12/8 en vez de 4/4** | ir acorde a los nocturnos | el arpegio respira, el tempo queda bajo 70 | [[2. Path completo]] |
+^d-02
 ```
+
+Una tabla por decisión, porque Obsidian solo deja enlazar una tabla entera, no una fila: así cada una se
+enlaza por su ID, `[[2. Decisiones#^d-01|D-01]]`. Una decisión que se revierte no se borra: su tabla pasa
+tachada a *Reemplazadas*, con su mismo `^d-NN`.
 
 Sin esto, tus decisiones quedan dentro de la narración: valiosas, pero irrecuperables y sin enlazar.
 
@@ -3048,6 +3067,9 @@ Eso es conocimiento real, ganado componiendo. Pertenece a la nota de concepto de
 2. **Extrae UN principio.** Uno, no cinco: rítmico, formal o textural.
 3. Ese principio se escribe en la nota de concepto correspondiente de `1. Teoría/`, citando la referencia como evidencia.
 4. *Opcional:* un boceto que use el principio **cambiando** tonalidad, tempo e instrumentación — para que sea transferencia y no copia.
+5. *Si lo quieres para una obra:* una toma `R-NN` en `<obra>/4. Contexto` — de dónde exacto, qué
+   principio, a qué sección va y cómo se reconoce al oírlo. También lo que **no** quieres. La canción se
+   queda completa en `5. Referencias/`; la toma es solo lo que esa obra usa de ella.
 
 ## Por qué solo un principio
 
@@ -3160,9 +3182,62 @@ Plantilla: [[Curso]]
 
 ---
 
+# ⑦ Feedback de obra
+
+**Disparador:** terminas una sesión y quieres saber cómo suena la pieza, o abres la obra y no sabes qué
+sigue.
+
+Este bucle hace que el feedback se acumule en vez de repetirse: cada problema tiene un ID que no cambia,
+y nunca hay que leer más de un archivo para saber qué sigue.
+
+## Las piezas
+
+| Archivo | Qué es | Quién |
+|---|---|---|
+| `1. Mapa` | lo que quieres de cada sección: la vara de medir | tú |
+| `2. Decisiones` | lo que la pieza es a propósito (`D-NN`) | tú |
+| `4. Contexto` | lo que tomas de otras canciones y lo que no (`R-NN`) | tú |
+| `3. Sesiones/NN. <alcance>` | lo que hiciste un día | tú |
+| `5. Feedback/NN. <alcance>` | lo que la IA vio, numerado | la IA |
+| `6. Hallazgos` | lo que choca hoy, con estado (`H-NN`) | la IA |
+
+El **alcance** (`sección.instrumento.aspecto`, por ejemplo `B2.guitarra.energia`) dice qué mira cada sesión
+y cada feedback. Detalle en [[6. Práctica/1. Estructura]].
+
+## Pasos
+
+1. **Elegir.** Abres **el último feedback** y tomas su *Siguiente* (sesión de **corrección**), o eliges
+   una sección o una toma del Mapa (sesión **libre**). Una cosa a la vez: una sesión ataca un solo hallazgo.
+2. **Sesión.** `3. Sesiones/NN. <alcance>` con [[Sesión de obra]]: objetivo, trabajo, cierre. Al cerrar:
+   sync si es partitura, commit `<Obra> NN: qué cambió [H-07]`, audio a `render/`, y *por qué* en la nota.
+3. **Feedback, si lo pides.** Es sobre **la composición**, no sobre la sesión: la IA evalúa la versión
+   actual dentro del alcance, contra el Mapa, las Decisiones y el Contexto, y lee las sesiones solo como
+   contexto. Escribe `5. Feedback/NN+1. <alcance>`, actualiza Hallazgos y termina con **una**
+   recomendación.
+4. **Triaje.** Por cada hallazgo nuevo:
+
+   | Si… | Entonces |
+   |---|---|
+   | lo quieres corregir | es el objetivo de la próxima sesión |
+   | es a propósito | una fila `D-NN` en Decisiones; el hallazgo pasa a `decisión` |
+   | cambió lo que quieres de la sección | editas el Mapa |
+   | una toma no funciona | la descartas en Contexto, con su `D-NN` |
+
+5. ↻ Vuelves al paso 1.
+
+No toda sesión pide feedback: puedes hacer varias seguidas y pedirlo después. Ese feedback cubre todo lo
+que cambió desde el anterior de su alcance. La regla 7 sigue valiendo: lo que se evalúa en frío, después de
+descansar, es más fiable que lo que se oye al terminar.
+
+## Definición de hecho
+
+> **Ningún hallazgo nuevo queda sin estado**, y existe la sesión siguiente o su objetivo.
+
+---
+
 # La regla que protege todo
 
-> **La nota de concepto la escribes tú. La IA escribe en `AI/`.**
+> **La nota de concepto la escribes tú. La IA escribe en `AI/`.** En una obra, también `5. Feedback/` y `6. Hallazgos.md`.
 
 Si la IA redacta el concepto, desaparece la presión de sintetizar — que es justamente lo que hace que el conocimiento se acumule en vez de dispersarse.
 
@@ -3180,6 +3255,7 @@ Esto no es purismo. Es la diferencia entre tener 143 notas sobre 26 lecciones y 
 | Sesión | 3–5 por semana |
 | Semana | día fijo |
 | Composición | una activa, sin fecha límite |
+| Feedback de obra | cuando lo pidas; mejor tras descansar |
 | Retrospectiva | cada 3 meses, o al cerrar la tercera obra |
 
 Sin calendario maestro. Sin semanas numeradas. Nada que recuperar.
@@ -3217,11 +3293,11 @@ aliases:
 
 | | |
 |---|---|
-| **Obra activa** | [[Intro\|Louise]] |
+| **Obra activa** | ninguna · [[3. Composiciones/6. louise/0. Obra\|Louise]] se cerró el 4 nov |
 | **Concepto activo** | |
 | **Curso en marcha** | [[2. Cursos/1. Cresciente/00. Curso\|Cresciente]] — módulo 1B Séptimas |
 | **Día de revisión semanal** | *(elegir uno fijo)* |
-| **Último audio** | |
+| **Último audio** | 4 nov · [[3. Composiciones/6. louise/0. Obra#Versión final\|Louise, la versión final]] · antes, 3 nov · piano, las tres tomas del [[02. Día 2 - Grupo 3 y los espejos#Grabaciones\|día 2]] · ver [[2026-11-02 - Semana 04 - Piano, el grupo 3\|Semana 04]] |
 
 ---
 
@@ -3304,7 +3380,7 @@ No hay calendario. No hay semanas numeradas. **Nada que recuperar si te atrasas*
 
 1. **Una obra activa a la vez.**
 2. **Semana sin audio es semana en blanco**, por mucho que hayas estudiado.
-3. **La nota de concepto la escribes tú.** La IA escribe en `AI/`.
+3. **La nota de concepto la escribes tú.** La IA escribe en `AI/`. En una obra, también `5. Feedback/` y `6. Hallazgos.md`.
 4. **Una dificultad nueva por proyecto.**
 5. **Nada se borra.** Lo superado se archiva en `_legacy/`.
 6. **Toda teoría termina en una decisión musical.** Si no puedes oírla ni aplicarla, todavía no la aprendiste.
@@ -3312,7 +3388,7 @@ No hay calendario. No hay semanas numeradas. **Nada que recuperar si te atrasas*
 
 ## Accesos
 
-- [[6. Práctica/0. Flujos]] — los seis bucles, paso a paso
+- [[6. Práctica/0. Flujos]] — los siete bucles, paso a paso
 - [[6. Práctica/1. Estructura]] — por qué está organizado así y dónde va cada cosa
 - [[Clase]] · [[Obra]] · [[Semana]] · [[Curso]]
 - [[Sesión deliberada]] · [[Rúbrica - Composición]]

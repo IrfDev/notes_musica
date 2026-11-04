@@ -1,6 +1,6 @@
 # La bitácora de Louise y Louise en el piano
 
-> Archivo derivado: lo genera `_scripts/generar-chatgpt.py` desde la bóveda de música del usuario (Obsidian + git), el 2026-10-18. Cada sección es una nota de la bóveda, con su ruta. La bóveda es la fuente de verdad: si algo de aquí contradice a una conversación más reciente, pregunta.
+> Archivo derivado: lo genera `_scripts/generar-chatgpt.py` desde la bóveda de música del usuario (Obsidian + git), el 2026-11-04. Cada sección es una nota de la bóveda, con su ruta. La bóveda es la fuente de verdad: si algo de aquí contradice a una conversación más reciente, pregunta.
 
 Las semanas 02 y 03 (sesión por sesión, con su definición de hecho) y los días del programa de piano donde se toca Louise.
 
@@ -380,7 +380,7 @@ semana: 5
 fecha:
 hecho: false
 teclado_bpm:
-hanon: "20"
+hanon: "16"
 hanon_bpm:
 sotf: "cc. 64–76"
 sotf_bpm:
@@ -396,7 +396,7 @@ audio:
 | Carril | Hoy |
 |---|---|
 | Teclado | Los acordes de Louise: intro y coro |
-| Hanon | 20 |
+| Hanon | 16 |
 | Sleep on the Floor | cc. 64–76 |
 
 > [!tip] La clave de hoy
@@ -416,13 +416,13 @@ setcpm(bpm/4)
 s("hh*4").bank("RolandTR909").gain("1 .4 .4 .4")
 ```
 
-## 1 · Hanon 20 · 6 minutos
+## 1 · Hanon 16 · 6 minutos
 
-- [ ] **(1')** Busca el **nº 20** en la partitura de abajo. Lee la celda de subida (clave de Fa, antes de la doble barra) y la de bajada (clave de Sol), con sus dedos: números de arriba = MD, de abajo = MI.
+- [ ] **(2')** Para calentar: Hanon 14 y Hanon 15 a dos manos, al BPM de la última vez (+4 si salen limpios).
+- [ ] **(1')** Busca el **nº 16** en la partitura de abajo. Lee la celda de subida (clave de Fa, antes de la doble barra) y la de bajada (clave de Sol), con sus dedos: números de arriba = MD, de abajo = MI.
 - [ ] **(1')** MD sola, una pasada completa (sube dos octavas y baja), en tu escalón de la escalera de abajo.
 - [ ] **(1')** MI sola, igual.
 - [ ] **(1')** Las dos manos, que caigan como una sola. Si sale limpia, sube un escalón.
-- [ ] **(2')** Rotación: Hanon 18 y Hanon 19 a dos manos, al BPM de la última vez (+4 si salen limpios).
 
 > [!warning] Hanon sin tensión
 > Dedos curvos y cerca de las teclas, muñeca quieta y suelta, las 8 notas iguales (el 4 y el 5 son los que se caen). Si algo duele, para.
@@ -503,7 +503,7 @@ s("hh*4").bank("RolandTR909").gain("1 .4 .4 .4")
 - [ ] Compara la nota de arriba de tu MD con la de los voicings de tu partitura (abajo). Marca en las tablas dónde coinciden y dónde no.
 
 ```verovio
-7. Partituras/2. Composiciones/Louise.musicxml
+7. Partituras/2. Composiciones/Louise-melancolica.musicxml
 scale: 35
 adjustPageHeight: true
 ```
@@ -532,7 +532,7 @@ s("hh*4").bank("RolandTR909").gain("1 .4 .4 .4")
 
 > [!check] Hecho cuando
 > la intro y el coro de Louise en vals, sin parar, al tempo que salga limpio (anótalo: la pieza va a 160).
-> Si no sale, mañana repites este día: no se pasa al siguiente.
+> Se comprueba en frío, en la Recuperación de la sesión siguiente: hoy basta con haberlo trabajado los minutos del bloque. Si en frío no sale, esa sesión usa su Aplicación para esto; si falla dos sesiones seguidas, se repite este día.
 
 > [!tip] Al terminar
 > Llena las propiedades de arriba: `hecho`, `fecha`, los tres BPM y `audio` si grabaste.
@@ -550,7 +550,7 @@ semana: 5
 fecha:
 hecho: false
 teclado_bpm:
-hanon: "17–20"
+hanon: "13–16"
 hanon_bpm:
 sotf: "cc. 40–76"
 sotf_bpm:
@@ -566,7 +566,7 @@ audio:
 | Carril | Hoy |
 |---|---|
 | Teclado | Louise: decidir la nota de arriba |
-| Hanon | 17–20 |
+| Hanon | 13–16 |
 | Sleep on the Floor | cc. 40–76 |
 
 > [!important] Hoy se graba
@@ -589,9 +589,9 @@ setcpm(bpm/4)
 s("hh*4").bank("RolandTR909").gain("1 .4 .4 .4")
 ```
 
-## 1 · Hanon 17–20 seguidos · 6 minutos
+## 1 · Hanon 13–16 seguidos · 6 minutos
 
-- [ ] Hanon 17 a 20 seguidos, a dos manos, sin parar entre uno y otro, al BPM del más lento.
+- [ ] Hanon 13 a 16 seguidos, a dos manos, sin parar entre uno y otro, al BPM del más lento.
 - [ ] Si alguno se cae, termina la vuelta y al final repite solo ese.
 
 > [!warning] Hanon sin tensión
@@ -625,7 +625,7 @@ s("hh*4").bank("RolandTR909").gain("1 .4 .4 .4")
 
 ## 4 · Aplicación · 4 minutos
 
-- [ ] Si una elección tuya suena mejor que lo que hay en la partitura, apúntala con fecha en `## Decisiones` de [[3. Composiciones/6. louise/0. Intro|Louise]].
+- [ ] Si una elección tuya suena mejor que lo que hay en la partitura, apúntala con fecha en `## Decisiones` de [[3. Composiciones/6. louise/0. Obra|Louise]].
 - [ ] **Graba** la intro y el coro con tus voicings.
 
 ## 5 · Sleep on the Floor · 11 minutos
@@ -656,7 +656,7 @@ s("hh*4").bank("RolandTR909").gain("1 .4 .4 .4")
 
 > [!check] Hecho cuando
 > existe la toma de Louise en piano con voicings elegidos por ti, y la de los cc. 40–76.
-> Si no sale, mañana repites este día: no se pasa al siguiente.
+> Se comprueba en frío, en la Recuperación de la sesión siguiente: hoy basta con haberlo trabajado los minutos del bloque. Si en frío no sale, esa sesión usa su Aplicación para esto; si falla dos sesiones seguidas, se repite este día.
 
 > [!tip] Al terminar
 > Llena las propiedades de arriba: `hecho`, `fecha`, los tres BPM y `audio` si grabaste.
@@ -674,7 +674,7 @@ semana: 6
 fecha:
 hecho: false
 teclado_bpm:
-hanon: "1 en G y F · 16–20"
+hanon: "1 en G y F · 12 y 16"
 hanon_bpm:
 sotf: "completa · compases débiles"
 sotf_bpm:
@@ -690,7 +690,7 @@ audio:
 | Carril | Hoy |
 |---|---|
 | Teclado | Los ✗ del examen · las otras seis |
-| Hanon | 1 en G y F · 16–20 |
+| Hanon | 1 en G y F · 12 y 16 |
 | Sleep on the Floor | completa · compases débiles |
 
 > [!tip] La clave de hoy
@@ -713,7 +713,7 @@ s("hh*4").bank("RolandTR909").gain("1 .4 .4 .4")
 ## 1 · Hanon 1 en G y en F · 6 minutos
 
 - [ ] **(4')** Hanon 1 con las notas de G mayor (A) y de F mayor (B): la misma celda, otra escala. Las dos manos.
-- [ ] **(2')** Hanon 20 y Hanon 16 a dos manos.
+- [ ] **(2')** Hanon 16 y Hanon 12 a dos manos.
 
 ```abc
 X:1
@@ -761,7 +761,39 @@ V:2 clef=bass name="MI"
 
 ## 4 · Aplicación · 4 minutos
 
-- [ ] La cadena del círculo (§8.2) en vals (3/4): la MI toca la raíz en el 1 y la MD su acorde de la cadena en el 2 y el 3.
+- [ ] **(2')** La cadena al revés: C F B♭ E♭ A♭ D♭ F♯ B E A D G C, MD con la inversión más cercana y MI en la raíz, dos pulsos por acorde. Busca tú cada inversión; la solución está plegada abajo.
+- [ ] **(2')** La de ida en vals (3/4): la MI toca la raíz en el 1 y la MD su acorde de la cadena en el 2 y el 3.
+
+> [!example]- Solución: la cadena al revés
+> | # | Acorde | Posición | MD (de abajo a arriba) | Dedos MD |
+> |---:|---|---|---|:-:|
+> | 1 | **C** | fund. | C4 – E4 – G4 | 1-3-5 |
+> | 2 | **F** | 1ª inv. | A3 – C4 – F4 | 1-2-5 |
+> | 3 | **B♭** | fund. | B♭3 – D4 – F4 | 1-3-5 |
+> | 4 | **E♭** | 2ª inv. | B♭3 – E♭4 – G4 | 1-3-5 |
+> | 5 | **A♭** | 1ª inv. | C4 – E♭4 – A♭4 | 1-2-5 |
+> | 6 | **D♭** | fund. | D♭4 – F4 – A♭4 | 1-3-5 |
+> | 7 | **F♯** | 1ª inv. | A♯3 – C♯4 – F♯4 | 1-2-5 |
+> | 8 | **B** | fund. | B3 – D♯4 – F♯4 | 1-3-5 |
+> | 9 | **E** | 2ª inv. | B3 – E4 – G♯4 | 1-3-5 |
+> | 10 | **A** | fund. | A3 – C♯4 – E4 | 1-3-5 |
+> | 11 | **D** | 2ª inv. | A3 – D4 – F♯4 | 1-3-5 |
+> | 12 | **G** | 1ª inv. | B3 – D4 – G4 | 1-2-5 |
+> | 13 | **C** | fund. | C4 – E4 – G4 | 1-3-5 |
+>
+> ```abc
+> X:1
+> T:La cadena al revés
+> M:4/4
+> L:1/4
+> K:C
+> V:1 clef=treble name="MD"
+> V:2 clef=bass name="MI"
+> [V:1] "C""^1-3-5"[CEG]2 "F""^1-2-5"[A,CF]2 | "Bb""^1-3-5"[_B,DF]2 "Eb""^1-3-5"[_B,_EG]2 | "Ab""^1-2-5"[C_E_A]2 "Db""^1-3-5"[_DF_A]2 | "F#""^1-2-5"[^A,^C^F]2 "B""^1-3-5"[B,^D^F]2 |
+> [V:2] [C,]2 [F,,]2 | [_B,,]2 [_E,]2 | [_A,,]2 [_D,]2 | [^F,,]2 [B,,]2 |
+> [V:1] "E""^1-3-5"[B,E^G]2 "A""^1-3-5"[A,^CE]2 | "D""^1-3-5"[A,D^F]2 "G""^1-2-5"[B,DG]2 | "C""^1-3-5"[CEG]2 z2 |]
+> [V:2] [E,,]2 [A,,]2 | [D,]2 [G,,]2 | [C,]2 z2 |]
+> ```
 
 ## 5 · Sleep on the Floor · 11 minutos
 
@@ -791,7 +823,7 @@ s("hh*4").bank("RolandTR909").gain("1 .4 .4 .4")
 
 > [!check] Hecho cuando
 > una toma completa de Sleep on the Floor sin parar.
-> Si no sale, mañana repites este día: no se pasa al siguiente.
+> Se comprueba en frío, en la Recuperación de la sesión siguiente: hoy basta con haberlo trabajado los minutos del bloque. Si en frío no sale, esa sesión usa su Aplicación para esto; si falla dos sesiones seguidas, se repite este día.
 
 > [!tip] Al terminar
 > Llena las propiedades de arriba: `hecho`, `fecha`, los tres BPM y `audio` si grabaste.
@@ -848,9 +880,9 @@ setcpm(bpm/4)
 s("hh*4").bank("RolandTR909").gain("1 .4 .4 .4")
 ```
 
-## 1 · Hanon 3, 17 y 5 · 6 minutos
+## 1 · Hanon 3, 14 y 5 · 6 minutos
 
-- [ ] Hanon 3, 17 y 5 (sorteados), a dos manos, cada uno al BPM más alto que tengas.
+- [ ] Hanon 3, 14 y 5 (sorteados), a dos manos, cada uno al BPM más alto que tengas.
 
 ![[Hanon - Ejercicios 1-30.pdf#page=1]]
 
@@ -996,7 +1028,7 @@ s("hh*4").bank("RolandTR909").gain("1 .4 .4 .4")
 
 > [!check] Hecho cuando
 > existe la toma completa de Sleep on the Floor (sin parar, al 80 % del tempo o más) y la de teclado.
-> Si no sale, mañana repites este día: no se pasa al siguiente.
+> Se comprueba en frío: escucha la toma al día siguiente, después de descansar. Si no sale, se repite la toma otro día; el mantenimiento empieza igual.
 
 > [!tip] Al terminar
 > Llena las propiedades de arriba: `hecho`, `fecha`, los tres BPM y `audio` si grabaste.
