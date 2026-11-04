@@ -13,7 +13,7 @@ aliases:
 
 | | |
 |---|---|
-| **Obra activa** | ninguna · [[3. Composiciones/6. louise/0. Obra\|Louise]] se cerró el 4 nov |
+| **Obra activa** | [[3. Composiciones/2. nocturno/0. Obra\|Nocturno]], en dream pop y en Strudel, desde el 4 nov · antes, [[3. Composiciones/6. louise/0. Obra\|Louise]], cerrada el 4 nov |
 | **Concepto activo** | |
 | **Curso en marcha** | [[2. Cursos/1. Cresciente/00. Curso\|Cresciente]] — módulo 1B Séptimas |
 | **Día de revisión semanal** | *(elegir uno fijo)* |
