@@ -17,7 +17,7 @@ aliases:
 | **Concepto activo** | |
 | **Curso en marcha** | [[2. Cursos/1. Cresciente/00. Curso\|Cresciente]] — módulo 1B Séptimas |
 | **Día de revisión semanal** | *(elegir uno fijo)* |
-| **Último audio** | |
+| **Último audio** | 3 nov · piano, las tres tomas del [[02. Día 2 - Grupo 3 y los espejos#Grabaciones\|día 2]] · ver [[2026-11-02 - Semana 04 - Piano, el grupo 3\|Semana 04]] |
 
 ---
 
