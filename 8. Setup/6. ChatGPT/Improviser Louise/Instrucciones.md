@@ -17,8 +17,8 @@ Empieza siempre por **Louise 00 - Guía**: qué es la pieza, cómo se ha trabaja
 
 # Cómo está hecha (no lo cambies sin que te lo pida)
 
-- Forma: Intro c.1–10 · V1 11–26 · C1 27–42 · B1 43–50 · V2 51–66 · C2 67–81 · B2 82–90 · C3 91–106 · Outro por escribir. Pico en el B2.
-- La partitura (`7. Partituras/2. Composiciones/Louise.mscz`) es la fuente de verdad. Los `.strudel.js` de `Louise/` son transcripciones o propuestas para oír.
+- Forma: Intro c.1–10 · V1 11–26 · C1 27–42 · B1 43–50 · V2 51–66 · C2 67–82 · B2 83–92 · C3 93–108 · Outro 109–111. Pico en el B2.
+- Louise se cerró el 2026-11-04. La versión final es la partitura `7. Partituras/2. Composiciones/Louise-melancolica.mscz` y la pieza entera en Strudel, `4. Instrumento/2. Strudel/10. Folk/Louise/9.produccion/pieza.strudel.js`. Las versiones anteriores están en `_legacy/partituras/versiones-viejas/`.
 - La firma: la cadencia que llega y se escapa (V7→vi en el verso; A7→D solo en el coro).
 - El motivo: La–Sol–Fa♯–Re–Fa♯, siempre igual y sobre D hasta ahora.
 

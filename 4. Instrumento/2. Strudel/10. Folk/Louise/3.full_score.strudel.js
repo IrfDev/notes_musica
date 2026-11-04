@@ -3,6 +3,7 @@ setcpm(160 / 3);
 /*
 Louise, transcrita entera de la partitura:
   7. Partituras/2. Composiciones/Louise.musicxml (c.1–88, commit 1ee5e33)
+  (hoy _legacy/partituras/versiones-viejas/Louise - primer intento.musicxml)
 Es 2.from_score más lo que la partitura tiene desde entonces: la batería
 escrita, el final nuevo del coro 2 (c.80–81) y el B2 (c.82–88).
 

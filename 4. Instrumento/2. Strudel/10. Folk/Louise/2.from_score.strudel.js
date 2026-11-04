@@ -3,6 +3,7 @@ setcpm(160 / 3);
 /*
 Louise, transcrita de la partitura:
   7. Partituras/2. Composiciones/Louise.musicxml (c.1–82)
+  (hoy _legacy/partituras/versiones-viejas/Louise - primer intento.musicxml)
 sobre la estructura de 0.first: mismas secciones, mismos sonidos, arrange() al final.
 
 Un ciclo = un compás. Cada lista lleva una entrada por compás, con su número y

@@ -38,7 +38,7 @@ ultima_verificacion: 2026-10-18
 - Qué nota va en qué paquete lo dice el catálogo, arriba de `_scripts/generar-chatgpt.py`.
 - La carpeta `.fuentes/` lleva punto, como `.motor/` en Strudel: son copias, y en Obsidian duplicarían
   cada búsqueda.
-- Dos fuentes de Louise no son notas: la **partitura compás por compás** (leída de `Louise.musicxml`) y el
+- Dos fuentes de Louise no son notas: la **partitura compás por compás** (leída de `Louise-melancolica.musicxml`, la versión final) y el
   **historial** (git y `_scripts/historial.py`).
 - **Nunca se suben** PDFs de partituras con licencia (*Sleep on the Floor*), ni el material copiado de
   Cresciente (`5. Referencias/3. Cursos/`), ni licencias, números de serie o claves.

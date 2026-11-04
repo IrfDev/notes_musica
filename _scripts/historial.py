@@ -11,6 +11,7 @@ cambió musicalmente respecto de la versión anterior.
 """
 
 import argparse
+import os
 import subprocess
 import sys
 import tempfile
@@ -23,8 +24,9 @@ DIFF_MUSICAL = AQUI / "diff-musical.py"
 def git(*args):
     # core.quotePath=false: sin esto git escapa los acentos ("Composici\303\263n")
     # y las rutas dejan de coincidir con los archivos reales.
+    # encoding: git escribe UTF-8; en Windows, text=True solo leería cp1252 y truena con un acento
     r = subprocess.run(["git", "-c", "core.quotePath=false", *args],
-                       capture_output=True, text=True)
+                       capture_output=True, text=True, encoding="utf-8")
     return r.stdout.rstrip("\n") if r.returncode == 0 else ""
 
 
@@ -81,7 +83,8 @@ def historial_de(ruta, limite):
             if version_en(previo, ruta, a) and version_en(sha, ruta, b):
                 r = subprocess.run([sys.executable, str(DIFF_MUSICAL),
                                     str(a), str(b)],
-                                   capture_output=True, text=True)
+                                   capture_output=True, text=True, encoding="utf-8",
+                                   env={**os.environ, "PYTHONIOENCODING": "utf-8"})
                 for linea in r.stdout.splitlines():
                     if linea.strip():
                         print(f"   {linea}")
@@ -94,7 +97,6 @@ def main():
     ap.add_argument("-n", type=int, default=10, help="cuántas versiones (10)")
     args = ap.parse_args()
 
-    import os
     os.chdir(raiz())
 
     encontradas = buscar(args.patron)

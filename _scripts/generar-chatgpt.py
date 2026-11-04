@@ -24,6 +24,7 @@ nombre ya estaba, se quita el viejo primero. Ver «8. Setup/6. ChatGPT/README.md
 """
 
 import datetime
+import os
 import shutil
 import subprocess
 import sys
@@ -42,7 +43,7 @@ informe = []
 PIANO_30 = "4. Instrumento/1. Piano/1. Programa de 30 sesiones"
 STRUDEL = "4. Instrumento/2. Strudel"
 LOUISE = "3. Composiciones/6. louise"
-LOUISE_XML = "7. Partituras/2. Composiciones/Louise.musicxml"
+LOUISE_XML = "7. Partituras/2. Composiciones/Louise-melancolica.musicxml"
 
 # ================================================================ catálogo
 #
@@ -360,7 +361,10 @@ def reduccion(xml):
                             vel=e.get("dynamics"), suave=nh is not None and nh.get("parentheses") == "yes"))
 
     pid_de = {v: k for k, v in nombres.items()}
-    piano, guit, voz = pid_de.get("Piano"), pid_de.get("Guitarra nylon"), pid_de.get("Voz")
+    # la versión final dice "Classical Guitar" y "Violin"; la primera, "Guitarra nylon" y "Voz"
+    piano = pid_de.get("Piano")
+    guit = pid_de.get("Guitarra nylon") or pid_de.get("Classical Guitar")
+    voz = pid_de.get("Voz") or pid_de.get("Violin")
     percs = [p.get("id") for p in partes if p.get("id") not in (piano, guit, voz)]
 
     def de_parte(n, pid, staff=None):
@@ -410,7 +414,7 @@ def reduccion(xml):
         "♩ = " + (tempo.get(1) or "?") + " (un compás dura " + (f"{180 / float(tempo[1]):.3f}" if 1 in tempo else "?") + " s).",
         "- **Sección** sale de las marcas de ensayo de la partitura. Desde la última marca, las secciones "
         "que no tienen marca propia heredan el nombre de la anterior: compruébalo con la guía (00).",
-        "- **Grave/Aguda**: la nota más grave y la más aguda del compás entre piano y guitarra, en altura real.",
+        "- **Grave/Aguda**: la nota más grave y la más aguda del compás entre piano, guitarra y violín, en altura real.",
         "- **Ataques**: cuántos inicios de nota distintos tiene cada instrumento en el compás.",
         "- Notas en cifrado anglosajón con octava científica (C4 = Do central). ♯ y ♭ explícitos.",
         "- La **guitarra** se escribe una octava arriba de como suena; aquí va en **altura real**.",
@@ -419,7 +423,7 @@ def reduccion(xml):
         "entero). `‿` = ligadura. `(arp.)` = acorde arpegiado (el rasgueo).",
         "- **Batería**: en qué posición golpea cada instrumento; entre paréntesis los golpes suaves o ghost; "
         "`[x%]` la velocidad de MuseScore cuando no es la normal (100 %).",
-        "- La partitura no tiene ninguna marca de dinámica: si aparece alguna, va como *Indicación*.", "",
+        "- Las dinámicas, los reguladores y los textos de la partitura van como *Indicación*.", "",
         "## Resumen: un renglón por compás", "",
         "| c. | Sección | Armadura | Cifrado (posición) | Grave | Aguda | Ataques piano | Ataques guitarra | Batería |",
         "|---:|---|---|---|---|---|---:|---:|---|",
@@ -448,7 +452,7 @@ def reduccion(xml):
         out.append(f"- Piano MI: {linea(de_parte(n, piano, '2'))}")
         out.append(f"- Guitarra (real): {linea(de_parte(n, guit))}")
         if de_parte(n, voz):
-            out.append(f"- Voz: {linea(de_parte(n, voz))}")
+            out.append(f"- {nombres[voz]}: {linea(de_parte(n, voz))}")
         out.append(f"- Batería: {bateria(n)}")
         out += [f"- Indicación: {t}" for t in textos[n]]
         out.append("")
@@ -459,7 +463,8 @@ def reduccion(xml):
 
 
 def historial_louise():
-    rutas = [LOUISE, "7. Partituras/2. Composiciones/Louise.mscz", f"{STRUDEL}/10. Folk",
+    rutas = [LOUISE, "7. Partituras/2. Composiciones/Louise.mscz",
+             "7. Partituras/2. Composiciones/Louise-melancolica.mscz", f"{STRUDEL}/10. Folk",
              f"{STRUDEL}/5. Experiments/1. Happy", "6. Práctica/4. Bitácora/2026-10-05 - Semana 02 - Louise, del loop a la forma.md",
              "6. Práctica/4. Bitácora/2026-10-12 - Semana 03 - Louise, forma y cierre.md"]
     log = subprocess.run(["git", "-c", "core.quotePath=false", "log", "--reverse", "--date=short",
@@ -478,10 +483,11 @@ def historial_louise():
     out += ["", "## Cambios sin commit al generar este archivo", "",
             "```text", pend or "(ninguno)", "```", "",
             "`M` = modificado, `??` = nuevo sin seguimiento.", ""]
-    musical = subprocess.run([sys.executable, str(BOVEDA / "_scripts" / "historial.py"), "-n", "12", "Louise"],
-                             cwd=BOVEDA, capture_output=True, text=True, encoding="utf-8").stdout
+    musical = subprocess.run([sys.executable, str(BOVEDA / "_scripts" / "historial.py"), "-n", "12", "Louise-melancolica"],
+                             cwd=BOVEDA, capture_output=True, text=True, encoding="utf-8",
+                             env={**os.environ, "PYTHONIOENCODING": "utf-8"}).stdout
     out += ["## Cambios musicales de la partitura, versión por versión", "",
-            "Salida de `_scripts/historial.py Louise`: compara el MusicXML de cada commit con el anterior y dice "
+            "Salida de `_scripts/historial.py Louise-melancolica` (la versión final): compara el MusicXML de cada commit con el anterior y dice "
             "qué notas cambiaron en qué compás. Las alturas de guitarra están **escritas** (una octava arriba de "
             "lo que suena). «compás nuevo» en todas las partes = se alargó la pieza.", "",
             "```text", musical.strip(), "```", ""]
