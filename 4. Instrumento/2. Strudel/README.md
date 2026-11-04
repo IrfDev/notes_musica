@@ -52,6 +52,7 @@ VS Code  ──guardar──▶  motor (localhost:5173, Chrome)  ──Web MIDI�
 │
 ├── 8. Dream pop/              ← al estilo de Beach House: del órgano a la coda
 │   ├── 0. Dream pop desde cero.md
+│   ├── 1. Nocturno.strudel.js    la partitura del Nocturno, con perillas de la guía
 │   └── _lessons/                 una sesión por bloque de la guía (0–7)
 │
 ├── .motor/                    ← el motor; no se toca para tocar

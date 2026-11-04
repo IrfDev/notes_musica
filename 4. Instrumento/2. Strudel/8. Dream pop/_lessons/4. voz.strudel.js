@@ -65,8 +65,8 @@ compás   nota larga   sobre    es la…
 // )
 
 // ── PASO 6 · Tu voz ─────────────────────────────────────────────
-// En Sonar: graba la melodía cantada encima de este fondo (pista HUM - Lead
-// o una de audio). Súbele la reverb hasta que deje de ser tu voz y sea una voz.
+// Canta la melodía encima de este fondo y grábala, aunque sea con el celular.
+// La reverb sobre tu voz ya es del montaje con equipo, fuera de la guía (§13).
 
 // ── CIERRE ──────────────────────────────────────────────────────
 // DECISIÓN · mi melodía termina en ____ (qué grado) y la frase que resuelve
