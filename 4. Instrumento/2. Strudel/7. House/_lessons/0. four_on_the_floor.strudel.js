@@ -20,20 +20,20 @@ cuenta  1 e & a   2 e & a   3 e &  a    4  e  &  a
 
 // ── PASO 1 · El corazón ─────────────────────────────────────────
 // Escucha 8 compases solo el kick. Cuéntalos en voz alta.
-let chords = "<C Am F Fmaj7 Em7 G G7>";
-$: s("bd*8").bank(BANK).swingBy(2, 8);
-$: s("[hh hh hh oh]*4").bank(BANK);
-$: s("[[~ sd ~ ~] [~ sd ~ sd] [~ sd sd ~] [~ sd]]").bank(BANK);
-$: s(chords).sound("gm_lead_8_bass_lead").room(0.4).roomsize(2).lpf(300).hpf(5);
-$: n("[0 3 1 2 3 1 2 1]".sub(7))
-  .chord(chords)
-  .voicing()
-  .swingBy(2, 8)
-  .room(0.5)
-  .roomsize(9)
-  .lpf(300)
-  .hpf(3)
-  .sound("gm_synth_strings_2");
+// let chords = "<C Am F F7 Em7 G G7>";
+// $: s("bd*8").bank(BANK).velocity(1).swingBy(2, 8);
+// $: s("[hh hh hh oh]*4").bank(BANK).velocity(0.5);
+// $: s("[[~ sd ~ sd] [~ sd ~ sd] [~ sd sd ~] [~ sd]]").bank(BANK);
+// $: s(chords).sound("gm_lead_8_bass_lead").room(0.4).roomsize(2).lpf(300).hpf(5);
+// $: n("[0 3 1 2 3 1 2 1]")
+//   .chord(chords)
+//   .voicing()
+//   .swingBy(2, 8)
+//   .room(0.5)
+//   .roomsize(0.5)
+//   .lpf(300)
+//   .hpf(3)
+//   .sound("gm_synth_strings_2");
 
 // ── PASO 2 · Palmas y hat abierto, por tiempos ─────────────────
 // Sin mirar la guía. La rejilla que tiene que sonar:
@@ -45,10 +45,13 @@ kick    x . . . x . . . x . . . x . . .
 */
 
 // stack(
+//   // Kick
 //   s("bd*4"),
-//   s("____"),        // palmas: 2 y 4
-//   s("____"),        // hat abierto: los cuatro "&"
-// ).bank(BANK)
+//   // Claps
+//   s("<[~ cp ~ cp]>"),
+//   // Hi hat open
+//   s("<[[~ oh]!4]>"),
+// ).bank(BANK);
 
 // ── PASO 3 · Los cerrados, en una sola capa ─────────────────────
 // Una capa con cerrado-cerrado-ABIERTO-cerrado por tiempo, y .cut(1)

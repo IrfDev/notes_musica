@@ -27,5 +27,14 @@
     "statusBar.debuggingBackground": "#61dafb",
     "statusBar.debuggingForeground": "#15202b"
   },
-  "peacock.color": "#61dafb"
+  "peacock.color": "#61dafb",
+  // Sin formato automático en JavaScript, igual que en 4. Instrumento/2. Strudel:
+  // un formateador cambia comillas, y en Strudel las comillas dobles son
+  // mini-notación y las simples no. Abriendo la bóveda desde la raíz, aquella
+  // carpeta no aplica su .vscode y Prettier formateaba al guardar.
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "editor.formatOnPaste": false
+  }
 }

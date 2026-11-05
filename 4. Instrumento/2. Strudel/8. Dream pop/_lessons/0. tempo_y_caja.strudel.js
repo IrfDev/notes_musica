@@ -10,16 +10,14 @@
 //           el anterior y descomenta el nuevo. Llena cada ____ tú.
 // ════════════════════════════════════════════════════════════════
 
-setcpm(66 / 4) // 12/8 a 66 negras con punto: 1 ciclo = 1 compás
+setcpm(66 / 4); // 12/8 a 66 negras con punto: 1 ciclo = 1 compás
 
 // ── PASO 1 · Slow rock ──────────────────────────────────────────
 // El preset de balada en 12/8. Escúchalo 8 compases y mécete con él.
 
-stack(
-  s("bd ~ bd ~"),
-  s("~ sd ~ sd"),
-  s("hh*12").velocity("[.6 .3 .4]*4"),
-).bank("KorgMinipops")
+stack(s("bd ~ bd ~"), s("~ sd ~ sd"), s("hh*12").velocity("[.6 .3 .4]*4")).bank(
+  "KorgMinipops",
+);
 
 // ── PASO 2 · Tempo medido, tempo sentido ────────────────────────
 // Elige una canción de dream pop que te guste. Da palmas con ella.
