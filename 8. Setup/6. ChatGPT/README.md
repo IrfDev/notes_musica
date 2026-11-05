@@ -11,6 +11,15 @@ ultima_verificacion: 2026-10-18
 > (archivos) que se les suben. Los proyectos viven en la cuenta de ChatGPT (*AlertMedia Enterprise*),
 > sección **Projects**. No son GPTs: los GPTs se retiran el 11 de diciembre de 2026.
 
+> [!warning] Desde el 2026-11-02
+> La cuenta *AlertMedia Enterprise* ya no está y sus proyectos se perdieron. En la cuenta personal hay dos
+> proyectos con estas fuentes: **Música** (Improviser 01, 05, 08–11 y 13) y **Composer** (Louise 01–08,
+> `Louise.musicxml` e Improviser 01–07 y 12). Sus instrucciones no son las `Instrucciones.md` de esta carpeta:
+> viven en `~/.codex/skills/ancla-ops/workflows/weekly/planning/5-chatgpt-instrucciones/`. Las fuentes se
+> generaron con una copia del script con tres arreglos: la partitura `Louise-melancolica.musicxml`, el violín y la
+> guitarra «Classical Guitar» en la reducción, y `AI/**` más `9.produccion/` en Louise. El script de `_scripts/`
+> sigue sin ellos.
+
 ## Los proyectos
 
 | Proyecto | Para qué | Instrucciones | Fuentes |
@@ -65,6 +74,8 @@ En ChatGPT, en cada proyecto:
 |---|---|---|---|
 | Improviser | 2026-10-18 | 2026-10-18 | las 14 de `.fuentes/`, más 15 fuentes anteriores (abajo) |
 | Improviser Louise | 2026-10-18 | 2026-10-18 | creado el 2026-10-18; las 10 de `.fuentes/` |
+| Música (cuenta personal) | 2026-11-02 | 2026-11-02 | creado el 2026-11-02; 7 fuentes, copia del script con arreglos |
+| Composer (cuenta personal) | 2026-11-02 | 2026-11-02 | creado el 2026-11-02; 17 fuentes, copia del script con arreglos |
 
 Las instrucciones anteriores de Improviser están en
 [[_legacy/ChatGPT 2026-10/Improviser - Instrucciones hasta 2026-10-18]].
