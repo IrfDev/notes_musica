@@ -1,0 +1,779 @@
+/*
+  Nocturno — theme para el vault de Música.
+  Un salón de conciertos de noche: cada nota es un reproductor sobre papel
+  pautado, títulos en Playfair con hoja de oro, pentagramas como separadores,
+  dinámicas (mp, mf, f, ff) en los callouts y un vinilo girando en la pestaña
+  vacía. Pensado para modo oscuro; en modo claro sólo cambia la tipografía.
+
+  Interruptores opcionales con el plugin Style Settings (sección «Nocturno»).
+*/
+
+/* @settings
+name: Nocturno
+id: nocturno
+settings:
+  -
+    id: t-no-scene
+    title: Sin escenario
+    description: Quita el reflector y la onda de sonido detrás de las notas
+    type: class-toggle
+  -
+    id: t-no-window
+    title: Sin reproductor
+    description: La nota va directo sobre el fondo, sin marco ni barra
+    type: class-toggle
+  -
+    id: t-still
+    title: Fondo quieto
+    description: Detiene el vinilo y el cursor
+    type: class-toggle
+  -
+    id: t-no-glow
+    title: Sin brillo
+    type: class-toggle
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap');
+
+/* ═════════════════════════ Base común ═════════════════════════
+   Marco, márgenes y detalles de interfaz. Todo lo que cambia entre themes
+   (glifos, textos, colores, escenario) sale de variables --t-* del theme. */
+
+body {
+  --font-text-theme: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-interface-theme: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-monospace-theme: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --t-display: 'Orbitron', 'JetBrains Mono', ui-monospace, sans-serif;
+
+  --h1-font: var(--t-display);
+  --h2-font: var(--t-display);
+  --inline-title-font: var(--t-display);
+  --h1-weight: 800;
+  --h2-weight: 800;
+  --inline-title-weight: 800;
+  --h1-size: 1.45em;
+  --h2-size: 1.22em;
+  --inline-title-size: 1.45em;
+  --inline-title-margin-bottom: 0.3em;
+  --h1-letter-spacing: 0.03em;
+  --h2-letter-spacing: 0.03em;
+
+  /* La nota ocupa todo el panel: la ventana va de borde a borde */
+  --file-line-width: 100%;
+  --file-margins: 4px 6px;
+
+  --tag-radius: 4px;
+  --tag-border-width: 1px;
+  --code-radius: 4px;
+  --checkbox-radius: 3px;
+  --blockquote-border-thickness: 3px;
+  --hr-thickness: 2px;
+
+  --t-hr-height: 2px;
+  --t-hr-mask: none;
+  --t-callout-icon: none;
+  --t-glyph-color: var(--t-prompt);
+}
+
+body.t-sans {
+  --font-text-theme: var(--font-default);
+  --font-interface-theme: var(--font-default);
+}
+
+body.t-no-glow {
+  --t-heading-glow: none;
+  --t-h3-glow: none;
+  --t-window-glow: none;
+  --t-tab-glow: none;
+  --t-prompt-glow: none;
+}
+
+/* ───────────────────────── Títulos ───────────────────────── */
+
+.theme-dark .markdown-rendered h1,
+.theme-dark .markdown-rendered h2,
+.theme-dark .markdown-source-view.mod-cm6 .cm-line.HyperMD-header-1,
+.theme-dark .markdown-source-view.mod-cm6 .cm-line.HyperMD-header-2,
+.theme-dark .inline-title,
+.theme-dark .empty-state-title {
+  background-image: var(--t-chrome);
+  background-size: 100% 1lh;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: var(--t-heading-glow);
+  /* el texto que se sale de la caja quedaría invisible: mejor que parta */
+  overflow-wrap: anywhere;
+}
+
+.theme-dark .empty-state-title {
+  font-family: var(--t-display);
+  font-weight: var(--h1-weight);
+  letter-spacing: 0.05em;
+}
+
+.theme-dark .markdown-rendered :is(h3, h4),
+.theme-dark .markdown-source-view.mod-cm6 .cm-line:is(.HyperMD-header-3, .HyperMD-header-4) {
+  text-shadow: var(--t-h3-glow);
+}
+
+/* Glifos de los títulos en lectura (en edición ya se ven los # del markdown) */
+.theme-dark .markdown-reading-view .inline-title::before,
+.theme-dark .markdown-rendered h2::before,
+.theme-dark .markdown-rendered h3::before {
+  -webkit-text-fill-color: var(--t-glyph-color);
+  color: var(--t-glyph-color);
+  font-family: var(--font-monospace-theme);
+  font-weight: 400;
+  text-shadow: var(--t-prompt-glow);
+}
+
+.theme-dark .markdown-reading-view .inline-title::before {
+  content: var(--t-title-glyph);
+}
+
+.theme-dark .markdown-rendered h2::before {
+  content: var(--t-h2-glyph);
+  font-size: 0.8em;
+  opacity: 0.75;
+}
+
+.theme-dark .markdown-rendered h3::before {
+  content: var(--t-h3-glyph);
+  font-size: 0.85em;
+  opacity: 0.7;
+}
+
+.theme-dark .markdown-reading-view .inline-title::after {
+  content: var(--t-cursor);
+  margin-inline-start: 0.15em;
+  -webkit-text-fill-color: var(--t-cursor-color, var(--t-prompt));
+  font-family: var(--font-monospace-theme);
+  font-size: var(--t-cursor-size, 1em);
+  vertical-align: middle;
+  font-weight: 400;
+  animation: t-blink 1.06s steps(1) infinite;
+}
+
+@keyframes t-blink {
+  50% { opacity: 0; }
+}
+
+/* ───────────────────────── La nota dentro del marco ───────────────────────── */
+
+.theme-dark:not(.t-no-window) .workspace-leaf-content[data-type="markdown"] .markdown-reading-view > .markdown-preview-view > .markdown-preview-sizer,
+.theme-dark:not(.t-no-window) .workspace-leaf-content[data-type="markdown"] .markdown-source-view.mod-cm6 > .cm-editor > .cm-scroller > .cm-sizer {
+  position: relative;
+  margin-top: 2px;
+  margin-bottom: 16px;
+  padding-top: 34px;
+  padding-inline: clamp(10px, 1.6%, 18px);
+  background: var(--t-window-bg);
+  border: 1px solid var(--t-window-border);
+  border-radius: var(--t-window-radius, 12px);
+  box-shadow: var(--t-window-glow);
+}
+
+.theme-dark:not(.t-no-window) .workspace-leaf-content[data-type="markdown"] .markdown-reading-view > .markdown-preview-view > .markdown-preview-sizer::before,
+.theme-dark:not(.t-no-window) .workspace-leaf-content[data-type="markdown"] .markdown-source-view.mod-cm6 > .cm-editor > .cm-scroller > .cm-sizer::before {
+  content: var(--t-title);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 24px;
+  box-sizing: border-box;
+  padding-left: var(--t-titlebar-pad, 78px);
+  display: flex;
+  align-items: center;
+  white-space: pre;
+  overflow: hidden;
+  font: 600 11px/1 var(--font-monospace-theme);
+  letter-spacing: 0.08em;
+  color: var(--t-titlebar-color);
+  background: var(--t-titlebar-bg);
+  border-bottom: 1px solid var(--t-titlebar-border);
+  border-radius: calc(var(--t-window-radius, 12px) - 1px) calc(var(--t-window-radius, 12px) - 1px) 0 0;
+  pointer-events: none;
+}
+
+/* ───────────────────────── Contenido ───────────────────────── */
+
+.theme-dark .markdown-rendered blockquote {
+  background: var(--t-quote-bg);
+  border: 1px solid var(--t-quote-border);
+  border-inline-start: 3px solid var(--blockquote-border-color);
+  border-radius: 6px;
+  padding-block: 2px;
+}
+
+.theme-dark .markdown-rendered hr,
+.theme-dark .markdown-source-view.mod-cm6 hr {
+  border: none;
+  height: var(--t-hr-height);
+  background: var(--t-hr);
+  box-shadow: var(--t-tab-glow);
+  -webkit-mask-image: var(--t-hr-mask);
+  mask-image: var(--t-hr-mask);
+}
+
+.theme-dark .markdown-rendered :not(pre) > code,
+.theme-dark .cm-s-obsidian span.cm-inline-code:not(.cm-formatting) {
+  color: var(--t-inline-code);
+  background-color: var(--t-inline-code-bg);
+}
+
+.theme-dark .markdown-rendered pre,
+.theme-dark .markdown-source-view.mod-cm6 .cm-preview-code-block {
+  border: 1px solid var(--t-code-border);
+}
+
+.theme-dark .markdown-rendered pre::before {
+  content: var(--t-code-head);
+  display: block;
+  margin-bottom: 0.6em;
+  font: 600 0.7em/1 var(--font-monospace-theme);
+  letter-spacing: 0.3em;
+  color: var(--t-glyph-color);
+  opacity: 0.8;
+}
+
+.theme-dark .markdown-rendered th {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85em;
+}
+
+/* Viñetas como glifos */
+.theme-dark .list-bullet::after {
+  content: var(--t-bullet);
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  background-color: transparent;
+  color: var(--list-marker-color);
+  font: 700 0.95em/1 var(--font-monospace-theme);
+}
+
+.theme-dark li.is-collapsed .list-bullet::after,
+.theme-dark .is-collapsed ~ .cm-formatting-list .list-bullet::after {
+  background-color: transparent;
+  box-shadow: none;
+  color: var(--list-marker-color-collapsed);
+}
+
+.theme-dark a.tag:hover {
+  box-shadow: var(--t-tab-glow);
+}
+
+/* Callouts como mensajes del sistema: [INFO], [WARN]… según el theme */
+.theme-dark .callout {
+  --t-callout-label: var(--t-lbl-info);
+}
+.theme-dark .callout:is([data-callout="tip"], [data-callout="hint"], [data-callout="important"]) { --t-callout-label: var(--t-lbl-tip); }
+.theme-dark .callout:is([data-callout="warning"], [data-callout="caution"], [data-callout="attention"]) { --t-callout-label: var(--t-lbl-warn); }
+.theme-dark .callout:is([data-callout="danger"], [data-callout="error"], [data-callout="bug"], [data-callout="failure"], [data-callout="fail"], [data-callout="missing"]) { --t-callout-label: var(--t-lbl-error); }
+.theme-dark .callout:is([data-callout="success"], [data-callout="check"], [data-callout="done"]) { --t-callout-label: var(--t-lbl-ok); }
+.theme-dark .callout:is([data-callout="question"], [data-callout="help"], [data-callout="faq"]) { --t-callout-label: var(--t-lbl-question); }
+.theme-dark .callout:is([data-callout="quote"], [data-callout="cite"]) { --t-callout-label: var(--t-lbl-quote); }
+.theme-dark .callout[data-callout="todo"] { --t-callout-label: var(--t-lbl-todo); }
+.theme-dark .callout[data-callout="example"] { --t-callout-label: var(--t-lbl-example); }
+.theme-dark .callout:is([data-callout="abstract"], [data-callout="summary"], [data-callout="tldr"]) { --t-callout-label: var(--t-lbl-abstract); }
+
+.theme-dark .callout {
+  border-radius: 6px;
+  border-inline-start: 3px solid rgb(var(--callout-color));
+}
+
+.theme-dark .callout-icon {
+  display: var(--t-callout-icon);
+}
+
+.theme-dark .callout-title-inner::before {
+  content: var(--t-callout-label);
+  margin-inline-end: 0.6em;
+  font-family: var(--font-monospace-theme);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+/* ───────────────────────── Interfaz ───────────────────────── */
+
+/* Explorador: encabezado como comando, carpetas y archivo activo con glifos */
+.theme-dark .nav-files-container::before {
+  content: var(--t-ls);
+  display: block;
+  padding: 2px 8px 8px;
+  font: 600 var(--font-ui-smaller) / 1.4 var(--font-monospace-theme);
+  letter-spacing: 0.04em;
+  color: var(--t-glyph-color);
+  text-shadow: var(--t-prompt-glow);
+}
+
+.theme-dark .nav-folder-title-content::after {
+  content: var(--t-folder-suffix);
+  color: var(--t-glyph-color);
+  opacity: 0.7;
+}
+
+.theme-dark .nav-folder-title {
+  color: var(--t-folder-color, var(--nav-item-color));
+}
+
+.theme-dark .tree-item-self.nav-file-title.is-active .nav-file-title-content::before {
+  content: var(--t-active-glyph);
+  color: var(--t-glyph-color);
+}
+
+.theme-dark .tree-item-self.is-active {
+  box-shadow: inset 2px 0 0 var(--t-prompt);
+}
+
+/* Pestaña activa con su glifo */
+.theme-dark .workspace-tab-header.is-active .workspace-tab-header-inner-title::before {
+  content: var(--t-tab-glyph);
+  color: var(--t-glyph-color);
+}
+
+body.theme-dark.is-focused .mod-root .workspace-tabs.mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-title {
+  text-shadow: var(--t-prompt-glow);
+}
+
+/* Cabecera de la nota como ruta */
+.theme-dark .view-header-title-container::before {
+  content: var(--t-path-prefix);
+  flex: 0 0 auto;
+  font-family: var(--font-monospace-theme);
+  color: var(--t-glyph-color);
+  opacity: 0.8;
+}
+
+/* Barra de estado con un segmento al inicio, tipo prompt de shell */
+.theme-dark .status-bar {
+  color: var(--t-status-color);
+  letter-spacing: 0.04em;
+}
+
+.theme-dark .status-bar::before {
+  content: var(--t-status-segment);
+  align-self: center;
+  margin-inline-end: 6px;
+  padding: 1px 8px;
+  border-radius: 3px;
+  font: 700 var(--font-ui-smaller) / 1.4 var(--font-monospace-theme);
+  letter-spacing: 0.06em;
+  color: var(--t-on-prompt);
+  background: var(--t-prompt);
+}
+
+/* Paleta de comandos y buscadores como prompt */
+.theme-dark .prompt-input-container::before {
+  content: var(--t-palette-glyph);
+  position: absolute;
+  inset-inline-start: var(--size-4-4);
+  top: 50%;
+  transform: translateY(-50%);
+  font: 700 1.05em/1 var(--font-monospace-theme);
+  color: var(--t-prompt);
+  text-shadow: var(--t-prompt-glow);
+  pointer-events: none;
+}
+
+.theme-dark input.prompt-input {
+  padding-inline-start: calc(var(--size-4-4) + 1.6em);
+  caret-color: var(--t-prompt);
+}
+
+.theme-dark .metadata-properties-heading::before {
+  content: var(--t-props-prefix);
+  color: var(--t-glyph-color);
+  font-family: var(--font-monospace-theme);
+}
+
+.theme-dark .modal,
+.theme-dark .prompt {
+  box-shadow: var(--t-window-glow), var(--shadow-l);
+}
+
+.theme-dark .empty-state-action {
+  color: var(--t-status-color);
+}
+
+.theme-dark .empty-state-action::before {
+  content: var(--t-action-glyph);
+  color: var(--t-glyph-color);
+}
+
+/* ───────────────────────── Escenario: base común ───────────────────────── */
+
+.theme-dark:not(.t-no-scene) .workspace-split.mod-root .workspace-leaf-content:is([data-type="markdown"], [data-type="empty"]) > .view-content {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: var(--t-sky);
+}
+
+.theme-dark:not(.t-no-scene) .workspace-leaf-content[data-type="markdown"].is-read-mode .markdown-preview-view {
+  background-color: transparent;
+}
+
+.theme-dark .workspace-split.mod-root .workspace-leaf-content[data-type="markdown"] > .view-content {
+  --t-horizon: var(--t-horizon-note);
+}
+
+.theme-dark .workspace-split.mod-root .workspace-leaf-content[data-type="empty"] > .view-content {
+  --t-horizon: var(--t-horizon-empty);
+}
+
+.theme-dark .workspace-leaf-content[data-type="empty"] .empty-state {
+  z-index: 1;
+  height: auto;
+  bottom: var(--t-sky-bottom);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-dark .workspace-leaf-content > .view-content::before,
+  .theme-dark .workspace-leaf-content > .view-content::after,
+  .theme-dark .inline-title::after {
+    animation: none !important;
+  }
+}
+
+body.t-still .workspace-leaf-content > .view-content::before,
+body.t-still .workspace-leaf-content > .view-content::after,
+body.t-still .inline-title::after {
+  animation: none !important;
+}
+
+/* ───────────────────────── Impresión y PDF ───────────────────────── */
+
+@media print {
+  .markdown-rendered h1,
+  .markdown-rendered h2,
+  .inline-title {
+    background: none !important;
+    -webkit-text-fill-color: currentColor !important;
+    filter: none !important;
+  }
+
+  .inline-title::before,
+  .inline-title::after,
+  .markdown-rendered h2::before,
+  .markdown-rendered h3::before,
+  .markdown-rendered pre::before {
+    content: none !important;
+  }
+
+  .markdown-rendered * {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.print .markdown-rendered h1,
+.print .markdown-rendered h2,
+.print .inline-title {
+  background: none !important;
+  -webkit-text-fill-color: currentColor !important;
+  filter: none !important;
+}
+
+.print .inline-title::before,
+.print .inline-title::after,
+.print .markdown-rendered h2::before,
+.print .markdown-rendered h3::before,
+.print .markdown-rendered pre::before {
+  content: none !important;
+}
+
+.print .markdown-rendered * {
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+
+/* ==== tema ==== */
+
+body {
+  --accent-h: 41;
+  --accent-s: 72%;
+  --accent-l: 66%;
+
+  --font-text-theme: 'Lora', Georgia, serif;
+  --font-interface-theme: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+  --t-display: 'Playfair Display', 'Lora', Georgia, serif;
+  --h1-size: 1.7em;
+  --h2-size: 1.35em;
+  --inline-title-size: 1.75em;
+  --h1-weight: 900;
+  --h2-weight: 700;
+  --inline-title-weight: 900;
+  --h1-style: italic;
+  --inline-title-style: italic;
+  --h1-letter-spacing: 0.005em;
+  --h2-letter-spacing: 0.005em;
+  --h3-variant: small-caps;
+  --h3-letter-spacing: 0.08em;
+  --tag-radius: 999px;
+  --line-height-normal: 1.65;
+}
+
+.theme-dark {
+  --color-base-00: #0d0a0e;
+  --color-base-05: #110d12;
+  --color-base-10: #151016;
+  --color-base-20: #1b141c;
+  --color-base-25: #211822;
+  --color-base-30: #2b1f2b;
+  --color-base-35: #382838;
+  --color-base-40: #4d374b;
+  --color-base-50: #6f5868;
+  --color-base-60: #a08f93;
+  --color-base-70: #cbbfb7;
+  --color-base-100: #f3ead8;
+
+  --color-red: #d6455d;
+  --color-orange: #e49b54;
+  --color-yellow: #e8c26a;
+  --color-green: #7fc8a9;
+  --color-cyan: #5fc2c0;
+  --color-blue: #7d9fe0;
+  --color-purple: #b48ad6;
+  --color-pink: #e58fb1;
+  --color-red-rgb: 214, 69, 93;
+  --color-orange-rgb: 228, 155, 84;
+  --color-yellow-rgb: 232, 194, 106;
+  --color-green-rgb: 127, 200, 169;
+  --color-cyan-rgb: 95, 194, 192;
+  --color-blue-rgb: 125, 159, 224;
+  --color-purple-rgb: 180, 138, 214;
+  --color-pink-rgb: 229, 143, 177;
+
+  --background-primary: #0f0b10;
+  --background-primary-alt: #171118;
+  --background-secondary: #0a070b;
+  --background-secondary-alt: #080609;
+  --background-modifier-border: #2b1f2b;
+  --background-modifier-border-hover: #4d374b;
+  --background-modifier-border-focus: #e8c26a;
+  --background-modifier-hover: rgba(232, 194, 106, 0.07);
+  --background-modifier-active-hover: rgba(232, 194, 106, 0.14);
+  --background-modifier-form-field: #080609;
+  --titlebar-background: #080609;
+  --titlebar-background-focused: #080609;
+  --ribbon-background: #080609;
+  --ribbon-background-collapsed: #080609;
+  --tab-container-background: #080609;
+  --status-bar-background: #080609;
+  --status-bar-border-color: rgba(232, 194, 106, 0.3);
+  --modal-background: #0f0b10;
+  --modal-border-color: rgba(232, 194, 106, 0.4);
+  --prompt-border-color: rgba(232, 194, 106, 0.4);
+  --divider-color: rgba(232, 194, 106, 0.18);
+  --divider-color-hover: #e8c26a;
+
+  --text-normal: #f3ead8;
+  --text-muted: #cbbfb7;
+  --text-faint: #6f5868;
+  --text-accent: #e8c26a;
+  --text-accent-hover: #f5dc9d;
+  --text-on-accent: #170f0a;
+  --text-selection: rgba(214, 69, 93, 0.35);
+  --caret-color: #e8c26a;
+  --bold-color: #fff6e0;
+  --italic-color: #f0d9a8;
+
+  --h1-color: #e8c26a;
+  --h2-color: #f3ead8;
+  --h3-color: #5fc2c0;
+  --h4-color: #e58fb1;
+  --h5-color: #e49b54;
+  --h6-color: #a08f93;
+  --inline-title-color: #e8c26a;
+
+  --link-color: #5fc2c0;
+  --link-color-hover: #9fe0dd;
+  --link-external-color: #7fc8a9;
+  --link-unresolved-color: #b48ad6;
+  --link-unresolved-decoration-color: rgba(180, 138, 214, 0.5);
+
+  --blockquote-border-color: #d6455d;
+  --blockquote-color: #f0d9a8;
+  --blockquote-font-style: italic;
+  --list-marker-color: #e8c26a;
+  --list-marker-color-hover: #d6455d;
+  --list-marker-color-collapsed: #d6455d;
+  --checkbox-color: #d6455d;
+  --checkbox-color-hover: #e2627a;
+  --checkbox-border-color: rgba(232, 194, 106, 0.6);
+  --checkbox-border-color-hover: #e8c26a;
+  --checkbox-marker-color: #fff6e0;
+
+  --tag-color: #e8c26a;
+  --tag-color-hover: #fff6e0;
+  --tag-background: rgba(232, 194, 106, 0.08);
+  --tag-background-hover: rgba(232, 194, 106, 0.16);
+  --tag-border-color: rgba(232, 194, 106, 0.4);
+  --tag-border-color-hover: #e8c26a;
+
+  --table-header-background: rgba(214, 69, 93, 0.12);
+  --table-header-color: #e8c26a;
+  --table-border-color: #2b1f2b;
+  --table-row-background-hover: rgba(232, 194, 106, 0.05);
+
+  --code-background: #080609;
+  --code-normal: #f3ead8;
+  --code-comment: #6f5868;
+  --code-function: #5fc2c0;
+  --code-important: #d6455d;
+  --code-keyword: #e8c26a;
+  --code-operator: #e58fb1;
+  --code-property: #b48ad6;
+  --code-punctuation: #a08f93;
+  --code-string: #e49b54;
+  --code-tag: #7fc8a9;
+  --code-value: #e58fb1;
+
+  --nav-item-color-active: #e8c26a;
+  --nav-item-background-active: rgba(232, 194, 106, 0.1);
+  --icon-color-active: #e8c26a;
+  --tab-text-color-focused-active-current: #e8c26a;
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: rgba(232, 194, 106, 0.2);
+  --scrollbar-active-thumb-bg: rgba(232, 194, 106, 0.38);
+
+  --graph-node: #e8c26a;
+  --graph-node-unresolved: #6f5868;
+  --graph-node-focused: #d6455d;
+  --graph-node-tag: #5fc2c0;
+  --graph-node-attachment: #7fc8a9;
+  --graph-line: #382838;
+  --graph-text: #f3ead8;
+
+  /* Glifos musicales */
+  --t-title-glyph: '𝄞 ';
+  --t-cursor: '';
+  --t-h2-glyph: '♪ ';
+  --t-h3-glyph: '♩ ';
+  --t-bullet: '♪';
+  --t-ls: '♫ Repertorio';
+  --t-folder-suffix: '';
+  --t-active-glyph: '▶ ';
+  --t-tab-glyph: '♪ ';
+  --t-path-prefix: '♫';
+  --t-status-segment: '♫ musica';
+  --t-on-prompt: #170f0a;
+  --t-action-glyph: '▶ ';
+  --t-palette-glyph: '𝄞';
+  --t-props-prefix: '𝄢 ';
+  --t-code-head: '♩ ♪ ♫ ♬';
+  --t-callout-icon: flex;
+  --t-lbl-info: 'mp';
+  --t-lbl-tip: 'mf';
+  --t-lbl-warn: 'f';
+  --t-lbl-error: 'ff';
+  --t-lbl-ok: 'fine';
+  --t-lbl-question: 'ad lib.';
+  --t-lbl-quote: 'sotto voce';
+  --t-lbl-todo: 'da capo';
+  --t-lbl-example: 'tema';
+  --t-lbl-abstract: 'coda';
+  --t-folder-color: #cbbfb7;
+
+  /* Pentagrama como separador: cinco líneas que se desvanecen en los bordes */
+  --t-hr-height: 25px;
+  --t-hr: repeating-linear-gradient(to bottom, rgba(232, 194, 106, 0.55) 0 1px, transparent 1px 6px);
+  --t-hr-mask: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+
+  /* El reproductor */
+  --t-prompt: #e8c26a;
+  --t-glyph-color: #e8c26a;
+  --t-prompt-glow: 0 0 8px rgba(232, 194, 106, 0.55);
+  --t-chrome: linear-gradient(180deg, #fff6e0 0%, #f5dc9d 30%, #e8c26a 55%, #c98a3a 80%, #d6455d 100%);
+  --t-heading-glow: drop-shadow(0 0 8px rgba(232, 194, 106, 0.25));
+  --t-h3-glow: none;
+  --t-title: '⏮   ▶   ⏭      Nocturno · ~/musica';
+  --t-titlebar-pad: 16px;
+  --t-window-radius: 10px;
+  --t-window-bg:
+    repeating-linear-gradient(to bottom, transparent 0 34px, rgba(232, 194, 106, 0.035) 34px 35px, transparent 35px 40px, rgba(232, 194, 106, 0.035) 40px 41px, transparent 41px 46px, rgba(232, 194, 106, 0.035) 46px 47px, transparent 47px 52px, rgba(232, 194, 106, 0.035) 52px 53px, transparent 53px 58px, rgba(232, 194, 106, 0.035) 58px 59px, transparent 59px 96px),
+    radial-gradient(ellipse 80% 40% at 50% 0%, rgba(214, 69, 93, 0.08), transparent 70%),
+    rgba(12, 8, 13, 0.92);
+  --t-window-border: rgba(232, 194, 106, 0.35);
+  --t-window-glow: 0 0 0 1px rgba(214, 69, 93, 0.12), 0 18px 60px rgba(0, 0, 0, 0.6), 0 0 50px rgba(232, 194, 106, 0.08);
+  --t-titlebar-bg:
+    linear-gradient(90deg, #e8c26a, #d6455d) 0 100% / 38% 2px no-repeat,
+    linear-gradient(180deg, rgba(43, 31, 43, 0.95), rgba(21, 16, 22, 0.95));
+  --t-titlebar-border: rgba(232, 194, 106, 0.25);
+  --t-titlebar-color: rgba(243, 234, 216, 0.8);
+  --t-status-color: #e8c26a;
+  --t-tab-glow: 0 0 10px rgba(232, 194, 106, 0.35);
+  --t-quote-bg: rgba(214, 69, 93, 0.06);
+  --t-quote-border: rgba(214, 69, 93, 0.25);
+  --t-inline-code: #f0d9a8;
+  --t-inline-code-bg: rgba(232, 194, 106, 0.1);
+  --t-code-border: rgba(232, 194, 106, 0.18);
+
+  --t-horizon-note: 100%;
+  --t-horizon-empty: 100%;
+  --t-vinyl: min(58%, 420px);
+}
+
+.theme-dark .markdown-rendered h3,
+.theme-dark .markdown-source-view.mod-cm6 .cm-line.HyperMD-header-3 {
+  font-family: var(--t-display);
+  font-variant: small-caps;
+}
+
+/* Sala de conciertos: reflector desde arriba y la onda de sonido al pie */
+.theme-dark .workspace-split.mod-root .workspace-leaf-content:is([data-type="markdown"], [data-type="empty"]) > .view-content {
+  --t-sky:
+    url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3ClinearGradient id='g' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23e8c26a' stop-opacity='0.55'/%3E%3Cstop offset='1' stop-color='%23d6455d' stop-opacity='0.12'/%3E%3C/linearGradient%3E%3Cg fill='url(%23g)'%3E%3Crect x='0' y='98.6' width='4' height='21.4' rx='2'/%3E%3Crect x='8' y='95.3' width='4' height='24.7' rx='2'/%3E%3Crect x='16' y='93.5' width='4' height='26.5' rx='2'/%3E%3Crect x='24' y='93.1' width='4' height='26.9' rx='2'/%3E%3Crect x='32' y='93.8' width='4' height='26.2' rx='2'/%3E%3Crect x='40' y='95.0' width='4' height='25.0' rx='2'/%3E%3Crect x='48' y='96.3' width='4' height='23.7' rx='2'/%3E%3Crect x='56' y='96.9' width='4' height='23.1' rx='2'/%3E%3Crect x='64' y='96.6' width='4' height='23.4' rx='2'/%3E%3Crect x='72' y='94.9' width='4' height='25.1' rx='2'/%3E%3Crect x='80' y='91.9' width='4' height='28.1' rx='2'/%3E%3Crect x='88' y='87.7' width='4' height='32.3' rx='2'/%3E%3Crect x='96' y='83.0' width='4' height='37.0' rx='2'/%3E%3Crect x='104' y='78.3' width='4' height='41.7' rx='2'/%3E%3Crect x='112' y='74.5' width='4' height='45.5' rx='2'/%3E%3Crect x='120' y='72.4' width='4' height='47.6' rx='2'/%3E%3Crect x='128' y='72.4' width='4' height='47.6' rx='2'/%3E%3Crect x='136' y='75.0' width='4' height='45.0' rx='2'/%3E%3Crect x='144' y='80.1' width='4' height='39.9' rx='2'/%3E%3Crect x='152' y='87.2' width='4' height='32.8' rx='2'/%3E%3Crect x='160' y='95.8' width='4' height='24.2' rx='2'/%3E%3Crect x='168' y='103.3' width='4' height='16.7' rx='2'/%3E%3Crect x='176' y='94.1' width='4' height='25.9' rx='2'/%3E%3Crect x='184' y='86.4' width='4' height='33.6' rx='2'/%3E%3Crect x='192' y='80.9' width='4' height='39.1' rx='2'/%3E%3Crect x='200' y='78.2' width='4' height='41.8' rx='2'/%3E%3Crect x='208' y='78.1' width='4' height='41.9' rx='2'/%3E%3Crect x='216' y='80.2' width='4' height='39.8' rx='2'/%3E%3Crect x='224' y='83.8' width='4' height='36.2' rx='2'/%3E%3Crect x='232' y='87.9' width='4' height='32.1' rx='2'/%3E%3Crect x='240' y='91.5' width='4' height='28.5' rx='2'/%3E%3Crect x='248' y='93.7' width='4' height='26.3' rx='2'/%3E%3Crect x='256' y='93.8' width='4' height='26.2' rx='2'/%3E%3Crect x='264' y='91.8' width='4' height='28.2' rx='2'/%3E%3Crect x='272' y='87.9' width='4' height='32.1' rx='2'/%3E%3Crect x='280' y='82.9' width='4' height='37.1' rx='2'/%3E%3Crect x='288' y='77.9' width='4' height='42.1' rx='2'/%3E%3Crect x='296' y='74.0' width='4' height='46.0' rx='2'/%3E%3Crect x='304' y='72.4' width='4' height='47.6' rx='2'/%3E%3Crect x='312' y='74.1' width='4' height='45.9' rx='2'/%3E%3Crect x='320' y='79.4' width='4' height='40.6' rx='2'/%3E%3Crect x='328' y='88.4' width='4' height='31.6' rx='2'/%3E%3Crect x='336' y='92.3' width='4' height='27.7' rx='2'/%3E%3Crect x='344' y='78.0' width='4' height='42.0' rx='2'/%3E%3Crect x='352' y='63.3' width='4' height='56.7' rx='2'/%3E%3Crect x='360' y='49.9' width='4' height='70.1' rx='2'/%3E%3Crect x='368' y='39.3' width='4' height='80.7' rx='2'/%3E%3Crect x='376' y='32.6' width='4' height='87.4' rx='2'/%3E%3Crect x='384' y='30.3' width='4' height='89.7' rx='2'/%3E%3Crect x='392' y='32.5' width='4' height='87.5' rx='2'/%3E%3Crect x='400' y='38.3' width='4' height='81.7' rx='2'/%3E%3Crect x='408' y='46.8' width='4' height='73.2' rx='2'/%3E%3Crect x='416' y='56.2' width='4' height='63.8' rx='2'/%3E%3Crect x='424' y='65.3' width='4' height='54.7' rx='2'/%3E%3Crect x='432' y='72.5' width='4' height='47.5' rx='2'/%3E%3Crect x='440' y='76.9' width='4' height='43.1' rx='2'/%3E%3Crect x='448' y='78.4' width='4' height='41.6' rx='2'/%3E%3Crect x='456' y='77.1' width='4' height='42.9' rx='2'/%3E%3Crect x='464' y='74.0' width='4' height='46.0' rx='2'/%3E%3Crect x='472' y='70.4' width='4' height='49.6' rx='2'/%3E%3Crect x='480' y='67.8' width='4' height='52.2' rx='2'/%3E%3Crect x='488' y='67.8' width='4' height='52.2' rx='2'/%3E%3Crect x='496' y='71.4' width='4' height='48.6' rx='2'/%3E%3Crect x='504' y='79.1' width='4' height='40.9' rx='2'/%3E%3Crect x='512' y='90.7' width='4' height='29.3' rx='2'/%3E%3Crect x='520' y='75.5' width='4' height='44.5' rx='2'/%3E%3Crect x='528' y='58.5' width='4' height='61.5' rx='2'/%3E%3Crect x='536' y='41.6' width='4' height='78.4' rx='2'/%3E%3Crect x='544' y='26.7' width='4' height='93.3' rx='2'/%3E%3Crect x='552' y='15.4' width='4' height='104.6' rx='2'/%3E%3Crect x='560' y='9.1' width='4' height='110.9' rx='2'/%3E%3Crect x='568' y='8.3' width='4' height='111.7' rx='2'/%3E%3Crect x='576' y='12.9' width='4' height='107.1' rx='2'/%3E%3Crect x='584' y='22.0' width='4' height='98.0' rx='2'/%3E%3Crect x='592' y='34.1' width='4' height='85.9' rx='2'/%3E%3Crect x='600' y='47.5' width='4' height='72.5' rx='2'/%3E%3Crect x='608' y='60.3' width='4' height='59.7' rx='2'/%3E%3Crect x='616' y='70.9' width='4' height='49.1' rx='2'/%3E%3Crect x='624' y='78.3' width='4' height='41.7' rx='2'/%3E%3Crect x='632' y='82.0' width='4' height='38.0' rx='2'/%3E%3Crect x='640' y='82.2' width='4' height='37.8' rx='2'/%3E%3Crect x='648' y='79.9' width='4' height='40.1' rx='2'/%3E%3Crect x='656' y='76.5' width='4' height='43.5' rx='2'/%3E%3Crect x='664' y='73.5' width='4' height='46.5' rx='2'/%3E%3Crect x='672' y='72.4' width='4' height='47.6' rx='2'/%3E%3Crect x='680' y='74.5' width='4' height='45.5' rx='2'/%3E%3Crect x='688' y='80.2' width='4' height='39.8' rx='2'/%3E%3Crect x='696' y='89.5' width='4' height='30.5' rx='2'/%3E%3Crect x='704' y='80.6' width='4' height='39.4' rx='2'/%3E%3Crect x='712' y='67.4' width='4' height='52.6' rx='2'/%3E%3Crect x='720' y='54.6' width='4' height='65.4' rx='2'/%3E%3Crect x='728' y='43.7' width='4' height='76.3' rx='2'/%3E%3Crect x='736' y='36.4' width='4' height='83.6' rx='2'/%3E%3Crect x='744' y='33.9' width='4' height='86.1' rx='2'/%3E%3Crect x='752' y='36.5' width='4' height='83.5' rx='2'/%3E%3Crect x='760' y='44.0' width='4' height='76.0' rx='2'/%3E%3Crect x='768' y='55.4' width='4' height='64.6' rx='2'/%3E%3Crect x='776' y='69.5' width='4' height='50.5' rx='2'/%3E%3Crect x='784' y='84.5' width='4' height='35.5' rx='2'/%3E%3Crect x='792' y='88.5' width='4' height='31.5' rx='2'/%3E%3Crect x='800' y='77.3' width='4' height='42.7' rx='2'/%3E%3Crect x='808' y='69.4' width='4' height='50.6' rx='2'/%3E%3Crect x='816' y='65.3' width='4' height='54.7' rx='2'/%3E%3Crect x='824' y='64.8' width='4' height='55.2' rx='2'/%3E%3Crect x='832' y='67.0' width='4' height='53.0' rx='2'/%3E%3Crect x='840' y='70.9' width='4' height='49.1' rx='2'/%3E%3Crect x='848' y='75.0' width='4' height='45.0' rx='2'/%3E%3Crect x='856' y='78.0' width='4' height='42.0' rx='2'/%3E%3Crect x='864' y='79.1' width='4' height='40.9' rx='2'/%3E%3Crect x='872' y='77.6' width='4' height='42.4' rx='2'/%3E%3Crect x='880' y='73.5' width='4' height='46.5' rx='2'/%3E%3Crect x='888' y='67.5' width='4' height='52.5' rx='2'/%3E%3Crect x='896' y='60.5' width='4' height='59.5' rx='2'/%3E%3Crect x='904' y='53.8' width='4' height='66.2' rx='2'/%3E%3Crect x='912' y='48.5' width='4' height='71.5' rx='2'/%3E%3Crect x='920' y='45.9' width='4' height='74.1' rx='2'/%3E%3Crect x='928' y='46.7' width='4' height='73.3' rx='2'/%3E%3Crect x='936' y='51.1' width='4' height='68.9' rx='2'/%3E%3Crect x='944' y='59.0' width='4' height='61.0' rx='2'/%3E%3Crect x='952' y='69.5' width='4' height='50.5' rx='2'/%3E%3Crect x='960' y='81.6' width='4' height='38.4' rx='2'/%3E%3Crect x='968' y='94.1' width='4' height='25.9' rx='2'/%3E%3Crect x='976' y='97.3' width='4' height='22.7' rx='2'/%3E%3Crect x='984' y='88.5' width='4' height='31.5' rx='2'/%3E%3Crect x='992' y='82.3' width='4' height='37.7' rx='2'/%3E%3Crect x='1000' y='79.1' width='4' height='40.9' rx='2'/%3E%3Crect x='1008' y='78.6' width='4' height='41.4' rx='2'/%3E%3Crect x='1016' y='80.3' width='4' height='39.7' rx='2'/%3E%3Crect x='1024' y='83.4' width='4' height='36.6' rx='2'/%3E%3Crect x='1032' y='87.0' width='4' height='33.0' rx='2'/%3E%3Crect x='1040' y='90.1' width='4' height='29.9' rx='2'/%3E%3Crect x='1048' y='92.1' width='4' height='27.9' rx='2'/%3E%3Crect x='1056' y='92.6' width='4' height='27.4' rx='2'/%3E%3Crect x='1064' y='91.5' width='4' height='28.5' rx='2'/%3E%3Crect x='1072' y='89.1' width='4' height='30.9' rx='2'/%3E%3Crect x='1080' y='85.9' width='4' height='34.1' rx='2'/%3E%3Crect x='1088' y='82.8' width='4' height='37.2' rx='2'/%3E%3Crect x='1096' y='80.4' width='4' height='39.6' rx='2'/%3E%3Crect x='1104' y='79.4' width='4' height='40.6' rx='2'/%3E%3Crect x='1112' y='80.2' width='4' height='39.8' rx='2'/%3E%3Crect x='1120' y='83.0' width='4' height='37.0' rx='2'/%3E%3Crect x='1128' y='87.8' width='4' height='32.2' rx='2'/%3E%3Crect x='1136' y='94.0' width='4' height='26.0' rx='2'/%3E%3Crect x='1144' y='101.0' width='4' height='19.0' rx='2'/%3E%3Crect x='1152' y='108.2' width='4' height='11.8' rx='2'/%3E%3Crect x='1160' y='102.8' width='4' height='17.2' rx='2'/%3E%3Crect x='1168' y='97.8' width='4' height='22.2' rx='2'/%3E%3Crect x='1176' y='94.4' width='4' height='25.6' rx='2'/%3E%3Crect x='1184' y='92.7' width='4' height='27.3' rx='2'/%3E%3Crect x='1192' y='92.8' width='4' height='27.2' rx='2'/%3E%3C/g%3E%3C/svg%3E") bottom / 100% 120px no-repeat,
+    radial-gradient(ellipse 38% 70% at 50% -10%, rgba(255, 220, 160, 0.16), transparent 70%),
+    radial-gradient(ellipse 60% 30% at 20% 100%, rgba(214, 69, 93, 0.14), transparent 70%),
+    radial-gradient(ellipse 60% 30% at 80% 100%, rgba(95, 194, 192, 0.08), transparent 70%),
+    linear-gradient(180deg, #120d13 0%, #0b080c 60%, #0d090e 100%);
+  --t-sky-bottom: calc(var(--t-vinyl) * 0.62 + 24px);
+}
+
+/* Pestaña vacía: un vinilo girando, con su etiqueta y el brazo del tocadiscos */
+.theme-dark:not(.t-no-scene) .workspace-split.mod-root .workspace-leaf-content[data-type="empty"] > .view-content::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: calc(var(--t-vinyl) * -0.38);
+  height: var(--t-vinyl);
+  aspect-ratio: 1;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, #0d090e 0 2.2%, transparent 2.4%),
+    radial-gradient(circle at 50% 41%, #fff6e0 0 1.2%, transparent 1.4%),
+    radial-gradient(circle, #d6455d 0 16%, #b8344c 16.5% 17%, #e8c26a 17.5% 18%, transparent 18.5%),
+    conic-gradient(from 20deg, rgba(255, 255, 255, 0) 0deg, rgba(255, 246, 224, 0.12) 30deg, rgba(255, 255, 255, 0) 70deg, rgba(255, 255, 255, 0) 200deg, rgba(255, 246, 224, 0.09) 230deg, rgba(255, 255, 255, 0) 270deg),
+    repeating-radial-gradient(circle, #141015 0 1px, #0a070b 1px 3px),
+    #0a070b;
+  box-shadow: 0 0 0 2px rgba(232, 194, 106, 0.25), 0 0 60px rgba(214, 69, 93, 0.25);
+  animation: t-spin 6s linear infinite;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.theme-dark:not(.t-no-scene) .workspace-split.mod-root .workspace-leaf-content[data-type="empty"] > .view-content::after {
+  content: '';
+  position: absolute;
+  left: calc(50% + var(--t-vinyl) * 0.42);
+  bottom: calc(var(--t-vinyl) * 0.18);
+  width: 6px;
+  height: calc(var(--t-vinyl) * 0.5);
+  transform-origin: 50% 0;
+  transform: rotate(28deg);
+  border-radius: 3px;
+  background: linear-gradient(180deg, #f5dc9d, #a07a3a);
+  box-shadow: 0 0 12px rgba(232, 194, 106, 0.4);
+  z-index: -1;
+  pointer-events: none;
+}
+
+@keyframes t-spin {
+  to { transform: translateX(-50%) rotate(360deg); }
+}
