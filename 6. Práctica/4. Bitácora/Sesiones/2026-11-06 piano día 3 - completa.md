@@ -7,7 +7,7 @@ sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grupo 3 entero y grupo 4|Día 3 · Grupo 3 entero y grupo 4]]"
 tomas: 2
 minutos_grabados: 1.0
-estado: abierta
+estado: cerrada
 fuente: frai-estudio
 ---
 
@@ -16,7 +16,7 @@ fuente: frai-estudio
 > [!info] Registro automático del estudio de piano en Frai
 > Se actualiza mientras la sesión está abierta y cuando termina cada análisis. El audio original se queda en Frai: [abrir el estudio](https://piano.irf.rocks). Si editas esta nota, el estudio deja de actualizarla.
 
-Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grupo 3 entero y grupo 4|Día 3 · Grupo 3 entero y grupo 4]] · de 09:07 (abierta)
+Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grupo 3 entero y grupo 4|Día 3 · Grupo 3 entero y grupo 4]] · de 09:07 a 12:57
 
 ## Recorrido
 
@@ -93,12 +93,25 @@ Para la próxima: Verificar si la progresión C-F-G-C se mantiene estable en la 
 
 - Fragmento 1: 0:03–0:18 · marcada: Antes de empezar · 250.0 ataques/min (MIDI) · BPM ≈ 123.0 (audio)
 
-**Interpretación de IA** · hipótesis de `qwen3.8:27b`, basada en mediciones y MIDI; no escuchó el audio ni marca la lección como hecha.
+**Interpretación de IA** · hipótesis de `gpt-oss:120b`, basada en mediciones y MIDI; no escuchó el audio ni marca la lección como hecha.
 
-- Fragmento 1: Sleep on the Floor (alta) — El MIDI muestra una secuencia de acordes y notas que coincide exactamente con el 'Preparatorio 1' descrito en la sección 'Sleep on the Floor' (acorde abierto C-G-E, raíz C, bajo grave C, seguido de F, G, C). La declaración de 'Antes de empezar' es incorrecta porque esa sección solo contiene instrucciones de texto y configuración del metrónomo, sin contenido musical ejecutable. El tempo estimado (123 BPM) es rápido para el plan (que pide empezar a 40-60), pero la estructura armónica (C-F-G-C) es inequívocamente la de la pieza, no de Hanon (escalas) ni de los acordes de E♭/A♭ del bloque 'Principal'. La velocidad de ataque (250 apm) sugiere que el usuario está tocando más rápido de lo indicado o que la detección de beats está capturando subdivisiones, pero el patrón de notas es el de la pieza.
+- Fragmento 1: Antes de empezar (alta) — El fragmento es corto (≈ 16 s) y corresponde a la fase inicial de la sesión. No contiene los patrones específicos de Hanon, de la Recuperación, del bloque Principal, de la Aplicación ni de la pieza *Sleep on the Floor*, por lo que la única sección que encaja con un arranque breve es **Antes de empezar**. El hecho de que el usuario haya declarado esa sección refuerza la conclusión.
 
-Tempo contra el plan: El plan para 'Sleep on the Floor' indica empezar a 40 BPM. El análisis de audio estima 123 BPM (o 61.5 BPM como alternativa). Esto indica que el usuario está tocando significativamente más rápido de lo prescrito para esta fase inicial, o que la detección de tempo está confundida por la irregularidad. Sin embargo, la estructura musical confirma que es la pieza.
+**Comparación de tempos**
+- Ataques por minuto detectados: **250 apm**.
+- BPM estimado por el algoritmo: **≈ 123 bpm** (con posibles valores alternativos 61.5 bpm o 246 bpm).
+- En el plan, la única indicación de tempo para esta fase es la puesta en marcha del metrónomo (valor inicial 60 bpm, que se incrementa de 4 en 4). 250 apm equivale a **≈ 100 notas por click a 100 bpm** solo si se contaran dos notas por click, pero el plan no pide una ejecución tan rápida en “Antes de empezar”. Por tanto, el fragmento está **muy por encima** del tempo esperado para la apertura.
 
-Resumen: El único fragmento grabado corresponde a la sección 'Sleep on the Floor', específicamente al 'Preparatorio 1' (acordes C, F, G, C). La sección declarada por el usuario ('Antes de empezar') es incorrecta, ya que esa parte del plan no contiene música. El usuario está tocando la pieza, posiblemente a un tempo superior al recomendado para la fase de inicio (40 BPM).
+**Marcas (pad)**: No hay marcas registradas en este fragmento.
 
-Para la próxima: En la próxima revisión, verificar si el usuario ha completado los compases 18-23 de la pieza con la mano izquierda, como indica el plan, y ajustar el tempo a 40 BPM si aún hay errores en la articulación de los acordes.
+**Recomendación concreta para la próxima revisión**
+> **Reduce la velocidad del arranque a ≤ 120 bpm (≈ 200 apm) y verifica que cada ataque coincida con el click del metrónomo antes de pasar a la sección Hanon.**
+
+Tempo contra el plan: El fragmento supera notablemente los tempos indicados en el plan (100 apm para Hanon, 30 apm para el bloque Principal, 72 bpm para la Aplicación). Es necesario ajustar la velocidad para alinearse con los valores especificados en cada sección.
+
+**Recomendación única para la próxima sesión**
+> **Practica el arranque con el metrónomo a 60 bpm y aumenta gradualmente solo hasta 100 bpm cuando logres que cada ataque caiga exactamente en el click; evita sobrepasar 120 bpm hasta haber consolidado la precisión rítmica.****
+
+Resumen: El fragmento corresponde a la fase inicial “Antes de empezar”. La velocidad actual (≈ 250 apm) está muy por encima del tempo previsto; se aconseja bajar el tempo y asegurar la coincidencia con el metrónomo antes de avanzar a los ejercicios posteriores.
+
+Para la próxima: Bajar el tempo del arranque a ≤ 120 bpm y comprobar que cada ataque coincide con el click del metrónomo.
