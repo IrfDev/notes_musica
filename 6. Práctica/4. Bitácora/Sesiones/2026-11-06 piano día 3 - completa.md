@@ -84,9 +84,9 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 
 Tempo contra el plan: Fragmento 1: 283 ataques/min, sin tempo del plan para comparar.
 
-Resumen: Se grabó el fragmento 1 (3.8‑39.9 s) con 225 notas y 283 ataques/min, pero la confianza es baja porque no coincide con ningún ejercicio de la lección. La regularidad fue de 0.44, hubo una pausa y el balance estuvo desfavorable (-4.9). No hay dato de tempo del plan para comparar, por lo que solo se conoce la velocidad actual.
+Resumen: Se tocó el fragmento 1 (225 notas, 283 ataques/min) con gran variación en los intervalos entre ataques (±44 %), lo que indica falta de parejo. La mano izquierda suena 5 puntos de velocidad más suave que la derecha y ambas manos entran con 10 ms de diferencia; hubo una pausa de 1,5 s y el pedal estuvo abajo el 96 % del tiempo. No hay tempo del plan para comparar, por lo que la confianza es baja.
 
-Para la próxima: Practicar el ejercicio indicado en la lección (por ejemplo, la aplicación 0.37) a tempo lento, enfocándose en mantener la regularidad >0.8 y corregir el desbalance de manos.
+Para la próxima: Trabajar en la regularidad de los ataques, intentando reducir la variación de los intervalos a menos del 20 % y sincronizar ambas manos dentro de 5 ms.
 
 ### Toma 2 · 09:44
 
@@ -97,9 +97,9 @@ Para la próxima: Practicar el ejercicio indicado en la lección (por ejemplo, l
 
 Tempo contra el plan: Fragmento 1 (Hanon 1): 248 ataques/min (equivale a dos por click a 124 o cuatro por click a 62); el plan pide 100 (una por click a 100) → 148% más rápido que el plan.
 
-Resumen: Se tocó el fragmento completo de Hanon 1 con una sola mano (probable MI), 54 notas, con un 83 % de precisión. El ritmo alcanzó 247.9 apm, es decir un 148 % más rápido que el plan (100 apm), y la regularidad fue baja (0.21). No hay datos de mejora previa.
+Resumen: Se tocó Hanon 1 durante 15,8 s con 54 notas en 50 ataques. La ejecución fue 83 % acorde a la partitura, pero el ritmo fue 148 % más rápido que el plan (248 ataques/min vs 100) y la regularidad de los intervalos varió ±21 %. Hubo una pausa de 1,9 s que supera el límite de 1,5 s.
 
-Para la próxima: Practicar el mismo fragmento con metrónomo a 100 bpm, una nota por click, concentrándose en la bajada para reducir la velocidad y mejorar la regularidad.
+Para la próxima: Practicar el fragmento a 100 ataques/min, usando el metrónomo en 100 bpm y concentrarse en mantener los intervalos entre ataques dentro de ±5 % y eliminar pausas mayores a 1,5 s.
 
 ## Progreso · 30 días hasta esta sesión
 

@@ -49,6 +49,6 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 
 Tempo contra el plan: Fragmento 3: 65 ataques/min, sin tempo del plan para comparar.
 
-Resumen: En el fragmento 3 (Hanon 1) se detectaron 15 notas, 65 ataques/min, regularidad 0.48 y se tocó con una sola mano (probable mano derecha) usando acordes C ×5. La confianza es baja y no hay tempo del plan para comparar, por lo que la ejecución fue poco precisa. Los demás fragmentos no registraron notas.
+Resumen: En el fragmento 3 (Hanon 1) se detectaron 15 notas distribuidas en 5 ataques, a 65 ataques por minuto, con una variación de intervalos de ±48 % (lo que indica irregularidad). Solo se utilizó una mano (probable mano derecha) y se tocaron acordes de C repetidos 5 veces. La ejecución no se asemeja a ningún ejercicio de la lección, por lo que la confianza es baja.
 
-Para la próxima: Practicar el fragmento 3 con metrónomo a 65 bpm, enfocándose en mejorar la regularidad (objetivo >0.7) y en distribuir la ejecución entre ambas manos.
+Para la próxima: Practicar el fragmento con metrónomo, enfocándose en lograr ataques más parejos (reducir la variación de intervalos) y en usar ambas manos según la partitura de Hanon 1.
