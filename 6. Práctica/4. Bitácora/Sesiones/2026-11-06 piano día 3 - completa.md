@@ -84,9 +84,9 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 
 Tempo contra el plan: Fragmento 1: 283 ataques/min, sin tempo del plan para comparar.
 
-Resumen: Se tocó el fragmento 1 (225 notas, 283 ataques/min) con gran variación en los intervalos entre ataques (±44 %), lo que indica falta de parejo. La mano izquierda suena 5 puntos de velocidad más suave que la derecha y ambas manos entran con 10 ms de diferencia; hubo una pausa de 1,5 s y el pedal estuvo abajo el 96 % del tiempo. No hay tempo del plan para comparar, por lo que la confianza es baja.
+Resumen: Se tocaron 225 notas en 137 ataques durante 36.1 s (283 ataques/min). Los intervalos entre ataques varían ±44 % (baja regularidad) y la mano izquierda suena 5 puntos más suave que la derecha; ambas manos entran con 10 ms de diferencia. No se identificó ningún ejercicio de la lección.
 
-Para la próxima: Trabajar en la regularidad de los ataques, intentando reducir la variación de los intervalos a menos del 20 % y sincronizar ambas manos dentro de 5 ms.
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
 
 ### Toma 2 · 09:44
 
@@ -97,9 +97,9 @@ Para la próxima: Trabajar en la regularidad de los ataques, intentando reducir 
 
 Tempo contra el plan: Fragmento 1 (Hanon 1): 248 ataques/min (equivale a dos por click a 124 o cuatro por click a 62); el plan pide 100 (una por click a 100) → 148% más rápido que el plan.
 
-Resumen: Se tocó Hanon 1 durante 15,8 s con 54 notas en 50 ataques. La ejecución fue 83 % acorde a la partitura, pero el ritmo fue 148 % más rápido que el plan (248 ataques/min vs 100) y la regularidad de los intervalos varió ±21 %. Hubo una pausa de 1,9 s que supera el límite de 1,5 s.
+Resumen: Se tocó el ejercicio Hanon 1 con una sola mano; se registraron 54 notas en 50 ataques (83 % coincidencia con la partitura) y 248 ataques por minuto, un 148 % más rápido que el plan. Los intervalos entre ataques variaron ±21 % y hubo una pausa de 1.9 s.
 
-Para la próxima: Practicar el fragmento a 100 ataques/min, usando el metrónomo en 100 bpm y concentrarse en mantener los intervalos entre ataques dentro de ±5 % y eliminar pausas mayores a 1,5 s.
+Para la próxima: Hanon 1: baja a 100 ataques por minuto (una por click a 100); hoy fueron 248.
 
 ## Progreso · 30 días hasta esta sesión
 
