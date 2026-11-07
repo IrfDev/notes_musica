@@ -14,7 +14,7 @@ fuente: frai-estudio
 # Piano · Día 3 · Grupo 3 entero y grupo 4 · sentada pieza
 
 > [!info] Registro automático del estudio de piano en Frai
-> Se actualiza mientras la sesión está abierta y cuando termina cada análisis. El audio original se queda en Frai: [abrir el estudio](https://piano.irf.rocks). Si editas esta nota, el estudio deja de actualizarla.
+> Se actualiza mientras la sesión está abierta y cuando termina cada análisis. Los recortes que van a la nota quedan en `9. Assets/Piano` (MP3 y MIDI) y también en la lección; la toma completa se queda en Frai: [abrir el estudio](https://piano.irf.rocks). Escribe en «Mis notas», al final: eso se respeta. Si cambias lo de arriba, el estudio deja de actualizar esta nota.
 
 Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grupo 3 entero y grupo 4|Día 3 · Grupo 3 entero y grupo 4]] · de 00:31 a 00:32
 
@@ -22,13 +22,6 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 
 | Hora | Sección |
 |---|---|
-| 00:31 | Hanon 1 |
-| 00:31 | Recuperación |
-| 00:31 | Hanon 1 |
-| 00:31 | Principal |
-| 00:31 | Recuperación |
-| 00:31 | Principal |
-| 00:31 | Recuperación |
 | 00:31 | Hanon 1 |
 
 ## Tomas
@@ -38,6 +31,9 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 | 1 | 00:31 | 0:54 | -5.46 dBFS | Hanon 1 | listo |
 
 ### Toma 1 · 00:31
+
+![[2026-11-06 piano día 3 - toma 0.31.mp3]]
+sin identificar · 0:54 · 212/min · regularidad ±51% · una mano (probable MD) · 4 pausas · [[2026-11-06 piano día 3 - toma 0.31.mid|MIDI]]
 
 - Fragmento 1: 0:08–0:10 · marcada: Hanon 1
 - Fragmento 2: 0:12–0:20 · marcada: Hanon 1
@@ -52,3 +48,7 @@ Tempo contra el plan: Fragmento 3: 65 ataques/min, sin tempo del plan para compa
 Resumen: En el fragmento 3 se tocaron 15 notas en 5 ataques durante 10.6 s, con 65 ataques por minuto y una variación de ±48 % entre ataques, lo que muestra un ritmo irregular. La confianza es baja porque no se asemeja a ningún ejercicio de la lección y no hay tempo del plan para comparar. No hay historial previo que indique mejora.
 
 Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+<!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
+
+## Mis notas
+
