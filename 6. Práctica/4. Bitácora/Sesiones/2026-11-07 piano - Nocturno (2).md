@@ -25,6 +25,8 @@ Lección: [[3. Composiciones/2. nocturno/0. Obra|Nocturno]] · de 13:30 (abierta
 | 13:30 | ◈ Dream pop desde cero |
 | 13:52 | ◈ Space Song |
 | 14:00 | ◈ Dream pop desde cero |
+| 14:01 | ◈ Space Song |
+| 14:01 | ◈ Dream pop desde cero |
 
 ## Tomas
 
