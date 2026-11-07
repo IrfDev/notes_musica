@@ -84,7 +84,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 
 Tempo contra el plan: Fragmento 1: 283 ataques/min, sin tempo del plan para comparar.
 
-Resumen: Se tocaron 225 notas en 137 ataques durante 36.1 s (283 ataques/min). Los intervalos entre ataques varían ±44 % (baja regularidad) y la mano izquierda suena 5 puntos más suave que la derecha; ambas manos entran con 10 ms de diferencia. No se identificó ningún ejercicio de la lección.
+Resumen: Se tocó el fragmento completo (225 notas en 137 ataques) con 283 ataques por minuto; la variación de los intervalos entre ataques es de ±44%, lo que indica una ejecución poco parejada y la confianza se calificó como baja. No hay dato de tempo del plan para comparar, pero el pedal estuvo abajo el 96% del tiempo y se observaron pequeñas diferencias de velocidad entre manos y una pausa de 1.5 s.
 
 Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
 
