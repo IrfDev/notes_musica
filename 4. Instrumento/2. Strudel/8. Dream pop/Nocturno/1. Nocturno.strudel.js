@@ -47,9 +47,13 @@ let diatonicVoicingByScale = (
   n(gradeVoicing).anchor(chordsToUse.rootNotes(rootNoteIndex)).scale(baseScale);
 
 const FLOATING_CHORDS =
-  "<~ Bb Ab Adim F7 Bb Bbadd4 Abadd4 F7 Bbm Cm7b5 C7 Fm F7 Bb>";
+  "<~ Bb Ab Ao F Bb Bbadd4 Abadd4 F7 Bbm Ch7 C7 Fm F7 Bb>";
 
-const floatingSynth = chord(FLOATING_CHORDS).voicing().sound("gm_synth_bass_2");
+const floatingSynth = chord(FLOATING_CHORDS)
+  .voicing()
+  .struct("x!8")
+  .velocity(0.4)
+  .sound("gm_synth_bass_2");
 
 // ── Las notas ───────────────────────────────────────────────────
 // Un compás por línea y un compás por ciclo. La rejilla es de
