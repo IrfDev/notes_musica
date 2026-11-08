@@ -58,12 +58,15 @@ const beatingSynth = chord(FLOATING_CHORDS)
 
 const floatingSynth = chord(FLOATING_CHORDS)
   .voicing()
+  .sound("gm_reed_organ")
   .attack(0.15)
-  .gain(0.5)
-  .sound("gm_drawbar_organ")
-  // .lpf(1500)
+  .hpf(300)
+  .hpq(8)
   .vib(5)
-  .vibmod(0.08);
+  .vibmod(0.08)
+  .tremolo(5)
+  .tremolodepth(0.4)
+  .gain(0.5);
 
 // ── Las notas ───────────────────────────────────────────────────
 // Un compás por línea y un compás por ciclo. La rejilla es de
