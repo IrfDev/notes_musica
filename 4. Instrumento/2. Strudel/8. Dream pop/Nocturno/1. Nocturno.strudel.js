@@ -46,7 +46,12 @@ let diatonicVoicingByScale = (
 ) =>
   n(gradeVoicing).anchor(chordsToUse.rootNotes(rootNoteIndex)).scale(baseScale);
 
-const FLOATING_CHORDS = "<~ Bb Ab Ao F Bb Bb Ab F7 Bbm Ch7 C7 Fm F7 Bb>";
+voicingRegistry.ireal.dictionary.add4 = ["1P 3M 4P 5P"];
+
+// const FLOATING_CHORDS =
+//   "<~ Bb Abm Ao F Bb Bbadd4 Abadd4 F7 Bbm Ch7 C7 Fm F7 Bb>";
+const FLOATING_CHORDS =
+  "<~ Bb Abm Ao Fadd4 Bb Bbadd4 Abadd4 F7 Bbm Ch7 C7 Fm F7 Bb>";
 
 const beatingSynth = chord(FLOATING_CHORDS)
   .voicing()
