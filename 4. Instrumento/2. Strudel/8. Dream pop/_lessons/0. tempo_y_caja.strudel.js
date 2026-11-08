@@ -106,17 +106,18 @@ kick    x . . . . . x . x . . . . . x .
 // Batería "real" de dream pop, sin banco: tom_mallet, snare_modern lejos,
 // tambourine, y un gm_reverse_cymbal en el compás 4 que crezca hacia el 1.
 
-setcpm(70 / 4)
-stack(
+// stack(s("bd bd [~!3 bd] bd"), s("~!3 sd").velocity(.7), s("hh*8").velocity("[.4 .15]*4")).bank("RhythmAce")
+// setcpm(70 / 4)
+// stack(
   // Toms
-  s("").velocity(.7).room(.5),
+  // s("tom_mallet tom_mallet [~!3 tom_mallet] tom_mallet").velocity(.7).room(.5),
   // Sname
-  s("____").velocity(.4).room(.8).roomsize(8),
-  // Tambourine
-  s("____"),
-  // Reverse cymbal
-  s("<~ ~ ~ ____>").gain(.6),
-)
+  // s("~!3 snare_modern ~").velocity(.4).room(.8).roomsize(8),
+  // // Tambourine
+  // s("tambourine*8").velocity("[.5 .25]*4"),
+  // // Reverse cymbal
+  // s("<~ ~ ~ gm_reverse_cymbal>").gain(.6),
+// )
 
 // ── CIERRE ──────────────────────────────────────────────────────
 // DECISIÓN · para ____ (una pieza tuya) elijo el preset ____ con la caja ____,
