@@ -64,15 +64,15 @@ hh      x . x . x . x . x . x . x . x .
 kick    x . . . . . x . x . . . . . x .
 */
 // Todo esto es a 4/4
-setcpm(76 / 4)
-stack(
-  // Kick
-  s("bd").beat("", 16),
-  // Aro
-  s("rim").beat("____", 16).velocity(.6),
-  // High hat
-  s("hh*8").velocity("[.5 .25]*4"),
-).bank("KorgKR55")
+// setcpm(76 / 4)
+// stack(
+//   // Kick
+//   s("bd").beat("0, 3, 6, 10, 13", 16),
+//   // Aro
+//   s("rim").beat("0, 6, 8, 14", 16).velocity(.6),
+//   // High hat
+//   s("hh*8").velocity("[.5 .25]*4"),
+// ).bank("KorgKR55")
 
 // Rock lento half-time: kick en el 1 (y una "a" del 3 si quieres), caja solo en el 3.
 
