@@ -56,7 +56,7 @@ const FLOATING_CHORDS =
 
 const beatingSynth = chord(FLOATING_CHORDS)
   .voicing()
-  .struct("<[x!8]!9 [x!12]!5 x>")
+  .struct("<[x!6]!9 [x!12]!5 x>")
   .sustain(0.3)
   .velocity("<~ [0.5 0.8]*4!11 [0.8 1]*4!2 1>")
   .sound("gm_synth_strings_2")
@@ -178,7 +178,7 @@ const melodia = tiembla(
   note(compases(MD))
     .s(MELODIA)
     .vib(5)
-    .vibmod(0.12)
+    .vibmod(0.08)
     .delay(0.3)
     .delaysync(1 / 4)
     .delayfeedback(0.4)
@@ -193,7 +193,7 @@ const arpegio = tiembla(note(compases(MI)).s(ARPEGIO))
 gastado(
   stack(
     // Piano
-    // melodia,
+    melodia,
     arpegio,
     // Drums
     CAJAS[CAJA].bank(BANCO),
