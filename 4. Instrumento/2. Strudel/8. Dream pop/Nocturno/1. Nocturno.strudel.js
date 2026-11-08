@@ -18,7 +18,7 @@
 
 // ── Perillas ────────────────────────────────────────────────────
 
-const PULSO = 48; // negra con punto. La partitura dice negra = 72: es lo mismo (§1.2)
+const PULSO = 72; // negra con punto. La partitura dice negra = 72: es lo mismo (§1.2)
 const DESDE = 1; // primer compás que suena; el 1 es la anacrusa
 const HASTA = 15; // último. Para quedarte en un pedazo: DESDE = 10, HASTA = 14
 

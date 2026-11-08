@@ -120,6 +120,6 @@ kick    x . . . . . x . x . . . . . x .
 // )
 
 // ── CIERRE ──────────────────────────────────────────────────────
-// DECISIÓN · para ____ (una pieza tuya) elijo el preset ____ con la caja ____,
+// DECISIÓN · para la pieza de nocturna (una pieza tuya) elijo el preset Rock con la caja Rolland 80,
 //            a ____ BPM sentidos, de a ____ (dos / tres)
 // HECHO cuando la pieza en tu cabeza "cabe" en ese reloj sin forzarla.
