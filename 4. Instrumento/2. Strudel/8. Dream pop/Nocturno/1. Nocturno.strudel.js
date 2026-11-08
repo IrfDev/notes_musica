@@ -24,7 +24,7 @@ const HASTA = 15; // último. Para quedarte en un pedazo: DESDE = 10, HASTA = 14
 
 const MELODIA = "gm_electric_guitar_clean"; // mano derecha. Prueba (§3.3, §7.4): organ_full · gm_epiano1 ·
 //   vibraphone · gm_voice_oohs · triangle · square
-const ARPEGIO = "organ_full"; // mano izquierda. Prueba (§3.3, §6.1): organ_8inch · piano1 ·
+const ARPEGIO = "piano"; // mano izquierda. Prueba (§3.3, §6.1): organ_8inch · piano1 ·
 //   gm_electric_guitar_clean · gm_synth_strings_2 · pulse
 
 const VIBRATO = 0; // 1 = el temblor de órgano viejo (§3.1). Solo en sintes y samples, no en gm_*
@@ -168,7 +168,9 @@ const compases = (lista) => cat(...lista.slice(DESDE - 1, HASTA));
 const tiembla = (p) => (VIBRATO ? p.vib(5).vibmod(0.08) : p);
 const gastado = (p) => (CINTA ? p.lpf(3500).crush(11) : p);
 
-const melodia = tiembla(note(compases(MD)).s(MELODIA));
+const melodia = tiembla(
+  note(compases(MD)).s(MELODIA).tremolosync(8).tremolodepth(0.7).room(0.6),
+);
 const arpegio = tiembla(note(compases(MI)).s(ARPEGIO))
   .delay(ECO)
   .delaysync(1 / 4)
