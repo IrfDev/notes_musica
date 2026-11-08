@@ -67,9 +67,9 @@ kick    x . . . . . x . x . . . . . x .
 // setcpm(76 / 4)
 // stack(
 //   // Kick
-//   s("bd").beat("0, 3, 6, 10, 13", 16),
+//   s("bd").beat("0, 6, 8, 14", 16),
 //   // Aro
-//   s("rim").beat("0, 6, 8, 14", 16).velocity(.6),
+//   s("rim").beat("0, 3, 6, 10, 13", 16).velocity(.6),
 //   // High hat
 //   s("hh*8").velocity("[.5 .25]*4"),
 // ).bank("KorgKR55")
@@ -85,6 +85,7 @@ kick    x . . . . . x . x . . . . . x .
 // KorgMinipops · RolandCompurhythm78 · RhythmAce · UnivoxMicroRhythmer12 · CasioVL1
 
 
+// Senti que me gustaba el bossa nova, pero no
 // setcpm(74/4)
 // const preset = stack(
 //   // Kick
@@ -105,13 +106,17 @@ kick    x . . . . . x . x . . . . . x .
 // Batería "real" de dream pop, sin banco: tom_mallet, snare_modern lejos,
 // tambourine, y un gm_reverse_cymbal en el compás 4 que crezca hacia el 1.
 
-// setcpm(70 / 4)
-// stack(
-//   s("____").velocity(.7).room(.5),
-//   s("____").velocity(.4).room(.8).roomsize(8),
-//   s("____"),
-//   s("<~ ~ ~ ____>").gain(.6),
-// )
+setcpm(70 / 4)
+stack(
+  // Toms
+  s("").velocity(.7).room(.5),
+  // Sname
+  s("____").velocity(.4).room(.8).roomsize(8),
+  // Tambourine
+  s("____"),
+  // Reverse cymbal
+  s("<~ ~ ~ ____>").gain(.6),
+)
 
 // ── CIERRE ──────────────────────────────────────────────────────
 // DECISIÓN · para ____ (una pieza tuya) elijo el preset ____ con la caja ____,
