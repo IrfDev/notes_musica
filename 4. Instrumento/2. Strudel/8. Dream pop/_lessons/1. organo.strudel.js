@@ -77,15 +77,14 @@ const caja = s("bd ~ ~ ~, ~ ~ sd ~").bank("KorgMinipops");
 // organ_full · pipeorgan_quiet · gm_reed_organ · square (con lpf y vib) · gm_synth_strings_2 · piano1
 
 const acordes = chord(PROG).voicing().attack(0.1).release(1);
-arrange(
-  [2, acordes.s("organ_full")], // Barco viejo navegando
-  [2, acordes.s("pipeorgan_quiet")], //
-  [2, acordes.s("gm_reed_organ")], // Sueño extrañas
-  [2, acordes.s("square")], // Triste y fuerte
-  [2, acordes.s("gm_synth_strings_2")], // Sueño, flotante, lo que quieres llegar a ser
-);
+arrange();
+// [2, acordes.s("organ_full")], // Barco viejo navegando
+// [2, acordes.s("pipeorgan_quiet")], //
+// [2, acordes.s("gm_reed_organ")], // Sueño extrañas
+// [2, acordes.s("square")], // Triste y fuerte
+// [2, acordes.s("gm_synth_strings_2")], // Sueño, flotante, lo que quieres llegar a ser
 
 // ── CIERRE ──────────────────────────────────────────────────────
-// DECISIÓN · mi órgano es ____, hace de ____ (colchón / latido),
+// DECISIÓN · mi órgano es gm_synth_strings_2, hace de latido (colchón / latido),
 //            con vib ____ y vibmod ____
 // HECHO cuando lo escuchas 16 compases y suena viejo, no mareado.
