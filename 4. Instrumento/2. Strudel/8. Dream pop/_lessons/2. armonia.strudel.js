@@ -20,17 +20,21 @@ const organo = (x) => x.voicing().s("organ_full").vib(5).vibmod(0.06).gain(0.6);
 
 // ── PASO 1 · Un acorde ──────────────────────────────────────────
 
-stack(caja, organo(chord("<D^7>")));
+// stack(caja, organo(chord("<D^7>")));
 
 // ── PASO 2 · Una nota de color, sobre TU I ─────────────────────
 // Triada, sexta, novena añadida, séptima mayor. Un compás cada uno.
 
-// stack(caja, organo(chord("<____ ____ ____ ____>")))
+// Add9 suena nostalgico y trsite
+// con sexta suena con un poco de brillo, y esperanzador
+// ^7 Le da la sensación de que algo está pasando, algo se redime
 
-// DECISIÓN · mi color es ____ (la nota que define mi sonido: 6.ª, 9.ª, 7.ª mayor)
+// stack(caja, organo(chord("<Bb Bbadd9 Bb6 Bb^7>")));
+
+// DECISIÓN · mi color es Bbadd9 me gustó (la nota que define mi sonido: 6.ª, 9.ª, 7.ª mayor)
 
 // ── PASO 3 · La sombra ──────────────────────────────────────────
-// I – IV – iv – I en tu tonalidad. ¿Qué nota baja medio tono del IV al iv? ____
+// I – IV – iv – I en tu tonalidad. ¿Qué nota baja medio tono del IV al iv? 3era
 // Después prueba ♭VI^7 y ♭VII en lugar del iv. ¿Cuál "recuerda" más?
 
 // stack(caja, organo(chord("<____ ____ ____ ____>")))
