@@ -11,16 +11,16 @@
 //           Strudel escribe en bemoles: Gb = F#, Db = C#.
 // ════════════════════════════════════════════════════════════════
 
-setcpm(66 / 4)
+setcpm(66 / 4);
 
-const caja = s("bd ~ ~ ~, ~ ~ sd ~").bank("KorgMinipops")
-const organo = x => x.voicing().s("organ_full").vib(5).vibmod(.06).gain(.6)
+const caja = s("bd ~ ~ ~, ~ ~ sd ~").bank("KorgMinipops");
+const organo = (x) => x.voicing().s("organ_full").vib(5).vibmod(0.06).gain(0.6);
 
-// MI TONALIDAD · ____ mayor. Mi I es ____, mi IV es ____, mi iv prestado es ____.
+// MI TONALIDAD · Bb mayor. Mi I es Bb, mi IV es Eb, mi iv prestado es Ebm.
 
 // ── PASO 1 · Un acorde ──────────────────────────────────────────
 
-stack(caja, organo(chord("<D^7>")))
+stack(caja, organo(chord("<D^7>")));
 
 // ── PASO 2 · Una nota de color, sobre TU I ─────────────────────
 // Triada, sexta, novena añadida, séptima mayor. Un compás cada uno.
