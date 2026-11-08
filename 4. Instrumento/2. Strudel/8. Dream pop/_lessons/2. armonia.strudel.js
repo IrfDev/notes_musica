@@ -71,15 +71,18 @@ const organo = (x) => x.voicing().s("organ_full").vib(5).vibmod(0.06).gain(0.6);
 // b · bajo que baja: los acordes en una capa, el bajo por grados en otra
 
 // stack(
-//   organo(chord("<____>")),
-//   note("____").s("sawtooth").lpf(300).gain(.8),                    // a · pedal
-// )
+//   organo(chord("<Bb Dsus Eb Ebm>")),
+//   note("Bb2").s("sawtooth").lpf(300).gain(0.8), // a · pedal
+// );
 
-// stack(
-//   organo(chord("<____ ____ ____ ____ ____ ____ ____ ____>")),
-//   note("<____ ____ ____ ____ ____ ____ ____ ____>")                 // b · baja por grados
-//     .s("sawtooth").lpf(400).attack(.05).release(.5),
-// )
+stack(
+  organo(chord("<Bb Dsus Eb Ebm>")),
+  note("<Bb2 A2 G2 Gb2>") // b · baja por grados
+    .s("sawtooth")
+    .lpf(400)
+    .attack(0.05)
+    .release(0.5),
+);
 
 // ── PASO 6 · Tu progresión y su ritmo armónico ──────────────────
 // Elige una de la tabla de §4.5 (o una tuya) y llévala a tu tonalidad.
