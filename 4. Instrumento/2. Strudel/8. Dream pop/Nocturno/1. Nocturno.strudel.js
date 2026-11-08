@@ -51,11 +51,17 @@ const FLOATING_CHORDS = "<~ Bb Ab Ao F Bb Bb Ab F7 Bbm Ch7 C7 Fm F7 Bb>";
 const beatingSynth = chord(FLOATING_CHORDS)
   .voicing()
   .struct("x!8")
-  .gain(1)
+  .gain(0)
   .sustain(0.3)
   .velocity("<~ [0.5 0.8]*4!14>")
-  .sound("square")
-  .lpf(1500)
+  .sound("gm_synth_strings_2");
+
+const floatingSynth = chord(FLOATING_CHORDS)
+  .voicing()
+  .attack(0.15)
+  .gain(0.5)
+  .sound("gm_drawbar_organ")
+  // .lpf(1500)
   .vib(5)
   .vibmod(0.08);
 
