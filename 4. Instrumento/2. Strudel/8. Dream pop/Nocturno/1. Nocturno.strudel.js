@@ -56,9 +56,9 @@ const FLOATING_CHORDS =
 
 const beatingSynth = chord(FLOATING_CHORDS)
   .voicing()
-  .struct("<[x!6]!9 [x!12]!5 x>")
+  .struct("<[x!12]!9 [x!12]!5 x>")
   .sustain(0.3)
-  .velocity("<~ [0.5 0.8]*4!11 [0.8 1]*4!2 1>")
+  .velocity("<~ [0.5 0.8]*6!11 [0.8 1]*6!2 1>")
   .sound("gm_synth_strings_2")
   .mask("<0!6 1!9>");
 
