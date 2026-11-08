@@ -85,21 +85,21 @@ kick    x . . . . . x . x . . . . . x .
 // KorgMinipops · RolandCompurhythm78 · RhythmAce · UnivoxMicroRhythmer12 · CasioVL1
 
 
-setcpm(74/4)
-const preset = stack(
-  // Kick
-  s("bd [~ bd] bd [~ bd]"), 
-  // Hi hat
-  s("hh*8").velocity("[.5 .25]*4"), 
-  // Rim
-  s("rim ~ ~ rim"))
-arrange(
-  [2, preset.bank("KorgMinipops")],
-  [2, preset.bank("RolandCompurhythm78")],
-  [2, preset.bank("RhythmAce")],
-  [2, preset.bank("UnivoxMicroRhythmer12")],
-  [2, preset.bank("CasioVL1")],
-)
+// setcpm(74/4)
+// const preset = stack(
+//   // Kick
+//   s("bd [~ bd] bd [~ bd]"), 
+//   // Hi hat
+//   s("hh*8").velocity("[.5 .25]*4"), 
+//   // Rim
+//   s("rim ~ ~ rim ~ ~ rim ~ ~ ~ rim ~ ~ rim ~ ~"))
+// arrange(
+//   [2, preset.bank("KorgMinipops")],
+//   [2, preset.bank("RolandCompurhythm78")],
+//   [2, preset.bank("RhythmAce")],
+//   [2, preset.bank("UnivoxMicroRhythmer12")],
+//   [2, preset.bank("CasioVL1")],
+// )
 
 // ── PASO 6 · Mazas y platos ─────────────────────────────────────
 // Batería "real" de dream pop, sin banco: tom_mallet, snare_modern lejos,
