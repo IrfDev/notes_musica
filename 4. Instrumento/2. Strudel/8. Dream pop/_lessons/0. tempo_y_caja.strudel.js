@@ -42,6 +42,7 @@ Más allá del kick y la caja. El hh es el que marca el pulso, y el kick y la ca
 
 stack(
   s("bd ~ sd ~").bank("KorgMinipops"),
+  s("hh*8").velocity("[.6 .3 .4]*4").bank("KorgMinipops"),
   chord("<D^7>").voicing()
     .struct("<[____] [____]>")
     .s("organ_full").gain(.5),
