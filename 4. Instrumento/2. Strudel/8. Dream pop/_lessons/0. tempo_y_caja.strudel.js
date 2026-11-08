@@ -40,6 +40,8 @@ Más allá del kick y la caja. El hh es el que marca el pulso, y el kick y la ca
 // El mismo acorde con 8 corcheas por compás y luego con 12.
 // El kick y la caja no cambian: solo cuántas notas caben en cada pulso.
 
+setcpm(74/4)
+
 stack(
   s("bd ~ sd ~").bank("KorgMinipops"),
   s("hh*8").velocity("[.6 .3 .4]*4").bank("KorgMinipops"),
