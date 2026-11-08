@@ -35,9 +35,11 @@ const organo = (x) => x.voicing().s("organ_full").vib(5).vibmod(0.06).gain(0.6);
 
 // ── PASO 3 · La sombra ──────────────────────────────────────────
 // I – IV – iv – I en tu tonalidad. ¿Qué nota baja medio tono del IV al iv? 3era
+// Eb = Eb - G - Bb
+// Ebm = Eb - Gb - Bb
 // Después prueba ♭VI^7 y ♭VII en lugar del iv. ¿Cuál "recuerda" más?
 
-// stack(caja, organo(chord("<____ ____ ____ ____>")))
+// stack(caja, organo(chord("<Bb Eb Ebm Bb>")));
 
 // ── PASO 4 · La línea que baja por dentro ───────────────────────
 // Un acorde que no cambia; una voz interior baja por semitonos: raíz, 7.ª mayor,
