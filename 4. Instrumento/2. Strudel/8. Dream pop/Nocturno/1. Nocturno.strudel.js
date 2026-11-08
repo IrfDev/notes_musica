@@ -46,15 +46,14 @@ let diatonicVoicingByScale = (
 ) =>
   n(gradeVoicing).anchor(chordsToUse.rootNotes(rootNoteIndex)).scale(baseScale);
 
-const FLOATING_CHORDS =
-  "<~ Bb Ab Ao F Bb Bbadd4 Abadd4 F7 Bbm Ch7 C7 Fm F7 Bb>";
+const FLOATING_CHORDS = "<~ Bb Ab Ao F Bb Bb Ab F7 Bbm Ch7 C7 Fm F7 Bb>";
 
 const floatingSynth = chord(FLOATING_CHORDS)
   .voicing()
-  .struct("x!12")
+  .struct("x!8")
   .gain(1)
   .sustain(0.3)
-  .velocity("~ 0.2 0.8!13")
+  .velocity("<~ [0.2 0.2 0.8 0.2]!14>")
   .sound("gm_synth_bass_2");
 
 // ── Las notas ───────────────────────────────────────────────────
