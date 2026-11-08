@@ -65,6 +65,7 @@ const organo = (x) => x.voicing().s("organ_full").vib(5).vibmod(0.06).gain(0.6);
 // )
 //   .s("organ_full")
 //   .room(0.6);
+
 // ── PASO 5 · El suelo ───────────────────────────────────────────
 // a · pedal: tu raíz en el bajo, los acordes cambiando encima
 // b · bajo que baja: los acordes en una capa, el bajo por grados en otra

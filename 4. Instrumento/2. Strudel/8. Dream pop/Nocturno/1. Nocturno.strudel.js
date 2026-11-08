@@ -52,7 +52,7 @@ voicingRegistry.ireal.dictionary.add4 = ['1P 3M 4P 5P'];
 // const FLOATING_CHORDS =
 //   "<~ Bb Abm Ao F Bb Bbadd4 Abadd4 F7 Bbm Ch7 C7 Fm F7 Bb>";
 const FLOATING_CHORDS =
-  "<~ Bb Abm Ao F6 Bb Bbadd9 Abadd4 F7 Bbm Ch7 C7 Fm F7 Bb>";
+  "<~ Bb Abm Ao F7sus Bb Bb6 Abadd4 F7 Bbm Ch7 C7 Fm F7 Bb>";
 
 const beatingSynth = chord(FLOATING_CHORDS)
   .voicing()
