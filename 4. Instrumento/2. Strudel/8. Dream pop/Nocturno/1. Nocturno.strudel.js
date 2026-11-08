@@ -150,5 +150,7 @@ gastado(
     arpegio,
     // Drums
     CAJAS[CAJA].bank(BANCO),
+
+    // Organ synth
   ).room(SALA),
 );
