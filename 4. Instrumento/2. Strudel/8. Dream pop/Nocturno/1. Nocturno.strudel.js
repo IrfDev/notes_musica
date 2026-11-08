@@ -51,8 +51,10 @@ const FLOATING_CHORDS =
 
 const floatingSynth = chord(FLOATING_CHORDS)
   .voicing()
-  .struct("x!8")
-  .velocity(0.4)
+  .struct("x!12")
+  .gain(1)
+  .sustain(0.3)
+  .velocity("~ 0.2 0.8!13")
   .sound("gm_synth_bass_2");
 
 // ── Las notas ───────────────────────────────────────────────────
