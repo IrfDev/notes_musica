@@ -42,14 +42,19 @@ const organo = (x) => x.voicing().s("organ_full").vib(5).vibmod(0.06).gain(0.6);
 //bVI^7 Suena muy a cambio a otra cosa. Como que quiere irse, pero no sabe como
 // El clásico acorde prestado del modo lidio. Se siente como Que algo bueno podría pasar
 // iv: Es el que da la myor sensación de que algo recordamos
-stack(caja, organo(chord("<Bb Eb Ebm Bb>")));
+// stack(caja, organo(chord("<Bb Eb Ebm Bb>")));
 
 // ── PASO 4 · La línea que baja por dentro ───────────────────────
 // Un acorde que no cambia; una voz interior baja por semitonos: raíz, 7.ª mayor,
 // 7.ª menor, 6.ª. Escribe las notas a mano (chord() elegiría otros voicings).
 
-// note("<[____] [____] [____] [____]>")
-//   .s("organ_full").vib(5).vibmod(.06).attack(.1).release(.8).room(.6)
+note("<[____] [____] [____] [____]>")
+  .s("organ_full")
+  .vib(5)
+  .vibmod(0.06)
+  .attack(0.1)
+  .release(0.8)
+  .room(0.6);
 
 // La versión menor: raíz menor, menor con 7.ª mayor, con 7.ª, con 6.ª.
 // note("<[____] [____] [____] [____]>").s("organ_full").room(.6)
