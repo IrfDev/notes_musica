@@ -48,17 +48,23 @@ const organo = (x) => x.voicing().s("organ_full").vib(5).vibmod(0.06).gain(0.6);
 // Un acorde que no cambia; una voz interior baja por semitonos: raíz, 7.ª mayor,
 // 7.ª menor, 6.ª. Escribe las notas a mano (chord() elegiría otros voicings).
 
-note("<[____] [____] [____] [____]>")
-  .s("organ_full")
-  .vib(5)
-  .vibmod(0.06)
-  .attack(0.1)
-  .release(0.8)
-  .room(0.6);
+// note(
+//   "<[Bb2, D2, D5, Bb4] [Bb2, D2, D5, A4] [Bb2, D2, D5, Ab4] [Bb2, D2, D5, G4]>",
+// )
+//   .s("triangle")
+//   .vib(5)
+//   .vibmod(0.06)
+//   .attack(0.1)
+//   .release(0.8)
+//   .room(0.6);
 
 // La versión menor: raíz menor, menor con 7.ª mayor, con 7.ª, con 6.ª.
-// note("<[____] [____] [____] [____]>").s("organ_full").room(.6)
 
+// note(
+//   "<[Bb, Db2, Db5, Bb4] [Bb, Db2, Db5, A4] [Bb, Db2, Db5, Ab4] [Bb, Db2, Db5, G4]>",
+// )
+//   .s("organ_full")
+//   .room(0.6);
 // ── PASO 5 · El suelo ───────────────────────────────────────────
 // a · pedal: tu raíz en el bajo, los acordes cambiando encima
 // b · bajo que baja: los acordes en una capa, el bajo por grados en otra
