@@ -57,20 +57,20 @@ const caja = s("bd ~ ~ ~, ~ ~ sd ~").bank("KorgMinipops");
 // El acorde repetido en corcheas, con el tiempo más fuerte que el "&".
 // Escríbelo primero en 4/4 (8 golpes) y después en 12/8 (12 golpes, de tres en tres).
 
-stack(
-  caja,
-  chord(PROG)
-    .voicing()
-    .struct("x!8")
-    .velocity("[0.5 0.2]*6")
-    .s("organ_8inch")
-    .decay(0.25)
-    .sustain(0.3)
-    .vib(5)
-    .vibmod(0.06),
-);
+// stack(
+//   // caja,
+//   chord(PROG)
+//     .voicing()
+//     .struct("x!8")
+//     .velocity("[0.5 0.2]*6")
+//     .s("organ_8inch")
+//     .decay(0.25)
+//     .sustain(0.3)
+//     .vib(5)
+//     .vibmod(0.06),
+// );
 
-// Ahora quita la caja. ¿El latido sostiene el pulso solo? ____
+// Ahora quita la caja. ¿El latido sostiene el pulso solo? si
 
 // ── PASO 5 · Cinco teclados baratos ─────────────────────────────
 // Dos compases cada uno. Para cada uno, una palabra.

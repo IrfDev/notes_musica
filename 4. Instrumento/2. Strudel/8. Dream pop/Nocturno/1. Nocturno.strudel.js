@@ -138,16 +138,17 @@ const tiembla = (p) => (VIBRATO ? p.vib(5).vibmod(0.08) : p);
 const gastado = (p) => (CINTA ? p.lpf(3500).crush(11) : p);
 
 const melodia = tiembla(note(compases(MD)).s(MELODIA));
-const arpegio = tiembla(
-  note(BOCETO ? cat(...BOCETO_MI) : compases(MI)).s(ARPEGIO),
-)
+const arpegio = tiembla(note(compases(MI)).s(ARPEGIO))
   .delay(ECO)
   .delaysync(1 / 4)
   .delayfeedback(0.4); // 1/4 de compás = una negra con punto
 
 gastado(
   stack(
-    BOCETO ? arpegio : stack(melodia, arpegio),
+    // Piano
+    melodia,
+    arpegio,
+    // Drums
     CAJAS[CAJA].bank(BANCO),
   ).room(SALA),
 );
