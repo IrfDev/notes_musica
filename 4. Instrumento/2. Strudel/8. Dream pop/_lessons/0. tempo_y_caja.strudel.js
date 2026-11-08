@@ -63,11 +63,11 @@ aro     x . . x . . x . . . x . . x . .
 hh      x . x . x . x . x . x . x . x .
 kick    x . . . . . x . x . . . . . x .
 */
-
+// Todo esto es a 4/4
 setcpm(76 / 4)
 stack(
   // Kick
-  s("bd").beat("____", 16),
+  s("bd").beat("", 16),
   // Aro
   s("rim").beat("____", 16).velocity(.6),
   // High hat
