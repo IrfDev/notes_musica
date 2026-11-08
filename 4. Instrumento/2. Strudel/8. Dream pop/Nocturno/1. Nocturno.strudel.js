@@ -32,7 +32,7 @@ const ECO = 0.1; // eco del arpegio (§6.1, §8.3): 0 = seco · .3–.5 = cada n
 const SALA = 0.5; // reverb (§8.1): .2 habitación · .6 sala · .9 catedral
 const CINTA = 0.5; // 1 = poco brillo y polvo, a todo (§8.4)
 
-const CAJA = 1; // 0 = sin batería · 1 = slow rock (§2.2) · 2 = medio tiempo: caja solo en el 3
+const CAJA = 3; // 0 = sin batería · 1 = slow rock (§2.2) · 2 = medio tiempo: caja solo en el 3
 const BANCO = "KorgMinipops"; // la caja (§2.3): RolandCompurhythm78 · RhythmAce · KorgKR55 ·
 //   UnivoxMicroRhythmer12 · CasioVL1 · LinnDrum
 
@@ -121,10 +121,10 @@ const CAJAS = [
     // Kick
     s("bd").beat("0, 6, 8, 14", 16),
     // Aro
-    s("rim").beat("0, 3, 6, 10, 13", 16).velocity(.6),
+    s("rim").beat("0, 3, 6, 10, 13", 16).velocity(0.6),
     // High hat
     s("hh*8").velocity("[.5 .25]*4"),
-  ).bank("KorgKR55")
+  ).bank("KorgKR55"),
 ];
 
 // ── Cómo suena ──────────────────────────────────────────────────
