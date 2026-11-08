@@ -76,8 +76,9 @@ kick    x . . . . . x . x . . . . . x .
 
 // Rock lento half-time: kick en el 1 (y una "a" del 3 si quieres), caja solo en el 3.
 
+//4/4
 // setcpm(74 / 4)
-// stack(s("____"), s("____").velocity(.7), s("hh*8").velocity("[.4 .15]*4")).bank("RhythmAce")
+// stack(s("bd bd [~!3 bd] bd"), s("~!3 sd").velocity(.7), s("hh*8").velocity("[.4 .15]*4")).bank("RhythmAce")
 
 // ── PASO 5 · El mismo preset, cuatro cajas ──────────────────────
 // Tu preset favorito de los anteriores, dos compases por caja.
