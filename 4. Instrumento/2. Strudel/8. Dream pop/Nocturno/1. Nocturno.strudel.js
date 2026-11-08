@@ -38,6 +38,19 @@ const BANCO = "RolandCompurhythm78"; // la caja (§2.3): RolandCompurhythm78 · 
 
 const BOCETO = 0; // 1 = en lugar de c.1–15, el boceto en 4/4 de c.53–57 (solo mano izquierda)
 
+let diatonicVoicingByScale = (
+  gradeVoicing,
+  rootNoteIndex,
+  chordsToUse,
+  baseScale,
+) =>
+  n(gradeVoicing).anchor(chordsToUse.rootNotes(rootNoteIndex)).scale(baseScale);
+
+const FLOATING_CHORDS =
+  "<~ Bb Ab Adim F7 Bb Bbadd4 Abadd4 F7 Bbm Cm7b5 C7 Fm F7 Bb>";
+
+const floatingSynth = chord(FLOATING_CHORDS).voicing().sound("gm_synth_bass_2");
+
 // ── Las notas ───────────────────────────────────────────────────
 // Un compás por línea y un compás por ciclo. La rejilla es de
 // semicorcheas, 24 por compás de 12/8: @2 = corchea, @4 = negra,
@@ -152,5 +165,6 @@ gastado(
     CAJAS[CAJA].bank(BANCO),
 
     // Organ synth
+    floatingSynth,
   ).room(SALA),
 );
