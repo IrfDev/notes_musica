@@ -95,6 +95,14 @@ const BOCETO_MI = [
 // ── La caja (§2) ────────────────────────────────────────────────
 // Los presets de la guía, en 12/8. En su propio stack, con su .bank().
 
+// ck(
+//   // Kick
+//   s("bd").beat("0, 6, 8, 14", 16),
+//   // Aro
+//   s("rim").beat("0, 3, 6, 10, 13", 16).velocity(.6),
+//   // High hat
+//   s("hh*8").velocity("[.5 .25]*4"),
+// ).bank("KorgKR55")
 const CAJAS = [
   silence,
   stack(
@@ -109,6 +117,14 @@ const CAJAS = [
     s("~ ~ sd ~"),
     s("hh*12").velocity("[.6 .3 .4]*4"),
   ),
+  stack(
+    // Kick
+    s("bd").beat("0, 6, 8, 14", 16),
+    // Aro
+    s("rim").beat("0, 3, 6, 10, 13", 16).velocity(.6),
+    // High hat
+    s("hh*8").velocity("[.5 .25]*4"),
+  ).bank("KorgKR55")
 ];
 
 // ── Cómo suena ──────────────────────────────────────────────────
