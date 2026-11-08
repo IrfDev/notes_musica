@@ -50,11 +50,11 @@ const FLOATING_CHORDS = "<~ Bb Ab Ao F Bb Bb Ab F7 Bbm Ch7 C7 Fm F7 Bb>";
 
 const beatingSynth = chord(FLOATING_CHORDS)
   .voicing()
-  .struct("x!8")
-  .gain(1)
+  .struct("<[x!8]!9 [x!12]!5 x>")
   .sustain(0.3)
-  .velocity("<~ [0.5 0.8]*4!14>")
-  .sound("gm_synth_strings_2");
+  .velocity("<~ [0.5 0.8]*4!11 [0.8 1]*4!2 1>")
+  .sound("gm_synth_strings_2")
+  .mask("<0!6 1!9>");
 
 const floatingSynth = chord(FLOATING_CHORDS)
   .voicing()
@@ -63,12 +63,11 @@ const floatingSynth = chord(FLOATING_CHORDS)
   .hpf(350)
   .hpq(8)
   .vib(5)
-  .vibmod(0.08)
+  .vibmod(0.15)
   .tremolo(5)
   .tremolodepth(0.6)
-  .velocity(0.3)
-  .mask("0")
-  .firstOf(8, (cy) => cy.mask("1 1 1 1"));
+  .velocity(0.5)
+  .mask("<1!9 0!5 1>");
 
 // ── Las notas ───────────────────────────────────────────────────
 // Un compás por línea y un compás por ciclo. La rejilla es de
