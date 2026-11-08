@@ -11,21 +11,29 @@
 //           no está garantizado en los gm_*.
 // ════════════════════════════════════════════════════════════════
 
-setcpm(70 / 4)
+setcpm(70 / 4);
 
-const PROG = "<D^7 G^7>"          // ← cámbiala por la tuya cuando quieras
-const caja = s("bd ~ ~ ~, ~ ~ sd ~").bank("KorgMinipops")
+const PROG = "<D^7 G^7>"; // ← cámbiala por la tuya cuando quieras
+const caja = s("bd ~ ~ ~, ~ ~ sd ~").bank("KorgMinipops");
 
 // ── PASO 1 · El colchón, quieto ─────────────────────────────────
 
-chord(PROG).voicing().s("organ_full").attack(.15).release(.8).gain(.6)
+// chord(PROG).voicing().s("organ_full").attack(0.15).release(0.8).gain(0.6);
 
 // ── PASO 2 · La escalera de vibrato ─────────────────────────────
 // Cuatro profundidades, una por compás. La última es la de serie (.5).
 // ¿Cuál suena a órgano viejo? ¿Cuál a barco?
 
-// chord(PROG).voicing().s("organ_full").attack(.15).release(.8).gain(.6)
-//   .vib(5).vibmod("<.03 .08 .15 .5>")
+// El organo tiene que vibrar o sentir que se está moviendo suave
+
+chord(PROG)
+  .voicing()
+  .s("organ_full")
+  .attack(0.15)
+  .release(0.8)
+  .gain(0.6)
+  .vib(5)
+  .vibmod("<.03 .08 .15 .5>");
 
 // DECISIÓN · mi vibmod es ____ y mi vib es ____ Hz
 
