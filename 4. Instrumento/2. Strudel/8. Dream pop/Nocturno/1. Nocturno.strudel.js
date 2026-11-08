@@ -48,13 +48,16 @@ let diatonicVoicingByScale = (
 
 const FLOATING_CHORDS = "<~ Bb Ab Ao F Bb Bb Ab F7 Bbm Ch7 C7 Fm F7 Bb>";
 
-const floatingSynth = chord(FLOATING_CHORDS)
+const beatingSynth = chord(FLOATING_CHORDS)
   .voicing()
   .struct("x!8")
   .gain(1)
   .sustain(0.3)
-  .velocity("<~ [0.2 0.2 0.8 0.2]!14>")
-  .sound("gm_synth_bass_2");
+  .velocity("<~ [0.5 0.8]*4!14>")
+  .sound("square")
+  .lpf(1500)
+  .vib(5)
+  .vibmod(0.08);
 
 // ── Las notas ───────────────────────────────────────────────────
 // Un compás por línea y un compás por ciclo. La rejilla es de
@@ -169,7 +172,10 @@ gastado(
     // Drums
     CAJAS[CAJA].bank(BANCO),
 
-    // Organ synth
+    // beating synth
+    beatingSynth,
+
+    // Floating synth
     floatingSynth,
   ).room(SALA),
 );
