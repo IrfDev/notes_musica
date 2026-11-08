@@ -23,17 +23,19 @@ const caja = s("bd ~ ~ ~, ~ ~ sd ~").bank("KorgMinipops");
 // ── PASO 2 · La escalera de vibrato ─────────────────────────────
 // Cuatro profundidades, una por compás. La última es la de serie (.5).
 // ¿Cuál suena a órgano viejo? ¿Cuál a barco?
-
+// 0.3 Y 0.8 SUENAN A barco flotando. 0.15 y 0.8 suenan a organo. 0.15 y 0.5 suenan a synth
 // El organo tiene que vibrar o sentir que se está moviendo suave
 
-chord(PROG)
-  .voicing()
-  .s("organ_full")
-  .attack(0.15)
-  .release(0.8)
-  .gain(0.6)
-  .vib(5)
-  .vibmod("<.03 .08 .15 .5>");
+// chord(PROG)
+//   .voicing()
+//   .s("organ_full")
+//   .attack(0.15)
+//   .release(0.8)
+//   .gain(0.6)
+//   // Vibrato, velocidad del vibrato (cada cuanto hace que)
+//   .vib(5)
+//   // el vibmod lo que hace es decir cuanto sube o baje
+//   .vibmod(".08");
 
 // DECISIÓN · mi vibmod es ____ y mi vib es ____ Hz
 
