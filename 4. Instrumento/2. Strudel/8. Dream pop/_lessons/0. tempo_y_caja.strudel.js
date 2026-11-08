@@ -10,7 +10,7 @@
 //           el anterior y descomenta el nuevo. Llena cada ____ tú.
 // ════════════════════════════════════════════════════════════════
 
-setcpm(66 / 4); // 12/8 a 66 negras con punto: 1 ciclo = 1 compás
+// setcpm(66 / 4); // 12/8 a 66 negras con punto: 1 ciclo = 1 compás
 
 // ── PASO 1 · Slow rock ──────────────────────────────────────────
 // El preset de balada en 12/8. Escúchalo 8 compases y mécete con él.
@@ -21,27 +21,31 @@ setcpm(66 / 4); // 12/8 a 66 negras con punto: 1 ciclo = 1 compás
 
 // ── PASO 2 · Tempo medido, tempo sentido ────────────────────────
 // Elige una canción de dream pop que te guste. Da palmas con ella.
-//   BPM que dice internet: ____      BPM que siente tu cuerpo: ____
+//   BPM que dice internet: 105      BPM que siente tu cuerpo: 70
 //   ¿La caja cae una vez por compás (half-time) o dos?  ____
-// Escribe su esqueleto con el tempo SENTIDO:
+// Escribe su esqueleto con el tempo SENTIDO: Esta canción es PPP
 
-// setcpm(____ / 4)
+/*
+Mi error aquí fue mayormente no darme cuenta de que el hh es el que lleva todo,
+Más allá del kick y la caja. El hh es el que marca el pulso, y el kick y la caja son acentos.
+*/
+// setcpm(70 / 2) // 6/8
 // stack(
-//   s("____"),        // kick
-//   s("____"),        // caja
-//   s("____"),        // hats
+//   s("bd ~!5"),        // kick
+//   s("~ ~ ~ sd ~ ~"),        // caja
+//   s("hh*6"),        // hats
 // ).bank("KorgMinipops")
 
 // ── PASO 3 · De a dos o de a tres ───────────────────────────────
 // El mismo acorde con 8 corcheas por compás y luego con 12.
 // El kick y la caja no cambian: solo cuántas notas caben en cada pulso.
 
-// stack(
-//   s("bd ~ sd ~").bank("KorgMinipops"),
-//   chord("<D^7>").voicing()
-//     .struct("<[____] [____]>")
-//     .s("organ_full").gain(.5),
-// )
+stack(
+  s("bd ~ sd ~").bank("KorgMinipops"),
+  chord("<D^7>").voicing()
+    .struct("<[____] [____]>")
+    .s("organ_full").gain(.5),
+)
 
 // ── PASO 4 · Tres presets, sin mirar la guía ───────────────────
 // Vals en 3/4: kick en el 1, caja suave en 2 y 3, hats en corcheas.
