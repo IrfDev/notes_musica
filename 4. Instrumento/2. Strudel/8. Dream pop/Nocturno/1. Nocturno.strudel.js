@@ -18,7 +18,7 @@
 
 // ── Perillas ────────────────────────────────────────────────────
 
-const PULSO = 72; // negra con punto. La partitura dice negra = 72: es lo mismo (§1.2)
+const PULSO = 46; // negra con punto. La partitura dice negra = 72: es lo mismo (§1.2)
 const DESDE = 1; // primer compás que suena; el 1 es la anacrusa
 const HASTA = 15; // último. Para quedarte en un pedazo: DESDE = 10, HASTA = 14
 
@@ -32,8 +32,8 @@ const ECO = 0.1; // eco del arpegio (§6.1, §8.3): 0 = seco · .3–.5 = cada n
 const SALA = 0.5; // reverb (§8.1): .2 habitación · .6 sala · .9 catedral
 const CINTA = 0.5; // 1 = poco brillo y polvo, a todo (§8.4)
 
-const CAJA = 3; // 0 = sin batería · 1 = slow rock (§2.2) · 2 = medio tiempo: caja solo en el 3
-const BANCO = "KorgMinipops"; // la caja (§2.3): RolandCompurhythm78 · RhythmAce · KorgKR55 ·
+const CAJA = 1; // 0 = sin batería · 1 = slow rock (§2.2) · 2 = medio tiempo: caja solo en el 3
+const BANCO = "RolandCompurhythm78"; // la caja (§2.3): RolandCompurhythm78 · RhythmAce · KorgKR55 ·
 //   UnivoxMicroRhythmer12 · CasioVL1 · LinnDrum
 
 const BOCETO = 0; // 1 = en lugar de c.1–15, el boceto en 4/4 de c.53–57 (solo mano izquierda)
@@ -106,11 +106,10 @@ const BOCETO_MI = [
 const CAJAS = [
   silence,
   stack(
-    // 1 · slow rock: kick en 1 y 3, caja en 2 y 4
     s("bd ~ bd ~"),
     s("~ sd ~ sd"),
     s("hh*12").velocity("[.6 .3 .4]*4"),
-  ),
+  ).bank("KorgMinipops"),
   stack(
     // 2 · medio tiempo: kick en el 1, caja solo en el 3
     s("bd ~ ~ ~"),
@@ -119,12 +118,15 @@ const CAJAS = [
   ),
   stack(
     // Kick
-    s("bd").beat("0, 6, 8, 14", 16),
+    s("bd").beat("0, 3, 6, 10, 13", 16),
     // Aro
-    s("rim").beat("0, 3, 6, 10, 13", 16).velocity(0.6),
+    s("rim").beat("0, 6, 8, 14", 16).velocity(0.6),
     // High hat
     s("hh*8").velocity("[.5 .25]*4"),
   ).bank("KorgKR55"),
+  stack(s("bd ~ ~"), s("~ sd sd").velocity(0.5), s("[hh!3]!3")).bank(
+    "RolandCompurhythm78",
+  ),
 ];
 
 // ── Cómo suena ──────────────────────────────────────────────────
