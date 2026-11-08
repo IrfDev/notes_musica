@@ -39,7 +39,10 @@ const organo = (x) => x.voicing().s("organ_full").vib(5).vibmod(0.06).gain(0.6);
 // Ebm = Eb - Gb - Bb
 // Después prueba ♭VI^7 y ♭VII en lugar del iv. ¿Cuál "recuerda" más?
 
-// stack(caja, organo(chord("<Bb Eb Ebm Bb>")));
+//bVI^7 Suena muy a cambio a otra cosa. Como que quiere irse, pero no sabe como
+// El clásico acorde prestado del modo lidio. Se siente como Que algo bueno podría pasar
+// iv: Es el que da la myor sensación de que algo recordamos
+stack(caja, organo(chord("<Bb Eb Ebm Bb>")));
 
 // ── PASO 4 · La línea que baja por dentro ───────────────────────
 // Un acorde que no cambia; una voz interior baja por semitonos: raíz, 7.ª mayor,
