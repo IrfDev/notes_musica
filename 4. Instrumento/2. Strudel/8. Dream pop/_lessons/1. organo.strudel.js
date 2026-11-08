@@ -37,27 +37,38 @@ const caja = s("bd ~ ~ ~, ~ ~ sd ~").bank("KorgMinipops");
 //   // el vibmod lo que hace es decir cuanto sube o baje
 //   .vibmod(".08");
 
-// DECISIÓN · mi vibmod es ____ y mi vib es ____ Hz
+// DECISIÓN · mi vibmod es 0.8 y mi vib es 5 Hz
 
 // ── PASO 3 · Más trémolo ────────────────────────────────────────
 // El volumen también tiembla. Prueba tremolodepth de .1 a .6.
 
-// chord(PROG).voicing().s("organ_full").gain(.6)
-//   .vib(____).vibmod(____)
-//   .tremolo(____).tremolodepth(____)
+// El tremolo es demasiado potenete la verdad
+// chord(PROG)
+//   .voicing()
+//   .s("organ_full")
+//   .gain(0.6)
+//   .vib(5)
+//   .vibmod(0.8)
+//   .tremolo("0.4")
+//   .tremolodepth("0.1");
 
 // ── PASO 4 · El latido ──────────────────────────────────────────
+// En el dream pop el latido muchas veces se queda en lo que va flotando
 // El acorde repetido en corcheas, con el tiempo más fuerte que el "&".
 // Escríbelo primero en 4/4 (8 golpes) y después en 12/8 (12 golpes, de tres en tres).
 
-// stack(
-//   caja,
-//   chord(PROG).voicing()
-//     .struct("____")
-//     .velocity("[____]*4")
-//     .s("organ_8inch").decay(.25).sustain(.3)
-//     .vib(5).vibmod(.06),
-// )
+stack(
+  caja,
+  chord(PROG)
+    .voicing()
+    .struct("x!8")
+    .velocity("[0.5 0.2]*6")
+    .s("organ_8inch")
+    .decay(0.25)
+    .sustain(0.3)
+    .vib(5)
+    .vibmod(0.06),
+);
 
 // Ahora quita la caja. ¿El latido sostiene el pulso solo? ____
 
