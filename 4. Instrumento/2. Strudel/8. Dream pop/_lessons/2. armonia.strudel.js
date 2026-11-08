@@ -75,14 +75,15 @@ const organo = (x) => x.voicing().s("organ_full").vib(5).vibmod(0.06).gain(0.6);
 //   note("Bb2").s("sawtooth").lpf(300).gain(0.8), // a · pedal
 // );
 
-stack(
-  organo(chord("<Bb Dsus Eb Ebm>")),
-  note("<Bb2 A2 G2 Gb2>") // b · baja por grados
-    .s("sawtooth")
-    .lpf(400)
-    .attack(0.05)
-    .release(0.5),
-);
+// Me gusta como recuirso pero para algo muuuy específico
+// stack(
+//   organo(chord("<Bb Dsus Eb Ebm>")),
+//   note("<Bb2 A2 G2 Gb2>") // b · baja por grados
+//     .s("sawtooth")
+//     .lpf(400)
+//     .attack(0.05)
+//     .release(0.5),
+// );
 
 // ── PASO 6 · Tu progresión y su ritmo armónico ──────────────────
 // Elige una de la tabla de §4.5 (o una tuya) y llévala a tu tonalidad.
@@ -91,7 +92,7 @@ stack(
 // stack(caja, organo(chord("<____>")))
 
 // ── CIERRE ──────────────────────────────────────────────────────
-// DECISIÓN · color ____ · sombra ____ (en el compás ____) · suelo ____
+// DECISIÓN · color Me encantó el iv, el ^7 para no llegar al dominante · sombra Me gustó la sombra (en el compás ____) · suelo Me gusta más cuando es pedal, pero para introducit una melodía, está interesante hacer que camine o hacer que tenga más
 // Escríbela aquí para las sesiones siguientes:
 // const PROG = "<____>"
 // HECHO cuando suena 16 compases y no quieres cambiarle nada.

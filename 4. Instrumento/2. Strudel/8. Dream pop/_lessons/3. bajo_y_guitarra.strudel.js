@@ -10,30 +10,36 @@
 // Cómo      solo un PASO activo a la vez. Llena cada ____ tú.
 // ════════════════════════════════════════════════════════════════
 
-setcpm(70 / 4)
+setcpm(70 / 4);
 
-const PROG = "<D^7 Bm7 G^7 A7sus>"     // ← tu progresión de la sesión 2
-const organo = chord(PROG).voicing().s("organ_full").vib(5).vibmod(.06).gain(.45)
-const bajo = x => x.s("sawtooth").lpf(350).attack(.03).release(.4).gain(.8)
+const PROG = "<D^7 Bm7 G^7 A7sus>"; // ← tu progresión de la sesión 2
+const organo = chord(PROG)
+  .voicing()
+  .s("organ_full")
+  .vib(5)
+  .vibmod(0.06)
+  .gain(0.45);
+const bajo = (x) =>
+  x.s("sawtooth").lpf(350).attack(0.03).release(0.4).gain(0.8);
 
 // ── PASO 1 · El órgano solo ─────────────────────────────────────
 
-organo
+// organo
 
 // ── PASO 2 · Cuatro bajos ───────────────────────────────────────
 // Cuatro compases cada uno, bajo tu progresión:
 //   raíz larga · con paso (la última negra camina a la raíz siguiente)
 //   pedal · latido (corcheas)
 
-// stack(
-//   organo,
-//   arrange(
-//     [4, bajo(note("<____>"))],                           // raíz larga
-//     [4, bajo(note("<____>"))],                           // con paso: [x@3 y]
-//     [4, bajo(note("____"))],                              // pedal
-//     [4, bajo(note("<____>").struct("x*8")).decay(.2).sustain(.4)],   // latido
-//   ),
-// )
+stack(
+  organo,
+  arrange(
+    [4, bajo(note("<D2>"))], // raíz larga
+    [4, bajo(note("<>"))], // con paso: [x@3 y]
+    [4, bajo(note("____"))], // pedal
+    [4, bajo(note("<____>").struct("x*8")).decay(0.2).sustain(0.4)], // latido
+  ),
+);
 
 // DECISIÓN · mi bajo es ____ con sonido ____ (sawtooth / pulse / triangle / sine)
 
