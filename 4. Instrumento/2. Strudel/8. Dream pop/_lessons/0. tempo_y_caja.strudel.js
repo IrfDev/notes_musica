@@ -40,21 +40,21 @@ Más allá del kick y la caja. El hh es el que marca el pulso, y el kick y la ca
 // El mismo acorde con 8 corcheas por compás y luego con 12.
 // El kick y la caja no cambian: solo cuántas notas caben en cada pulso.
 
-setcpm(74/4)
+// setcpm(70/2)
 
-stack(
-  s("bd ~ sd ~").bank("KorgMinipops"),
-  s("hh*8").velocity("[.6 .3 .4]*4").bank("KorgMinipops"),
-  chord("<D^7>").voicing()
-    .struct("<[____] [____]>")
-    .s("organ_full").gain(.5),
-)
+// stack(
+//   s("bd ~ sd ~").bank("KorgMinipops"),
+//   s("hh*8").velocity("[.6 .3 .4]*4").bank("KorgMinipops"),
+//   chord("<D^7>").voicing()
+//     .struct("<[x x x x x x x x] [x x x x x x x x x x x x]>")
+//     .s("organ_full").gain(.5),
+// )
 
 // ── PASO 4 · Tres presets, sin mirar la guía ───────────────────
 // Vals en 3/4: kick en el 1, caja suave en 2 y 3, hats en corcheas.
 
-// setcpm(84 / 3)
-// stack(s("____"), s("____").velocity(.5), s("____")).bank("RolandCompurhythm78")
+setcpm(84 / 3)
+stack(s("____"), s("____").velocity(.5), s("____")).bank("RolandCompurhythm78")
 
 // Bossa nova, por pasos. Desde esta rejilla:
 /*
