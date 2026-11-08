@@ -53,8 +53,8 @@ Más allá del kick y la caja. El hh es el que marca el pulso, y el kick y la ca
 // ── PASO 4 · Tres presets, sin mirar la guía ───────────────────
 // Vals en 3/4: kick en el 1, caja suave en 2 y 3, hats en corcheas.
 
-setcpm(84 / 3)
-stack(s("____"), s("____").velocity(.5), s("____")).bank("RolandCompurhythm78")
+// setcpm(84 / 3)
+// stack(s("bd ~ ~"), s("~ sd sd").velocity(.5), s("[hh!3]!3")).bank("RolandCompurhythm78")
 
 // Bossa nova, por pasos. Desde esta rejilla:
 /*
@@ -64,12 +64,15 @@ hh      x . x . x . x . x . x . x . x .
 kick    x . . . . . x . x . . . . . x .
 */
 
-// setcpm(76 / 4)
-// stack(
-//   s("bd").beat("____", 16),
-//   s("rim").beat("____", 16).velocity(.6),
-//   s("hh*8").velocity("[.5 .25]*4"),
-// ).bank("KorgKR55")
+setcpm(76 / 4)
+stack(
+  // Kick
+  s("bd").beat("____", 16),
+  // Aro
+  s("rim").beat("____", 16).velocity(.6),
+  // High hat
+  s("hh*8").velocity("[.5 .25]*4"),
+).bank("KorgKR55")
 
 // Rock lento half-time: kick en el 1 (y una "a" del 3 si quieres), caja solo en el 3.
 
