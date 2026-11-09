@@ -5,8 +5,8 @@ fecha: 2026-11-08
 dia_programa: 3
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grupo 3 entero y grupo 4|Día 3 · Grupo 3 entero y grupo 4]]"
-tomas: 3
-minutos_grabados: 2.4
+tomas: 5
+minutos_grabados: 2.5
 estado: abierta
 fuente: frai-estudio
 ---
@@ -32,6 +32,8 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 | 1 | 21:08 | 0:52 | -20.09 dBFS | Hanon 1 | listo |
 | 2 | 21:10 | 0:38 | -21.09 dBFS | Hanon 1 | listo |
 | 3 | 21:10 | 0:52 | -24.67 dBFS | Hanon 1 | listo |
+| 4 | 21:14 | 0:05 | -41.65 dBFS |  | listo |
+| 5 | 21:17 | 0:00 | — |  | grabando |
 
 ### Toma 1 · 21:08
 
