@@ -5,8 +5,8 @@ fecha: 2026-11-08
 dia_programa: 3
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grupo 3 entero y grupo 4|Día 3 · Grupo 3 entero y grupo 4]]"
-tomas: 5
-minutos_grabados: 2.5
+tomas: 7
+minutos_grabados: 6.2
 estado: abierta
 fuente: frai-estudio
 ---
@@ -24,6 +24,8 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 |---|---|
 | 21:04 | Antes de empezar |
 | 21:07 | Hanon 1 |
+| 21:18 | Recuperación |
+| 21:21 | Principal |
 
 ## Tomas
 
@@ -33,7 +35,9 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 | 2 | 21:10 | 0:38 | -21.09 dBFS | Hanon 1 | listo |
 | 3 | 21:10 | 0:52 | -24.67 dBFS | Hanon 1 | listo |
 | 4 | 21:14 | 0:05 | -41.65 dBFS |  | listo |
-| 5 | 21:17 | 0:00 | — |  | grabando |
+| 5 | 21:17 | 1:41 | -26.16 dBFS | Hanon 1 | falló |
+| 6 | 21:19 | 0:50 | -23.35 dBFS | Recuperación | falló |
+| 7 | 21:20 | 1:11 | -27.55 dBFS | Recuperación | listo |
 
 ### Toma 1 · 21:08
 
@@ -84,12 +88,47 @@ Resumen: Se tocó el ejercicio Hanon 1 completo, con 92 % de coincidencia con la
 
 Para la próxima: Hanon 1: baja a 100 ataques por minuto (una por click a 100); hoy fueron 121.
 
+### Toma 7 · 21:20
+
+![[2026-11-08 piano día 3 - recuperación.mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MD) · [[2026-11-08 piano día 3 - recuperación.mid|MIDI]]
+
+![[2026-11-08 piano día 3 - recuperación (2).mp3]]
+Recuperación · 0:22 · 95% correcto · 247/min · regularidad ±56% · una mano (probable MD) · 6 pausas · [[2026-11-08 piano día 3 - recuperación (2).mid|MIDI]]
+
+![[2026-11-08 piano día 3 - principal.mp3]]
+Principal · 0:02 · 100% correcto · una mano (probable MD) · [[2026-11-08 piano día 3 - principal.mid|MIDI]]
+
+![[2026-11-08 piano día 3 - recuperación (3).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MI) · [[2026-11-08 piano día 3 - recuperación (3).mid|MIDI]]
+
+![[2026-11-08 piano día 3 - recuperación (4).mp3]]
+Recuperación · 0:04 · 100% correcto · 248/min · regularidad ±51% · una mano (probable MI) · [[2026-11-08 piano día 3 - recuperación (4).mid|MIDI]]
+
+- Fragmento 1: 0:03–0:08 · marcada: Recuperación · una mano (probable MD)
+- Fragmento 2: 0:13–0:15 · **Recuperación** (alta) · marcada: Recuperación · 100% correcto · una mano (probable MD)
+- Fragmento 3: 0:18–0:40 · **Recuperación** (alta) · marcada: Recuperación · 95% correcto · 247/min · regularidad ±56% · una mano (probable MD) · 6 pausas · BPM ≈ 92.3 (audio)
+- Fragmento 4: 0:46–0:48 · **Principal** (alta) · marcada: Recuperación · 100% correcto · una mano (probable MD)
+- Fragmento 5: 1:01–1:03 · **Recuperación** (alta) · marcada: Recuperación · 100% correcto · una mano (probable MI)
+- Fragmento 6: 1:06–1:11 · **Recuperación** (alta) · marcada: Recuperación · 100% correcto · 248/min · regularidad ±51% · una mano (probable MI)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 3 (Recuperación): 247 ataques/min, sin tempo del plan para comparar. Fragmento 6 (Recuperación): 248 ataques/min, sin tempo del plan para comparar.
+
+Resumen: Se tocaron varios fragmentos de recuperación y uno principal, con alta coincidencia con la partitura (100% en la mayoría). Los fragmentos 3 y 6 mostraron ataques irregulares (variación ±56% y ±51%) y hubo 6 pausas de más de 1.5 s. No hay datos de tempo del plan para comparar.
+
+Para la próxima: Recuperación: busca ataques más parejos con el metrónomo; hoy los intervalos variaron ±56%.
+
 ## Progreso · 30 días hasta esta sesión
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
 |---|--:|--:|--:|--:|--:|--:|
 | Hanon 1 | 4 | 2.1 | 67% | 121 | 121 | 100 |
+| Recuperación | 1 | 0.5 | 99% | 248 | 248 | — |
 | Aplicación | 1 | 0.1 | 100% | 126 | 126 | 144 |
+| Principal | 1 | 0 | 100% | — | — | — |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
 ## Mis notas
