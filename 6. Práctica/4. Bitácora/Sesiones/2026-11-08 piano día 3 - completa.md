@@ -5,8 +5,8 @@ fecha: 2026-11-08
 dia_programa: 3
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grupo 3 entero y grupo 4|Día 3 · Grupo 3 entero y grupo 4]]"
-tomas: 7
-minutos_grabados: 6.2
+tomas: 8
+minutos_grabados: 6.8
 estado: abierta
 fuente: frai-estudio
 ---
@@ -38,6 +38,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 | 5 | 21:17 | 1:41 | -26.16 dBFS | Hanon 1 | falló |
 | 6 | 21:19 | 0:50 | -23.35 dBFS | Recuperación | falló |
 | 7 | 21:20 | 1:11 | -27.55 dBFS | Recuperación | listo |
+| 8 | 21:30 | 0:37 | -32.05 dBFS | Principal | listo |
 
 ### Toma 1 · 21:08
 
@@ -121,14 +122,34 @@ Resumen: Se tocaron varios fragmentos de recuperación y uno principal, con alta
 
 Para la próxima: Recuperación: busca ataques más parejos con el metrónomo; hoy los intervalos variaron ±56%.
 
+### Toma 8 · 21:30
+
+![[2026-11-08 piano día 3 - recuperación (5).mp3]]
+Recuperación · 0:08 · 100% correcto · 248/min · regularidad ±41% · una mano (probable MD) · 1 pausas · [[2026-11-08 piano día 3 - recuperación (5).mid|MIDI]]
+
+![[2026-11-08 piano día 3 - principal (2).mp3]]
+Principal · 0:08 · 100% correcto · una mano (probable MD) · [[2026-11-08 piano día 3 - principal (2).mid|MIDI]]
+
+- Fragmento 1: 0:02–0:10 · **Recuperación** (alta) · marcada: Principal · 100% correcto · 248/min · regularidad ±41% · una mano (probable MD) · 1 pausas
+- Fragmento 2: 0:12–0:20 · **Principal** (alta) · marcada: Principal · 100% correcto · una mano (probable MD)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 1 (Recuperación): 248 ataques/min, sin tempo del plan para comparar.
+
+Resumen: En el fragmento 1 (Recuperación) tocaste 10 notas en 8 ataques con 100 % de coincidencia, 248 ataques/min y una variación de intervalos de ±41 % además de una pausa larga de 4.9 s; en el fragmento 2 (Principal) ejecutaste 9 notas en 3 ataques, también con 100 % de coincidencia y sin problemas de tempo. No hay tempo de referencia para comparar en la Recuperación, y el Principal se mantuvo alineado con lo pedido. El rendimiento es similar al día anterior, sin mejora notable en la regularidad de los ataques.
+
+Para la próxima: Recuperación: busca ataques más parejos con el metrónomo; hoy los intervalos variaron ±41%.
+
 ## Progreso · 30 días hasta esta sesión
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
 |---|--:|--:|--:|--:|--:|--:|
 | Hanon 1 | 4 | 2.1 | 67% | 121 | 121 | 100 |
-| Recuperación | 1 | 0.5 | 99% | 248 | 248 | — |
+| Recuperación | 2 | 0.6 | 99% | 248 | 248 | — |
+| Principal | 2 | 0.2 | 100% | — | — | — |
 | Aplicación | 1 | 0.1 | 100% | 126 | 126 | 144 |
-| Principal | 1 | 0 | 100% | — | — | — |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
 ## Mis notas
