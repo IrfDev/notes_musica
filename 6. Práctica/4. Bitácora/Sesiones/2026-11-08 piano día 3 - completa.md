@@ -6,7 +6,7 @@ dia_programa: 3
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grupo 3 entero y grupo 4|Día 3 · Grupo 3 entero y grupo 4]]"
 tomas: 15
-minutos_grabados: 12.3
+minutos_grabados: 14.7
 estado: abierta
 fuente: frai-estudio
 ---
@@ -47,7 +47,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 | 12 | 21:40 | 1:05 | -24.56 dBFS | Principal | listo |
 | 13 | 21:41 | 0:34 | -26.87 dBFS | Principal | listo |
 | 14 | 21:42 | 1:19 | -27.75 dBFS | Principal | listo |
-| 15 | 21:47 | 0:00 | — |  | grabando |
+| 15 | 21:47 | 2:27 | -25.38 dBFS | Sleep on the Floor | falló |
 
 ### Toma 1 · 21:08
 
