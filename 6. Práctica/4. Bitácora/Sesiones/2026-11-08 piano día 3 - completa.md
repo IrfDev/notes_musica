@@ -5,8 +5,8 @@ fecha: 2026-11-08
 dia_programa: 3
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grupo 3 entero y grupo 4|Día 3 · Grupo 3 entero y grupo 4]]"
-tomas: 15
-minutos_grabados: 14.7
+tomas: 17
+minutos_grabados: 16.0
 estado: abierta
 fuente: frai-estudio
 ---
@@ -28,6 +28,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 | 21:21 | Principal |
 | 21:44 | Aplicación |
 | 21:44 | Sleep on the Floor |
+| 22:07 | Registro |
 
 ## Tomas
 
@@ -48,6 +49,8 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 | 13 | 21:41 | 0:34 | -26.87 dBFS | Principal | listo |
 | 14 | 21:42 | 1:19 | -27.75 dBFS | Principal | listo |
 | 15 | 21:47 | 2:27 | -25.38 dBFS | Sleep on the Floor | falló |
+| 16 | 22:05 | 0:22 | -28.16 dBFS | Sleep on the Floor | listo |
+| 17 | 22:05 | 0:53 | -26.97 dBFS | Sleep on the Floor | falló |
 
 ### Toma 1 · 21:08
 
@@ -276,6 +279,24 @@ Resumen: Se tocó el ejercicio Principal en los seis fragmentos, con coincidenci
 
 Para la próxima: Principal: baja a 30 ataques por minuto (un ataque cada dos clicks a 60); hoy fueron 192.
 
+### Toma 16 · 22:05
+
+![[2026-11-08 piano día 3 - sleep on the floor.mp3]]
+Sleep on the Floor · 0:05 · 67% correcto · una mano (probable MI) · [[2026-11-08 piano día 3 - sleep on the floor.mid|MIDI]]
+
+- Fragmento 1: 0:05–0:10 · marcada: Sleep on the Floor · una mano (probable MI)
+- Fragmento 2: 0:15–0:20 · **Sleep on the Floor** (media) · marcada: Sleep on the Floor · 67% correcto · una mano (probable MI)
+- Contra la partitura: fragmento 2 en 0:03, esperaba C y sonó Am (faltó G)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: En la lección Día 3, el fragmento 1 (4.9‑10.0 s) no se identificó con ningún ejercicio y la confianza fue baja. El fragmento 2 (15.1‑19.8 s) corresponde a Sleep on the Floor con confianza media, 5 notas en 3 ataques y 67 % de coincidencia; se tocó Am/C en lugar de C, faltó la nota G. No se pudo medir el tempo y no hay historial previo.
+
+Para la próxima: Sleep on the Floor: repasa C despacio; sonó Am (faltó G).
+
 ## Progreso · 30 días hasta esta sesión
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
@@ -284,6 +305,7 @@ Para la próxima: Principal: baja a 30 ataques por minuto (un ataque cada dos cl
 | Hanon 1 | 4 | 2.1 | 67% | 121 | 121 | 100 |
 | Recuperación | 2 | 0.6 | 99% | 248 | 248 | — |
 | Aplicación | 1 | 0.1 | 100% | 126 | 126 | 144 |
+| Sleep on the Floor | 1 | 0.1 | 67% | — | — | — |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
 ## Mis notas
