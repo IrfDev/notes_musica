@@ -17,7 +17,7 @@ revisados: 1
 
 *The Lumineers*
 
-> [!info] 75 compases · 1 revisados · 20 con duda · por-revisar
+> [!info] 75 compases · 1 revisados · 28 con duda · por-revisar
 > Un compás sin revisar sirve para identificar qué se toca, no para decir «nota equivocada».
 
 > [!warning] Pieza privada o sin licencia definida: la partitura se queda en fry (Partituras) y no se dibuja aquí.
@@ -36,25 +36,33 @@ revisados: 1
 
 ## Compases con duda
 
+- c. 18: una voz del pentagrama 1 suma 0.5 negras y el compás es de 4
 - c. 25: los dos OMR no coinciden: leen notas distintas ✓
+- c. 28: una voz del pentagrama 1 suma 1.125 negras y el compás es de 4
+- c. 29: una voz del pentagrama 1 suma 1.75 negras y el compás es de 4
 - c. 30: los dos OMR no coinciden: Audiveris leyó 10 notas y oemer 15
 - c. 31: los dos OMR no coinciden: Audiveris leyó 12 notas y oemer 11
 - c. 32: los dos OMR no coinciden: leen notas distintas
 - c. 34: los dos OMR no coinciden: leen notas distintas
-- c. 38: los dos OMR no coinciden: Audiveris leyó 9 notas y oemer 8
+- c. 37: una voz del pentagrama 1 suma 1.375 negras y el compás es de 4
+- c. 38: una voz del pentagrama 1 suma 0.875 negras y el compás es de 4; los dos OMR no coinciden: Audiveris leyó 9 notas y oemer 8
 - c. 42: los dos OMR no coinciden: leen notas distintas
-- c. 43: los dos OMR no coinciden: Audiveris leyó 13 notas y oemer 26
+- c. 43: una voz del pentagrama 1 suma 0.125 negras y el compás es de 4; los dos OMR no coinciden: Audiveris leyó 13 notas y oemer 26
 - c. 44: los dos OMR no coinciden: oemer no encontró este compás
+- c. 45: una voz del pentagrama 2 suma 3.875 negras y el compás es de 4
+- c. 46: una voz del pentagrama 2 suma 3.75 negras y el compás es de 4
 - c. 48: los dos OMR no coinciden: leen notas distintas
 - c. 49: los dos OMR no coinciden: leen notas distintas
 - c. 50: suma 3.75 negras y el compás es de 4; los dos OMR no coinciden: leen notas distintas
+- c. 51: una voz del pentagrama 2 suma 1 negras y el compás es de 4
+- c. 54: una voz del pentagrama 1 suma 1 negras y el compás es de 4
 - c. 58: los dos OMR no coinciden: leen notas distintas
 - c. 59: los dos OMR no coinciden: leen notas distintas
 - c. 60: los dos OMR no coinciden: Audiveris leyó 38 notas y oemer 34
-- c. 61: los dos OMR no coinciden: Audiveris leyó 28 notas y oemer 27
+- c. 61: una voz del pentagrama 1 suma 0.25 negras y el compás es de 4; los dos OMR no coinciden: Audiveris leyó 28 notas y oemer 27
 - c. 63: suma 7.875 negras y el compás es de 4; los dos OMR no coinciden: Audiveris leyó 40 notas y oemer 31
 - c. 64: los dos OMR no coinciden: leen notas distintas
-- c. 66: los dos OMR no coinciden: Audiveris leyó 37 notas y oemer 36
+- c. 66: una voz del pentagrama 1 suma 0.25 negras y el compás es de 4; los dos OMR no coinciden: Audiveris leyó 37 notas y oemer 36
 - c. 67: los dos OMR no coinciden: Audiveris leyó 6 notas y oemer 5
 
 ## Dónde se usa

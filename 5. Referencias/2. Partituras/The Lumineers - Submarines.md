@@ -17,7 +17,7 @@ revisados: 0
 
 *The Lumineers*
 
-> [!info] 53 compases · 0 revisados · 0 con duda · por-revisar
+> [!info] 53 compases · 0 revisados · 5 con duda · por-revisar
 > Un compás sin revisar sirve para identificar qué se toca, no para decir «nota equivocada».
 
 > [!warning] Pieza privada o sin licencia definida: la partitura se queda en fry (Partituras) y no se dibuja aquí.
@@ -26,5 +26,13 @@ revisados: 0
 
 - `[[The Lumineers - Submarines|Submarines]] cc. a–b`
 - Con mano, tonalidad, tempo o receta: `… · MD · en Re · a 60 · puntillo`
+
+## Compases con duda
+
+- c. 27: una voz del pentagrama 2 suma 1 negras y el compás es de 4
+- c. 29: una voz del pentagrama 2 suma 1.25 negras y el compás es de 4
+- c. 31: una voz del pentagrama 2 suma 1.25 negras y el compás es de 4
+- c. 33: una voz del pentagrama 2 suma 1 negras y el compás es de 4
+- c. 35: una voz del pentagrama 2 suma 1 negras y el compás es de 4
 <!-- partituras:fin -->
 
