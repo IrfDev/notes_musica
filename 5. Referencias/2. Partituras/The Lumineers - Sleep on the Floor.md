@@ -9,7 +9,7 @@ licencia: "privada"
 estado: "por-revisar"
 fuente: "The Lumineers - Sleep on the Floor.pdf"
 compas: "4/4"
-compases: 75
+compases: 78
 revisados: 1
 ---
 <!-- partituras:inicio -->
@@ -17,7 +17,7 @@ revisados: 1
 
 *The Lumineers*
 
-> [!info] 75 compases · 1 revisados · 45 con duda · por-revisar
+> [!info] 78 compases · 1 revisados · 44 con duda · por-revisar
 > Un compás sin revisar sirve para identificar qué se toca, no para decir «nota equivocada».
 
 > [!warning] Pieza privada o sin licencia definida: la partitura se queda en fry (Partituras) y no se dibuja aquí.
@@ -31,56 +31,55 @@ revisados: 1
 
 | Pasaje | Compases | Revisados |
 |---|---|---|
-| [[#Pre]] | 1–17 | 0 de 17 |
-| [[#Intro]] | 18–21 | 0 de 4 |
+| [[#Pre]] | 3–20 | 0 de 18 |
+| [[#Intro]] | 21–24 | 0 de 4 |
 
 ## Compases con duda
 
-- c. 1: los dos OMR no coinciden: leen notas distintas
-- c. 2: los dos OMR no coinciden: Audiveris leyó 20 notas y oemer 19
+- c. 1: los dos OMR no coinciden: Audiveris leyó 0 notas y oemer 17
+- c. 2: los dos OMR no coinciden: Audiveris leyó 0 notas y oemer 19
 - c. 3: los dos OMR no coinciden: leen notas distintas
-- c. 4: los dos OMR no coinciden: leen notas distintas
+- c. 4: sin notas, entre dos compases que sí tienen; los dos OMR no coinciden: Audiveris leyó 0 notas y oemer 17
 - c. 5: los dos OMR no coinciden: leen notas distintas
 - c. 6: los dos OMR no coinciden: leen notas distintas
 - c. 7: los dos OMR no coinciden: leen notas distintas
 - c. 8: los dos OMR no coinciden: leen notas distintas
 - c. 9: los dos OMR no coinciden: leen notas distintas
-- c. 11: los dos OMR no coinciden: leen notas distintas
-- c. 12: los dos OMR no coinciden: leen notas distintas
-- c. 13: los dos OMR no coinciden: Audiveris leyó 17 notas y oemer 16
+- c. 10: los dos OMR no coinciden: oemer no encontró este compás
+- c. 11: los dos OMR no coinciden: oemer no encontró este compás
+- c. 12: los dos OMR no coinciden: oemer no encontró este compás
 - c. 14: los dos OMR no coinciden: leen notas distintas
 - c. 15: los dos OMR no coinciden: leen notas distintas
+- c. 16: los dos OMR no coinciden: Audiveris leyó 17 notas y oemer 16
 - c. 17: los dos OMR no coinciden: leen notas distintas
-- c. 18: una voz del pentagrama 1 suma 0.5 negras y el compás es de 4
-- c. 21: los dos OMR no coinciden: Audiveris leyó 10 notas y oemer 14
-- c. 23: los dos OMR no coinciden: leen notas distintas
-- c. 25: los dos OMR no coinciden: leen notas distintas ✓
-- c. 28: una voz del pentagrama 1 suma 1.125 negras y el compás es de 4
-- c. 29: una voz del pentagrama 1 suma 1.75 negras y el compás es de 4
-- c. 30: los dos OMR no coinciden: Audiveris leyó 10 notas y oemer 15
-- c. 31: los dos OMR no coinciden: Audiveris leyó 12 notas y oemer 11
-- c. 32: los dos OMR no coinciden: leen notas distintas
-- c. 34: los dos OMR no coinciden: leen notas distintas
-- c. 37: una voz del pentagrama 1 suma 1.375 negras y el compás es de 4
-- c. 38: una voz del pentagrama 1 suma 0.875 negras y el compás es de 4; los dos OMR no coinciden: Audiveris leyó 9 notas y oemer 8
-- c. 42: los dos OMR no coinciden: leen notas distintas
-- c. 43: una voz del pentagrama 1 suma 0.125 negras y el compás es de 4; los dos OMR no coinciden: Audiveris leyó 13 notas y oemer 26
-- c. 44: los dos OMR no coinciden: oemer no encontró este compás
-- c. 45: una voz del pentagrama 2 suma 3.875 negras y el compás es de 4
-- c. 46: una voz del pentagrama 2 suma 3.75 negras y el compás es de 4
-- c. 48: los dos OMR no coinciden: leen notas distintas
-- c. 49: los dos OMR no coinciden: leen notas distintas
-- c. 50: suma 3.75 negras y el compás es de 4; los dos OMR no coinciden: leen notas distintas
-- c. 51: una voz del pentagrama 2 suma 1 negras y el compás es de 4
-- c. 54: una voz del pentagrama 1 suma 1 negras y el compás es de 4
-- c. 58: los dos OMR no coinciden: leen notas distintas
-- c. 59: los dos OMR no coinciden: leen notas distintas
-- c. 60: los dos OMR no coinciden: Audiveris leyó 38 notas y oemer 34
-- c. 61: una voz del pentagrama 1 suma 0.25 negras y el compás es de 4; los dos OMR no coinciden: Audiveris leyó 28 notas y oemer 27
-- c. 63: suma 7.875 negras y el compás es de 4; los dos OMR no coinciden: Audiveris leyó 40 notas y oemer 31
-- c. 64: los dos OMR no coinciden: leen notas distintas
-- c. 66: una voz del pentagrama 1 suma 0.25 negras y el compás es de 4; los dos OMR no coinciden: Audiveris leyó 37 notas y oemer 36
-- c. 67: los dos OMR no coinciden: Audiveris leyó 6 notas y oemer 5
+- c. 18: los dos OMR no coinciden: leen notas distintas
+- c. 20: los dos OMR no coinciden: leen notas distintas
+- c. 24: los dos OMR no coinciden: Audiveris leyó 10 notas y oemer 14
+- c. 26: los dos OMR no coinciden: leen notas distintas
+- c. 28: los dos OMR no coinciden: leen notas distintas ✓
+- c. 31: una voz del pentagrama 1 suma 1.125 negras y el compás es de 4
+- c. 32: una voz del pentagrama 1 suma 1.75 negras y el compás es de 4
+- c. 33: los dos OMR no coinciden: Audiveris leyó 10 notas y oemer 15
+- c. 34: los dos OMR no coinciden: Audiveris leyó 12 notas y oemer 11
+- c. 35: los dos OMR no coinciden: leen notas distintas
+- c. 37: los dos OMR no coinciden: leen notas distintas
+- c. 41: los dos OMR no coinciden: Audiveris leyó 9 notas y oemer 8
+- c. 45: los dos OMR no coinciden: leen notas distintas
+- c. 46: los dos OMR no coinciden: Audiveris leyó 13 notas y oemer 26
+- c. 47: los dos OMR no coinciden: oemer no encontró este compás
+- c. 48: una voz del pentagrama 2 suma 3.875 negras y el compás es de 4
+- c. 49: una voz del pentagrama 2 suma 3.75 negras y el compás es de 4
+- c. 51: los dos OMR no coinciden: leen notas distintas
+- c. 52: los dos OMR no coinciden: leen notas distintas
+- c. 53: suma 3.75 negras y el compás es de 4; los dos OMR no coinciden: leen notas distintas
+- c. 61: los dos OMR no coinciden: leen notas distintas
+- c. 62: los dos OMR no coinciden: leen notas distintas
+- c. 63: los dos OMR no coinciden: Audiveris leyó 38 notas y oemer 34
+- c. 64: los dos OMR no coinciden: Audiveris leyó 28 notas y oemer 27
+- c. 66: suma 7.875 negras y el compás es de 4; los dos OMR no coinciden: Audiveris leyó 40 notas y oemer 31
+- c. 67: los dos OMR no coinciden: leen notas distintas
+- c. 69: los dos OMR no coinciden: Audiveris leyó 37 notas y oemer 36
+- c. 70: los dos OMR no coinciden: Audiveris leyó 6 notas y oemer 5
 
 ## Dónde se usa
 
@@ -117,10 +116,10 @@ revisados: 1
 
 ## Pre
 
-cc. 1–17
+cc. 3–20
 
 ## Intro
 
-cc. 18–21
+cc. 21–24
 <!-- partituras:fin -->
 
