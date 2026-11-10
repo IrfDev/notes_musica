@@ -6,7 +6,7 @@ dia_programa: 4
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inversiones con la MI|Día 4 · Inversiones con la MI]]"
 tomas: 1
-minutos_grabados: 0.0
+minutos_grabados: 1.7
 estado: abierta
 fuente: frai-estudio
 ---
@@ -31,7 +31,22 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 
 | # | Hora | Duración | Pico | Secciones marcadas | Análisis |
 |---|---|---|---|---|---|
-| 1 | 21:52 | 0:00 | — |  | grabando |
+| 1 | 21:52 | 1:43 | -29.83 dBFS | Hanon 2 | listo |
+
+### Toma 1 · 21:52
+
+- Fragmento 1: 0:36–0:38 · marcada: Hanon 2 · las dos · MI -16 de velocidad frente a MD · pedal 100%
+- Fragmento 2: 0:58–1:03 · marcada: Hanon 2 · 101/min · regularidad ±8% · las dos · MI -11 de velocidad frente a MD · pedal 100%
+- Fragmento 3: 1:24–1:29 · marcada: Hanon 2 · 102/min · regularidad ±7% · las dos · MI -14 de velocidad frente a MD · pedal 100%
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 2: 101 ataques/min, sin tempo del plan para comparar. Fragmento 3: 102 ataques/min, sin tempo del plan para comparar.
+
+Resumen: Se tocaron tres fragmentos de la lección "Día 4 · Inversiones con la MI", todos clasificados como "sin identificar" con confianza baja. Los ataques fueron 101 y 102 por minuto en los fragmentos 2 y 3, con variaciones de intervalo de ±8 % y ±7 % respectivamente, y la mano izquierda (MI) sonó entre 11 y 16 puntos de velocidad más suave que la derecha (MD); el pedal estuvo abajo todo el tiempo. No hay datos de tempo del plan para comparar y no se observa historial de mejora.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
 ## Mis notas
