@@ -20,7 +20,7 @@ const organo = chord(PROG)
   .vibmod(0.06)
   .gain(0.45);
 const bajo = (x) =>
-  x.s("sawtooth").lpf(350).attack(0.03).release(0.4).gain(0.8);
+  x.s("guit").lpf(350).attack(0.03).release(0.4).gain(0.8);
 
 // ── PASO 1 · El órgano solo ─────────────────────────────────────
 

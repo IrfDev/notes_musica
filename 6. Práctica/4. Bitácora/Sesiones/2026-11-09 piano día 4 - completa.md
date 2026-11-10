@@ -37,25 +37,25 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 
 ### Toma 1 · 21:52
 
-![[2026-11-09 piano día 4 - hanon 2.mp3]]
-Hanon 2 · 1:40 · contra Hanon - Ejercicios 1-30 · 1 (sin revisar) · 95% correcto · 101/min · regularidad ±14% · las dos · MI -9 de velocidad frente a MD · 1 pausas · pedal 100% · [[2026-11-09 piano día 4 - hanon 2.mid|MIDI]]
+![[2026-11-09 piano día 4 - hanon 1.mp3]]
+Hanon 1 · 1:40 · contra Hanon - Ejercicios 1-30 · 1 (sin revisar) · 95% correcto · 101/min · regularidad ±14% · las dos · MI -9 de velocidad frente a MD · 1 pausas · pedal 100% · [[2026-11-09 piano día 4 - hanon 1.mid|MIDI]]
 
-- Fragmento 1: 0:03–1:43 · **Hanon 2** (alta) · marcada: Hanon 2 · contra [[Hanon - Ejercicios 1-30#1]] (sin revisar) · 95% correcto · 101/min · regularidad ±14% · las dos · MI -9 de velocidad frente a MD · 1 pausas · pedal 100% · BPM ≈ 99.4 (audio)
+- Fragmento 1: 0:03–1:43 · **Hanon 1** (alta) · marcada: Hanon 2 · contra [[Hanon - Ejercicios 1-30#1]] (sin revisar) · 95% correcto · 101/min · regularidad ±14% · las dos · MI -9 de velocidad frente a MD · 1 pausas · pedal 100% · BPM ≈ 99.4 (audio)
 
 **Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
 
 
-Tempo contra el plan: Fragmento 1 (Hanon 2): 101 ataques/min, sin tempo del plan para comparar.
+Tempo contra el plan: Fragmento 1 (Hanon 1): 101 ataques/min, sin tempo del plan para comparar.
 
-Resumen: Se practicó el fragmento Hanon 2 (328 notas en 164 ataques) con 101 ataques por minuto y 95 % de coincidencia con la partitura. La mano izquierda suena 9 puntos más suave que la derecha y hubo una pausa de 2,8 s. El tempo está dentro de lo esperado, aunque la uniformidad de los ataques varía ±14 %.
+Resumen: Se ejecutó el fragmento Hanon 1 (una octava más arriba) con 328 notas en 100,3 s, alcanzando 101 ataques/min y 95 % de coincidencia con la partitura. La variación entre ataques es ±14 % y la mano izquierda suena 9 puntos más suave que la derecha; hubo una pausa de 2,8 s. No hay dato de tempo del plan para comparar, pero el desempeño es comparable al historial reciente.
 
-Para la próxima: Hanon 2: la MI suena 9 puntos más suave que la MD; busca que se oigan igual.
+Para la próxima: Hanon 1: la MI suena 9 puntos más suave que la MD; busca que se oigan igual.
 
 ## Progreso · 30 días hasta esta sesión
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
 |---|--:|--:|--:|--:|--:|--:|
-| Hanon 2 | 1 | 1.7 | 95% | 101 | 101 | — |
+| Hanon 1 | 7 | 4.8 | 59% | 101 | 121 | — |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
 ## Mis notas
