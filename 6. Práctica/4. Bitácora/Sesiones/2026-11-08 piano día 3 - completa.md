@@ -50,7 +50,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 | 14 | 21:42 | 1:19 | -27.75 dBFS | Principal | listo |
 | 15 | 21:47 | 2:27 | -25.38 dBFS | Sleep on the Floor | listo |
 | 16 | 22:05 | 0:22 | -28.16 dBFS | Sleep on the Floor | listo |
-| 17 | 22:05 | 0:53 | -26.97 dBFS | Sleep on the Floor | procesando |
+| 17 | 22:05 | 0:53 | -26.97 dBFS | Sleep on the Floor | listo |
 
 ### Toma 1 · 21:08
 
@@ -366,11 +366,23 @@ Para la próxima: Sleep on the Floor: repasa C despacio; sonó Am (faltó G).
 
 ### Toma 17 · 22:05
 
+![[2026-11-08 piano día 3 - sleep on the floor (3).mp3]]
+Sleep on the Floor · 0:06 · contra Sleep on the Floor cc. 18–23 · MI · 30% igual a la partitura sin revisar · 59/min · regularidad ±43% · una mano (probable MI) · pedal 100% · [[2026-11-08 piano día 3 - sleep on the floor (3).mid|MIDI]]
+
 - Fragmento 1: 0:03–0:05 · marcada: Sleep on the Floor · una mano (probable MI) · pedal 100%
 - Fragmento 2: 0:09–0:17 · marcada: Sleep on the Floor · 40/min · regularidad ±55% · una mano (probable MI) · pedal 100%
 - Fragmento 3: 0:24–0:30 · marcada: Sleep on the Floor · 54/min · regularidad ±49% · una mano (probable MI) · pedal 100%
 - Fragmento 4: 0:38–0:44 · **Sleep on the Floor** (media) · marcada: Sleep on the Floor · contra [[The Lumineers - Sleep on the Floor|Sleep on the Floor]] cc. 18–23 · MI · 30% igual a la partitura sin revisar · 59/min · regularidad ±43% · una mano (probable MI) · pedal 100%
 - Fragmento 5: 0:45–0:50 · marcada: Sleep on the Floor · una mano (probable MD) · pedal 100%
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 2: 40 ataques/min, sin tempo del plan para comparar. Fragmento 3: 54 ataques/min, sin tempo del plan para comparar. Fragmento 4 (Sleep on the Floor): 59 ataques/min, sin tempo del plan para comparar.
+
+Resumen: Se tocaron cinco fragmentos, de los cuales solo el fragmento 4 se identificó como la sección «Sleep on the Floor» (MI de los compases 18‑23) con confianza media; los demás fueron clasificados como sin identificar y con confianza baja. El fragmento 4 mostró 59 ataques por minuto y variación de intervalos ±43 %, con pedal mantenido al 100 % y una coincidencia del 30 % con la partitura, por lo que la precisión fue limitada. En el historial, la última toma de «Sleep on the Floor» alcanzó 100 % y 67 % de corrección, por lo que la ejecución actual no supera esas marcas.
+
+Para la próxima: Sleep on the Floor: busca ataques más parejos con el metrónomo; hoy los intervalos variaron ±43%.
 
 ## Progreso · 30 días hasta esta sesión
 
@@ -379,8 +391,8 @@ Para la próxima: Sleep on the Floor: repasa C despacio; sonó Am (faltó G).
 | Hanon 1 | 6 | 3.2 | 53% | 101 | 121 | 100 |
 | Principal | 7 | 2.1 | 90% | 180 | 242 | 30 |
 | Recuperación | 2 | 0.6 | 99% | 248 | 248 | — |
+| Sleep on the Floor | 3 | 0.2 | 83% | 59 | — | — |
 | Aplicación | 1 | 0.1 | 100% | 101 | 101 | 144 |
-| Sleep on the Floor | 2 | 0.1 | 83% | — | — | — |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
 ## Mis notas
