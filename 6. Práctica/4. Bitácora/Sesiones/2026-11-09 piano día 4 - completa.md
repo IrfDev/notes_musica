@@ -27,6 +27,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 21:33 | Sleep on the Floor |
 | 21:46 | Hanon 2 |
 | 11:27 | Antes de empezar |
+| 11:34 | Hanon 2 |
 
 ## Tomas
 
@@ -40,12 +41,12 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 - Fragmento 2: 0:58–1:03 · marcada: Hanon 2 · 101/min · regularidad ±8% · las dos · MI -11 de velocidad frente a MD · pedal 100%
 - Fragmento 3: 1:24–1:29 · marcada: Hanon 2 · 102/min · regularidad ±7% · las dos · MI -14 de velocidad frente a MD · pedal 100%
 
-**Redacción de IA** · `qwen3.8:27b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
 
 
 Tempo contra el plan: Fragmento 2: 101 ataques/min, sin tempo del plan para comparar. Fragmento 3: 102 ataques/min, sin tempo del plan para comparar.
 
-Resumen: fragmento 1: sin identificar — las dos · MI -16 de velocidad frente a MD · pedal 100%; fragmento 2: sin identificar — 101/min · regularidad ±8% · las dos · MI -11 de velocidad frente a MD · pedal 100%; fragmento 3: sin identificar — 102/min · regularidad ±7% · las dos · MI -14 de velocidad frente a MD · pedal 100%
+Resumen: Se tocaron tres fragmentos de la lección Día 4 · Inversiones con la MI, ninguno identificado con la partitura y con confianza baja. Los ataques fueron de 101‑102 por minuto, con variación de intervalos de ±8 % y pedal sostenido todo el tiempo; no hay datos de tempo del plan para comparar. No hay historial previo, por lo que no se observa mejora.
 
 Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
