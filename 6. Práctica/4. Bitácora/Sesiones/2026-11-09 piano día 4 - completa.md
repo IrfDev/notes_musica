@@ -5,7 +5,7 @@ fecha: 2026-11-09
 dia_programa: 4
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inversiones con la MI|Día 4 · Inversiones con la MI]]"
-tomas: 3
+tomas: 4
 minutos_grabados: 3.7
 estado: abierta
 fuente: frai-estudio
@@ -38,6 +38,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 1 | 21:52 | 1:43 | -29.83 dBFS | Hanon 2 | listo |
 | 2 | 14:48 | 0:44 | -15.13 dBFS | Antes de empezar | listo |
 | 3 | 15:35 | 1:16 | -10.89 dBFS | Hanon 2 | listo |
+| 4 | 16:13 | 0:00 | — |  | grabando |
 
 ### Toma 1 · 21:52
 
