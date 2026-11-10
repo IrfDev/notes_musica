@@ -9,14 +9,14 @@ estado: "por-revisar"
 fuente: "The Lumineers - Sleep on the Floor.pdf"
 compas: "4/4"
 compases: 75
-revisados: 0
+revisados: 1
 ---
 <!-- partituras:inicio -->
 # Sleep on the Floor
 
 *The Lumineers*
 
-> [!info] 75 compases · 0 revisados · 20 con duda · por-revisar
+> [!info] 75 compases · 1 revisados · 20 con duda · por-revisar
 > Un compás sin revisar sirve para identificar qué se toca, no para decir «nota equivocada».
 
 > [!warning] Pieza privada o sin licencia definida: la partitura se queda en fry (Partituras) y no se dibuja aquí.
@@ -35,7 +35,7 @@ revisados: 0
 
 ## Compases con duda
 
-- c. 25: los dos OMR no coinciden: leen notas distintas
+- c. 25: los dos OMR no coinciden: leen notas distintas ✓
 - c. 30: los dos OMR no coinciden: Audiveris leyó 10 notas y oemer 15
 - c. 31: los dos OMR no coinciden: Audiveris leyó 12 notas y oemer 11
 - c. 32: los dos OMR no coinciden: leen notas distintas
