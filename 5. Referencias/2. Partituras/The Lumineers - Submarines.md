@@ -9,6 +9,7 @@ estado: "por-revisar"
 fuente: "The Lumineers - Submarines.pdf"
 tonalidad: "Sol mayor"
 compas: "4/4"
+tempo: 95
 compases: 53
 revisados: 0
 ---
@@ -31,15 +32,15 @@ revisados: 0
 
 - c. 25: los dos OMR no coinciden: leen notas distintas
 - c. 26: los dos OMR no coinciden: leen notas distintas
-- c. 27: una voz del pentagrama 2 suma 1 negras y el compás es de 4; los dos OMR no coinciden: leen notas distintas
+- c. 27: los dos OMR no coinciden: leen notas distintas
 - c. 28: los dos OMR no coinciden: leen notas distintas
-- c. 29: una voz del pentagrama 2 suma 1.25 negras y el compás es de 4; los dos OMR no coinciden: leen notas distintas
+- c. 29: los dos OMR no coinciden: leen notas distintas
 - c. 30: los dos OMR no coinciden: leen notas distintas
-- c. 31: una voz del pentagrama 2 suma 1.25 negras y el compás es de 4; los dos OMR no coinciden: leen notas distintas
+- c. 31: los dos OMR no coinciden: leen notas distintas
 - c. 32: los dos OMR no coinciden: leen notas distintas
-- c. 33: una voz del pentagrama 2 suma 1 negras y el compás es de 4; los dos OMR no coinciden: leen notas distintas
+- c. 33: los dos OMR no coinciden: leen notas distintas
 - c. 34: los dos OMR no coinciden: leen notas distintas
-- c. 35: una voz del pentagrama 2 suma 1 negras y el compás es de 4; los dos OMR no coinciden: leen notas distintas
+- c. 35: los dos OMR no coinciden: leen notas distintas
 - c. 36: los dos OMR no coinciden: Audiveris leyó 28 notas y oemer 25
 - c. 38: los dos OMR no coinciden: leen notas distintas
 - c. 42: los dos OMR no coinciden: Audiveris leyó 12 notas y oemer 11

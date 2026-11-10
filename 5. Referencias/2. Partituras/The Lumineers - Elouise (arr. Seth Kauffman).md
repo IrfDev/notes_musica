@@ -7,7 +7,9 @@ autor: "The Lumineers"
 licencia: "privada"
 estado: "por-revisar"
 fuente: "The Lumineers - Elouise (arr. Seth Kauffman).pdf"
+tonalidad: "Do mayor"
 compas: "6/8"
+tempo: 90
 compases: 57
 revisados: 0
 ---
@@ -16,7 +18,7 @@ revisados: 0
 
 *The Lumineers*
 
-> [!info] 57 compases · 0 revisados · 9 con duda · por-revisar
+> [!info] 57 compases · 0 revisados · 1 con duda · por-revisar
 > Un compás sin revisar sirve para identificar qué se toca, no para decir «nota equivocada».
 
 > [!warning] Pieza privada o sin licencia definida: la partitura se queda en fry (Partituras) y no se dibuja aquí.
@@ -28,14 +30,6 @@ revisados: 0
 
 ## Compases con duda
 
-- c. 8: suma 2.5 negras y el compás es de 3
-- c. 22: una voz del pentagrama 1 suma 2.5 negras y el compás es de 3
-- c. 24: una voz del pentagrama 1 suma 2.5 negras y el compás es de 3
-- c. 28: suma 2.5 negras y el compás es de 3
-- c. 29: suma 4 negras y el compás es de 3
-- c. 32: suma 2.5 negras y el compás es de 3
-- c. 38: suma 5 negras y el compás es de 3
-- c. 39: suma 2 negras y el compás es de 3
-- c. 51: una voz del pentagrama 1 suma 2.5 negras y el compás es de 3
+- c. 39: sin notas, entre dos compases que sí tienen
 <!-- partituras:fin -->
 
