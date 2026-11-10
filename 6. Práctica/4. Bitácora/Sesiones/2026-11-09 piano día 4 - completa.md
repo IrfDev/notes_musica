@@ -26,6 +26,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 21:33 | Aplicación |
 | 21:33 | Sleep on the Floor |
 | 21:46 | Hanon 2 |
+| 11:27 | Antes de empezar |
 
 ## Tomas
 

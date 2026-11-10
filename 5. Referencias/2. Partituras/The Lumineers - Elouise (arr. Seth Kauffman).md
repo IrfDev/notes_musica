@@ -11,14 +11,14 @@ tonalidad: "Do mayor"
 compas: "6/8"
 tempo: 90
 compases: 57
-revisados: 0
+revisados: 4
 ---
 <!-- partituras:inicio -->
 # Elouise (arr. Seth Kauffman)
 
 *The Lumineers*
 
-> [!info] 57 compases · 0 revisados · 1 con duda · por-revisar
+> [!info] 57 compases · 4 revisados · 1 con duda · por-revisar
 > Un compás sin revisar sirve para identificar qué se toca, no para decir «nota equivocada».
 
 > [!warning] Pieza privada o sin licencia definida: la partitura se queda en fry (Partituras) y no se dibuja aquí.
@@ -30,6 +30,6 @@ revisados: 0
 
 ## Compases con duda
 
-- c. 39: sin notas, entre dos compases que sí tienen
+- c. 39: sin notas, entre dos compases que sí tienen ✓
 <!-- partituras:fin -->
 
