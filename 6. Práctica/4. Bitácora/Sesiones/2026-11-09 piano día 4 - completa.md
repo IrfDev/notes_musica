@@ -28,6 +28,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 21:46 | Hanon 2 |
 | 11:27 | Antes de empezar |
 | 11:34 | Hanon 2 |
+| 14:19 | Antes de empezar |
 
 ## Tomas
 
