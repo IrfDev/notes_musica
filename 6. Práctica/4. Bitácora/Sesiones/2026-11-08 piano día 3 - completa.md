@@ -38,8 +38,8 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 | 2 | 21:10 | 0:38 | -21.09 dBFS | Hanon 1 | listo |
 | 3 | 21:10 | 0:52 | -24.67 dBFS | Hanon 1 | listo |
 | 4 | 21:14 | 0:05 | -41.65 dBFS |  | listo |
-| 5 | 21:17 | 1:41 | -26.16 dBFS | Hanon 1 | falló |
-| 6 | 21:19 | 0:50 | -23.35 dBFS | Recuperación | falló |
+| 5 | 21:17 | 1:41 | -26.16 dBFS | Hanon 1 | listo |
+| 6 | 21:19 | 0:50 | -23.35 dBFS | Recuperación | listo |
 | 7 | 21:20 | 1:11 | -27.55 dBFS | Recuperación | listo |
 | 8 | 21:30 | 0:37 | -32.05 dBFS | Principal | listo |
 | 9 | 21:36 | 1:08 | -23.64 dBFS | Principal | listo |
@@ -48,9 +48,9 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 | 12 | 21:40 | 1:05 | -24.56 dBFS | Principal | listo |
 | 13 | 21:41 | 0:34 | -26.87 dBFS | Principal | listo |
 | 14 | 21:42 | 1:19 | -27.75 dBFS | Principal | listo |
-| 15 | 21:47 | 2:27 | -25.38 dBFS | Sleep on the Floor | falló |
+| 15 | 21:47 | 2:27 | -25.38 dBFS | Sleep on the Floor | listo |
 | 16 | 22:05 | 0:22 | -28.16 dBFS | Sleep on the Floor | listo |
-| 17 | 22:05 | 0:53 | -26.97 dBFS | Sleep on the Floor | falló |
+| 17 | 22:05 | 0:53 | -26.97 dBFS | Sleep on the Floor | procesando |
 
 ### Toma 1 · 21:08
 
@@ -103,6 +103,45 @@ Tempo contra el plan: Fragmento 1 (Hanon 1): 121 ataques/min; el plan pide 100 (
 Resumen: Se tocó el ejercicio Hanon 1 completo con una mano (probable MI). La precisión fue alta (92 % coincidencia con la partitura) y mejoró respecto a intentos anteriores, aunque hubo una pausa de 1,6 s y los intervalos entre ataques variaron ±28 %. El tempo fue de 121 ataques/min, un 21 % más rápido que el objetivo de 100 ataques/min.
 
 Para la próxima: Hanon 1: baja a 100 ataques por minuto (una por click a 100); hoy fueron 121.
+
+### Toma 5 · 21:17
+
+![[2026-11-08 piano día 3 - aplicación.mp3]]
+Aplicación · 0:03 · 100% correcto · las dos · MI -9 de velocidad frente a MD · pedal 100% · [[2026-11-08 piano día 3 - aplicación.mid|MIDI]]
+
+![[2026-11-08 piano día 3 - aplicación (2).mp3]]
+Aplicación · 0:04 · 100% correcto · 101/min (plan 144) · regularidad ±5% · las dos · MI -7 de velocidad frente a MD · pedal 100% · [[2026-11-08 piano día 3 - aplicación (2).mid|MIDI]]
+
+![[2026-11-08 piano día 3 - hanon 1 (5).mp3]]
+Hanon 1 · 0:07 · contra Hanon - Ejercicios 1-30 · 1 · 46% igual a la partitura sin revisar · 104/min (plan 100) · regularidad ±4% · las dos · MI -9 de velocidad frente a MD · pedal 100% · [[2026-11-08 piano día 3 - hanon 1 (5).mid|MIDI]]
+
+- Fragmento 1: 0:04–0:06 · **Aplicación** (media) · «C y D: dos octavas a dos manos» · marcada: Hanon 1 · 100% correcto · las dos · MI -9 de velocidad frente a MD · pedal 100%
+- Fragmento 2: 0:26–0:30 · **Aplicación** (media) · «C y D: dos octavas a dos manos» · marcada: Hanon 1 · 100% correcto · 101/min (plan 144) · regularidad ±5% · las dos · MI -7 de velocidad frente a MD · pedal 100%
+- Fragmento 3: 0:56–1:03 · **Hanon 1** (alta) · marcada: Hanon 1 · contra [[Hanon - Ejercicios 1-30#1]] · 46% igual a la partitura sin revisar · 104/min (plan 100) · regularidad ±4% · las dos · MI -9 de velocidad frente a MD · pedal 100%
+- Fragmento 4: 1:10–1:21 · **Hanon 1** (baja) · marcada: Hanon 1 · contra [[Hanon - Ejercicios 1-30#1]] (sin revisar) · 33% correcto · 101/min (plan 100) · regularidad ±23% · las dos · MI -5 de velocidad frente a MD · pedal 100% · BPM ≈ 99.4 (audio)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 2 (Aplicación): 101 ataques/min; el plan pide 144 (dos por click a 72) → 30% más lento que el plan. Fragmento 3 (Hanon 1): 104 ataques/min; el plan pide 100 (una por click a 100) → en el tempo del plan. Fragmento 4 (Hanon 1): 101 ataques/min; el plan pide 100 (una por click a 100) → en el tempo del plan.
+
+Resumen: Se tocaron escalas de C y D en dos octavas (Aplicación) y el ejercicio Hanon 1. En la sección de Aplicación las notas coincidieron al 100 % pero el ritmo estuvo 30 % más lento que el plan (101 apm vs 144) y la mano izquierda suena ligeramente más fuerte. En Hanon 1 el tempo está cercano al objetivo, aunque la precisión y la regularidad de los ataques son variables, especialmente en el último fragmento.
+
+Para la próxima: Aplicación: sube a 144 ataques por minuto (dos por click a 72); hoy fueron 101.
+
+### Toma 6 · 21:19
+
+- Fragmento 1: 0:01–0:09 · marcada: Recuperación · una mano (probable MD) · pedal 76% · BPM ≈ 99.4 (audio)
+- Fragmento 2: 0:13–0:20 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: fragmento 1: sin identificar — una mano (probable MD) · pedal 76%; fragmento 2: sin identificar — una mano (probable MD) · pedal 100%
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
 
 ### Toma 7 · 21:20
 
@@ -282,6 +321,31 @@ Resumen: Se tocó el ejercicio «B · F♯, B♭ y B: bloque y quebrada» en los
 
 Para la próxima: Principal: baja a 30 ataques por minuto (un ataque cada dos clicks a 60); hoy fueron 192.
 
+### Toma 15 · 21:47
+
+![[2026-11-08 piano día 3 - sleep on the floor (2).mp3]]
+Sleep on the Floor · 0:02 · 100% correcto · una mano (probable MI) · pedal 23% · [[2026-11-08 piano día 3 - sleep on the floor (2).mid|MIDI]]
+
+- Fragmento 1: 0:00–0:05 · marcada: Sleep on the Floor · 63/min · regularidad ±46% · una mano (probable MI) · pedal 90%
+- Fragmento 2: 0:07–0:11 · marcada: Sleep on the Floor · una mano (probable MI) · pedal 100%
+- Fragmento 3: 0:15–0:20 · marcada: Sleep on the Floor · 61/min · regularidad ±6% · una mano (probable MD) · pedal 100%
+- Fragmento 4: 0:26–0:33 · marcada: Sleep on the Floor · 64/min · regularidad ±3% · una mano (probable MD) · pedal 100%
+- Fragmento 5: 0:34–1:02 · marcada: Sleep on the Floor · 65/min · regularidad ±30% · una mano (probable MD) · pedal 100% · BPM ≈ 64.6 (audio)
+- Fragmento 6: 1:04–1:07 · marcada: Sleep on the Floor · una mano (probable MI) · pedal 100%
+- Fragmento 7: 1:26–1:29 · marcada: Sleep on the Floor · una mano (probable MD) · pedal 100%
+- Fragmento 8: 1:45–1:58 · marcada: Sleep on the Floor · 70/min · regularidad ±5% · una mano (probable MI) · pedal 100% · BPM ≈ 68.0 (audio)
+- Fragmento 9: 2:00–2:07 · marcada: Sleep on the Floor · 71/min · regularidad ±8% · una mano (probable MD) · pedal 100%
+- Fragmento 10: 2:23–2:25 · **Sleep on the Floor** (alta) · «Preparatorio 1: acorde – raíz – bajo grave» · marcada: Sleep on the Floor · 100% correcto · una mano (probable MI) · pedal 23%
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 1: 63 ataques/min, sin tempo del plan para comparar. Fragmento 3: 61 ataques/min, sin tempo del plan para comparar. Fragmento 4: 64 ataques/min, sin tempo del plan para comparar. Fragmento 5: 65 ataques/min, sin tempo del plan para comparar. Fragmento 8: 70 ataques/min, sin tempo del plan para comparar. Fragmento 9: 71 ataques/min, sin tempo del plan para comparar.
+
+Resumen: Se trabajó la canción "Sleep on the Floor", pero la mayoría de los fragmentos no se identificaron y la confianza es baja; solo el fragmento 10 coincidió 100 % con el ejercicio "Preparatorio 1" y tuvo alta confianza. Los ataques por minuto varían entre 61 y 71, sin referencia al tempo del plan. En comparación con la toma anterior (67 % correcto), la precisión actual es menor, pues solo un fragmento se ejecutó correctamente.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
 ### Toma 16 · 22:05
 
 ![[2026-11-08 piano día 3 - sleep on the floor.mp3]]
@@ -300,14 +364,23 @@ Resumen: Se grabó el fragmento 1 (4.9‑10.0 s) sin identificar, con baja confi
 
 Para la próxima: Sleep on the Floor: repasa C despacio; sonó Am (faltó G).
 
+### Toma 17 · 22:05
+
+- Fragmento 1: 0:03–0:05 · marcada: Sleep on the Floor · una mano (probable MI) · pedal 100%
+- Fragmento 2: 0:09–0:17 · marcada: Sleep on the Floor · 40/min · regularidad ±55% · una mano (probable MI) · pedal 100%
+- Fragmento 3: 0:24–0:30 · marcada: Sleep on the Floor · 54/min · regularidad ±49% · una mano (probable MI) · pedal 100%
+- Fragmento 4: 0:38–0:44 · **Sleep on the Floor** (media) · marcada: Sleep on the Floor · contra [[The Lumineers - Sleep on the Floor|Sleep on the Floor]] cc. 18–23 · MI · 30% igual a la partitura sin revisar · 59/min · regularidad ±43% · una mano (probable MI) · pedal 100%
+- Fragmento 5: 0:45–0:50 · marcada: Sleep on the Floor · una mano (probable MD) · pedal 100%
+
 ## Progreso · 30 días hasta esta sesión
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
 |---|--:|--:|--:|--:|--:|--:|
-| Hanon 1 | 5 | 2.9 | 57% | 121 | 121 | 100 |
+| Hanon 1 | 6 | 3.2 | 53% | 101 | 121 | 100 |
 | Principal | 7 | 2.1 | 90% | 180 | 242 | 30 |
 | Recuperación | 2 | 0.6 | 99% | 248 | 248 | — |
-| Sleep on the Floor | 1 | 0.1 | 67% | — | — | — |
+| Aplicación | 1 | 0.1 | 100% | 101 | 101 | 144 |
+| Sleep on the Floor | 2 | 0.1 | 83% | — | — | — |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
 ## Mis notas
