@@ -106,10 +106,10 @@ revisados: 2
 - [[21. Día 21 - Patrones de MI, los abiertos]] · `sotf: cc. 60–67 · MD`
 - [[22. Día 22 - Patrones de MI, los que se mueven]] · `sotf: cc. 60–67 · MI`
 - [[23. Día 23 - Patrones transportados]] · `sotf: cc. 60–63 · juntas`
-- [[24. Día 24 - Louise en el piano]] · `sotf: cc. 64–76`
-- [[25. Día 25 - Louise, qué nota va arriba]] · `sotf: cc. 40–76`
+- [[24. Día 24 - Louise en el piano]] · `sotf: cc. 64–75`
+- [[25. Día 25 - Louise, qué nota va arriba]] · `sotf: cc. 40–75`
 - [[26. Día 26 - Rotación, lado de sostenidos]] · `sotf: cc. 1–39 · tempo`
-- [[27. Día 27 - Rotación, lado de bemoles]] · `sotf: cc. 40–76 · tempo`
+- [[27. Día 27 - Rotación, lado de bemoles]] · `sotf: cc. 40–75 · tempo`
 - [[28. Día 28 - Examen de teclado]] · `sotf: completa`
 - [[29. Día 29 - Ensayo general]] · `sotf: completa · compases débiles`
 - [[30. Día 30 - La toma final]] · `sotf: completa`
