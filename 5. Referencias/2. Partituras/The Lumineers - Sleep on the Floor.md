@@ -17,7 +17,7 @@ revisados: 1
 
 *The Lumineers*
 
-> [!info] 75 compases · 1 revisados · 28 con duda · por-revisar
+> [!info] 75 compases · 1 revisados · 45 con duda · por-revisar
 > Un compás sin revisar sirve para identificar qué se toca, no para decir «nota equivocada».
 
 > [!warning] Pieza privada o sin licencia definida: la partitura se queda en fry (Partituras) y no se dibuja aquí.
@@ -36,7 +36,24 @@ revisados: 1
 
 ## Compases con duda
 
+- c. 1: los dos OMR no coinciden: leen notas distintas
+- c. 2: los dos OMR no coinciden: Audiveris leyó 20 notas y oemer 19
+- c. 3: los dos OMR no coinciden: leen notas distintas
+- c. 4: los dos OMR no coinciden: leen notas distintas
+- c. 5: los dos OMR no coinciden: leen notas distintas
+- c. 6: los dos OMR no coinciden: leen notas distintas
+- c. 7: los dos OMR no coinciden: leen notas distintas
+- c. 8: los dos OMR no coinciden: leen notas distintas
+- c. 9: los dos OMR no coinciden: leen notas distintas
+- c. 11: los dos OMR no coinciden: leen notas distintas
+- c. 12: los dos OMR no coinciden: leen notas distintas
+- c. 13: los dos OMR no coinciden: Audiveris leyó 17 notas y oemer 16
+- c. 14: los dos OMR no coinciden: leen notas distintas
+- c. 15: los dos OMR no coinciden: leen notas distintas
+- c. 17: los dos OMR no coinciden: leen notas distintas
 - c. 18: una voz del pentagrama 1 suma 0.5 negras y el compás es de 4
+- c. 21: los dos OMR no coinciden: Audiveris leyó 10 notas y oemer 14
+- c. 23: los dos OMR no coinciden: leen notas distintas
 - c. 25: los dos OMR no coinciden: leen notas distintas ✓
 - c. 28: una voz del pentagrama 1 suma 1.125 negras y el compás es de 4
 - c. 29: una voz del pentagrama 1 suma 1.75 negras y el compás es de 4

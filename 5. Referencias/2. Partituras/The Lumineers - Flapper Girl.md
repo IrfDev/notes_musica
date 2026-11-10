@@ -8,14 +8,14 @@ licencia: "privada"
 estado: "por-revisar"
 fuente: "The Lumineers - Flapper Girl.pdf"
 compases: 92
-revisados: 0
+revisados: 1
 ---
 <!-- partituras:inicio -->
 # Flapper Girl
 
 *The Lumineers*
 
-> [!info] 92 compases · 0 revisados · 0 con duda · por-revisar
+> [!info] 92 compases · 1 revisados · 0 con duda · por-revisar
 > Un compás sin revisar sirve para identificar qué se toca, no para decir «nota equivocada».
 
 > [!warning] Pieza privada o sin licencia definida: la partitura se queda en fry (Partituras) y no se dibuja aquí.
