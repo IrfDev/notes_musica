@@ -35,7 +35,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 | # | Hora | Duración | Pico | Secciones marcadas | Análisis |
 |---|---|---|---|---|---|
 | 1 | 21:08 | 0:52 | -20.09 dBFS | Hanon 1 | listo |
-| 2 | 21:10 | 0:38 | -21.09 dBFS | Hanon 1 | listo |
+| 2 | 21:10 | 0:38 | -21.09 dBFS | Hanon 1 | procesando |
 | 3 | 21:10 | 0:52 | -24.67 dBFS | Hanon 1 | listo |
 | 4 | 21:14 | 0:05 | -41.65 dBFS |  | listo |
 | 5 | 21:17 | 1:41 | -26.16 dBFS | Hanon 1 | falló |
@@ -54,36 +54,27 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 
 ### Toma 1 · 21:08
 
-![[2026-11-08 piano día 3 - aplicación.mp3]]
-Aplicación · 0:08 · metrónomo 100 · 100% correcto · 126/min (plan 144) · regularidad ±53% · las dos · MI -10 de velocidad frente a MD · 1 pausas · pedal 84% · [[2026-11-08 piano día 3 - aplicación.mid|MIDI]]
+![[2026-11-08 piano día 3 - hanon 1.mp3]]
+Hanon 1 · 0:08 · metrónomo 100 · contra Hanon - Ejercicios 1-30 · 1 · 50% igual a la partitura sin revisar · 126/min (plan 100) · regularidad ±53% · las dos · MI -10 de velocidad frente a MD · 1 pausas · pedal 84% · [[2026-11-08 piano día 3 - hanon 1.mid|MIDI]]
 
-- Fragmento 1: 0:02–0:11 · **Aplicación** (media) · marcada: Hanon 1 · metrónomo 100 · 100% correcto · 126/min (plan 144) · regularidad ±53% · las dos · MI -10 de velocidad frente a MD · 1 pausas · pedal 84%
-- Fragmento 2: 0:23–0:52 · **Hanon 1** (baja) · marcada: Hanon 1 · metrónomo 100 · 33% correcto · 396/min (plan 100) · regularidad ±76% · las dos · MI -3 de velocidad frente a MD · 1 pausas · pedal 89%
+![[2026-11-08 piano día 3 - hanon 1 (3).mp3]]
+Hanon 1 · 0:29 · metrónomo 100 · contra Hanon - Ejercicios 1-30 · 1 (sin revisar) · 33% correcto · 396/min (plan 100) · regularidad ±76% · las dos · MI -3 de velocidad frente a MD · 1 pausas · pedal 89% · [[2026-11-08 piano día 3 - hanon 1 (3).mid|MIDI]]
+
+- Fragmento 1: 0:02–0:11 · **Hanon 1** (media) · marcada: Hanon 1 · metrónomo 100 · contra [[Hanon - Ejercicios 1-30#1]] · 50% igual a la partitura sin revisar · 126/min (plan 100) · regularidad ±53% · las dos · MI -10 de velocidad frente a MD · 1 pausas · pedal 84%
+- Fragmento 2: 0:23–0:52 · **Hanon 1** (media) · marcada: Hanon 1 · metrónomo 100 · contra [[Hanon - Ejercicios 1-30#1]] (sin revisar) · 33% correcto · 396/min (plan 100) · regularidad ±76% · las dos · MI -3 de velocidad frente a MD · 1 pausas · pedal 89%
 
 **Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
 
 
-Tempo contra el plan: Fragmento 1 (Aplicación): 126 ataques/min; el plan pide 144 (dos por click a 72) → 12% más lento que el plan. Fragmento 2 (Hanon 1): 396 ataques/min (equivale a dos por click a 198 o cuatro por click a 99); el plan pide 100 (una por click a 100) → 296% más rápido que el plan.
+Tempo contra el plan: Fragmento 1 (Hanon 1): 126 ataques/min; el plan pide 100 (una por click a 100) → 26% más rápido que el plan. Fragmento 2 (Hanon 1): 396 ataques/min (equivale a dos por click a 198 o cuatro por click a 99); el plan pide 100 (una por click a 100) → 296% más rápido que el plan.
 
-Resumen: Se tocaron los dos fragmentos. En Aplicación se mantuvo 100 % de coincidencia con la partitura, pero el tempo fue 12 % más lento que el plan (126 ataques/min vs 144) y los intervalos variaron ±53 %. En Hanon 1 la precisión cayó al 33 % y el tempo fue 296 % más rápido que el plan (396 ataques/min vs 100), con variación de intervalos ±76 % y una pausa larga.
+Resumen: Se practicó Hanon 1 en dos fragmentos. Ambos fueron más rápidos que el plan (126 y 396 ataques/min, 26 % y 296 % por encima). Los intervalos entre ataques fueron irregulares (±53 % y ±76 %) y hubo una pausa larga en cada fragmento. La mano izquierda suena ligeramente más suave que la derecha.
 
 Para la próxima: Hanon 1: baja a 100 ataques por minuto (una por click a 100); hoy fueron 396.
 
 ### Toma 2 · 21:10
 
-![[2026-11-08 piano día 3 - hanon 1.mp3]]
-Hanon 1 · 0:33 · metrónomo 100 · 62% correcto · 104/min (plan 100) · regularidad ±48% · una mano (probable MI) · pedal 100% · [[2026-11-08 piano día 3 - hanon 1.mid|MIDI]]
-
-- Fragmento 1: 0:05–0:38 · **Hanon 1** (alta) · marcada: Hanon 1 · metrónomo 100 · 62% correcto · 104/min (plan 100) · regularidad ±48% · una mano (probable MI) · pedal 100%
-
-**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
-
-
-Tempo contra el plan: Fragmento 1 (Hanon 1): 104 ataques/min; el plan pide 100 (una por click a 100) → en el tempo del plan.
-
-Resumen: Se tocó el fragmento completo de Hanon 1 con una mano (probable MI). El tempo fue de 104 ataques/min, ligeramente por encima del objetivo de 100, pero la precisión fue del 62 % (confianza alta) y la regularidad de los ataques varió ±48 %, indicando que los intervalos no fueron muy parejos. En comparación con tomas anteriores, la velocidad ha disminuido (de 248‑396 ataques/min) y la exactitud también (antes 83 % y 33 %), por lo que no se observa mejora en la precisión.
-
-Para la próxima: Hanon 1: busca ataques más parejos con el metrónomo; hoy los intervalos variaron ±48%.
+- Fragmento 1: 0:05–0:38 · **Hanon 1** (alta) · marcada: Hanon 1 · metrónomo 100 · contra [[Hanon - Ejercicios 1-30#1]] (sin revisar) · 62% correcto · 104/min (plan 100) · regularidad ±48% · una mano (probable MI) · pedal 100%
 
 ### Toma 3 · 21:10
 
@@ -301,10 +292,9 @@ Para la próxima: Sleep on the Floor: repasa C despacio; sonó Am (faltó G).
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
 |---|--:|--:|--:|--:|--:|--:|
+| Hanon 1 | 4 | 2.3 | 56% | 121 | 121 | 100 |
 | Principal | 7 | 2.1 | 90% | 180 | 242 | 30 |
-| Hanon 1 | 4 | 2.1 | 67% | 121 | 121 | 100 |
 | Recuperación | 2 | 0.6 | 99% | 248 | 248 | — |
-| Aplicación | 1 | 0.1 | 100% | 126 | 126 | 144 |
 | Sleep on the Floor | 1 | 0.1 | 67% | — | — | — |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 

@@ -36,30 +36,30 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 ![[2026-11-06 piano día 3 - toma 9.07.mp3]]
 sin identificar · 0:40 · 283/min · regularidad ±44% · las dos · MI -5 de velocidad frente a MD · 1 pausas · pedal 87% · [[2026-11-06 piano día 3 - toma 9.07.mid|MIDI]]
 
-- Fragmento 1: 0:04–0:40 · marcada: Antes de empezar · 283/min · regularidad ±44% · las dos · MI -5 de velocidad frente a MD · 1 pausas · pedal 96% · BPM ≈ 117.5 (audio)
+- Fragmento 1: 0:04–0:40 · **Hanon 1** (baja) · marcada: Antes de empezar · contra [[Hanon - Ejercicios 1-30#1]] (sin revisar) · 16% correcto · 283/min (plan 100) · regularidad ±44% · las dos · MI -5 de velocidad frente a MD · 1 pausas · pedal 96% · BPM ≈ 117.5 (audio)
 
 **Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
 
 
-Tempo contra el plan: Fragmento 1: 283 ataques/min, sin tempo del plan para comparar.
+Tempo contra el plan: Fragmento 1 (Hanon 1): 283 ataques/min (equivale a dos por click a 142 o cuatro por click a 71); el plan pide 100 (una por click a 100) → 183% más rápido que el plan.
 
-Resumen: Se tocó el fragmento completo (225 notas en 137 ataques) con 283 ataques por minuto; la variación de los intervalos entre ataques es de ±44%, lo que indica una ejecución poco parejada y la confianza se calificó como baja. No hay dato de tempo del plan para comparar, pero el pedal estuvo abajo el 96% del tiempo y se observaron pequeñas diferencias de velocidad entre manos y una pausa de 1.5 s.
+Resumen: Se tocó el ejercicio Hanon 1 completo, pero a 283 ataques/min, un 183 % más rápido que el plan de 100. La coincidencia con la partitura fue solo del 16 % y los intervalos entre ataques variaron ±44 %, con una pausa de 1,5 s. La confianza es baja y la velocidad excesiva no ha mejorado la precisión.
 
-Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+Para la próxima: Hanon 1: baja a 100 ataques por minuto (una por click a 100); hoy fueron 283.
 
 ### Toma 2 · 09:44
 
 ![[2026-11-06 piano día 3 - hanon 1.mp3]]
-Hanon 1 · 0:16 · 83% correcto · 248/min (plan 100) · regularidad ±21% · una mano (probable MI) · 1 pausas · [[2026-11-06 piano día 3 - hanon 1.mid|MIDI]]
+Hanon 1 · 0:16 · contra Hanon - Ejercicios 1-30 · 1 (sin revisar) · 83% correcto · 248/min (plan 100) · regularidad ±21% · una mano (probable MI) · 1 pausas · [[2026-11-06 piano día 3 - hanon 1.mid|MIDI]]
 
-- Fragmento 1: 0:03–0:18 · **Hanon 1** (alta) · marcada: Antes de empezar · 83% correcto · 248/min (plan 100) · regularidad ±21% · una mano (probable MI) · 1 pausas · BPM ≈ 123.0 (audio)
+- Fragmento 1: 0:03–0:18 · **Hanon 1** (alta) · marcada: Antes de empezar · contra [[Hanon - Ejercicios 1-30#1]] (sin revisar) · 83% correcto · 248/min (plan 100) · regularidad ±21% · una mano (probable MI) · 1 pausas · BPM ≈ 123.0 (audio)
 
 **Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
 
 
 Tempo contra el plan: Fragmento 1 (Hanon 1): 248 ataques/min (equivale a dos por click a 124 o cuatro por click a 62); el plan pide 100 (una por click a 100) → 148% más rápido que el plan.
 
-Resumen: Se tocó el ejercicio Hanon 1 con una sola mano; se registraron 54 notas en 50 ataques (83 % coincidencia con la partitura) y 248 ataques por minuto, un 148 % más rápido que el plan. Los intervalos entre ataques variaron ±21 % y hubo una pausa de 1.9 s.
+Resumen: Se tocó el fragmento Hanon 1 con 248 ataques por minuto, un 148 % más rápido que el plan, alcanzando un 83 % de coincidencia con la partitura. Los intervalos entre ataques variaron ±21 % y hubo una pausa de 1,9 s. La confianza es alta, pero la velocidad supera considerablemente la meta.
 
 Para la próxima: Hanon 1: baja a 100 ataques por minuto (una por click a 100); hoy fueron 248.
 
@@ -67,7 +67,7 @@ Para la próxima: Hanon 1: baja a 100 ataques por minuto (una por click a 100); 
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
 |---|--:|--:|--:|--:|--:|--:|
-| Hanon 1 | 1 | 0.3 | 83% | 248 | — | 100 |
+| Hanon 1 | 2 | 0.9 | 49% | 248 | — | 100 |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
 ## Mis notas

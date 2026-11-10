@@ -39,7 +39,7 @@ Lección: [[3. Composiciones/2. nocturno/0. Obra|Nocturno]] · de 13:15 a 13:24
 
 Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
 
-Resumen: Se intentó tocar el fragmento, pero no hubo notas suficientes para evaluarlo. No se pudo medir la precisión ni el tempo respecto al plan. No hay historial previo que comparar.
+Resumen: Se intentó tocar el Nocturno, pero el fragmento registrado no contiene notas suficientes para evaluar la ejecución. No se pudo medir el tempo ni la precisión, y no hay historial previo para comparar.
 
 Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
