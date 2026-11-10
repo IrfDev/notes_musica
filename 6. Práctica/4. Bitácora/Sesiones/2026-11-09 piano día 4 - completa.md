@@ -5,8 +5,8 @@ fecha: 2026-11-09
 dia_programa: 4
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inversiones con la MI|Día 4 · Inversiones con la MI]]"
-tomas: 14
-minutos_grabados: 12.8
+tomas: 17
+minutos_grabados: 14.3
 estado: abierta
 fuente: frai-estudio
 ---
@@ -32,6 +32,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 15:33 | Hanon 2 |
 | 16:15 | Recuperación |
 | 16:20 | Principal |
+| 16:31 | Aplicación |
 
 ## Tomas
 
@@ -50,7 +51,10 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 11 | 16:25 | 0:23 | -29.89 dBFS | Principal | listo |
 | 12 | 16:26 | 0:46 | -26.32 dBFS | Principal | listo |
 | 13 | 16:27 | 0:29 | -24.92 dBFS | Principal | listo |
-| 14 | 16:27 | 0:54 | -26.36 dBFS | Principal | procesando |
+| 14 | 16:27 | 0:54 | -26.36 dBFS | Principal | listo |
+| 15 | 16:29 | 0:54 | -28.28 dBFS | Principal | listo |
+| 16 | 16:31 | 0:07 | -23.64 dBFS |  | listo |
+| 17 | 16:31 | 0:28 | -25.47 dBFS | Principal | listo |
 
 ### Toma 1 · 21:52
 
@@ -397,6 +401,27 @@ Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección
 
 ### Toma 14 · 16:27
 
+![[2026-11-10 piano día 4 - principal (10).mp3]]
+Principal · 0:07 · metrónomo 60 · 67% correcto · una mano (probable MI) · [[2026-11-10 piano día 4 - principal (10).mid|MIDI]]
+
+![[2026-11-10 piano día 4 - principal (11).mp3]]
+Principal · 0:03 · metrónomo 60 · 50% correcto · una mano (probable MI) · [[2026-11-10 piano día 4 - principal (11).mid|MIDI]]
+
+![[2026-11-10 piano día 4 - recuperación (28).mp3]]
+Recuperación · 0:02 · metrónomo 60 · 100% correcto · una mano (probable MI) · [[2026-11-10 piano día 4 - recuperación (28).mid|MIDI]]
+
+![[2026-11-10 piano día 4 - recuperación (29).mp3]]
+Recuperación · 0:02 · metrónomo 60 · 100% correcto · una mano (probable MI) · [[2026-11-10 piano día 4 - recuperación (29).mid|MIDI]]
+
+![[2026-11-10 piano día 4 - recuperación (30).mp3]]
+Recuperación · 0:02 · metrónomo 60 · 100% correcto · una mano (probable MI) · [[2026-11-10 piano día 4 - recuperación (30).mid|MIDI]]
+
+![[2026-11-10 piano día 4 - recuperación (31).mp3]]
+Recuperación · 0:04 · metrónomo 60 · 100% correcto · una mano (probable MI) · [[2026-11-10 piano día 4 - recuperación (31).mid|MIDI]]
+
+![[2026-11-10 piano día 4 - recuperación (32).mp3]]
+Recuperación · 0:04 · metrónomo 60 · 100% correcto · una mano (probable MI) · [[2026-11-10 piano día 4 - recuperación (32).mid|MIDI]]
+
 - Fragmento 1: 0:01–0:08 · **Principal** (media) · «B · Grupo 2: inversiones con la MI» · marcada: Principal · metrónomo 60 · 67% correcto · una mano (probable MI)
 - Fragmento 2: 0:10–0:12 · **Principal** (media) · «B · Grupo 2: inversiones con la MI» · marcada: Principal · metrónomo 60 · 50% correcto · una mano (probable MI)
 - Fragmento 3: 0:14–0:16 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Principal · metrónomo 60 · 100% correcto · una mano (probable MI)
@@ -407,13 +432,119 @@ Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección
 - Fragmento 8: 0:42–0:44 · marcada: Principal · metrónomo 60 · una mano (probable MI)
 - Fragmento 9: 0:48–0:52 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Principal · metrónomo 60 · 100% correcto · una mano (probable MI)
 
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: Se trabajó la sección B·Grupo 2: inversiones con la MI y el círculo en fundamental. Los fragmentos del círculo en fundamental fueron 100 % correctos, mientras que los de inversiones con la MI coincidieron solo entre 50 % y 67 % con la partitura. No se pudo medir el tempo y la precisión en los ejercicios de recuperación se mantiene alta, mejorando respecto a tomas anteriores.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 15 · 16:29
+
+![[2026-11-10 piano día 4 - recuperación (33).mp3]]
+Recuperación · 0:02 · metrónomo 60 · 100% correcto · una mano (probable MI) · [[2026-11-10 piano día 4 - recuperación (33).mid|MIDI]]
+
+![[2026-11-10 piano día 4 - recuperación (34).mp3]]
+Recuperación · 0:02 · metrónomo 60 · 100% correcto · una mano (probable MD) · [[2026-11-10 piano día 4 - recuperación (34).mid|MIDI]]
+
+![[2026-11-10 piano día 4 - recuperación (35).mp3]]
+Recuperación · 0:02 · metrónomo 60 · 100% correcto · una mano (probable MD) · [[2026-11-10 piano día 4 - recuperación (35).mid|MIDI]]
+
+![[2026-11-10 piano día 4 - recuperación (36).mp3]]
+Recuperación · 0:02 · metrónomo 60 · 100% correcto · una mano (probable MD) · [[2026-11-10 piano día 4 - recuperación (36).mid|MIDI]]
+
+![[2026-11-10 piano día 4 - recuperación (37).mp3]]
+Recuperación · 0:02 · metrónomo 60 · 100% correcto · una mano (probable MI) · [[2026-11-10 piano día 4 - recuperación (37).mid|MIDI]]
+
+![[2026-11-10 piano día 4 - principal (12).mp3]]
+Principal · 0:07 · metrónomo 60 · 100% correcto · una mano (probable MI) · [[2026-11-10 piano día 4 - principal (12).mid|MIDI]]
+
+![[2026-11-10 piano día 4 - recuperación (38).mp3]]
+Recuperación · 0:02 · metrónomo 60 · 100% correcto · una mano (probable MD) · [[2026-11-10 piano día 4 - recuperación (38).mid|MIDI]]
+
+![[2026-11-10 piano día 4 - recuperación (39).mp3]]
+Recuperación · 0:02 · metrónomo 60 · 100% correcto · una mano (probable MD) · [[2026-11-10 piano día 4 - recuperación (39).mid|MIDI]]
+
+![[2026-11-10 piano día 4 - principal (13).mp3]]
+Principal · 0:04 · metrónomo 60 · 50% correcto · una mano (probable MI) · [[2026-11-10 piano día 4 - principal (13).mid|MIDI]]
+
+- Fragmento 1: 0:06–0:08 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Principal · metrónomo 60 · 100% correcto · una mano (probable MI)
+- Fragmento 2: 0:09–0:11 · marcada: Principal · metrónomo 60 · una mano (probable MI)
+- Fragmento 3: 0:15–0:17 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Principal · metrónomo 60 · 100% correcto · una mano (probable MD)
+- Fragmento 4: 0:18–0:20 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Principal · metrónomo 60 · 100% correcto · una mano (probable MD)
+- Fragmento 5: 0:21–0:23 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Principal · metrónomo 60 · 100% correcto · una mano (probable MD)
+- Fragmento 6: 0:28–0:30 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Principal · metrónomo 60 · 100% correcto · una mano (probable MI)
+- Fragmento 7: 0:32–0:38 · **Principal** (alta) · «B · Grupo 2: inversiones con la MI» · marcada: Principal · metrónomo 60 · 100% correcto · una mano (probable MI)
+- Fragmento 8: 0:40–0:42 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Principal · metrónomo 60 · 100% correcto · una mano (probable MD)
+- Fragmento 9: 0:44–0:46 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Principal · metrónomo 60 · 100% correcto · una mano (probable MD)
+- Fragmento 10: 0:49–0:53 · **Principal** (media) · «B · Grupo 2: inversiones con la MI» · marcada: Principal · metrónomo 60 · 50% correcto · una mano (probable MI)
+- Contra la partitura: fragmento 10 en 0:00, esperaba D y sonó Abm (faltó D, F#, A)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: Se ejecutó mayormente el ejercicio de Recuperación del círculo en fundamental, con 100 % de coincidencia y alta confianza en los fragmentos 1, 3‑6, 8‑9. En el ejercicio Principal del grupo 2 se obtuvo 100 % en el fragmento 7 pero solo 50 % en el fragmento 10, con confianza media. No se pudo medir el tempo y, según el historial, la precisión en Recuperación ha permanecido en 100 % mientras que en Principal la consistencia sigue fluctuando.
+
+Para la próxima: Principal: repasa D despacio; sonó Abm (faltó D, F#, A).
+
+### Toma 16 · 16:31
+
+![[2026-11-10 piano día 4 - principal (14).mp3]]
+Principal · 0:03 · metrónomo 60 · 50% correcto · una mano (probable MI) · [[2026-11-10 piano día 4 - principal (14).mid|MIDI]]
+
+- Fragmento 1: 0:01–0:03 · marcada: Principal · metrónomo 60 · una mano (probable MI)
+- Fragmento 2: 0:04–0:07 · **Principal** (media) · «B · Grupo 2: inversiones con la MI» · marcada: Principal · metrónomo 60 · 50% correcto · una mano (probable MI)
+- Contra la partitura: fragmento 2 en 0:00, esperaba D y sonó Db+ (faltó D, F#)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: Se tocaron dos fragmentos: el primero no se identificó con ningún ejercicio y mostró baja confianza; el segundo corresponde al ejercicio Principal del Grupo 2, con un 50 % de coincidencia y faltaron notas D y F#. No hubo suficiente pulso para medir el tempo frente al plan de 60 bpm. El historial indica una mejora progresiva, alcanzando un 80 % de corrección en la última toma.
+
+Para la próxima: Principal: repasa D despacio; sonó Db+ (faltó D, F#).
+
+### Toma 17 · 16:31
+
+![[2026-11-10 piano día 4 - recuperación (40).mp3]]
+Recuperación · 0:02 · metrónomo 60 · 100% correcto · una mano (probable MI) · [[2026-11-10 piano día 4 - recuperación (40).mid|MIDI]]
+
+![[2026-11-10 piano día 4 - principal (15).mp3]]
+Principal · 0:07 · metrónomo 60 · 100% correcto · una mano (probable MI) · [[2026-11-10 piano día 4 - principal (15).mid|MIDI]]
+
+![[2026-11-10 piano día 4 - recuperación (41).mp3]]
+Recuperación · 0:02 · metrónomo 60 · 100% correcto · una mano (probable MI) · [[2026-11-10 piano día 4 - recuperación (41).mid|MIDI]]
+
+![[2026-11-10 piano día 4 - recuperación (42).mp3]]
+Recuperación · 0:02 · metrónomo 60 · 100% correcto · una mano (probable MI) · [[2026-11-10 piano día 4 - recuperación (42).mid|MIDI]]
+
+- Fragmento 1: 0:00–0:02 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Principal · metrónomo 60 · 100% correcto · una mano (probable MI)
+- Fragmento 2: 0:04–0:11 · **Principal** (alta) · «B · Grupo 2: inversiones con la MI» · marcada: Principal · metrónomo 60 · 100% correcto · una mano (probable MI)
+- Fragmento 3: 0:17–0:19 · marcada: Principal · metrónomo 60 · una mano (probable MI)
+- Fragmento 4: 0:21–0:23 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Principal · metrónomo 60 · 100% correcto · una mano (probable MI)
+- Fragmento 5: 0:25–0:27 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Principal · metrónomo 60 · 100% correcto · una mano (probable MI)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: En la lección Día 4 · Inversiones con la MI se tocaron principalmente los ejercicios de Recuperación y Principal, con 100 % de coincidencia con la partitura en los fragmentos 1, 2, 4 y 5; el fragmento 3 tiene baja confianza y no se identifica. No hubo suficiente pulso para medir el tempo. En el historial, la práctica de Recuperación ha mantenido 100 % de aciertos y el desempeño en Principal muestra una tendencia de mejora respecto a intentos anteriores.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
 ## Progreso · 30 días hasta esta sesión
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
 |---|--:|--:|--:|--:|--:|--:|
 | Hanon 1 | 8 | 6.1 | 61% | 237 | 121 | 100 |
-| Principal | 11 | 3.7 | 87% | 38 | 242 | — |
-| Recuperación | 9 | 1.7 | 95% | 248 | 248 | — |
+| Principal | 15 | 4.2 | 84% | 38 | 242 | — |
+| Recuperación | 12 | 2.3 | 97% | 248 | 248 | — |
 | Hanon 2 | 1 | 1.2 | 79% | 134 | 134 | 100 |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
