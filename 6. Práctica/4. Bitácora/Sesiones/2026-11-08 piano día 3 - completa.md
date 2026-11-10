@@ -35,7 +35,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 | # | Hora | Duración | Pico | Secciones marcadas | Análisis |
 |---|---|---|---|---|---|
 | 1 | 21:08 | 0:52 | -20.09 dBFS | Hanon 1 | listo |
-| 2 | 21:10 | 0:38 | -21.09 dBFS | Hanon 1 | procesando |
+| 2 | 21:10 | 0:38 | -21.09 dBFS | Hanon 1 | listo |
 | 3 | 21:10 | 0:52 | -24.67 dBFS | Hanon 1 | listo |
 | 4 | 21:14 | 0:05 | -41.65 dBFS |  | listo |
 | 5 | 21:17 | 1:41 | -26.16 dBFS | Hanon 1 | falló |
@@ -46,7 +46,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/03. Día 3 - Grup
 | 10 | 21:39 | 0:47 | -27.05 dBFS | Principal | listo |
 | 11 | 21:39 | 0:37 | -25.36 dBFS | Principal | listo |
 | 12 | 21:40 | 1:05 | -24.56 dBFS | Principal | listo |
-| 13 | 21:41 | 0:34 | -26.87 dBFS | Principal | listo |
+| 13 | 21:41 | 0:34 | -26.87 dBFS | Principal | procesando |
 | 14 | 21:42 | 1:19 | -27.75 dBFS | Principal | listo |
 | 15 | 21:47 | 2:27 | -25.38 dBFS | Sleep on the Floor | falló |
 | 16 | 22:05 | 0:22 | -28.16 dBFS | Sleep on the Floor | listo |
@@ -74,21 +74,33 @@ Para la próxima: Hanon 1: baja a 100 ataques por minuto (una por click a 100); 
 
 ### Toma 2 · 21:10
 
+![[2026-11-08 piano día 3 - hanon 1 (2).mp3]]
+Hanon 1 · 0:33 · metrónomo 100 · contra Hanon - Ejercicios 1-30 · 1 (sin revisar) · 62% correcto · 104/min (plan 100) · regularidad ±48% · una mano (probable MI) · pedal 100% · [[2026-11-08 piano día 3 - hanon 1 (2).mid|MIDI]]
+
 - Fragmento 1: 0:05–0:38 · **Hanon 1** (alta) · marcada: Hanon 1 · metrónomo 100 · contra [[Hanon - Ejercicios 1-30#1]] (sin revisar) · 62% correcto · 104/min (plan 100) · regularidad ±48% · una mano (probable MI) · pedal 100%
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 1 (Hanon 1): 104 ataques/min; el plan pide 100 (una por click a 100) → en el tempo del plan.
+
+Resumen: fragmento 1: Hanon 1 — contra Hanon - Ejercicios 1-30 · 1 (sin revisar) · 62% correcto · 104/min (plan 100) · regularidad ±48% · una mano (probable MI) · pedal 100%
+
+Para la próxima: Hanon 1: busca ataques más parejos con el metrónomo; hoy los intervalos variaron ±48%.
 
 ### Toma 3 · 21:10
 
-![[2026-11-08 piano día 3 - hanon 1 (2).mp3]]
-Hanon 1 · 0:50 · metrónomo 100 · 92% correcto · 121/min (plan 100) · regularidad ±28% · una mano (probable MI) · 1 pausas · pedal 98% · [[2026-11-08 piano día 3 - hanon 1 (2).mid|MIDI]]
+![[2026-11-08 piano día 3 - hanon 1 (4).mp3]]
+Hanon 1 · 0:50 · metrónomo 100 · contra Hanon - Ejercicios 1-30 · 1 (sin revisar) · 92% correcto · 121/min (plan 100) · regularidad ±28% · una mano (probable MI) · 1 pausas · pedal 98% · [[2026-11-08 piano día 3 - hanon 1 (4).mid|MIDI]]
 
-- Fragmento 1: 0:02–0:52 · **Hanon 1** (alta) · marcada: Hanon 1 · metrónomo 100 · 92% correcto · 121/min (plan 100) · regularidad ±28% · una mano (probable MI) · 1 pausas · pedal 98%
+- Fragmento 1: 0:02–0:52 · **Hanon 1** (alta) · marcada: Hanon 1 · metrónomo 100 · contra [[Hanon - Ejercicios 1-30#1]] (sin revisar) · 92% correcto · 121/min (plan 100) · regularidad ±28% · una mano (probable MI) · 1 pausas · pedal 98%
 
 **Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
 
 
 Tempo contra el plan: Fragmento 1 (Hanon 1): 121 ataques/min; el plan pide 100 (una por click a 100) → 21% más rápido que el plan.
 
-Resumen: Se tocó el ejercicio Hanon 1 completo, con 92 % de coincidencia con la partitura. La velocidad fue de 121 ataques por minuto, un 21 % más rápido que el plan (100 apm). La precisión mejoró respecto al historial (máximo anterior 83 %).
+Resumen: Se tocó el ejercicio Hanon 1 completo con una mano (probable MI). La precisión fue alta (92 % coincidencia con la partitura) y mejoró respecto a intentos anteriores, aunque hubo una pausa de 1,6 s y los intervalos entre ataques variaron ±28 %. El tempo fue de 121 ataques/min, un 21 % más rápido que el objetivo de 100 ataques/min.
 
 Para la próxima: Hanon 1: baja a 100 ataques por minuto (una por click a 100); hoy fueron 121.
 
@@ -110,20 +122,20 @@ Recuperación · 0:02 · 100% correcto · una mano (probable MI) · [[2026-11-08
 Recuperación · 0:04 · 100% correcto · 248/min · regularidad ±51% · una mano (probable MI) · [[2026-11-08 piano día 3 - recuperación (4).mid|MIDI]]
 
 - Fragmento 1: 0:03–0:08 · marcada: Recuperación · una mano (probable MD)
-- Fragmento 2: 0:13–0:15 · **Recuperación** (alta) · marcada: Recuperación · 100% correcto · una mano (probable MD)
-- Fragmento 3: 0:18–0:40 · **Recuperación** (alta) · marcada: Recuperación · 95% correcto · 247/min · regularidad ±56% · una mano (probable MD) · 6 pausas · BPM ≈ 92.3 (audio)
-- Fragmento 4: 0:46–0:48 · **Principal** (alta) · marcada: Recuperación · 100% correcto · una mano (probable MD)
-- Fragmento 5: 1:01–1:03 · **Recuperación** (alta) · marcada: Recuperación · 100% correcto · una mano (probable MI)
-- Fragmento 6: 1:06–1:11 · **Recuperación** (alta) · marcada: Recuperación · 100% correcto · 248/min · regularidad ±51% · una mano (probable MI)
+- Fragmento 2: 0:13–0:15 · **Recuperación** (alta) · «los acordes del bloque» · marcada: Recuperación · 100% correcto · una mano (probable MD)
+- Fragmento 3: 0:18–0:40 · **Recuperación** (alta) · «los acordes del bloque» · marcada: Recuperación · 95% correcto · 247/min · regularidad ±56% · una mano (probable MD) · 6 pausas · BPM ≈ 92.3 (audio)
+- Fragmento 4: 0:46–0:48 · **Principal** (alta) · «A · E♭ y A♭: inversiones, un acorde cada dos clicks» · marcada: Recuperación · 100% correcto · una mano (probable MD)
+- Fragmento 5: 1:01–1:03 · **Recuperación** (alta) · «los acordes del bloque» · marcada: Recuperación · 100% correcto · una mano (probable MI)
+- Fragmento 6: 1:06–1:11 · **Recuperación** (alta) · «los acordes del bloque» · marcada: Recuperación · 100% correcto · 248/min · regularidad ±51% · una mano (probable MI)
 
 **Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
 
 
 Tempo contra el plan: Fragmento 3 (Recuperación): 247 ataques/min, sin tempo del plan para comparar. Fragmento 6 (Recuperación): 248 ataques/min, sin tempo del plan para comparar.
 
-Resumen: Se tocaron varios fragmentos de recuperación y uno principal, con alta coincidencia con la partitura (100% en la mayoría). Los fragmentos 3 y 6 mostraron ataques irregulares (variación ±56% y ±51%) y hubo 6 pausas de más de 1.5 s. No hay datos de tempo del plan para comparar.
+Resumen: Se tocaron varios fragmentos, mayormente ejercicios de Recuperación, con alta coincidencia con la partitura (95‑100 %). Los fragmentos 3 y 6 alcanzaron 247‑248 ataques por minuto, sin tempo del plan para comparar, y mantuvieron el mismo ritmo que la toma anterior de Recuperación (248 ataques/min). La regularidad de los ataques mostró variaciones de ±56 % y ±51 % y el fragmento 3 incluyó 6 pausas largas.
 
-Para la próxima: Recuperación: busca ataques más parejos con el metrónomo; hoy los intervalos variaron ±56%.
+Para la próxima: Recuperación: busca ataques más parejos con el metrónomo; hoy los intervalos variaron ±51%.
 
 ### Toma 8 · 21:30
 
@@ -133,15 +145,15 @@ Recuperación · 0:08 · 100% correcto · 248/min · regularidad ±41% · una ma
 ![[2026-11-08 piano día 3 - principal (2).mp3]]
 Principal · 0:08 · 100% correcto · una mano (probable MD) · [[2026-11-08 piano día 3 - principal (2).mid|MIDI]]
 
-- Fragmento 1: 0:02–0:10 · **Recuperación** (alta) · marcada: Principal · 100% correcto · 248/min · regularidad ±41% · una mano (probable MD) · 1 pausas
-- Fragmento 2: 0:12–0:20 · **Principal** (alta) · marcada: Principal · 100% correcto · una mano (probable MD)
+- Fragmento 1: 0:02–0:10 · **Recuperación** (alta) · «los acordes del bloque» · marcada: Principal · 100% correcto · 248/min · regularidad ±41% · una mano (probable MD) · 1 pausas
+- Fragmento 2: 0:12–0:20 · **Principal** (alta) · «A · E♭ y A♭: inversiones, un acorde cada dos clicks» · marcada: Principal · 100% correcto · una mano (probable MD)
 
 **Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
 
 
 Tempo contra el plan: Fragmento 1 (Recuperación): 248 ataques/min, sin tempo del plan para comparar.
 
-Resumen: En el fragmento 1 (Recuperación) tocaste 10 notas en 8 ataques con 100 % de coincidencia, 248 ataques/min y una variación de intervalos de ±41 % además de una pausa larga de 4.9 s; en el fragmento 2 (Principal) ejecutaste 9 notas en 3 ataques, también con 100 % de coincidencia y sin problemas de tempo. No hay tempo de referencia para comparar en la Recuperación, y el Principal se mantuvo alineado con lo pedido. El rendimiento es similar al día anterior, sin mejora notable en la regularidad de los ataques.
+Resumen: En el fragmento 1 (Recuperación) tocaste 10 notas en 8 ataques con 100 % de coincidencia y 248 ataques/min, pero los intervalos entre ataques variaron ±41 % y hubo una pausa larga de 4.9 s. En el fragmento 2 (Principal) ejecutaste 9 notas en 3 ataques, también con 100 % de coincidencia, pero sin datos de tempo para comparar con el plan (que pide 60 bpm). En general, la precisión fue perfecta, pero la regularidad de los ataques necesita mejorar.
 
 Para la próxima: Recuperación: busca ataques más parejos con el metrónomo; hoy los intervalos variaron ±41%.
 
@@ -156,7 +168,7 @@ Para la próxima: Recuperación: busca ataques más parejos con el metrónomo; h
 
 Tempo contra el plan: Fragmento 1: 296 ataques/min, sin tempo del plan para comparar. Fragmento 2: 311 ataques/min, sin tempo del plan para comparar. Fragmento 3: 156 ataques/min, sin tempo del plan para comparar.
 
-Resumen: Se grabaron tres fragmentos (1‑3) sin identificar y con confianza baja. Los tempos fueron 296, 311 y 156 ataques por minuto, y la regularidad de los ataques varió ±7 % en el fragmento 1, ±31 % en el fragmento 2 y ±36 % en el fragmento 3, indicando una ejecución poco pareja. No hay datos de tempo del plan ni historial previo para comparar mejoras.
+Resumen: En la lección Día 3 se grabaron tres fragmentos sin identificar, todos con confianza baja. Los ataques fueron 296, 311 y 156 por minuto, sin tempo del plan para comparar, y la regularidad de los intervalos varió ±7 %, ±31 % y ±36 % respectivamente, indicando una ejecución menos pareja. Se utilizó mayormente una mano (probable MD) con acordes de Bb × 17 y F# × 4.
 
 Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
 
@@ -168,10 +180,10 @@ Principal · 0:12 · 93% correcto · 152/min (plan 30) · regularidad ±42% · l
 ![[2026-11-08 piano día 3 - principal (4).mp3]]
 Principal · 0:03 · 100% correcto · una mano (probable MD) · [[2026-11-08 piano día 3 - principal (4).mid|MIDI]]
 
-- Fragmento 1: 0:05–0:17 · **Principal** (alta) · marcada: Principal · 93% correcto · 152/min (plan 30) · regularidad ±42% · las dos · MI -1 de velocidad frente a MD · 1 pausas · BPM ≈ 152.0 (audio)
-- Fragmento 2: 0:20–0:32 · **Principal** (baja) · marcada: Principal · 74% correcto · 228/min (plan 30) · regularidad ±31% · las dos · MI -4 de velocidad frente a MD · 1 pausas · BPM ≈ 80.7 (audio)
-- Fragmento 3: 0:33–0:36 · **Principal** (alta) · marcada: Principal · 100% correcto · una mano (probable MD)
-- Fragmento 4: 0:39–0:44 · **Principal** (baja) · marcada: Principal · 55% correcto · 247/min (plan 30) · regularidad ±16% · las dos · MI -8 de velocidad frente a MD
+- Fragmento 1: 0:05–0:17 · **Principal** (alta) · «B · F♯, B♭ y B: bloque y quebrada» · marcada: Principal · 93% correcto · 152/min (plan 30) · regularidad ±42% · las dos · MI -1 de velocidad frente a MD · 1 pausas · BPM ≈ 152.0 (audio)
+- Fragmento 2: 0:20–0:32 · **Principal** (baja) · «B · F♯, B♭ y B: bloque y quebrada» · marcada: Principal · 74% correcto · 228/min (plan 30) · regularidad ±31% · las dos · MI -4 de velocidad frente a MD · 1 pausas · BPM ≈ 80.7 (audio)
+- Fragmento 3: 0:33–0:36 · **Principal** (alta) · «A · E♭ y A♭: inversiones, un acorde cada dos clicks» · marcada: Principal · 100% correcto · una mano (probable MD)
+- Fragmento 4: 0:39–0:44 · **Principal** (baja) · «A · E♭ y A♭: inversiones, un acorde cada dos clicks» · marcada: Principal · 55% correcto · 247/min (plan 30) · regularidad ±16% · las dos · MI -8 de velocidad frente a MD
 - Contra la partitura: fragmento 1 en 0:11, esperaba B y sonó Abm7; fragmento 4 en 0:04, esperaba Ab y sonó C (faltó Eb, Ab); fragmento 4 en 0:05, esperaba Eb y sonó Eb (faltó G, Bb); fragmento 4 en 0:05, esperaba Eb y sonó Ab (faltó Eb, G, Bb); fragmento 4 en 0:05, esperaba Eb y sonó Eb (faltó G, Bb)
 
 **Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
@@ -179,13 +191,13 @@ Principal · 0:03 · 100% correcto · una mano (probable MD) · [[2026-11-08 pia
 
 Tempo contra el plan: Fragmento 1 (Principal): 152 ataques/min (equivale a dos por click a 76 o cuatro por click a 38); el plan pide 30 (un ataque cada dos clicks a 60) → 408% más rápido que el plan. Fragmento 2 (Principal): 228 ataques/min (equivale a dos por click a 114 o cuatro por click a 57); el plan pide 30 (un ataque cada dos clicks a 60) → 661% más rápido que el plan. Fragmento 4 (Principal): 247 ataques/min (equivale a dos por click a 124 o cuatro por click a 62); el plan pide 30 (un ataque cada dos clicks a 60) → 724% más rápido que el plan.
 
-Resumen: Se tocó el ejercicio principal en los cuatro fragmentos. La precisión varió de 100 % en el fragmento 3 a 44 % en el fragmento 4, y la velocidad estuvo entre 152 y 247 ataques por minuto, mucho más rápido que los 30 apm que pide el plan. En comparación con sesiones anteriores (100 % correcto) hubo una caída de precisión y se observaron pausas.
+Resumen: Se tocó el bloque y quebrada de B·F♯, B♭ y B y las inversiones de A·E♭ y A♭. La precisión varió del 55 % al 100 %, pero los ataques fueron de 152 a 247 por minuto, mucho más rápido que los 30 /min que pide el plan. En comparación con tomas anteriores, la velocidad sigue siendo alta y la consistencia no ha mejorado.
 
 Para la próxima: Principal: baja a 30 ataques por minuto (un ataque cada dos clicks a 60); hoy fueron 152.
 
 ### Toma 11 · 21:39
 
-- Fragmento 1: 0:03–0:19 · **Principal** (baja) · marcada: Principal · 55% correcto · 238/min (plan 30) · regularidad ±37% · las dos · MI -3 de velocidad frente a MD · BPM ≈ 83.4 (audio)
+- Fragmento 1: 0:03–0:19 · **Principal** (baja) · «B · F♯, B♭ y B: bloque y quebrada» · marcada: Principal · 55% correcto · 238/min (plan 30) · regularidad ±37% · las dos · MI -3 de velocidad frente a MD · BPM ≈ 83.4 (audio)
 - Contra la partitura: fragmento 1 en 0:12, esperaba B y sonó Bb (faltó Eb, F#, B); fragmento 1 en 0:13, esperaba B y sonó Bb (faltó B); fragmento 1 en 0:13, esperaba Eb y sonó Bb (faltó Eb)
 
 **Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
@@ -193,7 +205,7 @@ Para la próxima: Principal: baja a 30 ataques por minuto (un ataque cada dos cl
 
 Tempo contra el plan: Fragmento 1 (Principal): 238 ataques/min (equivale a dos por click a 119 o cuatro por click a 59); el plan pide 30 (un ataque cada dos clicks a 60) → 693% más rápido que el plan.
 
-Resumen: Se tocó el ejercicio Principal con 55 % de coincidencia con la partitura, 238 ataques/min (693 % más rápido que el plan) y variación de intervalos ±37 %. La confianza es baja y el desempeño es peor que en sesiones anteriores.
+Resumen: Se tocó el fragmento 1 (Principal) a 238 ataques/min, 693 % más rápido que el plan de 30 ataques/min, con 55 % de coincidencia con la partitura y variación de intervalos de ±37 %. La confianza fue baja y faltaron notas clave en varios momentos.
 
 Para la próxima: Principal: baja a 30 ataques por minuto (un ataque cada dos clicks a 60); hoy fueron 238.
 
@@ -202,7 +214,7 @@ Para la próxima: Principal: baja a 30 ataques por minuto (un ataque cada dos cl
 ![[2026-11-08 piano día 3 - principal (5).mp3]]
 Principal · 0:03 · 100% correcto · 202/min (plan 30) · regularidad ±7% · las dos · MI -3 de velocidad frente a MD · [[2026-11-08 piano día 3 - principal (5).mid|MIDI]]
 
-- Fragmento 1: 0:05–0:08 · **Principal** (alta) · marcada: Principal · 100% correcto · 202/min (plan 30) · regularidad ±7% · las dos · MI -3 de velocidad frente a MD
+- Fragmento 1: 0:05–0:08 · **Principal** (alta) · «B · F♯, B♭ y B: bloque y quebrada» · marcada: Principal · 100% correcto · 202/min (plan 30) · regularidad ±7% · las dos · MI -3 de velocidad frente a MD
 - Fragmento 2: 0:19–0:53 · marcada: Principal · 248/min · regularidad ±45% · las dos · MI -4 de velocidad frente a MD · 3 pausas · BPM ≈ 123.0 (audio)
 
 **Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
@@ -210,31 +222,16 @@ Principal · 0:03 · 100% correcto · 202/min (plan 30) · regularidad ±7% · l
 
 Tempo contra el plan: Fragmento 1 (Principal): 202 ataques/min (equivale a dos por click a 101 o cuatro por click a 50); el plan pide 30 (un ataque cada dos clicks a 60) → 573% más rápido que el plan. Fragmento 2: 248 ataques/min, sin tempo del plan para comparar.
 
-Resumen: En el fragmento 1 (Principal) tocaste 100 % de la partitura con 202 ataques por minuto, lo que es 573 % más rápido que el objetivo del plan (30 apm). En el fragmento 2, el ejercicio no se identificó, la precisión fue baja y la velocidad fue 248 apm con gran variabilidad (±45 %) y tres pausas mayores a 1,5 s. Comparado con el historial, la velocidad del fragmento 1 se mantiene cerca de los 201‑238 apm anteriores, sin una mejora clara, y la consistencia sigue siendo un reto.
+Resumen: En el fragmento 1 se ejecutó el ejercicio Principal con 100 % de coincidencia, pero a 202 ataques/min, lo que equivale a un 573 % más rápido que el plan; la regularidad de los ataques estuvo dentro de ±7 %. En el fragmento 2 no se identificó ejercicio, la confianza es baja y la variabilidad de los ataques es alta (±45 %). Según el historial, la velocidad del Principal se mantiene en el rango de tomas anteriores y la precisión ha mejorado, alcanzando el 100 % en este intento.
 
 Para la próxima: Principal: baja a 30 ataques por minuto (un ataque cada dos clicks a 60); hoy fueron 202.
 
 ### Toma 13 · 21:41
 
-![[2026-11-08 piano día 3 - principal (6).mp3]]
-Principal · 0:07 · 100% correcto · 237/min (plan 30) · regularidad ±17% · las dos · MI -5 de velocidad frente a MD · [[2026-11-08 piano día 3 - principal (6).mid|MIDI]]
-
-![[2026-11-08 piano día 3 - principal (7).mp3]]
-Principal · 0:04 · 88% correcto · 218/min (plan 30) · regularidad ±41% · las dos · MI +3 de velocidad frente a MD · [[2026-11-08 piano día 3 - principal (7).mid|MIDI]]
-
-- Fragmento 1: 0:04–0:11 · **Principal** (alta) · marcada: Principal · 100% correcto · 237/min (plan 30) · regularidad ±17% · las dos · MI -5 de velocidad frente a MD
-- Fragmento 2: 0:15–0:23 · **Principal** (baja) · marcada: Principal · 91% correcto · 242/min (plan 30) · regularidad ±27% · las dos · MI -8 de velocidad frente a MD · 1 pausas · BPM ≈ 68.0 (audio)
-- Fragmento 3: 0:28–0:33 · **Principal** (media) · marcada: Principal · 88% correcto · 218/min (plan 30) · regularidad ±41% · las dos · MI +3 de velocidad frente a MD
+- Fragmento 1: 0:04–0:11 · **Principal** (alta) · «B · F♯, B♭ y B: bloque y quebrada» · marcada: Principal · 100% correcto · 237/min (plan 30) · regularidad ±17% · las dos · MI -5 de velocidad frente a MD
+- Fragmento 2: 0:15–0:23 · **Principal** (baja) · «B · F♯, B♭ y B: bloque y quebrada» · marcada: Principal · 91% correcto · 242/min (plan 30) · regularidad ±27% · las dos · MI -8 de velocidad frente a MD · 1 pausas · BPM ≈ 68.0 (audio)
+- Fragmento 3: 0:28–0:33 · **Principal** (media) · «B · F♯, B♭ y B: bloque y quebrada» · marcada: Principal · 88% correcto · 218/min (plan 30) · regularidad ±41% · las dos · MI +3 de velocidad frente a MD
 - Contra la partitura: fragmento 2 en 0:04, esperaba Bb y sonó D+Bb (faltó F); fragmento 3 en 0:02, esperaba Bb y sonó C (faltó Bb)
-
-**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
-
-
-Tempo contra el plan: Fragmento 1 (Principal): 237 ataques/min (equivale a dos por click a 118 o cuatro por click a 59); el plan pide 30 (un ataque cada dos clicks a 60) → 689% más rápido que el plan. Fragmento 2 (Principal): 242 ataques/min (equivale a dos por click a 121 o cuatro por click a 60); el plan pide 30 (un ataque cada dos clicks a 60) → 705% más rápido que el plan. Fragmento 3 (Principal): 218 ataques/min (equivale a dos por click a 109 o cuatro por click a 55); el plan pide 30 (un ataque cada dos clicks a 60) → 628% más rápido que el plan.
-
-Resumen: Se tocó el ejercicio Principal en los tres fragmentos. El porcentaje de coincidencia con la partitura estuvo entre 88 % y 100 %, pero los ataques fueron de 218 – 242 por minuto, es decir más del 600 % del ritmo solicitado (30 apm). Además se observaron variaciones de intervalo y faltas en notas Bb.
-
-Para la próxima: Principal: baja a 30 ataques por minuto (un ataque cada dos clicks a 60); hoy fueron 237.
 
 ### Toma 14 · 21:42
 
@@ -292,8 +289,8 @@ Para la próxima: Sleep on the Floor: repasa C despacio; sonó Am (faltó G).
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
 |---|--:|--:|--:|--:|--:|--:|
-| Hanon 1 | 4 | 2.3 | 56% | 121 | 121 | 100 |
-| Principal | 7 | 2.1 | 90% | 180 | 242 | 30 |
+| Hanon 1 | 5 | 2.9 | 57% | 121 | 121 | 100 |
+| Principal | 6 | 1.8 | 89% | 180 | 202 | 30 |
 | Recuperación | 2 | 0.6 | 99% | 248 | 248 | — |
 | Sleep on the Floor | 1 | 0.1 | 67% | — | — | — |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
