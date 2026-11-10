@@ -22,9 +22,9 @@ const PULSO = 46; // negra con punto. La partitura dice negra = 72: es lo mismo 
 const DESDE = 1; // primer compás que suena; el 1 es la anacrusa
 const HASTA = 15; // último. Para quedarte en un pedazo: DESDE = 10, HASTA = 14
 
-const MELODIA = "gm_violin"; // mano derecha. Prueba (§3.3, §7.4): organ_full · gm_epiano1 ·
+const MELODIA = "triangle"; // mano derecha. Prueba (§3.3, §7.4): organ_full · gm_epiano1 ·
 //   vibraphone · gm_voice_oohs · triangle · square
-const ARPEGIO = "gm_viola"; // mano izquierda. Prueba (§3.3, §6.1): organ_8inch · piano1 ·
+const ARPEGIO = "gm_electric_guitar_clean"; // mano izquierda. Prueba (§3.3, §6.1): organ_8inch · piano1 ·
 //   gm_electric_guitar_clean · gm_synth_strings_2 · pulse
 
 const VIBRATO = 0; // 1 = el temblor de órgano viejo (§3.1). Solo en sintes y samples, no en gm_*
@@ -178,6 +178,9 @@ const melodia = tiembla(
   note(compases(MD))
     .s(MELODIA)
     .vib(5)
+    .lpf(1800)
+    .penv(0.5)
+    .pattack(0.12)
     .vibmod(0.08)
     .delay(0.3)
     .delaysync(1 / 4)
@@ -188,7 +191,9 @@ const arpegio = tiembla(note(compases(MI)).s(ARPEGIO))
   .delay(0.45)
   .delaysync(3 / 16)
   .delayfeedback(0.5)
-  .room(0.5);
+  .room(0.5)
+  .tremolosync(8)
+  .tremolodepth(0.7);
 
 gastado(
   stack(
