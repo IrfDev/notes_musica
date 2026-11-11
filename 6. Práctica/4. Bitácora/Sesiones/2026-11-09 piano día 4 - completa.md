@@ -64,7 +64,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 20 | 11:26 | 1:29 | -29.1 dBFS | Recuperación | listo |
 | 21 | 11:28 | 1:32 | -19.86 dBFS | Recuperación | listo |
 | 22 | 11:29 | 0:29 | -29.8 dBFS | Principal | listo |
-| 23 | 11:30 | 0:18 | -30.08 dBFS | Principal | procesando |
+| 23 | 11:30 | 0:18 | -30.08 dBFS | Principal | listo |
 
 ### Toma 1 · 21:52
 
@@ -727,14 +727,26 @@ Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección
 
 ### Toma 23 · 11:30
 
+![[2026-11-11 piano día 4 - principal (2).mp3]]
+Principal · 0:16 · 100% correcto · 26/min · regularidad ±14% · una mano (probable MD) · [[2026-11-11 piano día 4 - principal (2).mid|MIDI]]
+
 - Fragmento 1: 0:02–0:17 · **Principal** (alta) · «A · Grupo 1: inversiones con la MI» · marcada: Principal · 100% correcto · 26/min · regularidad ±14% · una mano (probable MD) · BPM ≈ 99.4 (audio)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 1 (Principal): 26 ataques/min, sin tempo del plan para comparar.
+
+Resumen: En el fragmento 1 (Principal) se tocaron 21 notas en 7 ataques durante 15,7 s, con 100 % de coincidencia con la partitura y 26 ataques por minuto; la variación entre ataques fue ±14 %, indicando cierta irregularidad. El tempo está muy por debajo del objetivo del plan (60 ataques/min), pero la exactitud es perfecta, mejorando respecto a tomas anteriores que mostraban mayor velocidad y menor corrección.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
 
 ## Progreso · 30 días hasta esta sesión
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
 |---|--:|--:|--:|--:|--:|--:|
 | Hanon 1 | 9 | 6.2 | 66% | 205 | 205 | 100 |
-| Principal | 16 | 4.3 | 84% | 38 | 242 | — |
+| Principal | 17 | 4.5 | 85% | 26 | 242 | — |
 | Hanon 2 | 3 | 3.8 | 90% | 180 | 220 | 100 |
 | Recuperación | 14 | 2.9 | 97% | 248 | 248 | — |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
