@@ -5,8 +5,8 @@ fecha: 2026-11-09
 dia_programa: 4
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inversiones con la MI|Día 4 · Inversiones con la MI]]"
-tomas: 17
-minutos_grabados: 14.3
+tomas: 19
+minutos_grabados: 17.5
 estado: abierta
 fuente: frai-estudio
 ---
@@ -57,6 +57,8 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 15 | 16:29 | 0:54 | -28.28 dBFS | Principal | listo |
 | 16 | 16:31 | 0:07 | -23.64 dBFS |  | listo |
 | 17 | 16:31 | 0:28 | -25.47 dBFS | Principal | listo |
+| 18 | 11:22 | 0:22 | -25.29 dBFS | Hanon 2 | listo |
+| 19 | 11:23 | 2:51 | -16.41 dBFS | Hanon 2 | procesando |
 
 ### Toma 1 · 21:52
 
@@ -540,6 +542,26 @@ Resumen: En la lección Día 4 · Inversiones con la MI se tocaron principalment
 
 Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
 
+### Toma 18 · 11:22
+
+![[2026-11-11 piano día 4 - hanon 2.mp3]]
+Hanon 2 · 0:06 · 100% correcto · 170/min (plan 100) · regularidad ±55% · las dos · MI +6 de velocidad frente a MD · pedal 100% · [[2026-11-11 piano día 4 - hanon 2.mid|MIDI]]
+
+![[2026-11-11 piano día 4 - hanon 2 (2).mp3]]
+Hanon 2 · 0:07 · 100% correcto · 220/min (plan 100) · regularidad ±56% · las dos · MI -2 de velocidad frente a MD · 1 pausas · pedal 100% · [[2026-11-11 piano día 4 - hanon 2 (2).mid|MIDI]]
+
+- Fragmento 1: 0:03–0:09 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · 100% correcto · 170/min (plan 100) · regularidad ±55% · las dos · MI +6 de velocidad frente a MD · pedal 100%
+- Fragmento 2: 0:12–0:18 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · 100% correcto · 220/min (plan 100) · regularidad ±56% · las dos · MI -2 de velocidad frente a MD · 1 pausas · pedal 100%
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 1 (Hanon 2): 170 ataques/min (equivale a dos por click a 85 o cuatro por click a 42); el plan pide 100 (una por click a 100) → 70% más rápido que el plan. Fragmento 2 (Hanon 2): 220 ataques/min (equivale a dos por click a 110 o cuatro por click a 55); el plan pide 100 (una por click a 100) → 120% más rápido que el plan.
+
+Resumen: Se tocó Hanon 2 en dos fragmentos, con 100 % de coincidencia con la partitura. Los ataques fueron 170 y 220 por minuto, es decir, 70 % y 120 % más rápidos que el plan de 100 /min, y los intervalos entre ataques variaron ±55 % y ±56 %. Hubo una pausa de 2 s.
+
+Para la próxima: Hanon 2: baja a 100 ataques por minuto (una por click a 100); hoy fueron 170.
+
 ## Progreso · 30 días hasta esta sesión
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
@@ -547,7 +569,7 @@ Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección
 | Hanon 1 | 8 | 6.1 | 61% | 237 | 121 | 100 |
 | Principal | 15 | 4.2 | 84% | 38 | 242 | — |
 | Recuperación | 12 | 2.3 | 97% | 248 | 248 | — |
-| Hanon 2 | 1 | 1.2 | 79% | 134 | 134 | 100 |
+| Hanon 2 | 2 | 1.4 | 88% | 220 | 220 | 100 |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
 ## Mis notas
