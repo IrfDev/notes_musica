@@ -5,8 +5,8 @@ fecha: 2026-11-09
 dia_programa: 4
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inversiones con la MI|Día 4 · Inversiones con la MI]]"
-tomas: 19
-minutos_grabados: 17.5
+tomas: 23
+minutos_grabados: 21.3
 estado: abierta
 fuente: frai-estudio
 ---
@@ -35,6 +35,8 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 16:31 | Aplicación |
 | 10:31 | Principal |
 | 10:32 | Hanon 2 |
+| 11:25 | Recuperación |
+| 11:29 | Principal |
 
 ## Tomas
 
@@ -58,7 +60,11 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 16 | 16:31 | 0:07 | -23.64 dBFS |  | listo |
 | 17 | 16:31 | 0:28 | -25.47 dBFS | Principal | listo |
 | 18 | 11:22 | 0:22 | -25.29 dBFS | Hanon 2 | listo |
-| 19 | 11:23 | 2:51 | -16.41 dBFS | Hanon 2 | procesando |
+| 19 | 11:23 | 2:51 | -16.41 dBFS | Hanon 2 | listo |
+| 20 | 11:26 | 1:29 | -29.1 dBFS | Recuperación | listo |
+| 21 | 11:28 | 1:32 | -19.86 dBFS | Recuperación | listo |
+| 22 | 11:29 | 0:29 | -29.8 dBFS | Principal | listo |
+| 23 | 11:30 | 0:18 | -30.08 dBFS | Principal | procesando |
 
 ### Toma 1 · 21:52
 
@@ -562,14 +568,175 @@ Resumen: Se tocó Hanon 2 en dos fragmentos, con 100 % de coincidencia con la pa
 
 Para la próxima: Hanon 2: baja a 100 ataques por minuto (una por click a 100); hoy fueron 170.
 
+### Toma 19 · 11:23
+
+![[2026-11-11 piano día 4 - hanon 2 (3).mp3]]
+Hanon 2 · 1:04 · ⚠ pasada incompleta: 10 de 14 celdas de subida y 0 de 15 de bajada · 67% correcto · 198/min (plan 100) · regularidad ±58% · las dos · MI -3 de velocidad frente a MD · 2 pausas · [[2026-11-11 piano día 4 - hanon 2 (3).mid|MIDI]]
+
+![[2026-11-11 piano día 4 - hanon 2 (4).mp3]]
+Hanon 2 · 0:27 · 75% correcto · 170/min (plan 100) · regularidad ±50% · las dos · MI -4 de velocidad frente a MD · 7 pausas · [[2026-11-11 piano día 4 - hanon 2 (4).mid|MIDI]]
+
+![[2026-11-11 piano día 4 - hanon 2 (5).mp3]]
+Hanon 2 · 0:06 · 100% correcto · 158/min (plan 100) · regularidad ±59% · las dos · MI -11 de velocidad frente a MD · [[2026-11-11 piano día 4 - hanon 2 (5).mid|MIDI]]
+
+![[2026-11-11 piano día 4 - hanon 2 (6).mp3]]
+Hanon 2 · 0:06 · 100% correcto · 146/min (plan 100) · regularidad ±38% · las dos · MI -2 de velocidad frente a MD · 1 pausas · [[2026-11-11 piano día 4 - hanon 2 (6).mid|MIDI]]
+
+![[2026-11-11 piano día 4 - hanon 2 (7).mp3]]
+Hanon 2 · 0:13 · 100% correcto · 161/min (plan 100) · regularidad ±51% · las dos · MI -9 de velocidad frente a MD · 2 pausas · [[2026-11-11 piano día 4 - hanon 2 (7).mid|MIDI]]
+
+![[2026-11-11 piano día 4 - hanon 1.mp3]]
+Hanon 1 · 0:09 · 100% correcto · 205/min (plan 100) · regularidad ±58% · las dos · MI -6 de velocidad frente a MD · 1 pausas · [[2026-11-11 piano día 4 - hanon 1.mid|MIDI]]
+
+![[2026-11-11 piano día 4 - hanon 2 (8).mp3]]
+Hanon 2 · 0:12 · 100% correcto · 180/min (plan 100) · regularidad ±37% · las dos · MI -2 de velocidad frente a MD · 3 pausas · [[2026-11-11 piano día 4 - hanon 2 (8).mid|MIDI]]
+
+![[2026-11-11 piano día 4 - hanon 2 (9).mp3]]
+Hanon 2 · 0:10 · 100% correcto · 180/min (plan 100) · regularidad ±52% · las dos · MI -8 de velocidad frente a MD · 1 pausas · [[2026-11-11 piano día 4 - hanon 2 (9).mid|MIDI]]
+
+- Fragmento 1: 0:01–1:05 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · ⚠ pasada incompleta: 10 de 14 celdas de subida y 0 de 15 de bajada · 67% correcto · 198/min (plan 100) · regularidad ±58% · las dos · MI -3 de velocidad frente a MD · 2 pausas · BPM ≈ 143.6 (audio)
+- Fragmento 2: 1:07–1:09 · marcada: Hanon 1 y 2
+- Fragmento 3: 1:12–1:39 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · 75% correcto · 170/min (plan 100) · regularidad ±50% · las dos · MI -4 de velocidad frente a MD · 7 pausas · BPM ≈ 117.5 (audio)
+- Fragmento 4: 1:40–1:46 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · 100% correcto · 158/min (plan 100) · regularidad ±59% · las dos · MI -11 de velocidad frente a MD
+- Fragmento 5: 1:47–1:54 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · 100% correcto · 146/min (plan 100) · regularidad ±38% · las dos · MI -2 de velocidad frente a MD · 1 pausas
+- Fragmento 6: 1:56–2:09 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · 100% correcto · 161/min (plan 100) · regularidad ±51% · las dos · MI -9 de velocidad frente a MD · 2 pausas · BPM ≈ 68.0 (audio)
+- Fragmento 7: 2:11–2:20 · **Hanon 1** (alta) · «Hanon 1 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · 100% correcto · 205/min (plan 100) · regularidad ±58% · las dos · MI -6 de velocidad frente a MD · 1 pausas · BPM ≈ 61.5 (audio)
+- Fragmento 8: 2:22–2:24 · marcada: Hanon 1 y 2
+- Fragmento 9: 2:26–2:38 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · 100% correcto · 180/min (plan 100) · regularidad ±37% · las dos · MI -2 de velocidad frente a MD · 3 pausas · BPM ≈ 107.7 (audio)
+- Fragmento 10: 2:40–2:51 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · 100% correcto · 180/min (plan 100) · regularidad ±52% · las dos · MI -8 de velocidad frente a MD · 1 pausas · BPM ≈ 89.1 (audio)
+- Contra la partitura: fragmento 3 en 0:07, esperaba F y sonó D (faltó F); fragmento 3 en 0:20, esperaba A y sonó B (faltó A)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 1 (Hanon 2): 198 ataques/min (equivale a dos por click a 99 o cuatro por click a 49); el plan pide 100 (una por click a 100) → 98% más rápido que el plan. Fragmento 3 (Hanon 2): 170 ataques/min (equivale a dos por click a 85 o cuatro por click a 42); el plan pide 100 (una por click a 100) → 70% más rápido que el plan. Fragmento 4 (Hanon 2): 158 ataques/min (equivale a dos por click a 79 o cuatro por click a 40); el plan pide 100 (una por click a 100) → 58% más rápido que el plan. Fragmento 5 (Hanon 2): 146 ataques/min; el plan pide 100 (una por click a 100) → 46% más rápido que el plan. Fragmento 6 (Hanon 2): 161 ataques/min (equivale a dos por click a 80 o cuatro por click a 40); el plan pide 100 (una por click a 100) → 61% más rápido que el plan. Fragmento 7 (Hanon 1): 205 ataques/min (equivale a dos por click a 102 o cuatro por click a 51); el plan pide 100 (una por click a 100) → 105% más rápido que el plan. Fragmento 9 (Hanon 2): 180 ataques/min (equivale a dos por click a 90 o cuatro por click a 45); el plan pide 100 (una por click a 100) → 80% más rápido que el plan. Fragmento 10 (Hanon 2): 180 ataques/min (equivale a dos por click a 90 o cuatro por click a 45); el plan pide 100 (una por click a 100) → 80% más rápido que el plan.
+
+Resumen: Se trabajó principalmente Hanon 2, con la primera pasada incompleta (solo 10 de 14 celdas ascendentes y ninguna descendente) y luego pasadas completas con 100 % de coincidencia. El tempo estuvo muy por encima del objetivo, entre 146 y 205 ataques/min, hasta un 98 % más rápido que el plan. La precisión mejoró, aunque siguen presentes pausas y variación de intervalos.
+
+Para la próxima: Hanon 2: toca la pasada completa, sube las 14 celdas y baja las 15 (hoy 10 y 0); si no alcanza el tiempo, baja el tempo en vez de cortar la pasada.
+
+### Toma 20 · 11:26
+
+![[2026-11-11 piano día 4 - recuperación.mp3]]
+Recuperación · 0:05 · 100% correcto · una mano (probable MD) · pedal 100% · [[2026-11-11 piano día 4 - recuperación.mid|MIDI]]
+
+![[2026-11-11 piano día 4 - recuperación (2).mp3]]
+Recuperación · 0:04 · 100% correcto · una mano (probable MD) · pedal 100% · [[2026-11-11 piano día 4 - recuperación (2).mid|MIDI]]
+
+![[2026-11-11 piano día 4 - recuperación (3).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MD) · pedal 100% · [[2026-11-11 piano día 4 - recuperación (3).mid|MIDI]]
+
+![[2026-11-11 piano día 4 - recuperación (4).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MD) · pedal 100% · [[2026-11-11 piano día 4 - recuperación (4).mid|MIDI]]
+
+![[2026-11-11 piano día 4 - recuperación (5).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MD) · pedal 100% · [[2026-11-11 piano día 4 - recuperación (5).mid|MIDI]]
+
+![[2026-11-11 piano día 4 - recuperación (6).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MD) · pedal 100% · [[2026-11-11 piano día 4 - recuperación (6).mid|MIDI]]
+
+![[2026-11-11 piano día 4 - recuperación (7).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MD) · pedal 100% · [[2026-11-11 piano día 4 - recuperación (7).mid|MIDI]]
+
+![[2026-11-11 piano día 4 - recuperación (8).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MD) · pedal 100% · [[2026-11-11 piano día 4 - recuperación (8).mid|MIDI]]
+
+- Fragmento 1: 0:08–0:12 · marcada: Recuperación
+- Fragmento 2: 0:22–0:27 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Recuperación · 100% correcto · una mano (probable MD) · pedal 100%
+- Fragmento 3: 0:28–0:33 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Recuperación · 100% correcto · una mano (probable MD) · pedal 100%
+- Fragmento 4: 0:38–0:40 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Recuperación · 100% correcto · una mano (probable MD) · pedal 100%
+- Fragmento 5: 0:42–0:44 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Recuperación · 100% correcto · una mano (probable MD) · pedal 100%
+- Fragmento 6: 0:46–0:48 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Recuperación · 100% correcto · una mano (probable MD) · pedal 100%
+- Fragmento 7: 0:51–0:53 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Recuperación · 100% correcto · una mano (probable MD) · pedal 100%
+- Fragmento 8: 0:59–1:01 · marcada: Recuperación
+- Fragmento 9: 1:04–1:11 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 10: 1:14–1:16 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Recuperación · 100% correcto · una mano (probable MD) · pedal 100%
+- Fragmento 11: 1:21–1:23 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Recuperación · 100% correcto · una mano (probable MD) · pedal 100%
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: En la sesión se ejecutó mayormente el ejercicio de Recuperación del "círculo en fundamental", con coincidencia del 100 % con la partitura y alta confianza en todos los fragmentos identificados. No se obtuvo suficiente información rítmica para medir el tempo, y los fragmentos sin identificar mostraron poca o nula coincidencia. En comparación con el historial, la precisión se mantiene alta y constante.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 21 · 11:28
+
+![[2026-11-11 piano día 4 - recuperación (9).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MI) · pedal 100% · [[2026-11-11 piano día 4 - recuperación (9).mid|MIDI]]
+
+![[2026-11-11 piano día 4 - recuperación (10).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MD) · pedal 100% · [[2026-11-11 piano día 4 - recuperación (10).mid|MIDI]]
+
+![[2026-11-11 piano día 4 - recuperación (11).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MI) · pedal 100% · [[2026-11-11 piano día 4 - recuperación (11).mid|MIDI]]
+
+![[2026-11-11 piano día 4 - recuperación (12).mp3]]
+Recuperación · 0:03 · 50% correcto · una mano (probable MD) · pedal 100% · [[2026-11-11 piano día 4 - recuperación (12).mid|MIDI]]
+
+![[2026-11-11 piano día 4 - recuperación (13).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MD) · pedal 100% · [[2026-11-11 piano día 4 - recuperación (13).mid|MIDI]]
+
+![[2026-11-11 piano día 4 - recuperación (14).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MI) · pedal 100% · [[2026-11-11 piano día 4 - recuperación (14).mid|MIDI]]
+
+![[2026-11-11 piano día 4 - recuperación (15).mp3]]
+Recuperación · 0:04 · 100% correcto · una mano (probable MD) · pedal 72% · [[2026-11-11 piano día 4 - recuperación (15).mid|MIDI]]
+
+- Fragmento 1: 0:11–0:13 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Recuperación · 100% correcto · una mano (probable MI) · pedal 100%
+- Fragmento 2: 0:14–0:16 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Recuperación · 100% correcto · una mano (probable MD) · pedal 100%
+- Fragmento 3: 0:18–0:20 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Recuperación · 100% correcto · una mano (probable MI) · pedal 100%
+- Fragmento 4: 0:21–0:24 · **Recuperación** (media) · «El círculo en fundamental» · marcada: Recuperación · 50% correcto · una mano (probable MD) · pedal 100%
+- Fragmento 5: 0:29–0:31 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 6: 0:35–0:40 · marcada: Recuperación · una mano (probable MI) · pedal 100%
+- Fragmento 7: 0:46–0:48 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Recuperación · 100% correcto · una mano (probable MD) · pedal 100%
+- Fragmento 8: 0:57–1:03 · marcada: Recuperación · una mano (probable MI) · pedal 100%
+- Fragmento 9: 1:04–1:06 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Recuperación · 100% correcto · una mano (probable MI) · pedal 100%
+- Fragmento 10: 1:10–1:15 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 11: 1:19–1:25 · marcada: Recuperación · una mano (probable MI) · pedal 100%
+- Fragmento 12: 1:28–1:32 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Recuperación · 100% correcto · una mano (probable MD) · pedal 72%
+- Contra la partitura: fragmento 4 en 0:00, esperaba C y sonó A (faltó C, E, G)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: Se tocaron 14 fragmentos; 9 fueron identificados como ejercicio de Recuperación del círculo en fundamental con 100 % de coincidencia y alta confianza, mientras que 5 fragmentos fueron clasificados como sin identificar con baja confianza. El pedal estuvo abajo el 100 % del tiempo en los fragmentos correctos (y el 72 % en el último), y no hubo datos suficientes para medir el tempo respecto al plan. En comparación con el historial reciente, la ejecución mantiene el nivel de 100 % de aciertos observado en las tomas anteriores, sin deterioro aparente.
+
+Para la próxima: Recuperación: repasa C despacio; sonó A (faltó C, E, G).
+
+### Toma 22 · 11:29
+
+![[2026-11-11 piano día 4 - principal.mp3]]
+Principal · 0:06 · 100% correcto · una mano (probable MI) · pedal 100% · [[2026-11-11 piano día 4 - principal.mid|MIDI]]
+
+- Fragmento 1: 0:08–0:16 · marcada: Principal · 44/min · regularidad ±70% · una mano (probable MI) · pedal 100%
+- Fragmento 2: 0:22–0:28 · **Principal** (alta) · «A · Grupo 1: inversiones con la MI» · marcada: Principal · 100% correcto · una mano (probable MI) · pedal 100%
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 1: 44 ataques/min, sin tempo del plan para comparar.
+
+Resumen: En el fragmento 1 se tocó una mano con acordes C, C/E y C/G, pero la ejecución fue irregular (variación ±70 % entre ataques) y la confianza es baja; no hay referencia de tempo del plan. En el fragmento 2 la ejecución coincidió al 100 % con la partitura del ejercicio «Principal», con ritmo estable y pedal constante, y la confianza es alta. En comparación con tomas anteriores, la precisión ha pasado de valores parciales a 100 % correcto, evidenciando una mejora.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 23 · 11:30
+
+- Fragmento 1: 0:02–0:17 · **Principal** (alta) · «A · Grupo 1: inversiones con la MI» · marcada: Principal · 100% correcto · 26/min · regularidad ±14% · una mano (probable MD) · BPM ≈ 99.4 (audio)
+
 ## Progreso · 30 días hasta esta sesión
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
 |---|--:|--:|--:|--:|--:|--:|
-| Hanon 1 | 8 | 6.1 | 61% | 237 | 121 | 100 |
-| Principal | 15 | 4.2 | 84% | 38 | 242 | — |
-| Recuperación | 12 | 2.3 | 97% | 248 | 248 | — |
-| Hanon 2 | 2 | 1.4 | 88% | 220 | 220 | 100 |
+| Hanon 1 | 9 | 6.2 | 66% | 205 | 205 | 100 |
+| Principal | 16 | 4.3 | 84% | 38 | 242 | — |
+| Hanon 2 | 3 | 3.8 | 90% | 180 | 220 | 100 |
+| Recuperación | 14 | 2.9 | 97% | 248 | 248 | — |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
 ## Mis notas
