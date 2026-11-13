@@ -22,9 +22,9 @@ const PULSO = 46; // negra con punto. La partitura dice negra = 72: es lo mismo 
 const DESDE = 1; // primer compás que suena; el 1 es la anacrusa
 const HASTA = 15; // último. Para quedarte en un pedazo: DESDE = 10, HASTA = 14
 
-const MELODIA = "triangle"; // mano derecha. Prueba (§3.3, §7.4): organ_full · gm_epiano1 ·
+const MELODIA = "piano"; // mano derecha. Prueba (§3.3, §7.4): organ_full · gm_epiano1 ·
 //   vibraphone · gm_voice_oohs · triangle · square
-const ARPEGIO = "gm_electric_guitar_clean"; // mano izquierda. Prueba (§3.3, §6.1): organ_8inch · piano1 ·
+const ARPEGIO = "piano1"; // mano izquierda. Prueba (§3.3, §6.1): organ_8inch · piano1 ·
 //   gm_electric_guitar_clean · gm_synth_strings_2 · pulse
 
 const VIBRATO = 0; // 1 = el temblor de órgano viejo (§3.1). Solo en sintes y samples, no en gm_*
