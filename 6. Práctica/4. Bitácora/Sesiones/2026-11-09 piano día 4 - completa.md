@@ -5,8 +5,8 @@ fecha: 2026-11-09
 dia_programa: 4
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inversiones con la MI|Día 4 · Inversiones con la MI]]"
-tomas: 36
-minutos_grabados: 32.3
+tomas: 37
+minutos_grabados: 35.2
 estado: abierta
 fuente: frai-estudio
 ---
@@ -83,7 +83,8 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 33 | 23:46 | 1:45 | -26.28 dBFS | Sleep on the Floor | listo |
 | 34 | 23:49 | 0:01 | -39.16 dBFS |  | listo |
 | 35 | 23:49 | 1:35 | -27.41 dBFS | Hanon 2 | listo |
-| 36 | 23:50 | 2:05 | -28.87 dBFS | Hanon 2 | procesando |
+| 36 | 23:50 | 2:05 | -28.87 dBFS | Hanon 2 | listo |
+| 37 | 23:54 | 2:54 | -28.02 dBFS | Hanon 2 | listo |
 
 ### Toma 1 · 21:52
 
@@ -903,21 +904,82 @@ Para la próxima: Hanon 1: toca la pasada completa, sube las 14 celdas y baja la
 
 ### Toma 36 · 23:50
 
+![[2026-11-14 piano día 4 - hanon 2.mp3]]
+Hanon 2 · 0:19 · ⚠ pasada incompleta: 3 de 14 celdas de subida y 0 de 15 de bajada · 100% correcto · 199/min (plan 100) · regularidad ±54% · las dos · MI -6 de velocidad frente a MD · 2 pausas · [[2026-11-14 piano día 4 - hanon 2.mid|MIDI]]
+
+![[2026-11-14 piano día 4 - hanon 2 (2).mp3]]
+Hanon 2 · 1:09 · ⚠ pasada incompleta: 9 de 14 celdas de subida y 0 de 15 de bajada · 59% correcto · 192/min (plan 100) · regularidad ±49% · las dos · MI -5 de velocidad frente a MD · 4 pausas · [[2026-11-14 piano día 4 - hanon 2 (2).mid|MIDI]]
+
+![[2026-11-14 piano día 4 - hanon 2 (3).mp3]]
+Hanon 2 · 0:25 · 29% correcto · 270/min (plan 100) · regularidad ±47% · las dos · MI +3 de velocidad frente a MD · 2 pausas · [[2026-11-14 piano día 4 - hanon 2 (3).mid|MIDI]]
+
 - Fragmento 1: 0:03–0:23 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · ⚠ pasada incompleta: 3 de 14 celdas de subida y 0 de 15 de bajada · 100% correcto · 199/min (plan 100) · regularidad ±54% · las dos · MI -6 de velocidad frente a MD · 2 pausas · BPM ≈ 103.4 (audio)
 - Fragmento 2: 0:24–1:33 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · ⚠ pasada incompleta: 9 de 14 celdas de subida y 0 de 15 de bajada · 59% correcto · 192/min (plan 100) · regularidad ±49% · las dos · MI -5 de velocidad frente a MD · 4 pausas · BPM ≈ 117.5 (audio)
 - Fragmento 3: 1:36–1:38 · marcada: Hanon 1 y 2
 - Fragmento 4: 1:41–2:05 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · 29% correcto · 270/min (plan 100) · regularidad ±47% · las dos · MI +3 de velocidad frente a MD · 2 pausas · BPM ≈ 99.4 (audio)
 - Contra la partitura: fragmento 4 en 0:14, esperaba C y sonó D (faltó C); fragmento 4 en 0:19, esperaba D y sonó C+B (faltó D)
 
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 1 (Hanon 2): 199 ataques/min (equivale a dos por click a 100 o cuatro por click a 50); el plan pide 100 (una por click a 100) → 99% más rápido que el plan. Fragmento 2 (Hanon 2): 192 ataques/min (equivale a dos por click a 96 o cuatro por click a 48); el plan pide 100 (una por click a 100) → 92% más rápido que el plan. Fragmento 4 (Hanon 2): 270 ataques/min (equivale a dos por click a 135 o cuatro por click a 68); el plan pide 100 (una por click a 100) → 170% más rápido que el plan.
+
+Resumen: Se trabajó el ejercicio Hanon 2 (pasada completa) en los fragmentos 1, 2 y 4. La ejecución fue mucho más rápida que el plan (199, 192 y 270 ataques/min, entre 99 % y 170 % más rápido) y la pasada quedó incompleta (solo 3‑9 de 14 celdas ascendentes y ninguna descendente). La precisión fue del 100 % en el fragmento 1, 59 % en el 2 y 29 % en el 4, con variaciones de intervalo de ±54 % y varias pausas, aunque ligeramente más rápido que en tomas anteriores.
+
+Para la próxima: Hanon 2: toca la pasada completa, sube las 14 celdas y baja las 15 (hoy 3 y 0); si no alcanza el tiempo, baja el tempo en vez de cortar la pasada.
+
+### Toma 37 · 23:54
+
+![[2026-11-14 piano día 4 - hanon 2 (4).mp3]]
+Hanon 2 · 0:15 · ⚠ pasada incompleta: 3 de 14 celdas de subida y 0 de 15 de bajada · 75% correcto · 242/min (plan 100) · regularidad ±55% · las dos · MI -6 de velocidad frente a MD · [[2026-11-14 piano día 4 - hanon 2 (4).mid|MIDI]]
+
+![[2026-11-14 piano día 4 - hanon 1 y 2.mp3]]
+Hanon 1 y 2 · 0:27 · ⚠ pasada incompleta: 4 de 14 celdas de subida y 0 de 15 de bajada · 67% correcto · 237/min (plan 100) · regularidad ±47% · las dos · MI -7 de velocidad frente a MD · 2 pausas · [[2026-11-14 piano día 4 - hanon 1 y 2.mid|MIDI]]
+
+![[2026-11-14 piano día 4 - hanon 2 (5).mp3]]
+Hanon 2 · 0:23 · 33% correcto · 148/min (plan 100) · regularidad ±57% · las dos · MI -7 de velocidad frente a MD · 3 pausas · [[2026-11-14 piano día 4 - hanon 2 (5).mid|MIDI]]
+
+![[2026-11-14 piano día 4 - hanon 2 (6).mp3]]
+Hanon 2 · 0:06 · 100% correcto · 195/min (plan 100) · regularidad ±45% · las dos · MI -7 de velocidad frente a MD · 1 pausas · [[2026-11-14 piano día 4 - hanon 2 (6).mid|MIDI]]
+
+![[2026-11-14 piano día 4 - hanon 2 (7).mp3]]
+Hanon 2 · 1:06 · ⚠ pasada incompleta: 0 de 14 celdas de subida y 6 de 15 de bajada · 67% correcto · 145/min (plan 100) · regularidad ±55% · las dos · MI -6 de velocidad frente a MD · 10 pausas · [[2026-11-14 piano día 4 - hanon 2 (7).mid|MIDI]]
+
+![[2026-11-14 piano día 4 - hanon 2 (8).mp3]]
+Hanon 2 · 0:06 · 100% correcto · 212/min (plan 100) · regularidad ±48% · las dos · MI -12 de velocidad frente a MD · [[2026-11-14 piano día 4 - hanon 2 (8).mid|MIDI]]
+
+![[2026-11-14 piano día 4 - hanon 2 (9).mp3]]
+Hanon 2 · 0:14 · 100% correcto · 212/min (plan 100) · regularidad ±47% · las dos · MI +2 de velocidad frente a MD · 2 pausas · [[2026-11-14 piano día 4 - hanon 2 (9).mid|MIDI]]
+
+- Fragmento 1: 0:01–0:03 · marcada: Hanon 1 y 2
+- Fragmento 2: 0:05–0:20 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · ⚠ pasada incompleta: 3 de 14 celdas de subida y 0 de 15 de bajada · 75% correcto · 242/min (plan 100) · regularidad ±55% · las dos · MI -6 de velocidad frente a MD · BPM ≈ 107.7 (audio)
+- Fragmento 3: 0:21–0:48 · **Hanon 1 y 2** (alta) · «las celdas de Hanon» · marcada: Hanon 1 y 2 · ⚠ pasada incompleta: 4 de 14 celdas de subida y 0 de 15 de bajada · 67% correcto · 237/min (plan 100) · regularidad ±47% · las dos · MI -7 de velocidad frente a MD · 2 pausas · BPM ≈ 136.0 (audio)
+- Fragmento 4: 0:51–1:14 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · 33% correcto · 148/min (plan 100) · regularidad ±57% · las dos · MI -7 de velocidad frente a MD · 3 pausas · BPM ≈ 117.5 (audio)
+- Fragmento 5: 1:16–1:23 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · 100% correcto · 195/min (plan 100) · regularidad ±45% · las dos · MI -7 de velocidad frente a MD · 1 pausas
+- Fragmento 6: 1:24–2:30 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · ⚠ pasada incompleta: 0 de 14 celdas de subida y 6 de 15 de bajada · 67% correcto · 145/min (plan 100) · regularidad ±55% · las dos · MI -6 de velocidad frente a MD · 10 pausas · BPM ≈ 143.6 (audio)
+- Fragmento 7: 2:33–2:39 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · 100% correcto · 212/min (plan 100) · regularidad ±48% · las dos · MI -12 de velocidad frente a MD
+- Fragmento 8: 2:40–2:54 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · 100% correcto · 212/min (plan 100) · regularidad ±47% · las dos · MI +2 de velocidad frente a MD · 2 pausas · BPM ≈ 107.7 (audio)
+- Contra la partitura: fragmento 3 en 0:25, esperaba D y sonó C+D; fragmento 6 en 0:33, esperaba D y sonó D+E
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 2 (Hanon 2): 242 ataques/min (equivale a dos por click a 121 o cuatro por click a 61); el plan pide 100 (una por click a 100) → 142% más rápido que el plan. Fragmento 3 (Hanon 1 y 2): 237 ataques/min (equivale a dos por click a 119 o cuatro por click a 59); el plan pide 100 (una por click a 100) → 137% más rápido que el plan. Fragmento 4 (Hanon 2): 148 ataques/min; el plan pide 100 (una por click a 100) → 49% más rápido que el plan. Fragmento 5 (Hanon 2): 195 ataques/min (equivale a dos por click a 97 o cuatro por click a 49); el plan pide 100 (una por click a 100) → 95% más rápido que el plan. Fragmento 6 (Hanon 2): 145 ataques/min; el plan pide 100 (una por click a 100) → 45% más rápido que el plan. Fragmento 7 (Hanon 2): 212 ataques/min (equivale a dos por click a 106 o cuatro por click a 53); el plan pide 100 (una por click a 100) → 112% más rápido que el plan. Fragmento 8 (Hanon 2): 212 ataques/min (equivale a dos por click a 106 o cuatro por click a 53); el plan pide 100 (una por click a 100) → 112% más rápido que el plan.
+
+Resumen: Se practicó Hanon 1 y 2 en varios fragmentos; el tempo estuvo muy por encima del plan (hasta 142 % más rápido) y la precisión varió entre 33 % y 100 %. Los intervalos de ataque fueron irregulares (±55 % en Hanon 2 y ±47 % en Hanon 1‑2), y en varios fragmentos la pasada quedó incompleta.
+
+Para la próxima: Hanon 2: toca la pasada completa, sube las 14 celdas y baja las 15 (hoy 3 y 0); si no alcanza el tiempo, baja el tempo en vez de cortar la pasada.
+
 ## Progreso · 30 días hasta esta sesión
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
 |---|--:|--:|--:|--:|--:|--:|
+| Hanon 2 | 5 | 7.8 | 83% | 212 | 220 | 100 |
 | Hanon 1 | 10 | 7.7 | 67% | 198 | 205 | 100 |
 | Principal | 17 | 4.5 | 85% | 26 | 242 | — |
-| Hanon 2 | 3 | 3.8 | 90% | 180 | 220 | 100 |
 | Recuperación | 16 | 3 | 97% | 248 | 248 | — |
 | Sleep on the Floor | 5 | 2.5 | 94% | 55 | 55 | — |
+| Hanon 1 y 2 | 1 | 0.5 | 67% | 237 | — | 100 |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
 ## Mis notas
