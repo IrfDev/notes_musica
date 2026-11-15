@@ -5,8 +5,8 @@ fecha: 2026-11-09
 dia_programa: 4
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inversiones con la MI|Día 4 · Inversiones con la MI]]"
-tomas: 31
-minutos_grabados: 24.6
+tomas: 33
+minutos_grabados: 28.6
 estado: abierta
 fuente: frai-estudio
 ---
@@ -41,6 +41,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 21:01 | Principal |
 | 21:04 | Aplicación |
 | 21:10 | Sleep on the Floor |
+| 23:48 | Registro |
 
 ## Tomas
 
@@ -77,6 +78,8 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 29 | 21:07 | 0:20 | -29.93 dBFS | Aplicación | listo |
 | 30 | 21:09 | 0:25 | -36.26 dBFS | Aplicación | listo |
 | 31 | 21:10 | 0:16 | -32.29 dBFS | Aplicación | listo |
+| 32 | 23:44 | 2:19 | -28.13 dBFS | Sleep on the Floor | listo |
+| 33 | 23:46 | 1:45 | -26.28 dBFS | Sleep on the Floor | listo |
 
 ### Toma 1 · 21:52
 
@@ -793,6 +796,73 @@ Resumen: En la lección Día 4 · Inversiones con la MI se intentó tocar el fra
 
 Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
 
+### Toma 32 · 23:44
+
+![[2026-11-14 piano día 4 - sleep on the floor.mp3]]
+Sleep on the Floor · 0:31 · 95% correcto · 44/min · regularidad ±55% · una mano (probable MI) · [[2026-11-14 piano día 4 - sleep on the floor.mid|MIDI]]
+
+![[2026-11-14 piano día 4 - sleep on the floor (2).mp3]]
+Sleep on the Floor · 0:08 · 100% correcto · 41/min · regularidad ±23% · una mano (probable MI) · [[2026-11-14 piano día 4 - sleep on the floor (2).mid|MIDI]]
+
+![[2026-11-14 piano día 4 - sleep on the floor (3).mp3]]
+Sleep on the Floor · 0:03 · 100% correcto · una mano (probable MI) · [[2026-11-14 piano día 4 - sleep on the floor (3).mid|MIDI]]
+
+![[2026-11-14 piano día 4 - recuperación.mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MI) · [[2026-11-14 piano día 4 - recuperación.mid|MIDI]]
+
+![[2026-11-14 piano día 4 - sleep on the floor (4).mp3]]
+Sleep on the Floor · 0:26 · 94% correcto · 54/min · regularidad ±48% · una mano (probable MI) · 1 pausas · [[2026-11-14 piano día 4 - sleep on the floor (4).mid|MIDI]]
+
+- Fragmento 1: 0:05–0:36 · **Sleep on the Floor** (alta) · «Sleep on the Floor · cc. 18–33 · MI» · marcada: Sleep on the Floor · 95% correcto · 44/min · regularidad ±55% · una mano (probable MI) · BPM ≈ 136.0 (audio)
+- Fragmento 2: 0:38–0:39 · marcada: Sleep on the Floor
+- Fragmento 3: 0:43–0:51 · **Sleep on the Floor** (alta) · «Sleep on the Floor · cc. 18–33 · MI» · marcada: Sleep on the Floor · 100% correcto · 41/min · regularidad ±23% · una mano (probable MI) · BPM ≈ 172.3 (audio)
+- Fragmento 4: 0:53–0:56 · **Sleep on the Floor** (alta) · «Sleep on the Floor · cc. 18–33 · MI» · marcada: Sleep on the Floor · 100% correcto · una mano (probable MI)
+- Fragmento 5: 0:58–1:00 · marcada: Sleep on the Floor
+- Fragmento 6: 1:05–1:21 · marcada: Sleep on the Floor · 30/min · regularidad ±40% · una mano (probable MI) · BPM ≈ 89.1 (audio)
+- Fragmento 7: 1:27–1:35 · marcada: Sleep on the Floor · una mano (probable MI) · BPM ≈ 46.1 (audio)
+- Fragmento 8: 1:41–1:43 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Sleep on the Floor · 100% correcto · una mano (probable MI)
+- Fragmento 9: 1:45–2:11 · **Sleep on the Floor** (alta) · «Sleep on the Floor · cc. 18–33 · MI» · marcada: Sleep on the Floor · 94% correcto · 54/min · regularidad ±48% · una mano (probable MI) · 1 pausas · BPM ≈ 136.0 (audio)
+- Fragmento 10: 2:13–2:19 · marcada: Sleep on the Floor · 396/min · regularidad ±33% · una mano (probable MI)
+- Contra la partitura: fragmento 9 en 0:19, esperaba C y sonó F
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 1 (Sleep on the Floor): 44 ataques/min, sin tempo del plan para comparar. Fragmento 3 (Sleep on the Floor): 41 ataques/min, sin tempo del plan para comparar. Fragmento 6: 30 ataques/min, sin tempo del plan para comparar. Fragmento 9 (Sleep on the Floor): 54 ataques/min, sin tempo del plan para comparar. Fragmento 10: 396 ataques/min, sin tempo del plan para comparar.
+
+Resumen: Se trabajó principalmente el ejercicio Sleep on the Floor con alta coincidencia con la partitura (78‑100 %). Los ataques fueron irregulares, con variaciones de ±55 % en el fragmento 1 y ±48 % en el fragmento 9, y se detectó un error de acorde (se esperaba C y sonó F). No hay datos de tempo del plan para comparar.
+
+Para la próxima: Sleep on the Floor: busca ataques más parejos con el metrónomo; hoy los intervalos variaron ±55%.
+
+### Toma 33 · 23:46
+
+![[2026-11-14 piano día 4 - sleep on the floor (5).mp3]]
+Sleep on the Floor · 0:38 · 93% correcto · 44/min · regularidad ±49% · una mano (probable MI) · [[2026-11-14 piano día 4 - sleep on the floor (5).mid|MIDI]]
+
+![[2026-11-14 piano día 4 - sleep on the floor (6).mp3]]
+Sleep on the Floor · 0:09 · 100% correcto · una mano (probable MI) · [[2026-11-14 piano día 4 - sleep on the floor (6).mid|MIDI]]
+
+![[2026-11-14 piano día 4 - recuperación (2).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MI) · [[2026-11-14 piano día 4 - recuperación (2).mid|MIDI]]
+
+![[2026-11-14 piano día 4 - sleep on the floor (7).mp3]]
+Sleep on the Floor · 0:25 · 95% correcto · 55/min · regularidad ±53% · una mano (probable MI) · [[2026-11-14 piano día 4 - sleep on the floor (7).mid|MIDI]]
+
+- Fragmento 1: 0:04–0:42 · **Sleep on the Floor** (alta) · «Sleep on the Floor · cc. 18–33 · MI» · marcada: Sleep on the Floor · 93% correcto · 44/min · regularidad ±49% · una mano (probable MI) · BPM ≈ 39.8 (audio)
+- Fragmento 2: 0:44–0:50 · marcada: Sleep on the Floor · 45/min · regularidad ±42% · una mano (probable MI)
+- Fragmento 3: 0:53–1:02 · **Sleep on the Floor** (media) · «Sleep on the Floor · cc. 18–33 · MI» · marcada: Sleep on the Floor · 100% correcto · una mano (probable MI) · BPM ≈ 83.4 (audio)
+- Fragmento 4: 1:03–1:05 · **Recuperación** (alta) · «El círculo en fundamental» · marcada: Sleep on the Floor · 100% correcto · una mano (probable MI)
+- Fragmento 5: 1:20–1:45 · **Sleep on the Floor** (media) · «Sleep on the Floor · cc. 18–33 · MI» · marcada: Sleep on the Floor · 95% correcto · 55/min · regularidad ±53% · una mano (probable MI) · BPM ≈ 76.0 (audio)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 1 (Sleep on the Floor): 44 ataques/min, sin tempo del plan para comparar. Fragmento 2: 45 ataques/min, sin tempo del plan para comparar. Fragmento 5 (Sleep on the Floor): 55 ataques/min, sin tempo del plan para comparar.
+
+Resumen: Se tocó mayormente el ejercicio Sleep on the Floor (fragmentos 1, 3 y 5) con alta coincidencia con la partitura (93 %‑100 %) y el ejercicio de Recuperación con 100 % de acierto. Los ataques fueron de 44 a 55 por minuto; no hay tempo del plan para comparar. En comparación con tomas anteriores, la precisión ha mejorado notablemente (antes 67 %‑95 % y ahora 93 %‑100 %).
+
+Para la próxima: Sleep on the Floor: busca ataques más parejos con el metrónomo; hoy los intervalos variaron ±49%.
+
 ## Progreso · 30 días hasta esta sesión
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
@@ -800,7 +870,8 @@ Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección
 | Hanon 1 | 9 | 6.2 | 66% | 205 | 205 | 100 |
 | Principal | 17 | 4.5 | 85% | 26 | 242 | — |
 | Hanon 2 | 3 | 3.8 | 90% | 180 | 220 | 100 |
-| Recuperación | 14 | 2.9 | 97% | 248 | 248 | — |
+| Recuperación | 16 | 3 | 97% | 248 | 248 | — |
+| Sleep on the Floor | 5 | 2.5 | 94% | 55 | 55 | — |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
 ## Mis notas
