@@ -5,8 +5,8 @@ fecha: 2026-11-09
 dia_programa: 4
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inversiones con la MI|Día 4 · Inversiones con la MI]]"
-tomas: 23
-minutos_grabados: 21.3
+tomas: 26
+minutos_grabados: 23.1
 estado: abierta
 fuente: frai-estudio
 ---
@@ -38,6 +38,8 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 11:25 | Recuperación |
 | 11:29 | Principal |
 | 10:53 | Aplicación |
+| 21:01 | Principal |
+| 21:04 | Aplicación |
 
 ## Tomas
 
@@ -66,6 +68,9 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 21 | 11:28 | 1:32 | -19.86 dBFS | Recuperación | listo |
 | 22 | 11:29 | 0:29 | -29.8 dBFS | Principal | listo |
 | 23 | 11:30 | 0:18 | -30.08 dBFS | Principal | listo |
+| 24 | 21:03 | 1:01 | -32.78 dBFS | Principal | listo |
+| 25 | 21:04 | 0:29 | -35.33 dBFS | Aplicación | listo |
+| 26 | 21:05 | 0:20 | -32.84 dBFS | Aplicación | listo |
 
 ### Toma 1 · 21:52
 
@@ -739,6 +744,33 @@ Principal · 0:16 · 100% correcto · 26/min · regularidad ±14% · una mano (p
 Tempo contra el plan: Fragmento 1 (Principal): 26 ataques/min, sin tempo del plan para comparar.
 
 Resumen: En el fragmento 1 (Principal) se tocaron 21 notas en 7 ataques durante 15,7 s, con 100 % de coincidencia con la partitura y 26 ataques por minuto; la variación entre ataques fue ±14 %, indicando cierta irregularidad. El tempo está muy por debajo del objetivo del plan (60 ataques/min), pero la exactitud es perfecta, mejorando respecto a tomas anteriores que mostraban mayor velocidad y menor corrección.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 24 · 21:03
+
+- Fragmento 1: 0:25–0:27 · marcada: Principal
+- Fragmento 2: 0:59–1:00 · marcada: Principal
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: Se intentó tocar la lección "Día 4 · Inversiones con la MI", pero en ambos fragmentos no hubo notas suficientes para evaluar la ejecución. No se pudo medir el tempo ni la precisión, y no hay historial previo para comparar.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 26 · 21:05
+
+- Fragmento 1: 0:01–0:03 · marcada: Aplicación
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: En el Día 4 · Inversiones con la MI se intentó tocar el fragmento 1 (de 1.4 s a 3.2 s). No hubo notas suficientes para identificar el ejercicio ni para medir el tempo, por lo que no se pudo evaluar la precisión ni la velocidad. La toma completa duró 19.552 s y no hay historial previo.
 
 Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
 
