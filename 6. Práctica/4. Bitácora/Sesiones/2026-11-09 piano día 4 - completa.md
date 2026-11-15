@@ -5,8 +5,8 @@ fecha: 2026-11-09
 dia_programa: 4
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inversiones con la MI|Día 4 · Inversiones con la MI]]"
-tomas: 26
-minutos_grabados: 23.1
+tomas: 31
+minutos_grabados: 24.6
 estado: abierta
 fuente: frai-estudio
 ---
@@ -40,6 +40,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 10:53 | Aplicación |
 | 21:01 | Principal |
 | 21:04 | Aplicación |
+| 21:10 | Sleep on the Floor |
 
 ## Tomas
 
@@ -71,6 +72,11 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 24 | 21:03 | 1:01 | -32.78 dBFS | Principal | listo |
 | 25 | 21:04 | 0:29 | -35.33 dBFS | Aplicación | listo |
 | 26 | 21:05 | 0:20 | -32.84 dBFS | Aplicación | listo |
+| 27 | 21:06 | 0:07 | -38.27 dBFS |  | listo |
+| 28 | 21:06 | 0:18 | -34.73 dBFS | Aplicación | listo |
+| 29 | 21:07 | 0:20 | -29.93 dBFS | Aplicación | listo |
+| 30 | 21:09 | 0:25 | -36.26 dBFS | Aplicación | listo |
+| 31 | 21:10 | 0:16 | -32.29 dBFS | Aplicación | listo |
 
 ### Toma 1 · 21:52
 
@@ -771,6 +777,19 @@ Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección
 Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
 
 Resumen: En el Día 4 · Inversiones con la MI se intentó tocar el fragmento 1 (de 1.4 s a 3.2 s). No hubo notas suficientes para identificar el ejercicio ni para medir el tempo, por lo que no se pudo evaluar la precisión ni la velocidad. La toma completa duró 19.552 s y no hay historial previo.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 29 · 21:07
+
+- Fragmento 1: 0:11–0:13 · marcada: Aplicación
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: En la lección Día 4 · Inversiones con la MI se intentó tocar el fragmento 1 entre 11.1 s y 13.0 s, pero no hubo notas suficientes para evaluarlo. No se pudo medir el tempo porque no hubo pulso suficiente. No hay historial previo que comparar.
 
 Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
 
