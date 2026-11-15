@@ -5,8 +5,8 @@ fecha: 2026-11-09
 dia_programa: 4
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inversiones con la MI|Día 4 · Inversiones con la MI]]"
-tomas: 33
-minutos_grabados: 28.6
+tomas: 36
+minutos_grabados: 32.3
 estado: abierta
 fuente: frai-estudio
 ---
@@ -42,6 +42,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 21:04 | Aplicación |
 | 21:10 | Sleep on the Floor |
 | 23:48 | Registro |
+| 23:48 | Hanon 2 |
 
 ## Tomas
 
@@ -80,6 +81,9 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/04. Día 4 - Inve
 | 31 | 21:10 | 0:16 | -32.29 dBFS | Aplicación | listo |
 | 32 | 23:44 | 2:19 | -28.13 dBFS | Sleep on the Floor | listo |
 | 33 | 23:46 | 1:45 | -26.28 dBFS | Sleep on the Floor | listo |
+| 34 | 23:49 | 0:01 | -39.16 dBFS |  | listo |
+| 35 | 23:49 | 1:35 | -27.41 dBFS | Hanon 2 | listo |
+| 36 | 23:50 | 2:05 | -28.87 dBFS | Hanon 2 | procesando |
 
 ### Toma 1 · 21:52
 
@@ -863,11 +867,53 @@ Resumen: Se tocó mayormente el ejercicio Sleep on the Floor (fragmentos 1, 3 y 
 
 Para la próxima: Sleep on the Floor: busca ataques más parejos con el metrónomo; hoy los intervalos variaron ±49%.
 
+### Toma 34 · 23:49
+
+- Fragmento 1: 0:00–0:01 · marcada: Hanon 1 y 2
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: Sin notas suficientes para medir.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 35 · 23:49
+
+![[2026-11-14 piano día 4 - hanon 1.mp3]]
+Hanon 1 · 0:31 · contra Hanon - Ejercicios 1-30 · 1 (sin revisar) · ⚠ pasada incompleta: 8 de 14 celdas de subida y 0 de 15 de bajada · 64% correcto · 237/min (plan 100) · regularidad ±34% · las dos · MI -6 de velocidad frente a MD · [[2026-11-14 piano día 4 - hanon 1.mid|MIDI]]
+
+![[2026-11-14 piano día 4 - hanon 1 (2).mp3]]
+Hanon 1 · 0:59 · contra Hanon - Ejercicios 1-30 · 1 (sin revisar) · ⚠ pasada incompleta: 2 de 14 celdas de subida y 2 de 15 de bajada · 79% correcto · 198/min (plan 100) · regularidad ±29% · las dos · MI -1 de velocidad frente a MD · 4 pausas · [[2026-11-14 piano día 4 - hanon 1 (2).mid|MIDI]]
+
+- Fragmento 1: 0:02–0:32 · **Hanon 1** (alta) · marcada: Hanon 1 y 2 · contra [[Hanon - Ejercicios 1-30#1]] (sin revisar) · ⚠ pasada incompleta: 8 de 14 celdas de subida y 0 de 15 de bajada · 64% correcto · 237/min (plan 100) · regularidad ±34% · las dos · MI -6 de velocidad frente a MD · BPM ≈ 117.5 (audio)
+- Fragmento 2: 0:36–1:35 · **Hanon 1** (alta) · marcada: Hanon 1 y 2 · contra [[Hanon - Ejercicios 1-30#1]] (sin revisar) · ⚠ pasada incompleta: 2 de 14 celdas de subida y 2 de 15 de bajada · 79% correcto · 198/min (plan 100) · regularidad ±29% · las dos · MI -1 de velocidad frente a MD · 4 pausas · BPM ≈ 117.5 (audio)
+- Contra la partitura: fragmento 1 en 0:10, esperaba A y sonó G+A; fragmento 1 en 0:22, esperaba F y sonó F+G; fragmento 2 en 0:22, esperaba D y sonó C (faltó D); fragmento 2 en 0:22, esperaba E y sonó B (faltó E); fragmento 2 en 0:23, esperaba F y sonó C (faltó F)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 1 (Hanon 1): 237 ataques/min (equivale a dos por click a 119 o cuatro por click a 59); el plan pide 100 (una por click a 100) → 137% más rápido que el plan. Fragmento 2 (Hanon 1): 198 ataques/min (equivale a dos por click a 99 o cuatro por click a 50); el plan pide 100 (una por click a 100) → 98% más rápido que el plan.
+
+Resumen: Se practicó Hanon 1 en dos fragmentos, ambas pasadas quedaron incompletas (solo 8 de 14 celdas subidas en el primero y 2 de 14 en el segundo). La precisión fue moderada (64 % y 79 % de coincidencia) y la velocidad estuvo muy por encima del plan (237 y 198 ataques/min, 137 % y 98 % más rápido). No se observó mejora en la exactitud respecto al historial, aunque el tempo aumentó considerablemente.
+
+Para la próxima: Hanon 1: toca la pasada completa, sube las 14 celdas y baja las 15 (hoy 8 y 0); si no alcanza el tiempo, baja el tempo en vez de cortar la pasada.
+
+### Toma 36 · 23:50
+
+- Fragmento 1: 0:03–0:23 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · ⚠ pasada incompleta: 3 de 14 celdas de subida y 0 de 15 de bajada · 100% correcto · 199/min (plan 100) · regularidad ±54% · las dos · MI -6 de velocidad frente a MD · 2 pausas · BPM ≈ 103.4 (audio)
+- Fragmento 2: 0:24–1:33 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · ⚠ pasada incompleta: 9 de 14 celdas de subida y 0 de 15 de bajada · 59% correcto · 192/min (plan 100) · regularidad ±49% · las dos · MI -5 de velocidad frente a MD · 4 pausas · BPM ≈ 117.5 (audio)
+- Fragmento 3: 1:36–1:38 · marcada: Hanon 1 y 2
+- Fragmento 4: 1:41–2:05 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 1 y 2 · 29% correcto · 270/min (plan 100) · regularidad ±47% · las dos · MI +3 de velocidad frente a MD · 2 pausas · BPM ≈ 99.4 (audio)
+- Contra la partitura: fragmento 4 en 0:14, esperaba C y sonó D (faltó C); fragmento 4 en 0:19, esperaba D y sonó C+B (faltó D)
+
 ## Progreso · 30 días hasta esta sesión
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
 |---|--:|--:|--:|--:|--:|--:|
-| Hanon 1 | 9 | 6.2 | 66% | 205 | 205 | 100 |
+| Hanon 1 | 10 | 7.7 | 67% | 198 | 205 | 100 |
 | Principal | 17 | 4.5 | 85% | 26 | 242 | — |
 | Hanon 2 | 3 | 3.8 | 90% | 180 | 220 | 100 |
 | Recuperación | 16 | 3 | 97% | 248 | 248 | — |
