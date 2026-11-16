@@ -907,7 +907,7 @@ transportan como las tríadas.
 | **Quinta en bloque** | C + G | 5 – 1 | hueco, folk, Bon Iver |
 | **Octava** | C + C | 5 – 1 | peso, coros, finales |
 | **1 – 5 – 8** | C · G · C | 5 – 2 – 1 | arpegio abierto, el estándar del pop |
-| **1 – 5 – 10** | C · G · E | 5 – 2 – 1 | abierto y cálido: el sonido dream pop |
+| **1 – 5 – 10** | C · G · E | 5 – 2 – 1, solo quebrado | abierto y cálido: el sonido dream pop. En bloque no cabe en la mano (diez teclas blancas, y la mano llega a ocho): quebrado, con el pedal puesto, la mano se desplaza para el 1 |
 | **Alberti** | C · G · E · G | 5 – 1 – 3 – 1 | clásico, movimiento continuo |
 | **Vals** (3/4) | C bajo · acorde · acorde | 5 · 5-3-1 · 5-3-1 | Lumineers, *chum-pam-pam* |
 | **Arpegio largo** | C · G · C · E · C · G | 5 – 3 – 2 – 1 – 2 – 3 | flujo constante; con mano grande |
@@ -1090,8 +1090,10 @@ flowchart LR
 Material propio, no de la partitura: preparan las técnicas que la pieza pide.
 
 **1 · El patrón de MI del verso**: acorde abierto en el 1, la raíz en el 2 y la raíz una octava
-abajo en el 3. Practícalo así en I–IV–V–I de C antes de leer los compases. El acorde es un 1-5-10
-(§9): si no alcanzas la décima, arpégialo de abajo arriba o quita la nota de arriba.
+abajo en el 3. Practícalo así en I–IV–V–I de C antes de leer los compases. La partitura escribe el
+acorde como 1-5-10 (§9), pero en bloque la décima no cabe en la mano: la MI toca **1-5-8**, la raíz
+una octava arriba en lugar de la décima, y la décima la pone la MD solo cuando está en silencio
+([[4. Instrumento/1. Piano/1. Programa de 30 sesiones/00. Plan y progreso#Qué nota toca cada mano|qué nota toca cada mano]]).
 
 ```abc
 X:1
@@ -1100,7 +1102,7 @@ M:4/4
 L:1/4
 K:C
 V:1 clef=bass name="MI"
-[V:1] "_5-2-1""C"[C,G,E] "_5"C, "_5 (salto)"C,,2 | "F"[F,CA] F, F,,2 | "G"[G,DB] G, G,,2 | "C"[C,G,E] C, C,,2 |]
+[V:1] "_5-2-1""C"[C,G,C] "_5"C, "_5 (salto)"C,,2 | "F"[F,CF] F, F,,2 | "G"[G,DG] G, G,,2 | "C"[C,G,C] C, C,,2 |]
 ```
 
 **2 · Las semicorcheas de la anacrusa**: cuenta en voz alta *1 – e – y – a* con el metrónomo
@@ -1276,6 +1278,7 @@ mantenimiento están en
 | Hanon rápido y tenso | se entrena la tensión, no la independencia | a 60, muñeca suelta; si duele, para (§10) |
 | Aprender la pieza de principio a fin | la intro queda perfecta y el resto nunca llega | el orden de §11: verso, final, intro, parte densa |
 | Aprender una sección entera con una sola mano | juntar las manos, que es lo difícil, llega al final y de golpe | frase por frase: cada frase termina el día a dos manos (§11) |
+| Tocar con la MI todo lo que está escrito en la clave de fa | acordes de décima que la mano no alcanza: notas que no suenan y la mano tensa | ninguna mano abre más de una octava: la MI toca 1-5-8 y la décima la pone la MD o no se toca ([[4. Instrumento/1. Piano/1. Programa de 30 sesiones/00. Plan y progreso#Qué nota toca cada mano\|qué nota toca cada mano]]) |
 | Tocar la pieza siempre desde el c. 1 | los compases difíciles se tocan una vez por sesión | trabaja el compás que falla, no la pieza |
 
 ---
