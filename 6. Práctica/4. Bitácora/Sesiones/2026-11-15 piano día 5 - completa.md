@@ -6,7 +6,7 @@ dia_programa: 5
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/05. Día 5 - La inversión más cercana|Día 5 · La inversión más cercana · 🎙 grabación]]"
 tomas: 13
-minutos_grabados: 9.8
+minutos_grabados: 10.8
 estado: abierta
 fuente: frai-estudio
 ---
@@ -43,7 +43,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/05. Día 5 - La i
 | 10 | 13:33 | 0:16 | -24.78 dBFS | Principal | listo |
 | 11 | 13:34 | 0:33 | -25.71 dBFS | Principal | listo |
 | 12 | 13:35 | 0:44 | -25.71 dBFS | Principal | listo |
-| 13 | 13:36 | 0:00 | — |  | grabando |
+| 13 | 13:36 | 1:00 | -27.63 dBFS | Principal | listo |
 
 ### Toma 1 · 12:34
 
@@ -284,13 +284,40 @@ Resumen: Se grabó la lección Día 5; solo los fragmentos 2 (Hanon 2) y 6 (Slee
 
 Para la próxima: Hanon 2: repasa G despacio; sonó E (faltó G).
 
+### Toma 13 · 13:36
+
+![[2026-11-16 piano día 5 - recuperación (12).mp3]]
+Recuperación · 0:04 · 100% correcto · una mano (probable MD) · [[2026-11-16 piano día 5 - recuperación (12).mid|MIDI]]
+
+![[2026-11-16 piano día 5 - recuperación (13).mp3]]
+Recuperación · 0:04 · 100% correcto · una mano (probable MD) · [[2026-11-16 piano día 5 - recuperación (13).mid|MIDI]]
+
+- Fragmento 1: 0:00–0:04 · **Recuperación** (alta) · «Grupos 1 y 2 en 2ª inversión, MI» · marcada: Principal · 100% correcto · una mano (probable MD)
+- Fragmento 2: 0:06–0:10 · **Recuperación** (alta) · «Grupos 1 y 2 en 2ª inversión, MI» · marcada: Principal · 100% correcto · una mano (probable MD)
+- Fragmento 3: 0:12–0:14 · marcada: Principal
+- Fragmento 4: 0:15–0:17 · marcada: Principal · una mano (probable MD)
+- Fragmento 5: 0:19–0:22 · marcada: Principal · una mano (probable MD)
+- Fragmento 6: 0:23–0:25 · marcada: Principal
+- Fragmento 7: 0:28–0:37 · marcada: Principal · una mano (probable MD) · BPM ≈ 152.0 (audio)
+- Fragmento 8: 0:41–0:43 · marcada: Principal · una mano (probable MD)
+- Fragmento 9: 0:48–0:58 · marcada: Principal · una mano (probable MD) · BPM ≈ 152.0 (audio)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: En la toma de 59.7 s se identificaron dos fragmentos de recuperación (1 y 2) que coincidieron al 100 % con la partitura de los grupos 1 y 2 en 2ª inversión (MI) y fueron ejecutados con alta confianza. Los demás fragmentos no pudieron asociarse a ningún ejercicio y presentan baja confianza. No se obtuvo suficiente pulso para medir el tempo; el rendimiento sigue siendo consistente con los registros anteriores de 100 % de acierto.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
 ## Progreso · 30 días hasta esta sesión
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
 |---|--:|--:|--:|--:|--:|--:|
 | Hanon 1 | 13 | 10.4 | 70% | 101 | 456 | 100 |
 | Hanon 2 | 8 | 9.8 | 79% | 169 | 220 | 100 |
-| Recuperación | 20 | 3.6 | 97% | 248 | 248 | — |
+| Recuperación | 21 | 3.8 | 97% | 248 | 248 | — |
 | Sleep on the Floor | 6 | 2.7 | 91% | 55 | 55 | — |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
