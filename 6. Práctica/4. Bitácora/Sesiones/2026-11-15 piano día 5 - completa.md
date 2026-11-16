@@ -6,7 +6,7 @@ dia_programa: 5
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/05. Día 5 - La inversión más cercana|Día 5 · La inversión más cercana · 🎙 grabación]]"
 tomas: 5
-minutos_grabados: 2.8
+minutos_grabados: 5.1
 estado: abierta
 fuente: frai-estudio
 ---
@@ -24,6 +24,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/05. Día 5 - La i
 |---|---|
 | 12:53 | Antes de empezar |
 | 12:58 | Hanon 2 (bajada) y 1 |
+| 12:56 | Recuperación |
 
 ## Tomas
 
@@ -33,7 +34,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/05. Día 5 - La i
 | 2 | 12:51 | 1:09 | -20.38 dBFS | Hanon 2 (bajada) y 1 | listo |
 | 3 | 12:53 | 0:20 | -21.35 dBFS | Hanon 2 (bajada) y 1 | listo |
 | 4 | 12:54 | 0:14 | -21.06 dBFS | Hanon 2 (bajada) y 1 | listo |
-| 5 | 12:54 | 0:00 | — |  | grabando |
+| 5 | 12:54 | 2:23 | -19.37 dBFS | Hanon 2 (bajada) y 1 | listo |
 
 ### Toma 1 · 12:34
 
@@ -107,12 +108,29 @@ Resumen: Se tocó el ejercicio Hanon 1 con 91 % de coincidencia, pero la pasada 
 
 Para la próxima: Hanon 1: toca la pasada completa, sube las 14 celdas y baja las 15 (hoy 4 y 0); si no alcanza el tiempo, baja el tempo en vez de cortar la pasada.
 
+### Toma 5 · 12:54
+
+![[2026-11-16 piano día 5 - hanon 1 (4).mp3]]
+Hanon 1 · 2:19 · contra Hanon - Ejercicios 1-30 · 1 · ⚠ pasada incompleta: 13 de 14 celdas de subida y 11 de 15 de bajada · 89% correcto · fallan cc. 8–9, cc. 14–19, cc. 23–25, cc. 27–29 · 101/min (plan 100) · regularidad ±21% · las dos · MI -6 de velocidad frente a MD · 1 pausas · [[2026-11-16 piano día 5 - hanon 1 (4).mid|MIDI]]
+
+- Fragmento 1: 0:03–2:22 · **Hanon 1** (alta) · marcada: Hanon 2 (bajada) y 1 · contra [[Hanon - Ejercicios 1-30#1]] · ⚠ pasada incompleta: 13 de 14 celdas de subida y 11 de 15 de bajada · 89% correcto · fallan cc. 8–9, cc. 14–19, cc. 23–25, cc. 27–29 · 101/min (plan 100) · regularidad ±21% · las dos · MI -6 de velocidad frente a MD · 1 pausas · BPM ≈ 99.4 (audio)
+- Contra Partituras: fragmento 1, c. 8: esperaba Do3+Do4, sonó Do4; fragmento 1, c. 9: esperaba Sol3+Sol4, sonó Sol3; fragmento 1, c. 14: esperaba Fa4+Fa5, sonó Mi5, esperaba Mi4+Mi5, sonó Mi4; fragmento 1, c. 15: esperaba Do4+Do5, sonó Do4; fragmento 1, c. 16: esperaba Fa4+Fa5, sonó Fa5, esperaba Do4+Do5, sonó Do5; fragmento 1, c. 17: esperaba Si3+Si4, sonó Si4
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 1 (Hanon 1): 101 ataques/min; el plan pide 100 (una por click a 100) → en el tempo del plan.
+
+Resumen: Se ejecutó Hanon 1 con 89 % de coincidencia con la partitura; la velocidad fue de 101 ataques/min, prácticamente alineada con el plan de 100. En comparación con tomas anteriores, el tempo se redujo significativamente y la precisión se mantiene alta, aunque la pasada quedó incompleta (13 de 14 celdas suben y 11 de 15 bajan) y hubo una pausa de 1,8 s.
+
+Para la próxima: Hanon 1: toca la pasada completa, sube las 14 celdas y baja las 15 (hoy 13 y 11); si no alcanza el tiempo, baja el tempo en vez de cortar la pasada.
+
 ## Progreso · 30 días hasta esta sesión
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
 |---|--:|--:|--:|--:|--:|--:|
+| Hanon 1 | 13 | 10.4 | 70% | 101 | 456 | 100 |
 | Hanon 2 | 7 | 9.7 | 81% | 169 | 220 | 100 |
-| Hanon 1 | 12 | 8.1 | 68% | 223 | 456 | 100 |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
 ## Mis notas
