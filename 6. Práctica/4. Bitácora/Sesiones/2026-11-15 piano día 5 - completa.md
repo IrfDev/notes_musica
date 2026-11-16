@@ -5,8 +5,8 @@ fecha: 2026-11-15
 dia_programa: 5
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/05. Día 5 - La inversión más cercana|Día 5 · La inversión más cercana · 🎙 grabación]]"
-tomas: 5
-minutos_grabados: 5.1
+tomas: 7
+minutos_grabados: 6.7
 estado: abierta
 fuente: frai-estudio
 ---
@@ -25,6 +25,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/05. Día 5 - La i
 | 12:53 | Antes de empezar |
 | 12:58 | Hanon 2 (bajada) y 1 |
 | 12:56 | Recuperación |
+| 13:04 | Principal |
 
 ## Tomas
 
@@ -35,6 +36,8 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/05. Día 5 - La i
 | 3 | 12:53 | 0:20 | -21.35 dBFS | Hanon 2 (bajada) y 1 | listo |
 | 4 | 12:54 | 0:14 | -21.06 dBFS | Hanon 2 (bajada) y 1 | listo |
 | 5 | 12:54 | 2:23 | -19.37 dBFS | Hanon 2 (bajada) y 1 | listo |
+| 6 | 13:02 | 0:59 | -23.28 dBFS | Recuperación | listo |
+| 7 | 13:03 | 0:34 | -22.99 dBFS | Recuperación | listo |
 
 ### Toma 1 · 12:34
 
@@ -125,12 +128,75 @@ Resumen: Se ejecutó Hanon 1 con 89 % de coincidencia con la partitura; la veloc
 
 Para la próxima: Hanon 1: toca la pasada completa, sube las 14 celdas y baja las 15 (hoy 13 y 11); si no alcanza el tiempo, baja el tempo en vez de cortar la pasada.
 
+### Toma 6 · 13:02
+
+![[2026-11-16 piano día 5 - recuperación.mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MI) · [[2026-11-16 piano día 5 - recuperación.mid|MIDI]]
+
+![[2026-11-16 piano día 5 - recuperación (2).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MI) · [[2026-11-16 piano día 5 - recuperación (2).mid|MIDI]]
+
+![[2026-11-16 piano día 5 - recuperación (3).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MI) · [[2026-11-16 piano día 5 - recuperación (3).mid|MIDI]]
+
+![[2026-11-16 piano día 5 - recuperación (4).mp3]]
+Recuperación · 0:06 · 100% correcto · una mano (probable MI) · [[2026-11-16 piano día 5 - recuperación (4).mid|MIDI]]
+
+![[2026-11-16 piano día 5 - recuperación (5).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MI) · [[2026-11-16 piano día 5 - recuperación (5).mid|MIDI]]
+
+- Fragmento 1: 0:00–0:02 · marcada: Recuperación
+- Fragmento 2: 0:04–0:06 · **Recuperación** (alta) · «Grupos 1 y 2 en 2ª inversión, MI» · marcada: Recuperación · 100% correcto · una mano (probable MI)
+- Fragmento 3: 0:10–0:13 · **Recuperación** (alta) · «Grupos 1 y 2 en 2ª inversión, MI» · marcada: Recuperación · 100% correcto · una mano (probable MI)
+- Fragmento 4: 0:21–0:23 · **Recuperación** (alta) · «Grupos 1 y 2 en 2ª inversión, MI» · marcada: Recuperación · 100% correcto · una mano (probable MI)
+- Fragmento 5: 0:30–0:36 · **Recuperación** (alta) · «Grupos 1 y 2 en 2ª inversión, MI» · marcada: Recuperación · 100% correcto · una mano (probable MI)
+- Fragmento 6: 0:39–0:41 · **Recuperación** (alta) · «Grupos 1 y 2 en 2ª inversión, MI» · marcada: Recuperación · 100% correcto · una mano (probable MI)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: Se tocaron los seis acordes en segunda inversión con la nota mi (C/G, F/C, G/D, D/A, E/B) en una sola mano, con alta confianza y 100 % de coincidencia con la partitura. No se pudo medir el tempo porque ningún fragmento tuvo pulso suficiente. El desempeño se mantiene en el nivel alto registrado en tomas anteriores (100 % correcto en la mayoría de los intentos).
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 7 · 13:03
+
+![[2026-11-16 piano día 5 - recuperación (6).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MI) · [[2026-11-16 piano día 5 - recuperación (6).mid|MIDI]]
+
+![[2026-11-16 piano día 5 - recuperación (7).mp3]]
+Recuperación · 0:09 · 100% correcto · una mano (probable MI) · [[2026-11-16 piano día 5 - recuperación (7).mid|MIDI]]
+
+![[2026-11-16 piano día 5 - recuperación (8).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MI) · [[2026-11-16 piano día 5 - recuperación (8).mid|MIDI]]
+
+![[2026-11-16 piano día 5 - recuperación (9).mp3]]
+Recuperación · 0:02 · 100% correcto · una mano (probable MI) · [[2026-11-16 piano día 5 - recuperación (9).mid|MIDI]]
+
+- Fragmento 1: 0:01–0:03 · **Recuperación** (alta) · «Grupos 1 y 2 en 2ª inversión, MI» · marcada: Recuperación · 100% correcto · una mano (probable MI)
+- Fragmento 2: 0:05–0:14 · **Recuperación** (alta) · «Grupos 1 y 2 en 2ª inversión, MI» · marcada: Recuperación · 100% correcto · una mano (probable MI) · BPM ≈ 172.3 (audio)
+- Fragmento 3: 0:16–0:21 · marcada: Recuperación · una mano (probable MI)
+- Fragmento 4: 0:26–0:27 · **Recuperación** (alta) · «Grupos 1 y 2 en 2ª inversión, MI» · marcada: Recuperación · 100% correcto · una mano (probable MI)
+- Fragmento 5: 0:32–0:34 · **Recuperación** (alta) · «Grupos 1 y 2 en 2ª inversión, MI» · marcada: Recuperación · 100% correcto · una mano (probable MI)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: En la toma de 33.84 s se identificaron cinco fragmentos; cuatro de ellos (fragmentos 1, 2, 4 y 5) coincidieron al 100 % con la partitura de “Grupos 1 y 2 en 2ª inversión, MI”, y el fragmento 3 no pudo asignarse a ningún ejercicio. No se obtuvo suficiente pulso para medir el tempo, por lo que no se pudo comparar con el plan. El historial muestra resultados de 100 % en las últimas tomas, manteniéndose el nivel alcanzado.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
 ## Progreso · 30 días hasta esta sesión
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
 |---|--:|--:|--:|--:|--:|--:|
 | Hanon 1 | 13 | 10.4 | 70% | 101 | 456 | 100 |
 | Hanon 2 | 7 | 9.7 | 81% | 169 | 220 | 100 |
+| Recuperación | 18 | 3.5 | 97% | 248 | 248 | — |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
 ## Mis notas
