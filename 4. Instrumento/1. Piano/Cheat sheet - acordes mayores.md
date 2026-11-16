@@ -1076,9 +1076,14 @@ flowchart LR
 | **Final** | 68–76 | vuelve la textura del verso | vuelve el patrón del verso | ★★ | lo mismo que el verso |
 
 > [!tip] Orden de estudio
-> **No se aprende de principio a fin.** Primero el verso (es la mitad de la pieza y el final lo
-> repite), luego la intro y al final la parte densa. Así, a la semana 2 ya tocas algo que suena a la
-> canción.
+> **No se aprende de principio a fin.** Primero el verso (es la mitad de la pieza), después el final
+> (lo repite, con una voz más), luego la intro y al final la parte densa. Así, a la semana 2 ya tocas
+> algo que suena a la canción.
+>
+> **Y no se aprende por manos.** Cada frase, de dos a cuatro compases, termina el día a dos manos: la
+> mano nueva que más se mueve va primero, la otra solo si también es nueva, y después juntas. La regla
+> completa y la tabla de frases, en
+> [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/00. Plan y progreso#Sleep on the Floor · cómo se reparten las manos|Plan y progreso]].
 
 ### Ejercicios preparatorios
 
@@ -1178,7 +1183,7 @@ flowchart TB
     end
     subgraph REP["Repertorio · Sleep on the Floor"]
         direction LR
-        R1["S1<br/>verso,<br/>cada mano"] --> R2["S2<br/>verso juntas,<br/>intro"] --> R3["S3<br/>intro → verso,<br/>instrumental"] --> R4["S4<br/>crescendo"] --> R5["S5<br/>clímax<br/>y final"] --> R6["S6<br/>completa"]
+        R1["S1<br/>verso,<br/>la MI"] --> R2["S2<br/>verso juntas,<br/>frase por frase"] --> R3["S3<br/>final e intro,<br/>intro → verso"] --> R4["S4<br/>instrumental,<br/>crescendo"] --> R5["S5<br/>crescendo"] --> R6["S6<br/>clímax<br/>y toma"]
     end
 ```
 
@@ -1247,12 +1252,12 @@ mantenimiento están en
 
 | Semana | Días | Teclado | Hanon | Sleep on the Floor | Se graba |
 |:-:|:-:|---|:-:|---|---|
-| 1 | 1–5 | tríadas e inversiones en las 12 (la MI, en seis) · la cadena del círculo (§8.2), de ida | 1–2 | verso (cc. 18–39), cada mano | la cadena y la MI del verso |
-| 2 | 6–10 | las 8 escalas que faltaban · las 12 a dos manos | 3–4 | verso a dos manos · intro, manos separadas | las 12 escalas y el verso |
-| 3 | 11–15 | arpegios de las 12 · armonizar la escala en ocho tonalidades | 5–8 | intro a dos manos · intro → verso · instrumental | tres armonizadas y cc. 1–47 |
-| 4 | 16–20 | la cadencia I – IV⁶₄ – V⁶ – I en las 12 y la variante con V⁶₅ | 9–12 | crescendo (cc. 48–59) | las 12 cadencias y cc. 40–59 |
-| 5 | 21–25 | los ocho patrones de MI (§9) · *Louise* en el piano | 13–16 | clímax y final (cc. 60–76) | *Louise* y cc. 40–76 |
-| 6 | 26–30 | rotación de las 12 · examen en frío | variantes | completa, al 80 % del tempo | la toma final |
+| 1 | 1–5 | tríadas e inversiones en las 12 (la MI, en seis) · la cadena del círculo (§8.2), de ida | 1–2 | verso (cc. 18–39), la MI | la cadena y la MI del verso |
+| 2 | 6–10 | las 8 escalas que faltaban · las 12 a dos manos | 3–4 | verso a dos manos, frase por frase | las 12 escalas y el verso |
+| 3 | 11–15 | arpegios de las 12 · armonizar la escala en ocho tonalidades | 5–8 | el final (cc. 68–75) · la intro · intro → verso | tres armonizadas y cc. 1–39 |
+| 4 | 16–20 | la cadencia I – IV⁶₄ – V⁶ – I en las 12 y la variante con V⁶₅ | 9–12 | instrumental (cc. 40–47) · el crescendo empieza | las 12 cadencias y cc. 1–47 |
+| 5 | 21–25 | los ocho patrones de MI (§9) · *Louise* en el piano | 13–16 | crescendo (cc. 48–59) | *Louise* y cc. 40–59 |
+| 6 | 26–30 | rotación de las 12 · examen en frío | variantes | clímax (cc. 60–67) · ensayo y toma completa | la toma final |
 
 ---
 
@@ -1269,7 +1274,8 @@ mantenimiento están en
 | Aprender por orden alfabético | 12 formas distintas en la cabeza | por grupos de color (§2): cuatro dibujos |
 | Practicar 1 hora el domingo | no se consolida | 40 minutos, cinco días |
 | Hanon rápido y tenso | se entrena la tensión, no la independencia | a 60, muñeca suelta; si duele, para (§10) |
-| Aprender la pieza de principio a fin | la intro queda perfecta y el resto nunca llega | el orden de §11: verso, intro, parte densa |
+| Aprender la pieza de principio a fin | la intro queda perfecta y el resto nunca llega | el orden de §11: verso, final, intro, parte densa |
+| Aprender una sección entera con una sola mano | juntar las manos, que es lo difícil, llega al final y de golpe | frase por frase: cada frase termina el día a dos manos (§11) |
 | Tocar la pieza siempre desde el c. 1 | los compases difíciles se tocan una vez por sesión | trabaja el compás que falla, no la pieza |
 
 ---

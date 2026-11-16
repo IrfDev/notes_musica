@@ -45,7 +45,7 @@ sin identificar · 0:54 · 212/min · regularidad ±51% · una mano (probable MD
 
 Tempo contra el plan: Fragmento 3: 65 ataques/min, sin tempo del plan para comparar.
 
-Resumen: En el fragmento 3 se tocaron 15 notas en 5 ataques durante 10.6 s, con 65 ataques por minuto y una variación de ±48 % entre ataques, lo que muestra un ritmo irregular. La confianza es baja porque no se asemeja a ningún ejercicio de la lección y no hay tempo del plan para comparar. No hay historial previo que indique mejora.
+Resumen: fragmento 3: sin identificar — 65/min · regularidad ±48% · una mano (probable MD)
 
 Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->

@@ -16,7 +16,7 @@ setcpm(66 / 4)
 const PROG = "<D^7!2 G^7!2>"            // ← tu progresión, dos compases por acorde
 const fondo = stack(
   chord(PROG).voicing().s("organ_full").vib(5).vibmod(.06).gain(.4),
-  chord(PROG).rootNotes(2).s("sawtooth").lpf(300).gain(.7),
+  chord(PROG).rootNotes(2).s("gm_viola").lpf(300).gain(.7),
 )
 
 // ── PASO 1 · El fondo ───────────────────────────────────────────
@@ -28,7 +28,7 @@ fondo
 // Antes de la melodía, la tabla. Para cada acorde de tu progresión:
 /*
 acorde     raíz   3.ª    5.ª    7.ª    9.ª
-____       ____   ____   ____   ____   ____
+Bb         Bb     D       F      Ab    C
 ____       ____   ____   ____   ____   ____
 */
 

@@ -1,0 +1,19 @@
+# Repertorio (Partituras): vista de base de datos de Obsidian sobre las fichas que escribe Partituras.
+# Partituras crea este archivo una vez; después es tuyo.
+filters:
+  and:
+    - file.inFolder("5. Referencias/2. Partituras")
+    - 'schema == "partituras_pieza_v1"'
+views:
+  - type: table
+    name: Repertorio
+    order:
+      - titulo
+      - autor
+      - estado
+      - compases
+      - revisados
+      - licencia
+      - tonalidad
+      - tempo
+      - aliases

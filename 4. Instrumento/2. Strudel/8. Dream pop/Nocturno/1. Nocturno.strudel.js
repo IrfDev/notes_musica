@@ -18,13 +18,14 @@
 
 // ── Perillas ────────────────────────────────────────────────────
 
-const PULSO = 48; // negra con punto. La partitura dice negra = 72: es lo mismo (§1.2)
+const PULSO = 46; // negra con punto. La partitura dice negra = 72: es lo mismo (§1.2)
 const DESDE = 1; // primer compás que suena; el 1 es la anacrusa
 const HASTA = 15; // último. Para quedarte en un pedazo: DESDE = 10, HASTA = 14
 
 const MELODIA = "piano"; // mano derecha. Prueba (§3.3, §7.4): organ_full · gm_epiano1 ·
 //   vibraphone · gm_voice_oohs · triangle · square
-const ARPEGIO = "piano"; // mano izquierda. Prueba (§3.3, §6.1): organ_8inch · piano1 ·
+//   gm_electric_guitar_clean · gm_synth_strings_2 · pulse
+const ARPEGIO = "gm_synth_strings_2"; // mano izquierda. Prueba (§3.3, §6.1): organ_8inch · piano1 ·
 //   gm_electric_guitar_clean · gm_synth_strings_2 · pulse
 
 const VIBRATO = 0; // 1 = el temblor de órgano viejo (§3.1). Solo en sintes y samples, no en gm_*
@@ -33,10 +34,49 @@ const SALA = 0.5; // reverb (§8.1): .2 habitación · .6 sala · .9 catedral
 const CINTA = 0.5; // 1 = poco brillo y polvo, a todo (§8.4)
 
 const CAJA = 1; // 0 = sin batería · 1 = slow rock (§2.2) · 2 = medio tiempo: caja solo en el 3
-const BANCO = "KorgMinipops"; // la caja (§2.3): RolandCompurhythm78 · RhythmAce · KorgKR55 ·
+const BANCO = "RolandCompurhythm78"; // la caja (§2.3): RolandCompurhythm78 · RhythmAce · KorgKR55 ·
 //   UnivoxMicroRhythmer12 · CasioVL1 · LinnDrum
 
 const BOCETO = 0; // 1 = en lugar de c.1–15, el boceto en 4/4 de c.53–57 (solo mano izquierda)
+
+let diatonicVoicingByScale = (
+  gradeVoicing,
+  rootNoteIndex,
+  chordsToUse,
+  baseScale,
+) =>
+  n(gradeVoicing).anchor(chordsToUse.rootNotes(rootNoteIndex)).scale(baseScale);
+
+// prettier-ignore
+voicingRegistry.ireal.dictionary.add4 = ['1P 3M 4P 5P'];
+
+// const FLOATING_CHORDS =
+//   "<~ Bb Abm Ao F Bb Bbadd4 Abadd4 F7 Bbm Ch7 C7 Fm F7 Bb>";
+const FLOATING_CHORDS =
+  "<~ Bb Abm Ao F7sus Bb Bb6 Abadd4 F7 Bbm Ch7 C7 Fm F7 Bb9>";
+
+const beatingSynth = chord(FLOATING_CHORDS)
+  .voicing()
+  .struct("<~ [x!12]!9 [x!12]!5 x>")
+  .sustain(0.3)
+  .velocity("<~ [0.5 0.8]*6!11 [0.8 1]*6!2 1>")
+  .sound("gm_synth_strings_2")
+  .velocity(0);
+// .mask("<0!6 1!9>");
+
+const floatingSynth = chord(FLOATING_CHORDS)
+  .voicing()
+  .sound("gm_synth_choir")
+  .attack(0.15)
+  .hpf(350)
+  .hpq(8)
+  .gain(0)
+  .vib(5)
+  .vibmod(0.08)
+  .tremolo(5)
+  .tremolodepth(0.6)
+  .velocity(0.5);
+// .mask("<1!9 0!5 1>");
 
 // ── Las notas ───────────────────────────────────────────────────
 // Un compás por línea y un compás por ciclo. La rejilla es de
@@ -95,19 +135,37 @@ const BOCETO_MI = [
 // ── La caja (§2) ────────────────────────────────────────────────
 // Los presets de la guía, en 12/8. En su propio stack, con su .bank().
 
+// ck(
+//   // Kick
+//   s("bd").beat("0, 6, 8, 14", 16),
+//   // Aro
+//   s("rim").beat("0, 3, 6, 10, 13", 16).velocity(.6),
+//   // High hat
+//   s("hh*8").velocity("[.5 .25]*4"),
+// ).bank("KorgKR55")
 const CAJAS = [
   silence,
   stack(
-    // 1 · slow rock: kick en 1 y 3, caja en 2 y 4
     s("bd ~ bd ~"),
     s("~ sd ~ sd"),
     s("hh*12").velocity("[.6 .3 .4]*4"),
-  ),
+  ).bank("KorgMinipops"),
   stack(
     // 2 · medio tiempo: kick en el 1, caja solo en el 3
     s("bd ~ ~ ~"),
     s("~ ~ sd ~"),
     s("hh*12").velocity("[.6 .3 .4]*4"),
+  ),
+  stack(
+    // Kick
+    s("bd").beat("0, 3, 6, 10, 13", 16),
+    // Aro
+    s("rim").beat("0, 6, 8, 14", 16).velocity(0.6),
+    // High hat
+    s("hh*8").velocity("[.5 .25]*4"),
+  ).bank("KorgKR55"),
+  stack(s("bd ~ ~"), s("~ sd sd").velocity(0.5), s("[hh!3]!3")).bank(
+    "RolandCompurhythm78",
   ),
 ];
 
@@ -119,17 +177,50 @@ const compases = (lista) => cat(...lista.slice(DESDE - 1, HASTA));
 const tiembla = (p) => (VIBRATO ? p.vib(5).vibmod(0.08) : p);
 const gastado = (p) => (CINTA ? p.lpf(3500).crush(11) : p);
 
-const melodia = tiembla(note(compases(MD)).s(MELODIA));
-const arpegio = tiembla(
-  note(BOCETO ? cat(...BOCETO_MI) : compases(MI)).s(ARPEGIO),
-)
-  .delay(ECO)
-  .delaysync(1 / 4)
-  .delayfeedback(0.4); // 1/4 de compás = una negra con punto
+const melodia = note(compases(MD))
+  .s(MELODIA)
+  .vib("<0.08!9 0!3 0.15!3>")
+  .lpf(2000)
+  .decay(1)
+  .sustain("<0!9 1!4 1.5!2>")
+  // .penv(0.5)
+  // .pattack(0.12)
+  // .vibmod(0.08)
+  // .delay(0.3)
+  // .delaysync(1 / 4)
+  // .delayfeedback(0.4)
+  .room(0.9);
+
+const tremelody = stack(
+  // Left and up
+  melodia.add(note("<0!6 -0.2!3 -0.3!3 -0.2!2 0>")).pan(0.2),
+  melodia.add(note(0.1)).pan(0.8),
+);
+
+const arpegio = tiembla(note(compases(MI)).s(ARPEGIO))
+  .delay("<0!6 0.3!4 0.5!5>")
+  .delaysync(3 / 16)
+  .delayfeedback("<0!6 0.25!4 0.5!5>")
+  .room(0.5);
+// .tremolosync(8)
+// .tremolodepth(0.7);
 
 gastado(
   stack(
-    BOCETO ? arpegio : stack(melodia, arpegio),
+    // Melody
+    // melodia,
+    tremelody,
+
+    // Arps
+    arpegio,
+
+    // Drums: Old box machine
     CAJAS[CAJA].bank(BANCO),
+
+    // beating synth
+    // beatingSynth,
+
+    // // Floating synth
+    floatingSynth,
   ).room(SALA),
 );
