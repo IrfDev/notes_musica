@@ -2,6 +2,6 @@
   "music-code-blocks",
   "mermaid-tools",
   "verovio-music-renderer",
-  "strudel-repl",
-  "obsidian-shellcommands"
+  "obsidian-livesync",
+  "strudel-repl"
 ]
