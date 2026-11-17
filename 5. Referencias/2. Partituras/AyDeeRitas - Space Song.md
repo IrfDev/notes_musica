@@ -28,8 +28,23 @@ revisados: 48
 - `[[AyDeeRitas - Space Song|Space Song]] cc. a–b`
 - Con mano, tonalidad, tempo o receta: `… · MD · en Re · a 60 · puntillo`
 
+## Pasajes
+
+| Pasaje | Compases | Revisados |
+|---|---|---|
+| [[#Intro]] | 1–8 | 8 de 8 |
+| [[#V1]] | 9–12 | 4 de 4 |
+
 ## Compases con duda
 
 - c. 39: Sol6 queda a más de dos octavas de sus vecinas ✓
+
+## Intro
+
+cc. 1–8
+
+## V1
+
+cc. 9–12
 <!-- partituras:fin -->
 
