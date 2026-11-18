@@ -5,8 +5,8 @@ fecha: 2026-11-17
 dia_programa: 6
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/06. Día 6 - Escalas G A y B|Día 6 · Escalas G, A y B]]"
-tomas: 5
-minutos_grabados: 8.2
+tomas: 10
+minutos_grabados: 11.5
 estado: abierta
 fuente: frai-estudio
 ---
@@ -34,7 +34,12 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/06. Día 6 - Esca
 | 2 | 21:50 | 3:09 | -13.62 dBFS | Hanon 2 | listo |
 | 3 | 21:53 | 1:29 | -19.28 dBFS | Hanon 2 | listo |
 | 4 | 21:55 | 1:12 | -22.09 dBFS | Hanon 2 | listo |
-| 5 | 22:00 | 0:29 | -17.39 dBFS | Recuperación | procesando |
+| 5 | 22:00 | 0:29 | -17.39 dBFS | Recuperación | listo |
+| 6 | 22:02 | 0:44 | -19.76 dBFS | Recuperación | listo |
+| 7 | 22:03 | 1:12 | -26.65 dBFS | Recuperación | listo |
+| 8 | 22:04 | 1:07 | -23.02 dBFS | Recuperación | listo |
+| 9 | 22:05 | 0:18 | -28.0 dBFS | Recuperación | procesando |
+| 10 | 22:06 | 0:00 | — |  | grabando |
 
 ### Toma 1 · 21:43
 
@@ -118,18 +123,92 @@ Para la próxima: Hanon 2: toca la pasada completa, sube las 14 celdas y baja la
 
 ### Toma 5 · 22:00
 
+![[2026-11-17 piano día 6 - hanon 2 (7).mp3]]
+Hanon 2 · 0:04 · 60% correcto · 594/min · regularidad ±42% · una mano (probable MI) · [[2026-11-17 piano día 6 - hanon 2 (7).mid|MIDI]]
+
 - Fragmento 1: 0:04–0:09 · marcada: Recuperación · una mano (probable MD)
 - Fragmento 2: 0:13–0:18 · marcada: Recuperación · una mano (probable MD)
 - Fragmento 3: 0:22–0:23 · **Principal** (baja) · «B · B: una octava a dos manos» · marcada: Recuperación · 50% correcto · una mano (probable MD)
 - Fragmento 4: 0:25–0:29 · **Hanon 2** (media) · «las celdas de Hanon» · marcada: Recuperación · 60% correcto · 594/min · regularidad ±42% · una mano (probable MI)
 - Contra la partitura: fragmento 3 en 0:00, esperaba B y sonó A (faltó B); fragmento 4 en 0:02, esperaba A y sonó C+F+G+A+B
 
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 4 (Hanon 2): 594 ataques/min, sin tempo del plan para comparar.
+
+Resumen: En la toma de 29,5 s se intentaron cuatro fragmentos. Los dos primeros no se identificaron con la lección. En el fragmento Principal solo se coincidió el 50 % con la partitura y faltó la nota B. En el Hanon 2 se alcanzó 594 ataques/min (mucho más rápido que intentos anteriores) pero solo el 60 % coincidió y los intervalos entre ataques variaron ±42 %, indicando falta de parejo.
+
+Para la próxima: Hanon 2: busca ataques más parejos con el metrónomo; hoy los intervalos variaron ±42%.
+
+### Toma 6 · 22:02
+
+- Fragmento 1: 0:03–0:11 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 2: 0:14–0:25 · marcada: Recuperación · 474/min · regularidad ±64% · una mano (probable MI) · 1 pausas · pedal 100% · BPM ≈ 80.7 (audio)
+- Fragmento 3: 0:28–0:44 · marcada: Recuperación · 248/min · regularidad ±47% · una mano (probable MI) · 5 pausas · pedal 94% · BPM ≈ 129.2 (audio)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 2: 474 ataques/min, sin tempo del plan para comparar. Fragmento 3: 248 ataques/min, sin tempo del plan para comparar.
+
+Resumen: fragmento 1: sin identificar — una mano (probable MD) · pedal 100%; fragmento 2: sin identificar — 474/min · regularidad ±64% · una mano (probable MI) · 1 pausas · pedal 100%; fragmento 3: sin identificar — 248/min · regularidad ±47% · una mano (probable MI) · 5 pausas · pedal 94%
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 7 · 22:03
+
+- Fragmento 1: 0:02–0:06 · marcada: Recuperación · una mano (probable MD)
+- Fragmento 2: 0:07–0:12 · marcada: Recuperación · una mano (probable MD)
+- Fragmento 3: 0:16–0:25 · marcada: Recuperación · una mano (probable MD) · BPM ≈ 86.1 (audio)
+- Fragmento 4: 0:28–0:32 · marcada: Recuperación · una mano (probable MD)
+- Fragmento 5: 0:37–0:39 · marcada: Recuperación · una mano (probable MD)
+- Fragmento 6: 0:40–0:46 · marcada: Recuperación · una mano (probable MD)
+- Fragmento 7: 0:51–0:53 · marcada: Recuperación · una mano (probable MD)
+- Fragmento 8: 0:55–1:00 · **Hanon 2** (baja) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Recuperación · 50% correcto · una mano (probable MD)
+- Fragmento 9: 1:02–1:04 · marcada: Recuperación · una mano (probable MD)
+- Fragmento 10: 1:08–1:12 · marcada: Recuperación · una mano (probable MD)
+- Contra la partitura: fragmento 8 en 0:03, esperaba A y sonó Eb (faltó A)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: fragmento 1: sin identificar — una mano (probable MD); fragmento 2: sin identificar — una mano (probable MD); fragmento 3: sin identificar — una mano (probable MD); fragmento 4: sin identificar — una mano (probable MD); fragmento 5: sin identificar — una mano (probable MD); fragmento 6: sin identificar — una mano (probable MD)
+
+Para la próxima: Hanon 2: repasa A despacio; sonó Eb (faltó A).
+
+### Toma 8 · 22:04
+
+- Fragmento 1: 0:09–0:23 · marcada: Recuperación · una mano (probable MD) · pedal 80% · BPM ≈ 143.6 (audio)
+- Fragmento 2: 0:28–0:29 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 3: 0:35–0:40 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 4: 0:45–0:46 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 5: 0:52–0:54 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 6: 0:57–1:02 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 7: 1:04–1:07 · marcada: Recuperación · una mano (probable MD) · pedal 71%
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: En la lección Día 6 · Escalas G, A y B se grabaron siete fragmentos, todos clasificados como "sin identificar" con confianza baja y mayormente con una sola mano (probable MD). El pedal estuvo bajo entre el 71% y el 100% del tiempo y no hubo suficiente pulso para medir el tempo. No hay historial previo que indique mejora.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 9 · 22:05
+
+- Fragmento 1: 0:00–0:02 · marcada: Recuperación
+- Fragmento 2: 0:04–0:16 · marcada: Recuperación · 37/min · regularidad ±19% · una mano (probable MD) · BPM ≈ 80.7 (audio)
+
 ## Progreso · 30 días hasta esta sesión
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
 |---|--:|--:|--:|--:|--:|--:|
-| Hanon 2 | 12 | 13.9 | 71% | 167 | 220 | — |
-| Principal | 17 | 4.5 | 85% | 26 | 242 | — |
+| Hanon 2 | 14 | 14.1 | 70% | 594 | 220 | — |
+| Principal | 18 | 4.6 | 84% | 26 | 242 | — |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
 ## Mis notas
