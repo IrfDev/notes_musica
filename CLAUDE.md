@@ -306,6 +306,67 @@ la comparación obra contra referencia va a `<obra>/AI/`.
 
 **Scripts:** estos nombres llevan puntos; nada de `with_suffix()` sobre ellos (ver *Trampas conocidas*).
 
+
+---
+
+## Métricas de piano
+
+El avance del piano se mide con notas de tipo `metrica`, una por métrica, en
+`4. Instrumento/1. Piano/2. Métricas/`. Tienen la forma del catálogo de objetivos de Fitness: las **formas**
+son reutilizables, cada métrica es una forma más sus parámetros y sus metas, y la lección **cita** la
+métrica en vez de redefinirla. Índice, tablero y trazabilidad en
+[[4. Instrumento/1. Piano/2. Métricas/00. Métricas|00. Métricas]].
+
+```
+4. Instrumento/1. Piano/2. Métricas/
+├── 00. Métricas.md           ← índice: tablero (Base), trazabilidad sección ↔ métrica, reglas
+├── 01. Tipos.md              ← las formas: tempo limpio, diferencia entre manos, en frío, conteo,
+│                                frecuencia, toma de control
+├── 02. … 10.                 ← una nota por métrica (carril - qué mide)
+└── 11. Cómo las lee Frai.md  ← qué lee y qué calcula el estudio de piano, y qué le falta
+```
+
+Cada métrica tiene, en este orden: *El número*, *Tempo vigente* (si es de tempo), *Cuenta solo si*,
+*Metas* (una por día de grabación: 5, 10, 15, 20, 25 y 30), *Lo construye*, *Lecturas* y *Cambios*.
+
+```yaml
+tipo: metrica
+id: hanon-tempo-limpio        # estable, kebab-case; también en aliases
+carril: Hanon                 # Hanon | Teclado | Sleep on the Floor | Todo
+tipo_metrica: tempo-limpio    # una forma de 01. Tipos
+hoy: "…"                      # la última lectura, o la más cercana si ninguna contó
+hoy_fecha: 2026-11-16
+siguiente_meta: "…"           # la del próximo día de grabación: es lo que muestra el tablero
+siguiente_dia: 5
+tempo_vigente:                # solo las de tempo: «ejercicio · escalón o forma · BPM»
+  - "Hanon 1 · una nota por click · 100"
+precision_min: 90             # solo las de tempo
+regularidad_max: 20
+tolerancia_tempo: 5
+```
+
+**Reglas.**
+
+1. **La lección cita la métrica.** Debajo de cada encabezado de sección (`## N · …`) de una lección del
+   programa va un callout `> [!target] Qué se busca` con el enlace a su métrica y lo que hace que una toma
+   cuente. Una sección nueva lleva el suyo; una sección sin métrica se dice en el callout («no tiene
+   métrica: …»).
+2. **En ese callout no van tempos, escalones ni nombres de acordes.** Frai lee el tempo del plan de las
+   casillas («a 100 con una nota por click») y los acordes del texto de la Recuperación; un número de más
+   le cambia el análisis. El tempo vive en `tempo_vigente` de la métrica.
+3. **«Cuenta solo si» no se negocia.** Una toma que falla una condición se anota en *Lecturas* con el porqué
+   y no se promedia con las que cuentan.
+4. **El tempo vigente es la referencia aunque el metrónomo esté apagado.** Cambia solo con la regla del
+   metrónomo (3 tomas válidas seguidas, sube; 3 fallidas, baja 8), con fecha en *Cambios*.
+5. **La IA registra; no mueve metas.** Puede agregar filas a *Lecturas* y actualizar `hoy`, `hoy_fecha`,
+   `siguiente_meta` (al pasar un día de grabación) y `tempo_vigente` (cuando la regla lo manda), sacando los
+   datos de la bitácora de Frai. Las metas y las condiciones cambian solo si el usuario lo decide, con fecha
+   y razón en *Cambios*.
+6. **Las metas salen de los hitos del programa.** Si un hito y una métrica no coinciden, se dice en la
+   métrica; no se corrige en silencio.
+7. **Una métrica nueva solo si ninguna sirve; un tipo nuevo, solo si ningún tipo sirve.** Primero se busca en
+   el índice.
+8. **Si Fabs dice otra cosa, gana Fabs**, y se anota en *Cambios*.
 ---
 
 ## Nomenclatura
@@ -329,6 +390,7 @@ Todas las notas:
 tipo:   # captura | concepto | guia-ai | ejercicio | estudio
         # composicion | sesion | semana | mapa | referencia | rubrica | setup
         # mapa-obra | decisiones | contexto | hallazgos | feedback
+        # metrica
 estado: # vigente | borrador | superseded | archivado
 ```
 
@@ -346,7 +408,7 @@ un sitio, lo es en todos. Eso convierte un error de tecleo en un error visible.
 
 Plantillas listas en `10. System/2. Plantillas/`: notas (`Clase`, `Concepto`,
 `Obra`, `Mapa`, `Decisiones`, `Sesión de obra`, `Contexto`, `Hallazgos`, `Feedback`, `Estudio`,
-`Actividad de curso`, `Semana`, `Sesión deliberada`, `Setup`), bloques
+`Actividad de curso`, `Semana`, `Sesión deliberada`, `Setup`, `Métrica`), bloques
 reutilizables (`bloque — dónde va cada archivo`, `bloque — prueba de posesión`,
 `Rúbrica - Composición`) y snippets de notación.
 
