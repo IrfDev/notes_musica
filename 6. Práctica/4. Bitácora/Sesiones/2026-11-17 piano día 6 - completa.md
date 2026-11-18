@@ -6,7 +6,7 @@ dia_programa: 6
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/06. Día 6 - Escalas G A y B|Día 6 · Escalas G, A y B]]"
 tomas: 15
-minutos_grabados: 16.6
+minutos_grabados: 17.9
 estado: abierta
 fuente: frai-estudio
 ---
@@ -25,6 +25,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/06. Día 6 - Esca
 | 21:32 | Antes de empezar |
 | 21:45 | Hanon 2 |
 | 21:56 | Recuperación |
+| 22:12 | Principal |
 
 ## Tomas
 
@@ -43,8 +44,8 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/06. Día 6 - Esca
 | 11 | 22:07 | 0:39 | -25.85 dBFS | Recuperación | listo |
 | 12 | 22:07 | 0:59 | -27.36 dBFS | Recuperación | listo |
 | 13 | 22:08 | 0:58 | -27.12 dBFS | Recuperación | listo |
-| 14 | 22:09 | 1:27 | -23.65 dBFS | Recuperación | procesando |
-| 15 | 22:11 | 0:00 | — |  | grabando |
+| 14 | 22:09 | 1:27 | -23.65 dBFS | Recuperación | listo |
+| 15 | 22:11 | 1:15 | -24.01 dBFS | Recuperación | listo |
 
 ### Toma 1 · 21:43
 
@@ -294,6 +295,38 @@ Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección
 - Fragmento 5: 0:35–0:51 · marcada: Recuperación · 72/min · regularidad ±51% · una mano (probable MD) · pedal 100% · BPM ≈ 107.7 (audio)
 - Fragmento 6: 0:58–1:02 · marcada: Recuperación · una mano (probable MD) · pedal 100%
 - Fragmento 7: 1:05–1:27 · marcada: Recuperación · 350/min · regularidad ±48% · una mano (probable MD) · 1 pausas · pedal 95% · BPM ≈ 161.5 (audio)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 5: 72 ataques/min, sin tempo del plan para comparar. Fragmento 7: 350 ataques/min, sin tempo del plan para comparar.
+
+Resumen: Se intentó tocar ejercicios de la lección "Día 6 · Escalas G, A y B", pero en los siete fragmentos el ejercicio quedó "sin identificar" y la confianza es baja en todos ellos. Los ataques son muy irregulares: 72 ataques/min en el fragmento 5 y 350 ataques/min en el fragmento 7, sin datos del tempo del plan para comparar. No hay historial previo que indique mejora.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 15 · 22:11
+
+- Fragmento 1: 0:03–0:05 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 2: 0:07–0:09 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 3: 0:10–0:15 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 4: 0:24–0:26 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 5: 0:30–0:32 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 6: 0:36–0:38 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 7: 0:42–0:46 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 8: 0:49–0:51 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 9: 0:57–0:59 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 10: 1:04–1:06 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 11: 1:10–1:15 · marcada: Recuperación · una mano (probable MD) · pedal 85%
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: fragmento 1: sin identificar — una mano (probable MD) · pedal 100%; fragmento 2: sin identificar — una mano (probable MD) · pedal 100%; fragmento 3: sin identificar — una mano (probable MD) · pedal 100%; fragmento 4: sin identificar — una mano (probable MD) · pedal 100%; fragmento 5: sin identificar — una mano (probable MD) · pedal 100%; fragmento 6: sin identificar — una mano (probable MD) · pedal 100%
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
 
 ## Progreso · 30 días hasta esta sesión
 
