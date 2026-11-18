@@ -5,8 +5,8 @@ fecha: 2026-11-15
 dia_programa: 5
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/05. Día 5 - La inversión más cercana|Día 5 · La inversión más cercana · 🎙 grabación]]"
-tomas: 7
-minutos_grabados: 6.7
+tomas: 13
+minutos_grabados: 10.8
 estado: abierta
 fuente: frai-estudio
 ---
@@ -38,6 +38,12 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/05. Día 5 - La i
 | 5 | 12:54 | 2:23 | -19.37 dBFS | Hanon 2 (bajada) y 1 | listo |
 | 6 | 13:02 | 0:59 | -23.28 dBFS | Recuperación | listo |
 | 7 | 13:03 | 0:34 | -22.99 dBFS | Recuperación | listo |
+| 8 | 13:32 | 0:56 | -28.19 dBFS | Principal | listo |
+| 9 | 13:33 | 0:37 | -27.63 dBFS | Principal | listo |
+| 10 | 13:33 | 0:16 | -24.78 dBFS | Principal | listo |
+| 11 | 13:34 | 0:33 | -25.71 dBFS | Principal | listo |
+| 12 | 13:35 | 0:44 | -25.71 dBFS | Principal | listo |
+| 13 | 13:36 | 1:00 | -27.63 dBFS | Principal | listo |
 
 ### Toma 1 · 12:34
 
@@ -190,13 +196,129 @@ Resumen: En la toma de 33.84 s se identificaron cinco fragmentos; cuatro de ello
 
 Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
 
+### Toma 8 · 13:32
+
+![[2026-11-16 piano día 5 - recuperación (10).mp3]]
+Recuperación · 0:05 · 100% correcto · una mano (probable MD) · [[2026-11-16 piano día 5 - recuperación (10).mid|MIDI]]
+
+- Fragmento 1: 0:02–0:14 · marcada: Principal · 24/min · regularidad ±17% · una mano (probable MD) · BPM ≈ 44.6 (audio)
+- Fragmento 2: 0:22–0:25 · marcada: Principal · una mano (probable MD)
+- Fragmento 3: 0:29–0:31 · marcada: Principal · una mano (probable MD)
+- Fragmento 4: 0:40–0:43 · marcada: Principal · una mano (probable MD)
+- Fragmento 5: 0:46–0:48 · marcada: Principal
+- Fragmento 6: 0:50–0:56 · **Recuperación** (alta) · «Grupos 1 y 2 en 2ª inversión, MI» · marcada: Principal · 100% correcto · una mano (probable MD)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 1: 24 ataques/min, sin tempo del plan para comparar.
+
+Resumen: Se tocó el ejercicio de Recuperación en el fragmento 6, con 100 % de coincidencia y ejecución correcta. Los fragmentos 1‑5 no se identificaron, mostraron baja confianza y variaciones en los ataques. No hay tempo del plan para comparar, pero el desempeño en Recuperación se mantiene al nivel de tomas anteriores, que ya eran 100 % correctas.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 9 · 13:33
+
+![[2026-11-16 piano día 5 - recuperación (11).mp3]]
+Recuperación · 0:04 · 100% correcto · una mano (probable MD) · [[2026-11-16 piano día 5 - recuperación (11).mid|MIDI]]
+
+- Fragmento 1: 0:00–0:07 · marcada: Principal · una mano (probable MD)
+- Fragmento 2: 0:10–0:21 · marcada: Principal · 28/min · regularidad ±14% · una mano (probable MD) · BPM ≈ 117.5 (audio)
+- Fragmento 3: 0:26–0:28 · marcada: Principal · una mano (probable MD)
+- Fragmento 4: 0:29–0:31 · marcada: Principal · una mano (probable MD)
+- Fragmento 5: 0:34–0:37 · **Recuperación** (alta) · «Grupos 1 y 2 en 2ª inversión, MI» · marcada: Principal · 100% correcto · una mano (probable MD)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 2: 28 ataques/min, sin tempo del plan para comparar.
+
+Resumen: En la toma se identificaron cuatro fragmentos sin identificar con baja confianza y una sola sección (fragmento 5) que coincidió al 100 % con el ejercicio «Recuperación» en 2ª inversión con la MI. El fragmento 2 mostró 28 ataques por minuto, pero no hay tempo de referencia en el plan para compararlo. Según el historial, las ejecuciones anteriores de «Recuperación» fueron 100 % correctas, manteniéndose la precisión en este intento.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 10 · 13:33
+
+- Fragmento 1: 0:01–0:08 · marcada: Principal · una mano (probable MD)
+- Fragmento 2: 0:09–0:15 · marcada: Principal · una mano (probable MD)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: Se grabaron dos fragmentos sin identificar, ambos con una sola mano (probable mano derecha) y acordes diferentes (A, C, D/A, G/B en el primero; Bm, E/B, Esus2/B en el segundo). La coincidencia con los ejercicios de la lección es baja, la confianza es baja y no se pudo medir el tempo porque no hubo pulsos suficientes. No hay historial previo para comparar mejoras.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 11 · 13:34
+
+- Fragmento 1: 0:04–0:19 · marcada: Principal · 33/min · regularidad ±34% · una mano (probable MD) · BPM ≈ 92.3 (audio)
+- Fragmento 2: 0:20–0:33 · marcada: Principal · 34/min · regularidad ±33% · una mano (probable MD) · BPM ≈ 99.4 (audio)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 1: 33 ataques/min, sin tempo del plan para comparar. Fragmento 2: 34 ataques/min, sin tempo del plan para comparar.
+
+Resumen: Se grabaron dos fragmentos sin identificar, ambos con una sola mano y confianza baja. Los ataques fueron de 33 y 34 por minuto, con variaciones de intervalo de ±34 % y ±33 % respectivamente, indicando un ritmo poco parejo. No hay tempo de referencia en el plan para comparar, por lo que no se puede evaluar la precisión del tempo.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 12 · 13:35
+
+- Fragmento 1: 0:02–0:11 · marcada: Principal · una mano (probable MD) · BPM ≈ 198.8 (audio)
+- Fragmento 2: 0:12–0:17 · **Hanon 2** (baja) · «Hanon 2 · bajada (15 compases y el C final; MD; la MI, una octava abajo)» · marcada: Principal · 50% correcto · una mano (probable MD)
+- Fragmento 3: 0:19–0:26 · marcada: Principal · una mano (probable MD)
+- Fragmento 4: 0:29–0:31 · marcada: Principal · una mano (probable MD)
+- Fragmento 5: 0:33–0:35 · marcada: Principal · una mano (probable MD)
+- Fragmento 6: 0:37–0:44 · **Sleep on the Floor** (baja) · «Sleep on the Floor · cc. 18–39 · MI» · marcada: Principal · 67% correcto · una mano (probable MD)
+- Contra la partitura: fragmento 2 en 0:00, esperaba G y sonó E (faltó G); fragmento 6 en 0:00, esperaba C y sonó Bb (faltó C, E, G)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: Se grabó la lección Día 5; solo los fragmentos 2 (Hanon 2) y 6 (Sleep on the Floor) coincidieron parcialmente con la partitura, con confianza baja y alrededor del 50‑67 % de acierto. No se pudo medir el tempo. En comparación con tomas anteriores, la precisión es menor tanto en Hanon 2 como en Sleep on the Floor.
+
+Para la próxima: Hanon 2: repasa G despacio; sonó E (faltó G).
+
+### Toma 13 · 13:36
+
+![[2026-11-16 piano día 5 - recuperación (12).mp3]]
+Recuperación · 0:04 · 100% correcto · una mano (probable MD) · [[2026-11-16 piano día 5 - recuperación (12).mid|MIDI]]
+
+![[2026-11-16 piano día 5 - recuperación (13).mp3]]
+Recuperación · 0:04 · 100% correcto · una mano (probable MD) · [[2026-11-16 piano día 5 - recuperación (13).mid|MIDI]]
+
+- Fragmento 1: 0:00–0:04 · **Recuperación** (alta) · «Grupos 1 y 2 en 2ª inversión, MI» · marcada: Principal · 100% correcto · una mano (probable MD)
+- Fragmento 2: 0:06–0:10 · **Recuperación** (alta) · «Grupos 1 y 2 en 2ª inversión, MI» · marcada: Principal · 100% correcto · una mano (probable MD)
+- Fragmento 3: 0:12–0:14 · marcada: Principal
+- Fragmento 4: 0:15–0:17 · marcada: Principal · una mano (probable MD)
+- Fragmento 5: 0:19–0:22 · marcada: Principal · una mano (probable MD)
+- Fragmento 6: 0:23–0:25 · marcada: Principal
+- Fragmento 7: 0:28–0:37 · marcada: Principal · una mano (probable MD) · BPM ≈ 152.0 (audio)
+- Fragmento 8: 0:41–0:43 · marcada: Principal · una mano (probable MD)
+- Fragmento 9: 0:48–0:58 · marcada: Principal · una mano (probable MD) · BPM ≈ 152.0 (audio)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Sin fragmentos con pulso suficiente para medir el tempo.
+
+Resumen: En la toma de 59.7 s se identificaron dos fragmentos de recuperación (1 y 2) que coincidieron al 100 % con la partitura de los grupos 1 y 2 en 2ª inversión (MI) y fueron ejecutados con alta confianza. Los demás fragmentos no pudieron asociarse a ningún ejercicio y presentan baja confianza. No se obtuvo suficiente pulso para medir el tempo; el rendimiento sigue siendo consistente con los registros anteriores de 100 % de acierto.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
 ## Progreso · 30 días hasta esta sesión
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
 |---|--:|--:|--:|--:|--:|--:|
 | Hanon 1 | 13 | 10.4 | 70% | 101 | 456 | 100 |
-| Hanon 2 | 7 | 9.7 | 81% | 169 | 220 | 100 |
-| Recuperación | 18 | 3.5 | 97% | 248 | 248 | — |
+| Hanon 2 | 8 | 9.8 | 79% | 169 | 220 | 100 |
+| Recuperación | 21 | 3.8 | 97% | 248 | 248 | — |
+| Sleep on the Floor | 6 | 2.7 | 91% | 55 | 55 | — |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
 ## Mis notas

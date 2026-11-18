@@ -94,31 +94,31 @@ revisados: 75
 - [[03. Día 3 - Grupo 3 entero y grupo 4]] · `sotf: mapa · cc. 18–23 · MI`
 - [[04. Día 4 - Inversiones con la MI]] · `sotf: cc. 18–33 · MI`
 - [[05. Día 5 - La inversión más cercana]] · `sotf: cc. 18–39 · MI`
-- [[06. Día 6 - Escalas G A y B]] · `sotf: cc. 18–29 · juntas`
-- [[07. Día 7 - Escalas Bb y Eb]] · `sotf: cc. 30–39 · juntas`
-- [[08. Día 8 - Escalas Ab y Db]] · `sotf: cc. 1–17 · lectura · MI 1–9`
-- [[09. Día 9 - Escala Gb y bemoles a dos manos]] · `sotf: cc. 1–9 · juntas`
-- [[10. Día 10 - Las 12 escalas por el círculo]] · `sotf: cc. 10–17 · verso juntas`
-- [[11. Día 11 - Arpegios, grupos 1 y 2]] · `sotf: cc. 1–17 · intro juntas`
-- [[12. Día 12 - Arpegios, grupos 3 y 4]] · `sotf: cc. 1–39 · intro y verso`
-- [[13. Día 13 - Armonizar en C D F y G]] · `sotf: cc. 40–47 · separadas`
-- [[14. Día 14 - Armonizar en A E Bb y Eb]] · `sotf: cc. 40–51`
-- [[15. Día 15 - Armonizar al azar]] · `sotf: cc. 1–47`
-- [[16. Día 16 - Cadencia en C G D A E]] · `sotf: cc. 48–55 · MI`
-- [[17. Día 17 - Cadencia en F Bb Eb Ab]] · `sotf: cc. 48–55 · MD`
-- [[18. Día 18 - Cadencia en B Gb Db y las 12]] · `sotf: cc. 56–59 · 48–51 juntas`
-- [[19. Día 19 - La cadencia con V7]] · `sotf: cc. 52–59 · juntas`
-- [[20. Día 20 - Las 12 cadencias]] · `sotf: cc. 40–59 · juntas`
-- [[21. Día 21 - Patrones de MI, los abiertos]] · `sotf: cc. 60–67 · MD`
-- [[22. Día 22 - Patrones de MI, los que se mueven]] · `sotf: cc. 60–67 · MI`
-- [[23. Día 23 - Patrones transportados]] · `sotf: cc. 60–63 · juntas`
-- [[24. Día 24 - Louise en el piano]] · `sotf: cc. 64–75`
-- [[25. Día 25 - Louise, qué nota va arriba]] · `sotf: cc. 40–75`
-- [[26. Día 26 - Rotación, lado de sostenidos]] · `sotf: cc. 1–39 · tempo`
-- [[27. Día 27 - Rotación, lado de bemoles]] · `sotf: cc. 40–75 · tempo`
-- [[28. Día 28 - Examen de teclado]] · `sotf: completa`
+- [[06. Día 6 - Escalas G A y B]] · `sotf: cc. 18–25 · MD → juntas`
+- [[07. Día 7 - Escalas Bb y Eb]] · `sotf: cc. 26–29 · MD → juntas`
+- [[08. Día 8 - Escalas Ab y Db]] · `sotf: cc. 30–37 · MD → juntas`
+- [[09. Día 9 - Escala Gb y bemoles a dos manos]] · `sotf: cc. 38–39 · MD → juntas · verso entero`
+- [[10. Día 10 - Las 12 escalas por el círculo]] · `sotf: cc. 18–39 · juntas · toma`
+- [[11. Día 11 - Arpegios, grupos 1 y 2]] · `sotf: cc. 68–71 · MD → juntas`
+- [[12. Día 12 - Arpegios, grupos 3 y 4]] · `sotf: cc. 72–75 · MD → juntas`
+- [[13. Día 13 - Armonizar en C D F y G]] · `sotf: cc. 1–6 · MD → MI → juntas`
+- [[14. Día 14 - Armonizar en A E Bb y Eb]] · `sotf: cc. 7–17 · MI → juntas · intro → verso`
+- [[15. Día 15 - Armonizar al azar]] · `sotf: cc. 1–39 · juntas · toma`
+- [[16. Día 16 - Cadencia en C G D A E]] · `sotf: cc. 40–41 y 44–45 · MD → MI → juntas`
+- [[17. Día 17 - Cadencia en F Bb Eb Ab]] · `sotf: cc. 42–43 · MD → MI → juntas`
+- [[18. Día 18 - Cadencia en B Gb Db y las 12]] · `sotf: cc. 46–47 · MD → MI → juntas · instrumental entero`
+- [[19. Día 19 - La cadencia con V7]] · `sotf: cc. 48–49 · MI → MD → juntas`
+- [[20. Día 20 - Las 12 cadencias]] · `sotf: cc. 1–47 · juntas · toma`
+- [[21. Día 21 - Patrones de MI, los abiertos]] · `sotf: cc. 50–51 · MD → juntas`
+- [[22. Día 22 - Patrones de MI, los que se mueven]] · `sotf: cc. 52–53 · MI → MD → juntas`
+- [[23. Día 23 - Patrones transportados]] · `sotf: cc. 54–58 · MD → MI → juntas`
+- [[24. Día 24 - Louise en el piano]] · `sotf: c. 59 · MD → MI → juntas · crescendo entero`
+- [[25. Día 25 - Louise, qué nota va arriba]] · `sotf: cc. 40–59 · juntas · toma`
+- [[26. Día 26 - Rotación, lado de sostenidos]] · `sotf: cc. 60–63 · MI → MD → juntas`
+- [[27. Día 27 - Rotación, lado de bemoles]] · `sotf: cc. 64–65 · MI → MD → juntas`
+- [[28. Día 28 - Examen de teclado]] · `sotf: cc. 66–67 · MI → MD → juntas · cc. 60–75`
 - [[29. Día 29 - Ensayo general]] · `sotf: completa · compases débiles`
-- [[30. Día 30 - La toma final]] · `sotf: completa`
+- [[30. Día 30 - La toma final]] · `sotf: completa · toma`
 
 ## Pre
 
