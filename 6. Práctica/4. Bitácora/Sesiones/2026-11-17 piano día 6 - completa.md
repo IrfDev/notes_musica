@@ -5,8 +5,8 @@ fecha: 2026-11-17
 dia_programa: 6
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/06. Día 6 - Escalas G A y B|Día 6 · Escalas G, A y B]]"
-tomas: 2
-minutos_grabados: 1.9
+tomas: 4
+minutos_grabados: 6.5
 estado: abierta
 fuente: frai-estudio
 ---
@@ -30,7 +30,9 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/06. Día 6 - Esca
 | # | Hora | Duración | Pico | Secciones marcadas | Análisis |
 |---|---|---|---|---|---|
 | 1 | 21:43 | 1:52 | -19.97 dBFS | Antes de empezar | listo |
-| 2 | 21:50 | 0:00 | — |  | grabando |
+| 2 | 21:50 | 3:09 | -13.62 dBFS | Hanon 2 | listo |
+| 3 | 21:53 | 1:29 | -19.28 dBFS | Hanon 2 | procesando |
+| 4 | 21:55 | 0:00 | — |  | grabando |
 
 ### Toma 1 · 21:43
 
@@ -44,6 +46,46 @@ Tempo contra el plan: Fragmento 1: 237 ataques/min, sin tempo del plan para comp
 Resumen: En la lección "Día 6 · Escalas G, A y B" se registraron 1217 notas en 401 ataques durante 110.9 s, con una velocidad de 237 ataques por minuto y una variación de intervalos de ±38 % (poco parejo). La ejecución mostró confianza baja, se usó mayormente una sola mano (probable mano derecha) y el pedal estuvo abajo el 99 % del tiempo, con una pausa de 2.1 s. No hay tempo de referencia en el plan, por lo que no se puede comparar la velocidad con el objetivo previsto.
 
 Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 2 · 21:50
+
+![[2026-11-17 piano día 6 - hanon 2.mp3]]
+Hanon 2 · 0:19 · 50% correcto · 160/min · regularidad ±49% · las dos · MI -10 de velocidad frente a MD · 1 pausas · pedal 100% · [[2026-11-17 piano día 6 - hanon 2.mid|MIDI]]
+
+![[2026-11-17 piano día 6 - hanon 2 (2).mp3]]
+Hanon 2 · 0:37 · ⚠ pasada incompleta: 6 de 14 celdas de subida y 0 de 15 de bajada · 55% correcto · 204/min · regularidad ±52% · las dos · MI -9 de velocidad frente a MD · 1 pausas · pedal 100% · [[2026-11-17 piano día 6 - hanon 2 (2).mid|MIDI]]
+
+![[2026-11-17 piano día 6 - hanon 2 (3).mp3]]
+Hanon 2 · 0:54 · ⚠ pasada incompleta: 0 de 14 celdas de subida y 3 de 15 de bajada · 20% correcto · 257/min · regularidad ±56% · las dos · MI -6 de velocidad frente a MD · 4 pausas · pedal 100% · [[2026-11-17 piano día 6 - hanon 2 (3).mid|MIDI]]
+
+- Fragmento 1: 0:55–0:58 · marcada: Hanon 2
+- Fragmento 2: 1:08–1:28 · **Hanon 2** (alta) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 2 · 50% correcto · 160/min · regularidad ±49% · las dos · MI -10 de velocidad frente a MD · 1 pausas · pedal 100% · BPM ≈ 99.4 (audio)
+- Fragmento 3: 1:30–2:07 · **Hanon 2** (alta) · «las celdas de Hanon» · marcada: Hanon 2 · ⚠ pasada incompleta: 6 de 14 celdas de subida y 0 de 15 de bajada · 55% correcto · 204/min · regularidad ±52% · las dos · MI -9 de velocidad frente a MD · 1 pausas · pedal 100% · BPM ≈ 99.4 (audio)
+- Fragmento 4: 2:11–2:12 · marcada: Hanon 2
+- Fragmento 5: 2:14–3:08 · **Hanon 2** (media) · «las celdas de Hanon» · marcada: Hanon 2 · ⚠ pasada incompleta: 0 de 14 celdas de subida y 3 de 15 de bajada · 20% correcto · 257/min · regularidad ±56% · las dos · MI -6 de velocidad frente a MD · 4 pausas · pedal 100% · BPM ≈ 99.4 (audio)
+- Contra la partitura: fragmento 3 en 0:00, esperaba C y sonó E (faltó C); fragmento 5 en 0:04, esperaba B y sonó A+B; fragmento 5 en 0:12, esperaba E y sonó E+F; fragmento 5 en 0:18, esperaba E y sonó D+E; fragmento 5 en 0:26, esperaba D y sonó C+D
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 2 (Hanon 2): 160 ataques/min, sin tempo del plan para comparar. Fragmento 3 (Hanon 2): 204 ataques/min, sin tempo del plan para comparar. Fragmento 5 (Hanon 2): 257 ataques/min, sin tempo del plan para comparar.
+
+Resumen: Se trabajó el ejercicio Hanon 2 en varios fragmentos. La precisión fue del 50‑55 % en los fragmentos 2 y 3 y solo del 20 % en el fragmento 5, con ataques cada vez más rápidos (160 → 204 → 257 ataques/min) y gran variabilidad (±49 %‑±56 %). Además, la mano izquierda suena más suave que la derecha, hay pausas largas y la pasada está incompleta.
+
+Para la próxima: Hanon 2: toca la pasada completa, sube las 14 celdas y baja las 15 (hoy 6 y 0); si no alcanza el tiempo, baja el tempo en vez de cortar la pasada.
+
+### Toma 3 · 21:53
+
+- Fragmento 1: 0:02–0:48 · **Hanon 2** (alta) · marcada: Hanon 2 · contra [[Hanon - Ejercicios 1-30]] 02 · ⚠ pasada incompleta: 10 de 14 celdas de subida y 0 de 15 de bajada · 88% correcto · fallan cc. 31–32, cc. 39–42 · 185/min · regularidad ±44% · las dos · MI -6 de velocidad frente a MD · pedal 100% · BPM ≈ 99.4 (audio)
+- Fragmento 2: 0:50–1:29 · **Hanon 2** (baja) · «Hanon 2 · pasada completa (MD; la MI, una octava abajo)» · marcada: Hanon 2 · 8% correcto · 283/min · regularidad ±59% · las dos · MI -1 de velocidad frente a MD · 1 pausas · pedal 97% · BPM ≈ 99.4 (audio)
+- Contra la partitura: fragmento 2 en 0:00, esperaba C y sonó G+A (faltó C); fragmento 2 en 0:13, esperaba A y sonó F+A; fragmento 2 en 0:14, esperaba F y sonó F+A; fragmento 2 en 0:26, esperaba F y sonó G (faltó F); fragmento 2 en 0:33, esperaba A y sonó C+D (faltó A)
+- Contra Partituras: fragmento 1, c. 31: esperaba La2+La3, sonó La2+Si2+La3, esperaba Sol2+Sol3, sonó Sol2; fragmento 1, c. 32: esperaba La2+La3, sonó La2; fragmento 1, c. 39: esperaba Fa3+Fa4, sonó Fa4; fragmento 1, c. 40: esperaba La3+La4, sonó La3; fragmento 1, c. 41: esperaba Si3+Si4, sonó Si4, esperaba Do4+Do5, sonó Do4, esperaba Si3+Si4, sonó Si3; fragmento 1, c. 42: esperaba Sol3+Sol4, sonó Do4, esperaba Do4+Do5, sonó Do5
+
+## Progreso · 30 días hasta esta sesión
+
+| Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
+|---|--:|--:|--:|--:|--:|--:|
+| Hanon 2 | 10 | 11.6 | 74% | 257 | 220 | — |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
 ## Mis notas
