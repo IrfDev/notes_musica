@@ -6,8 +6,8 @@ dia_programa: 5
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/05. Día 5 - La inversión más cercana|Día 5 · La inversión más cercana · 🎙 grabación]]"
 tomas: 4
-minutos_grabados: 8.5
-estado: abierta
+minutos_grabados: 10.8
+estado: cerrada
 fuente: frai-estudio
 ---
 
@@ -16,7 +16,7 @@ fuente: frai-estudio
 > [!info] Registro automático del estudio de piano en Frai
 > Se actualiza mientras la sesión está abierta y cuando termina cada análisis. Los recortes que van a la nota quedan en `9. Assets/Piano` (MP3 y MIDI) y también en la lección; la toma completa se queda en Frai: [abrir el estudio](https://piano.irf.rocks). Escribe en «Mis notas», al final: eso se respeta. Si cambias lo de arriba, el estudio deja de actualizar esta nota.
 
-Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/05. Día 5 - La inversión más cercana|Día 5 · La inversión más cercana · 🎙 grabación]] · de 21:07 (abierta)
+Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/05. Día 5 - La inversión más cercana|Día 5 · La inversión más cercana · 🎙 grabación]] · de 21:07 a 21:32
 
 ## Recorrido
 
@@ -32,7 +32,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/05. Día 5 - La i
 | 1 | 21:19 | 2:35 | -21.84 dBFS | Sleep on the Floor | listo |
 | 2 | 21:22 | 3:33 | -21.4 dBFS | Sleep on the Floor | listo |
 | 3 | 21:26 | 2:24 | -21.45 dBFS | Sleep on the Floor | listo |
-| 4 | 21:28 | 0:00 | — |  | grabando |
+| 4 | 21:28 | 2:16 | -22.25 dBFS | Sleep on the Floor | listo |
 
 ### Toma 1 · 21:19
 
@@ -228,13 +228,62 @@ Resumen: Se practicó principalmente el ejercicio Sleep on the Floor (fragmentos
 
 Para la próxima: Sleep on the Floor: busca ataques más parejos con el metrónomo; hoy los intervalos variaron ±44%.
 
+### Toma 4 · 21:28
+
+![[2026-11-17 piano día 5 - sleep on the floor (34).mp3]]
+Sleep on the Floor · 0:26 · metrónomo 40 · contra Sleep on the Floor cc. 18–39 · MI · 77% correcto · fallan c. 21, c. 23 · 66/min · regularidad ±50% · una mano (probable MI) · [[2026-11-17 piano día 5 - sleep on the floor (34).mid|MIDI]]
+
+![[2026-11-17 piano día 5 - sleep on the floor (35).mp3]]
+Sleep on the Floor · 0:07 · metrónomo 40 · 100% correcto · 47/min · regularidad ±15% · una mano (probable MI) · [[2026-11-17 piano día 5 - sleep on the floor (35).mid|MIDI]]
+
+![[2026-11-17 piano día 5 - sleep on the floor (36).mp3]]
+Sleep on the Floor · 0:08 · metrónomo 40 · 100% correcto · 44/min · regularidad ±29% · una mano (probable MI) · [[2026-11-17 piano día 5 - sleep on the floor (36).mid|MIDI]]
+
+![[2026-11-17 piano día 5 - sleep on the floor (37).mp3]]
+Sleep on the Floor · 0:06 · metrónomo 40 · 100% correcto · una mano (probable MI) · [[2026-11-17 piano día 5 - sleep on the floor (37).mid|MIDI]]
+
+![[2026-11-17 piano día 5 - sleep on the floor (38).mp3]]
+Sleep on the Floor · 0:03 · metrónomo 40 · 50% correcto · una mano (probable MI) · [[2026-11-17 piano día 5 - sleep on the floor (38).mid|MIDI]]
+
+![[2026-11-17 piano día 5 - sleep on the floor (39).mp3]]
+Sleep on the Floor · 0:09 · metrónomo 40 · 100% correcto · 39/min · regularidad ±32% · una mano (probable MI) · [[2026-11-17 piano día 5 - sleep on the floor (39).mid|MIDI]]
+
+![[2026-11-17 piano día 5 - sleep on the floor (40).mp3]]
+Sleep on the Floor · 0:02 · metrónomo 40 · 100% correcto · una mano (probable MI) · [[2026-11-17 piano día 5 - sleep on the floor (40).mid|MIDI]]
+
+![[2026-11-17 piano día 5 - recuperación (8).mp3]]
+Recuperación · 0:02 · metrónomo 40 · 100% correcto · una mano (probable MI) · [[2026-11-17 piano día 5 - recuperación (8).mid|MIDI]]
+
+- Fragmento 1: 0:04–0:31 · **Sleep on the Floor** (media) · marcada: Sleep on the Floor · metrónomo 40 · contra [[The Lumineers - Sleep on the Floor|Sleep on the Floor]] cc. 18–39 · MI · 77% correcto · fallan c. 21, c. 23 · 66/min · regularidad ±50% · una mano (probable MI)
+- Fragmento 2: 0:32–0:39 · **Sleep on the Floor** (alta) · «Sleep on the Floor · cc. 18–39 · MI» · marcada: Sleep on the Floor · metrónomo 40 · 100% correcto · 47/min · regularidad ±15% · una mano (probable MI)
+- Fragmento 3: 0:41–0:49 · **Sleep on the Floor** (alta) · «Sleep on the Floor · cc. 18–39 · MI» · marcada: Sleep on the Floor · metrónomo 40 · 100% correcto · 44/min · regularidad ±29% · una mano (probable MI)
+- Fragmento 4: 0:58–1:03 · **Sleep on the Floor** (alta) · «Sleep on the Floor · cc. 18–39 · MI» · marcada: Sleep on the Floor · metrónomo 40 · 100% correcto · una mano (probable MI)
+- Fragmento 5: 1:05–1:08 · **Sleep on the Floor** (media) · «Sleep on the Floor · cc. 18–39 · MI» · marcada: Sleep on the Floor · metrónomo 40 · 50% correcto · una mano (probable MI)
+- Fragmento 6: 1:13–1:42 · **Sleep on the Floor** (baja) · marcada: Sleep on the Floor · metrónomo 40 · contra [[The Lumineers - Sleep on the Floor|Sleep on the Floor]] cc. 18–39 · MI · 71% correcto · fallan c. 20, c. 23 · 60/min · regularidad ±52% · una mano (probable MI)
+- Fragmento 7: 1:43–1:54 · marcada: Sleep on the Floor · metrónomo 40 · 43/min · regularidad ±25% · una mano (probable MI)
+- Fragmento 8: 1:56–2:05 · **Sleep on the Floor** (alta) · «Sleep on the Floor · cc. 18–39 · MI» · marcada: Sleep on the Floor · metrónomo 40 · 100% correcto · 39/min · regularidad ±32% · una mano (probable MI)
+- Fragmento 9: 2:08–2:10 · **Sleep on the Floor** (alta) · «Sleep on the Floor · cc. 18–39 · MI» · marcada: Sleep on the Floor · metrónomo 40 · 100% correcto · una mano (probable MI)
+- Fragmento 10: 2:11–2:13 · **Recuperación** (alta) · «Grupos 1 y 2 en 2ª inversión, MI» · marcada: Sleep on the Floor · metrónomo 40 · 100% correcto · una mano (probable MI)
+- Fragmento 11: 2:15–2:16 · marcada: Sleep on the Floor · metrónomo 40
+- Contra la partitura: fragmento 5 en 0:00, esperaba C+G y sonó Esus4 (faltó C, G)
+- Contra Partituras: fragmento 1, c. 21: esperaba Do3+Sol3+Do4, sonó Do3+Sol3+Si3, esperaba Do2, sonó Do4; fragmento 1, c. 23: esperaba Fa3+La3+Do4+Fa4, sonó Fa3+Sol3+La3+Do4+Fa4, faltó Do3+Sol3+Do4, faltó Do2; fragmento 6, c. 20: esperaba Do3+Mi3+Sol3+Do4, sonó Re2, faltó Do3, faltó Do2; fragmento 6, c. 23: esperaba Fa3+La3+Do4+Fa4, sonó Fa3+Sol3+La3+Do4+Fa4, esperaba Do3+Sol3+Do4, sonó Fa3, esperaba Do2, sonó Fa3
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 1 (Sleep on the Floor): 66 ataques/min, sin tempo del plan para comparar. Fragmento 2 (Sleep on the Floor): 47 ataques/min, sin tempo del plan para comparar. Fragmento 3 (Sleep on the Floor): 44 ataques/min, sin tempo del plan para comparar. Fragmento 6 (Sleep on the Floor): 60 ataques/min, sin tempo del plan para comparar. Fragmento 7: 43 ataques/min, sin tempo del plan para comparar. Fragmento 8 (Sleep on the Floor): 39 ataques/min, sin tempo del plan para comparar.
+
+Resumen: Se grabó la MI del verso completo (cc. 18‑39) con varios fragmentos muy correctos (100 % coincidencia en los fragmentos 2, 3, 4, 8, 9 y 10) y un tempo razonable, aunque sin referencia al plan. Hubo errores notables en los compases 20, 21 y 23 y la regularidad de los ataques varió entre ±29 % y ±52 %, indicando que la parejidad rítmica necesita trabajo.
+
+Para la próxima: Sleep on the Floor: repite c. 21 despacio, solo la MI; esperaba Do3+Sol3+Do4, sonó Do3+Sol3+Si3.
+
 ## Progreso · 30 días hasta esta sesión
 
 | Sección | Tomas | Min | Correcto | Ataques/min (última) | Mejor con ≥ 90 % | Plan |
 |---|--:|--:|--:|--:|--:|--:|
 | Hanon 2 | 9 | 9.8 | 78% | 169 | 220 | 100 |
-| Sleep on the Floor | 9 | 7.8 | 93% | 49 | 55 | — |
-| Recuperación | 26 | 4.2 | 97% | 248 | 248 | — |
+| Sleep on the Floor | 10 | 9.3 | 93% | 39 | 55 | — |
+| Recuperación | 27 | 4.2 | 97% | 248 | 248 | — |
 <!-- estudio-piano: lo de arriba lo escribe el estudio; lo de abajo es tuyo -->
 
 ## Mis notas
