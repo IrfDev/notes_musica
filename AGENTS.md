@@ -347,26 +347,31 @@ tolerancia_tempo: 5
 
 **Reglas.**
 
-1. **La lección cita la métrica.** Debajo de cada encabezado de sección (`## N · …`) de una lección del
-   programa va un callout `> [!target] Qué se busca` con el enlace a su métrica y lo que hace que una toma
-   cuente. Una sección nueva lleva el suyo; una sección sin métrica se dice en el callout («no tiene
-   métrica: …»).
-2. **En ese callout no van tempos, escalones ni nombres de acordes.** Frai lee el tempo del plan de las
+1. **La lección cita la métrica.** Al final de cada sección (`## N · …`) de una lección del programa va
+   un callout plegado, `> [!target]- Qué se busca · <métricas>`, con el enlace a su métrica y lo que hace
+   que una toma cuente. El título nombra las métricas para que se lean sin abrirlo. Una sección nueva lleva
+   el suyo; una sección sin métrica lo dice («Qué se busca · sin métrica»).
+2. **La tele muestra cada sección tal cual, así que el orden es fijo:** primero lo que se toca (el párrafo
+   corto y las casillas), después la partitura (recorte, ABC, incrustado), y al final, plegados
+   (`> [!tipo]-`), los avisos y *Qué se busca*. Nada va entre el encabezado y las casillas. Un aviso que se
+   repite todos los días va plegado; si hace falta leerlo siempre, es una casilla. **La tele no pliega**: dibuja
+   los callouts abiertos, así que lo que la despeja es el orden, no el `-`.
+3. **En ese callout no van tempos, escalones ni nombres de acordes.** Frai lee el tempo del plan de las
    casillas («a 100 con una nota por click») y los acordes del texto de la Recuperación; un número de más
    le cambia el análisis. El tempo vive en `tempo_vigente` de la métrica.
-3. **«Cuenta solo si» no se negocia.** Una toma que falla una condición se anota en *Lecturas* con el porqué
+4. **«Cuenta solo si» no se negocia.** Una toma que falla una condición se anota en *Lecturas* con el porqué
    y no se promedia con las que cuentan.
-4. **El tempo vigente es la referencia aunque el metrónomo esté apagado.** Cambia solo con la regla del
+5. **El tempo vigente es la referencia aunque el metrónomo esté apagado.** Cambia solo con la regla del
    metrónomo (3 tomas válidas seguidas, sube; 3 fallidas, baja 8), con fecha en *Cambios*.
-5. **La IA registra; no mueve metas.** Puede agregar filas a *Lecturas* y actualizar `hoy`, `hoy_fecha`,
+6. **La IA registra; no mueve metas.** Puede agregar filas a *Lecturas* y actualizar `hoy`, `hoy_fecha`,
    `siguiente_meta` (al pasar un día de grabación) y `tempo_vigente` (cuando la regla lo manda), sacando los
    datos de la bitácora de Frai. Las metas y las condiciones cambian solo si el usuario lo decide, con fecha
    y razón en *Cambios*.
-6. **Las metas salen de los hitos del programa.** Si un hito y una métrica no coinciden, se dice en la
+7. **Las metas salen de los hitos del programa.** Si un hito y una métrica no coinciden, se dice en la
    métrica; no se corrige en silencio.
-7. **Una métrica nueva solo si ninguna sirve; un tipo nuevo, solo si ningún tipo sirve.** Primero se busca en
+8. **Una métrica nueva solo si ninguna sirve; un tipo nuevo, solo si ningún tipo sirve.** Primero se busca en
    el índice.
-8. **Si Fabs dice otra cosa, gana Fabs**, y se anota en *Cambios*.
+9. **Si Fabs dice otra cosa, gana Fabs**, y se anota en *Cambios*.
 ---
 
 ## Nomenclatura

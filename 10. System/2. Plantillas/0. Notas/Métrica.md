@@ -25,8 +25,8 @@ siguiente_dia:
 > - `id`: estable, en kebab-case, y repetido en `aliases`.
 > - `tipo_metrica`: una forma de [[01. Tipos]]. Si es de tempo, agrega `tempo_vigente`, `precision_min`,
 >   `regularidad_max` (solo si las notas duran lo mismo) y `tolerancia_tempo`.
-> - Las lecciones la citan con un callout `> [!target] Qué se busca` debajo del encabezado de la sección, sin
->   tempos ni nombres de acordes.
+> - Las lecciones la citan al final de la sección con un callout plegado, `> [!target]- Qué se busca · <métricas>`,
+>   sin tempos ni nombres de acordes.
 
 > [!abstract] Qué mide
 > **Una frase con el número y por qué importa.**
