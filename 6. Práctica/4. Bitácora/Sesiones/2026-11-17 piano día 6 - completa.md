@@ -5,8 +5,8 @@ fecha: 2026-11-17
 dia_programa: 6
 sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/06. Día 6 - Escalas G A y B|Día 6 · Escalas G, A y B]]"
-tomas: 10
-minutos_grabados: 11.5
+tomas: 15
+minutos_grabados: 16.6
 estado: abierta
 fuente: frai-estudio
 ---
@@ -38,8 +38,13 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/06. Día 6 - Esca
 | 6 | 22:02 | 0:44 | -19.76 dBFS | Recuperación | listo |
 | 7 | 22:03 | 1:12 | -26.65 dBFS | Recuperación | listo |
 | 8 | 22:04 | 1:07 | -23.02 dBFS | Recuperación | listo |
-| 9 | 22:05 | 0:18 | -28.0 dBFS | Recuperación | procesando |
-| 10 | 22:06 | 0:00 | — |  | grabando |
+| 9 | 22:05 | 0:18 | -28.0 dBFS | Recuperación | listo |
+| 10 | 22:06 | 1:01 | -23.85 dBFS | Recuperación | listo |
+| 11 | 22:07 | 0:39 | -25.85 dBFS | Recuperación | listo |
+| 12 | 22:07 | 0:59 | -27.36 dBFS | Recuperación | listo |
+| 13 | 22:08 | 0:58 | -27.12 dBFS | Recuperación | listo |
+| 14 | 22:09 | 1:27 | -23.65 dBFS | Recuperación | procesando |
+| 15 | 22:11 | 0:00 | — |  | grabando |
 
 ### Toma 1 · 21:43
 
@@ -202,6 +207,93 @@ Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección
 
 - Fragmento 1: 0:00–0:02 · marcada: Recuperación
 - Fragmento 2: 0:04–0:16 · marcada: Recuperación · 37/min · regularidad ±19% · una mano (probable MD) · BPM ≈ 80.7 (audio)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 2: 37 ataques/min, sin tempo del plan para comparar.
+
+Resumen: En el fragmento 1 no se registraron notas suficientes para identificar el ejercicio. En el fragmento 2 se tocaron 21 notas en 7 ataques (37 ataques/min) con confianza baja, intervalos entre ataques que varían ±19% y una sola mano (probable mano derecha), incluyendo los acordes A, C, D/A, E/B, Eb+/B y Em/B. No hay tempo del plan para comparar, por lo que no se puede evaluar la velocidad respecto al objetivo ni observar mejora respecto a intentos anteriores.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 10 · 22:06
+
+- Fragmento 1: 0:02–0:11 · marcada: Recuperación · 39/min · regularidad ±15% · una mano (probable MD) · BPM ≈ 161.5 (audio)
+- Fragmento 2: 0:15–0:17 · marcada: Recuperación · una mano (probable MD)
+- Fragmento 3: 0:19–0:41 · marcada: Recuperación · 31/min · regularidad ±32% · una mano (probable MD) · 1 pausas · BPM ≈ 107.7 (audio)
+- Fragmento 4: 0:46–0:51 · marcada: Recuperación · una mano (probable MD)
+- Fragmento 5: 0:54–1:01 · marcada: Recuperación · una mano (probable MD)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 1: 39 ataques/min, sin tempo del plan para comparar. Fragmento 3: 31 ataques/min, sin tempo del plan para comparar.
+
+Resumen: En la lección Día 6 (Escalas G, A y B) se registraron cinco fragmentos sin identificar, todos con confianza baja y ejecutados con una sola mano. Los ataques fueron lentos (31‑39 ataques/min) y muy irregulares (variaciones de ±15 % a ±32 %), sin datos de tempo del plan para comparar, y no hay historial previo que indique mejora.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 11 · 22:07
+
+- Fragmento 1: 0:02–0:25 · marcada: Recuperación · 37/min · regularidad ±32% · una mano (probable MD) · BPM ≈ 39.8 (audio)
+- Fragmento 2: 0:28–0:30 · marcada: Recuperación · una mano (probable MD)
+- Fragmento 3: 0:34–0:39 · marcada: Recuperación · una mano (probable MD)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 1: 37 ataques/min, sin tempo del plan para comparar.
+
+Resumen: Se intentó tocar la lección Día 6 · Escalas G, A y B, pero los fragmentos no coinciden con ningún ejercicio de la partitura, por lo que la confianza es baja. En el fragmento 1 se registraron 36 notas en 12 ataques (37 ataques/min) con una variabilidad de intervalos de ±32 % y varios acordes (Bm ×2, A, Ab/C, B, C, D+/Bb). No hay tempo del plan para comparar y los fragmentos 2 y 3 presentan igualmente baja confianza y pocos ataques.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 12 · 22:07
+
+- Fragmento 1: 0:04–0:11 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 2: 0:12–0:14 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 3: 0:16–0:18 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 4: 0:25–0:32 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 5: 0:34–0:37 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 6: 0:40–0:45 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 7: 0:52–0:59 · marcada: Recuperación · 45/min · regularidad ±43% · una mano (probable MD) · pedal 87%
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 7: 45 ataques/min, sin tempo del plan para comparar.
+
+Resumen: En la lección "Día 6 · Escalas G, A y B" el alumno tocó varios fragmentos que el sistema no pudo identificar, con confianza baja y pedal sostenido casi todo el tiempo. Los ataques fueron irregulares y la velocidad del último fragmento fue de 45 ataques por minuto, sin un tempo de referencia del plan para comparar. No hay historial previo, por lo que no se puede evaluar mejora.
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 13 · 22:08
+
+- Fragmento 1: 0:03–0:10 · marcada: Recuperación · una mano (probable MD)
+- Fragmento 2: 0:19–0:28 · marcada: Recuperación · 228/min · regularidad ±37% · una mano (probable MD) · 1 pausas · BPM ≈ 71.8 (audio)
+- Fragmento 3: 0:30–0:42 · marcada: Recuperación · 33/min · regularidad ±32% · una mano (probable MD) · BPM ≈ 215.3 (audio)
+- Fragmento 4: 0:46–0:47 · marcada: Recuperación · una mano (probable MD)
+- Fragmento 5: 0:51–0:58 · marcada: Recuperación · 38/min · regularidad ±18% · una mano (probable MD)
+
+**Redacción de IA** · `gpt-oss:120b` sobre lo que midió el código (sección, notas y tempo); no escuchó el audio ni marca la lección como hecha.
+
+
+Tempo contra el plan: Fragmento 2: 228 ataques/min, sin tempo del plan para comparar. Fragmento 3: 33 ataques/min, sin tempo del plan para comparar. Fragmento 5: 38 ataques/min, sin tempo del plan para comparar.
+
+Resumen: fragmento 1: sin identificar — una mano (probable MD); fragmento 2: sin identificar — 228/min · regularidad ±37% · una mano (probable MD) · 1 pausas; fragmento 3: sin identificar — 33/min · regularidad ±32% · una mano (probable MD); fragmento 4: sin identificar — una mano (probable MD); fragmento 5: sin identificar — 38/min · regularidad ±18% · una mano (probable MD)
+
+Para la próxima: Ningún fragmento coincidió con los ejercicios de la lección: si practicabas uno, tócalo completo una vez para que se pueda medir.
+
+### Toma 14 · 22:09
+
+- Fragmento 1: 0:00–0:03 · marcada: Recuperación
+- Fragmento 2: 0:06–0:12 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 3: 0:18–0:20 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 4: 0:25–0:33 · marcada: Recuperación · una mano (probable MD) · pedal 100% · BPM ≈ 95.7 (audio)
+- Fragmento 5: 0:35–0:51 · marcada: Recuperación · 72/min · regularidad ±51% · una mano (probable MD) · pedal 100% · BPM ≈ 107.7 (audio)
+- Fragmento 6: 0:58–1:02 · marcada: Recuperación · una mano (probable MD) · pedal 100%
+- Fragmento 7: 1:05–1:27 · marcada: Recuperación · 350/min · regularidad ±48% · una mano (probable MD) · 1 pausas · pedal 95% · BPM ≈ 161.5 (audio)
 
 ## Progreso · 30 días hasta esta sesión
 
