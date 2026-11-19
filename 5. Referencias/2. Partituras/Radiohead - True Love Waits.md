@@ -26,10 +26,43 @@ revisados: 62
 - `[[Radiohead - True Love Waits|True Love Waits]] cc. a–b`
 - Con mano, tonalidad, tempo o receta: `… · MD · en Re · a 60 · puntillo`
 
-## Partitura
+## Pasajes
+
+| Pasaje | Compases | Revisados |
+|---|---|---|
+| [[#Intro]] | 1–10 | 10 de 10 |
+| [[#Verse 1]] | 10–18 | 9 de 9 |
+| [[#Bridge 1]] | 19–26 | 8 de 8 |
+
+## Intro
+
+cc. 1–10
 
 ```verovio
 7. Partituras/3. Referencias/Radiohead - True Love Waits.musicxml
+measureRange: 1-10
+scale: 40
+adjustPageHeight: true
+```
+
+## Verse 1
+
+cc. 10–18
+
+```verovio
+7. Partituras/3. Referencias/Radiohead - True Love Waits.musicxml
+measureRange: 10-18
+scale: 40
+adjustPageHeight: true
+```
+
+## Bridge 1
+
+cc. 19–26
+
+```verovio
+7. Partituras/3. Referencias/Radiohead - True Love Waits.musicxml
+measureRange: 19-26
 scale: 40
 adjustPageHeight: true
 ```
