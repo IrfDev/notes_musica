@@ -361,10 +361,12 @@ tolerancia_tempo: 5
    le cambia el análisis. El tempo vive en `tempo_vigente` de la métrica.
 4. **«Cuenta solo si» no se negocia.** Una toma que falla una condición se anota en *Lecturas* con el porqué
    y no se promedia con las que cuentan.
-5. **El tempo vigente es la referencia aunque el metrónomo esté apagado.** Cambia solo con la regla del
-   metrónomo (3 tomas válidas seguidas, sube; 3 fallidas, baja 8), con fecha en *Cambios*.
+5. **El tempo vigente es la referencia aunque el metrónomo esté apagado, y por ahora es fijo.** Una toma
+   más rápida o más lenta es fallida, pero ni las válidas lo suben ni las fallidas lo bajan: cambia solo si
+   el usuario lo decide, con fecha en *Cambios*. La regla del metrónomo (3 tomas válidas seguidas, sube; 3
+   fallidas, baja 8) es el **tempo dinámico**, y entra cuando el usuario lo active.
 6. **La IA registra; no mueve metas.** Puede agregar filas a *Lecturas* y actualizar `hoy`, `hoy_fecha`,
-   `siguiente_meta` (al pasar un día de grabación) y `tempo_vigente` (cuando la regla lo manda), sacando los
+   `siguiente_meta` (al pasar un día de grabación) y `tempo_vigente` (solo con el tempo dinámico activo, cuando la regla lo manda), sacando los
    datos de la bitácora de Frai. Las metas y las condiciones cambian solo si el usuario lo decide, con fecha
    y razón en *Cambios*.
 7. **Las metas salen de los hitos del programa.** Si un hito y una métrica no coinciden, se dice en la

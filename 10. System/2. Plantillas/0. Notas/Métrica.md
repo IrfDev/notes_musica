@@ -41,7 +41,8 @@ siguiente_dia:
 ## Tempo vigente
 
 *(Solo si es de tempo.)* El tempo al que se toca hoy cada ejercicio. Es la referencia aunque el metrónomo
-esté apagado. Cambia solo con la regla del metrónomo, con fecha en *Cambios*.
+esté apagado. Por ahora es fijo: cambia solo si lo decides, con fecha en *Cambios*. Con el tempo dinámico,
+cambia con la regla del metrónomo.
 
 | Ejercicio | Tempo vigente | Desde |
 |---|---|---|
