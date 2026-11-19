@@ -7,7 +7,7 @@ sentada: completa
 leccion: "[[4. Instrumento/1. Piano/1. Programa de 30 sesiones/05. Día 5 - La inversión más cercana|Día 5 · La inversión más cercana · 🎙 grabación]]"
 tomas: 13
 minutos_grabados: 10.8
-estado: abierta
+estado: cerrada
 fuente: frai-estudio
 ---
 
@@ -16,7 +16,7 @@ fuente: frai-estudio
 > [!info] Registro automático del estudio de piano en Frai
 > Se actualiza mientras la sesión está abierta y cuando termina cada análisis. Los recortes que van a la nota quedan en `9. Assets/Piano` (MP3 y MIDI) y también en la lección; la toma completa se queda en Frai: [abrir el estudio](https://piano.irf.rocks). Escribe en «Mis notas», al final: eso se respeta. Si cambias lo de arriba, el estudio deja de actualizar esta nota.
 
-Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/05. Día 5 - La inversión más cercana|Día 5 · La inversión más cercana · 🎙 grabación]] · de 12:53 (abierta)
+Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/05. Día 5 - La inversión más cercana|Día 5 · La inversión más cercana · 🎙 grabación]] · de 12:53 a 19:08
 
 ## Recorrido
 
