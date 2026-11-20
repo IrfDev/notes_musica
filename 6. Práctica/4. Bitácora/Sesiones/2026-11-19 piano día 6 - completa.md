@@ -26,6 +26,7 @@ Lección: [[4. Instrumento/1. Piano/1. Programa de 30 sesiones/06. Día 6 - Esca
 | 11:11 | Recuperación |
 | 18:40 | Principal |
 | 18:41 | Aplicación |
+| 10:04 | Principal |
 
 ## Tomas
 
